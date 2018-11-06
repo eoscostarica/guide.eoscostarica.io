@@ -1,0 +1,7 @@
+[build]
+  base    = "./"
+  command = "npm install -g docusaurus; cd website/; npm install; npm run build;"
+  publish = "./website/build/developers.eoscostarica.io"
+
+[build.environment]
+  NODE_VERSION = "10.12.0"

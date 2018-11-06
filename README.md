@@ -1,6 +1,6 @@
 # developers.eoscostarica.io
 
-EOS Costa Rica Developers Docs Site
+EOS Costa Rica Developers Documetation Site
 
 ## Contributing
 
