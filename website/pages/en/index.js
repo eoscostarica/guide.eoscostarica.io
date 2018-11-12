@@ -81,9 +81,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href="docs">Docs</Button>
+            <Button href="https://github.com/eoscostarica">Github</Button>
+            <Button href="https://eoscostarica.io">About</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -105,13 +105,13 @@ const Features = () => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('eoscostarica-transaprent-whiteall.png'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('eoscostarica-transaprent-whiteall.png'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -133,7 +133,7 @@ const LearnHow = () => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('eoscostarica-transaprent-whiteall.png'),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -146,7 +146,7 @@ const TryOut = () => (
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('eoscostarica-transaprent-whiteall.png'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -159,7 +159,7 @@ const Description = () => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('eoscostarica-transaprent-whiteall.png'),
         imageAlign: 'right',
         title: 'Description',
       },
@@ -199,14 +199,14 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash language={language} />
-        <div className="mainContainer">
+        {/* <div className="mainContainer">
           <Features />
           <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
           <Showcase language={language} />
-        </div>
+        </div> */}
       </div>
     );
   }

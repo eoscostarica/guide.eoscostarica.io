@@ -13,8 +13,8 @@ const users = [
   {
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    // if it is not '/', like: '/test-site/img/eoscostarica-transaprent-whiteall.png'.
+    image: '/img/eoscostarica-transaprent-whiteall.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -38,18 +38,15 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'open-source-guidelines', label: 'Docs'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/eoscostarica-transaprent-whiteall.png',
+  footerIcon: 'img/eoscostarica-transaprent-whiteall.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
@@ -89,8 +86,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/eoscostarica-logo.png',
+  twitterImage: 'img/eoscostarica-transaprent-whiteall.png',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
