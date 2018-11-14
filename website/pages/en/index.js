@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="docs">Docs</Button>
+            <Button href="/docs/open-source-guidelines">Docs</Button>
             <Button href="https://github.com/eoscostarica">Github</Button>
             <Button href="https://eoscostarica.io">About</Button>
           </PromoSection>
