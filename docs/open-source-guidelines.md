@@ -45,6 +45,7 @@ we use the git commit messages to **generate the project change log**.
 We follow angularjs commit message conventions as follows:
 
 ### Commit Message Format
+
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
 format that includes a **type**, a **scope** and a **subject**:
 
@@ -68,6 +69,7 @@ Samples:
 ```
 docs(changelog): update changelog to beta.5
 ```
+
 ```
 fix(release): need to depend on latest rxjs and zone.js
 
@@ -94,12 +96,17 @@ If the commit reverts a previous commit, it should begin with `revert: `, follow
 * **devtools**: Developer tooling related
 
 ### Scope
-The scope should be the name of the component that it affects
+
+The scope is the name of the component or service that it affects. Eg:
 
 * **common**
 * **smart-contracts**
 * **webapp**
 * **storage**
+* **graphql**
+* **frontend**
+* **demux**
+* **docker**
 
 ### Subject
 The subject contains a succinct description of the change:
