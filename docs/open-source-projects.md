@@ -51,9 +51,7 @@ https://github.com/eoscostarica/eosio-monitor
 
 ## EOS Foundation 
 
-We view EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for EOS Mainnet community.
-
-Receive Updates and News
+We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
 
 - **Website** : https://eos-foundation.eosio.cr
 
