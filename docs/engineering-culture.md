@@ -16,19 +16,21 @@ We are decentralizing the economic models of the Internet. 
 
 ### Transparency
 
-All our processes are transparent and open. We are a multidisciplinary team where developers know exactly what's going on the servers, there's no DevOps team - "if you build it, you run it". We have clear project guidelines and discuss plans openly on github, weekly calls over Zoom and the Discord chat room.
+All our processes are transparent and open. We are a multidisciplinary team where developers know exactly what's going on the servers, there's no DevOps team - "if you build it, you run it". We have clear project guidelines and discuss plans openly on github, frequent calls over Zoom and the chat tools.
 
 ### Communication and Openness
 
 We believe in honesty, transparency and openness as pillars to create a solid and healthy environment were one can develop to its full potential. Continuous communication and frequent one-on-one calls are essential part of our day to day work.
-User-Centered Design
+
+### User-Centered Design
 
 We build for humans. Our process starts by understanding  people's needs and how they align with business and product goals. An iterative process allow us to validate continuously to make decisions about development and design.
 
 ### Value Delivery Focus
 
 We focus on delivering value above all, it's at the base of all our decisions. We make sure everything we do delivers value both to our users and clients.
-Freedom to Explore Ideas
+
+### Freedom to Explore Ideas
 
 We are constantly improving and evolving, we are always looking for better and more effective ways, we value exploration, experimentation and open-mindedness.
 
@@ -36,7 +38,7 @@ We are constantly improving and evolving, we are always looking for better and m
 
 Healthy, happy people perform better. We encourage exercising, arts, good rest and time away from the computer to recharge and avoid burnout.
 
-We organize work-aways at the beach periodically with a program called EOSurf.
+We organize work-aways at the beach periodically with a program called [EOSurf](https://eosurf.com/).
 
 ### Automation of Repetitive Tasks
 
@@ -60,7 +62,7 @@ A group of different and diverse minds produce more creative solutions as every 
 
 ### Peer Code-Reviews
 
-Peer code reviews are core to our development process, we believe it is one of the best ways to improve quality and spread knowledge. We follow Github Flow for developing all applications.
+Pair programming and peer code reviews are core to our development process, we believe it is one of the best ways to improve quality and spread knowledge. We follow Github Flow for developing all applications.
 
 ### Continuous Integration
 
