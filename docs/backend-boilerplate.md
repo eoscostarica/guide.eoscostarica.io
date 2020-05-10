@@ -6,7 +6,7 @@ sidebar_label: Backend Boilerplate
 
 A highly scalable skeleton with best practices, ideal for backend projects quick start
 
-https://github.com/eoscostarica/backend-boilerplate
+- **GitHub** : https://github.com/eoscostarica/backend-boilerplate
 
 This boilerplate features all the latest tools and practices in the industry
 

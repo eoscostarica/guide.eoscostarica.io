@@ -8,7 +8,7 @@ sidebar_label: Webapp Boilerplate
 
 A bare-bones react web app featuring UAL for EOSIO authenticators (wallets)
 
-https://github.com/eoscostarica/webapp-boilerplate
+- **GitHub** : https://github.com/eoscostarica/webapp-boilerplate
 
 ## EOSCR React Components
 A collection of React Components for EOSIO

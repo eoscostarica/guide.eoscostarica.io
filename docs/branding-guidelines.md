@@ -6,7 +6,7 @@ sidebar_label: Branding Guidelines
 
 ## Logo and visual assets
 
-https://github.com/eoscostarica/design-assets
+- **GitHub** : https://github.com/eoscostarica/design-assets
 
 ## Color Pallet
 
@@ -25,7 +25,7 @@ Or you can access the Zeplin Scene: https://scene.zeplin.io/project/5ea8f7f46cfd
 
 ### Material UI theme NPM package
 
-https://github.com/eoscostarica/eoscr-theme
+- **GitHub** : https://github.com/eoscostarica/eoscr-theme
 
 ### Theme exports
 #### [Theme UI](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Theme_UI.pdf)
