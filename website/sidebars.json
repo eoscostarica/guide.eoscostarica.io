@@ -1,9 +1,13 @@
 {
   "docs": {
-    "General": [
-      "open-source-guidelines",
+    "Developer Guidelines": [
       "engineering-culture",
-      "engineering-tools"
+      "open-source-guidelines",
+      "branding-guidelines",
+      "web-app-boilerplate",
+      "backend-boilerplate",
+      "open-source-projects",
+      "developer-tools"
     ]
   }
 }

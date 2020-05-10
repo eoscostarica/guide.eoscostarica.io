@@ -21,53 +21,53 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Developers EOS Costa Rica', // Title for your website.
+  title: 'Developer Guidelines', // Title for your website.
   tagline: 'EOS Costa Rica Developer Documentation',
   url: 'https://developers.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  cname: "developers.eoscostarica.io",
+  disableHeaderTitle: true,
 
   // Used for publishing and more
   projectName: 'developers.eoscostarica.io',
   organizationName: 'eoscostarica',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
+
+  editUrl: 'https://github.com/eoscostarica/developers.eoscostarica.io/edit/master/docs/',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'open-source-guidelines', label: 'Docs'},
+    {href: 'https://developers.eoscostarica.io/', label: 'Home'},
+    {doc: 'open-source-guidelines', label: 'Developer Guidelines'},
+    {href: 'https://learn.eoscostarica.io/', label: 'Learning Resources'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/eoscostarica-transaprent-whiteall.png',
-  footerIcon: 'img/eoscostarica-transaprent-whiteall.png',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/eoscostarica-transparent-logo.png',
+  footerIcon: 'img/eoscostarica-logo.png',
+  favicon: 'img/favicon/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#477cbd',
-    secondaryColor: '#59c0e1',
+    primaryColor: '#212121',
+    secondaryColor: '#3EBBD3',
   },
 
   /* Custom fonts for website */
-  /*
+
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
+      `Open Sans`, 
+      `Nunito Sans`,
+      `PT Sans`,
+      `Roboto`,
+      `Source Sans Pro`,
+      `Work Sans`
     ]
   },
-  */
+
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} EOS Costa Rica`,
@@ -85,13 +85,21 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
+  twitterUsername: "eoscostarica",
+
   // Open Graph and Twitter card images.
-  ogImage: 'img/eoscostarica-logo.png',
-  twitterImage: 'img/eoscostarica-transaprent-whiteall.png',
+  ogImage: 'img/undraw_online.svg',
+  twitterImage: 'img/undraw_tweetstorm.svg',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/eoscostarica/developers.eoscostarica.io',
+
+    // Show documentation's last contributor's name.
+  enableUpdateBy: false,
+
+  // Show documentation's last update time.
+  enableUpdateTime: true,
 };
 
 module.exports = siteConfig;

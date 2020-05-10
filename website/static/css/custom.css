@@ -14,3 +14,19 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+a {
+	color: #2f828e !important
+}
+a:hover {
+	color: #3EBBD3 !important
+}
+footer a {
+	color: #fff !important
+}
+.navigationSlider .slidingNav ul li a {
+	color: #fff !important
+}
+.navigationSlider .slidingNav ul li a:hover {
+	color: #3EBBD3 !important
+}

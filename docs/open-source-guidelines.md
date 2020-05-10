@@ -6,23 +6,23 @@ sidebar_label: Open Source Guidelines
 
 ## Development Process
 
-We use a Kanban-style board to prioritize the work. For example the [dmeetup project board](https://github.com/eoscostarica/dmeetup/projects/1).
+We use a Kanban-style board to prioritize the work. For example the [EOS rate project board](https://github.com/eoscostarica/eos-rate/projects/1).
 
 We have added a additional column to the default automated board in order to maintain a prioritized To Do column.
-When a new issues is create you need to explicitly use the project option on the Github issue to include it in the board; Once you do that it gets automatically added to the New Issues column.
+When a new issues is create you need to explicitly use the project option on the GitHub issue to include it in the board; Once you do that it gets automatically added to the New Issues column.
 
 Periodically we move the new Issues to the To Do column and manually and give it the appropriate priority.
 
 When you start working on a task you must manually move it to In Progress column.
 
-We use Github flow https://guides.github.com/introduction/flow/ to request code changes.
+We use GitHub flow https://guides.github.com/introduction/flow/ to request code changes.
 We develop on master and release using tags with semver versioning.
 
 ![](https://gaboesquivel.com/img/2018/05/github-flow.png)
 
 New and reopened pull request are automatically added to the board in the In Progress column.
 
-When the pull request is closed is moved to the Done column automatically. If the pull request closes and issues it is properly stated with the github keywords closes in the pull request it gets automatically moved to the Done column too.
+When the pull request is closed is moved to the Done column automatically. If the pull request closes and issues it is properly stated with the GitHub keywords closes in the pull request it gets automatically moved to the Done column too.
 
 ## Pull Request General Guidelines
 
@@ -42,7 +42,7 @@ We have very precise rules over how our git commit messages can be formatted.  T
 readable messages** that are easy to follow when looking through the **project history**.  But also,
 we use the git commit messages to **generate the project change log**.
 
-We follow angularjs commit message conventions as follows:
+We follow angularJS commit message conventions as follows:
 
 ### Commit Message Format
 

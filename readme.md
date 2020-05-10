@@ -6,7 +6,7 @@ EOS Costa Rica Developers Documentation Site.
 
 We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/developers.eoscostarica.io/projects/1).
 
-Contributing Guidelines https://learn.eoscostarica.io/open-source/.
+Contributing Guidelines  https://developers.eoscostarica.io/docs/open-source-guidelines .
 
 Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/developers.eoscostarica.io/issues).
 
