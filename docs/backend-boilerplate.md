@@ -4,7 +4,7 @@ title: Backend Boilerplate
 sidebar_label: Backend Boilerplate
 ---
 
-A highly scalable skeleton with best practices, ideal for backend projects quick start
+A highly scalable skeleton with best practices, made for quick start backend projects. 
 
 - **GitHub** : https://github.com/eoscostarica/backend-boilerplate
 
