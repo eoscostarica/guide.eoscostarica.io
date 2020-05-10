@@ -16,7 +16,7 @@ We are decentralizing the economic models of the Internet. 
 
 ### Transparency
 
-All our processes are transparent and open. We are a multidisciplinary team where developers know exactly what's going on the servers, there's no DevOps team - "if you build it, you run it". We have clear project guidelines and discuss plans openly on github, frequent calls over Zoom and the chat tools.
+All our processes are transparent and open. We are a multidisciplinary team where developers also know exactly what's going on the servers, there's no DevOps team - "if you build it, you run it". We have clear project guidelines and discuss plans openly on github, frequent calls over zoom and chat tools.
 
 ### Communication and Openness
 
