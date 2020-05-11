@@ -53,16 +53,13 @@ class Footer extends React.Component {
             </a>
             <a href="https://t.me/eoscr" target="_blank">Telegram Channel</a>
             <a href="https://github.com/eoscostarica/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="eoscostarica/developers.eoscostarica.io/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a> 
+            <a 
+              class="github-button" 
+              href="https://github.com/eoscostarica" 
+              aria-label="Follow @eoscostarica on GitHub"
+            >
+              Follow @eoscostarica
+            </a>
           </div>
           <div>
             <h5>More</h5>
@@ -81,19 +78,6 @@ class Footer extends React.Component {
                   className="twitter-follow-button">
                   Follow @{this.props.config.twitterUsername}
                 </a>
-              </div>
-            )}
-            {this.props.config.facebookAppId && (
-              <div className="social">
-                <div
-                  className="fb-like"
-                  data-href={this.props.config.url}
-                  data-colorscheme="dark"
-                  data-layout="standard"
-                  data-share="true"
-                  data-width="225"
-                  data-show-faces="false"
-                />
               </div>
             )}
           </div>
