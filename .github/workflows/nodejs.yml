@@ -1,4 +1,4 @@
-name: Publish documentation if changed
+name: Publish documentation when changed
 on:
   push:
     branches:
