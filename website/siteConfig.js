@@ -38,7 +38,7 @@ const siteConfig = {
   headerLinks: [
     {href: 'https://developers.eoscostarica.io/', label: 'Home'},
     {doc: 'open-source-guidelines', label: 'Developer Guidelines'},
-    {href: 'https://learn.eoscostarica.io/', label: 'Learning Resources'},
+    {href: 'https://learn.eoscostarica.io/', label: 'Learning Resources'}
   ],
 
   // If you have users set above, you add it here:
