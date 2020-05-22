@@ -3,11 +3,21 @@
     "Developer Guidelines": [
       "engineering-culture",
       "open-source-guidelines",
-      "branding-guidelines",
       "web-app-boilerplate",
       "backend-boilerplate",
       "open-source-projects",
-      "developer-tools"
+      "developer-tools",
+      {
+        "type": "subcategory",
+        "label": "Visual Resources",
+        "ids": [
+          "visual-resources/material-ui",
+          "visual-resources/eoscr-logos",
+          "visual-resources/eos-surf-logos",
+          "visual-resources/eos-rate-logos",
+          "visual-resources/eos-local-logos"
+        ]
+      }
     ],
     "Learn EOSIO": [
       "eos-learn/block-explorers",
