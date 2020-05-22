@@ -1,7 +1,7 @@
 ---
 id: material-ui
-title: Material UI
-sidebar_label: Material UI & Paquete NPM
+title: Material UI & NPM Package
+sidebar_label: Material UI & NPM Package
 ---
 
 
