@@ -37,8 +37,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {href: 'https://developers.eoscostarica.io/', label: 'Home'},
-    {doc: 'open-source-guidelines', label: 'Developer Guidelines'},
-    {href: 'https://learn.eoscostarica.io/', label: 'Learning Resources'}
+    {doc: 'open-source-guidelines', label: 'Developer Guidelines'}
   ],
 
   // If you have users set above, you add it here:
