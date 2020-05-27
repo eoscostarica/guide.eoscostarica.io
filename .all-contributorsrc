@@ -1,0 +1,42 @@
+{
+  "projectName": "developers.eoscostarica.io",
+  "projectOwner": "eoscostarica",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "JustinCast",
+      "name": "JustinCast",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17890146?v=4",
+      "profile": "https://github.com/JustinCast",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "xavier506",
+      "name": "Xavier Fernandez",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5632966?v=4",
+      "profile": "https://eoscostarica.io",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "projectManagement",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
