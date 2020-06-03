@@ -19,13 +19,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 Follow the instructions below
 
-1. Create a copy of the repository.  `git clone https://github.com/eoscostarica/developers.eoscostarica.io.git`
+1. Create a copy of the repository.
+		$ git clone https://github.com/eoscostarica/developers.eoscostarica.io.git
 
-2. Position yourself in the projects "website" directory. `cd website`
+2. Position yourself in the projects "website" directory. 
+		$ cd website
 
-3. Run `npm-install` to install all dependencies.
+3. Install all dependencies
+		# npm instructions 
+		$ npm install
+		
+		# yarn instructions
+		$ yarn install
 
-4. Finally exceute `npm-start`  to run the project.
+4. Run the project
+		# npm instructions 
+		$ npm start
+		
+		# yarn instructions
+		$ yarn start
 
 
 
