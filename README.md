@@ -17,22 +17,22 @@ Please report bugs big and small by [opening an issue](https://github.com/eoscos
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-Follow the instructions below
+Follow the instructions below.
 
-1. Create a copy of the repository.
+1. Create a copy of the repository:
 		$ git clone https://github.com/eoscostarica/developers.eoscostarica.io.git
 
-2. Position yourself in the projects "website" directory. 
+2. Position yourself in the projects "website" directory: 
 		$ cd website
 
-3. Install all dependencies
+3. Install all dependencies:
 		# npm instructions 
 		$ npm install
 		
 		# yarn instructions
 		$ yarn install
 
-4. Run the project
+4. Run the project:
 		# npm instructions 
 		$ npm start
 		
