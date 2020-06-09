@@ -20,6 +20,7 @@
       }
     ],
     "Learn EOSIO": [
+      "eos-learn/eosio-protocol",
       "eos-learn/block-explorers",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
