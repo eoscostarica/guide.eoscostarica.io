@@ -23,6 +23,7 @@
       "eos-learn/eosio-protocol",
       "eos-learn/accounts-and-permissions",
       "eos-learn/important-functions",
+      "eos-learn/eosio-sdk-libraries",
       "eos-learn/block-explorers",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
