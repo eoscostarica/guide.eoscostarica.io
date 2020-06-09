@@ -21,6 +21,7 @@
     ],
     "Learn EOSIO": [
       "eos-learn/eosio-protocol",
+      "eos-learn/accounts-and-permissions",
       "eos-learn/block-explorers",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
