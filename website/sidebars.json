@@ -20,15 +20,12 @@
       }
     ],
     "Learn EOSIO": [
-<<<<<<< HEAD
       "eos-learn/consensus-mechanism",
-=======
       "eos-learn/eosio-protocol",
       "eos-learn/accounts-and-permissions",
       "eos-learn/important-functions",
       "eos-learn/hello-world-contract",
       "eos-learn/eosio-sdk-libraries",
->>>>>>> master
       "eos-learn/block-explorers",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
