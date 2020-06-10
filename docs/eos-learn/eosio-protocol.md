@@ -11,7 +11,7 @@ Some innovative features of EOSIO include:
 * **Free transactions** with consumption limits.EOSIO Github
 * **Low latency** confirming new blocks (0.5 seconds)
 * ***Byzantine Fault Tolerance**
-* Human Readable Account Names (***e.g. :*** `eosioaccount12` )
+* Human Readable Account Names (***e.g. :*** `eosioaccount` )
 * **ACL Permissions** based on hierarchical roles
 * Updatable contracts **written in C++**.
 * Support for keys protected by **biometric hardware** (e.g. : Apple Secure Enclave)
