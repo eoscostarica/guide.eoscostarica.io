@@ -8,7 +8,7 @@ sidebar_label: Accounts and Permissions
 
 An **account** on EOSIO is a legible name for humans that get stored on the blockchain. An account can belong to an individual or group of individuals depending on the permissions configuration. An account is required in order to execute any transaction on the blockchain.
 
-The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount12`
+The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`
 
 Read more on [EOSIO accounts](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts)
 
