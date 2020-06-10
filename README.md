@@ -23,30 +23,36 @@ Follow the instructions below.
 
 2. Create a copy of the repository:
 
-		$ git clone https://github.com/eoscostarica/developers.eoscostarica.io.git
-		
+```bash
+$ git clone https://github.com/eoscostarica/developers.eoscostarica.io.git
+``` 	
 3. Open the command line and go to the directory where the project is located
 
-		$ cd ....\desarrolladores.eoscostarica.io
+```bash
+$ cd desarrolladores.eoscostarica.io
+``` 
 
 3. Position yourself in the projects `website` directory: 
 
-		$ cd website
+```bash
+$ cd website
+```
 
 4. Install all dependencies:
 
-		$ yarn install
+```bash
+$ yarn install
+```
 
 5. Run the project:
 
-		$ yarn start
-
-
+```bash
+$ yarn start
+```
 
 ## About EOS Costa Rica
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise solutions and custom smart contract development for our clients.
-
 
 [eoscostarica.io](https://eoscostarica.io)
 
