@@ -20,6 +20,7 @@
       }
     ],
     "Learn EOSIO": [
+      "eos-learn/consensus-mechanism",
       "eos-learn/eosio-protocol",
       "eos-learn/accounts-and-permissions",
       "eos-learn/important-functions",
