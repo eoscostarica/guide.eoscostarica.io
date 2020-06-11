@@ -33,12 +33,12 @@ To uninstall the EOSIO built/installed binaries and dependencies, run:
 ./scripts/eosio_uninstall.sh
 ```
 
-## 2. Configure LatamLink Testnet Node
+## 2. Configure Jungle Testnet Node
 
 ```
-mkdir ~/LatamLink-testnet
-cd ~/LatamLink-testnet
-git clone https://github.com/LatamLink/testnet.git ./
+mkdir ~/Jungle-testnet
+cd ~/Jungle-testnet
+git clone https://github.com/Jungle/testnet.git ./
 ```
 
 - Edit config.ini
