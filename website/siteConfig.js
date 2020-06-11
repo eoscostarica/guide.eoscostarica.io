@@ -23,20 +23,20 @@ const users = [
 const siteConfig = {
   title: 'Developer Guidelines', // Title for your website.
   tagline: 'EOS Costa Rica Developer Documentation',
-  url: 'https://developers.eoscostarica.io', // Your website URL
+  url: 'https://guide.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  cname: "developers.eoscostarica.io",
+  cname: "guide.eoscostarica.io",
   disableHeaderTitle: true,
 
   // Used for publishing and more
-  projectName: 'developers.eoscostarica.io',
+  projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
 
-  editUrl: 'https://github.com/eoscostarica/developers.eoscostarica.io/edit/master/docs/',
+  editUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io/edit/master/docs/',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: 'https://developers.eoscostarica.io/', label: 'Home'},
+    {href: 'https://guide.eoscostarica.io/', label: 'Home'},
     {doc: 'open-source-guidelines', label: 'Developer Guidelines'}
   ],
 
@@ -92,7 +92,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/eoscostarica/developers.eoscostarica.io',
+  repoUrl: 'https://github.com/eoscostarica/guide.eoscostarica.io',
 
     // Show documentation's last contributor's name.
   enableUpdateBy: false,
