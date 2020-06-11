@@ -22,6 +22,10 @@
     "Learn EOSIO": [
       "eos-learn/consensus-mechanism",
       "eos-learn/eosio-protocol",
+      "eos-learn/private-keys",
+      "eos-learn/getting-started",
+      "eos-learn/command-line",
+      "eos-learn/node-installation",
       "eos-learn/accounts-and-permissions",
       "eos-learn/important-functions",
       "eos-learn/hello-world-contract",
