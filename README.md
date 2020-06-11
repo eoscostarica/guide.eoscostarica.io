@@ -1,4 +1,4 @@
-# developers.eoscostarica.io
+# guide.eoscostarica.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -7,11 +7,11 @@ EOS Costa Rica Developers Documentation Site.
 
 ## Contributing
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/developers.eoscostarica.io/projects/1).
+We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
 
-Contributing Guidelines  https://developers.eoscostarica.io/docs/open-source-guidelines .
+Contributing Guidelines  https://guide.eoscostarica.io/docs/open-source-guidelines .
 
-Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/developers.eoscostarica.io/issues).
+Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues).
 
 ## Instructions to run the portal locally in Windows 10
 
@@ -24,12 +24,12 @@ Follow the instructions below.
 2. Create a copy of the repository:
 
 ```bash
-$ git clone https://github.com/eoscostarica/developers.eoscostarica.io.git
+$ git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
 ``` 	
 3. Open the command line and go to the directory where the project is located
 
 ```bash
-$ cd desarrolladores.eoscostarica.io
+$ cd guide.eoscostarica.io
 ``` 
 
 3. Position yourself in the projects `website` directory: 
