@@ -8,7 +8,7 @@ We explain by example how to create an account and a "Hello World" contract to u
 
 ## Get your private keys
 
-More information [about private keys](https://developers.eoscostarica.io/docs/eos-learn/private-keys)
+More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
 
 ## Acquire RAM resource
 
@@ -44,13 +44,13 @@ To publish our contract, we should use the `cleos` and the API endpoint to uploa
 
 Back in the block explorer (Bloks.io), we can verify that the account is the owner of the contract that exposes the "Hello" action and contains the abi information in which is specified in JSON structure the actions within the contract and associated components.
 
-Once the contract is ready, we can execute one action in the contract. With cleos there is a command to specify the endpoint within the LatamLink Testnet and execute the "Hello" action. For this example, we put as input: "eoscostarica". The output of the action will be the text "Hello eoscostarica".
+Once the contract is ready, we can execute one action in the contract. With cleos there is a command to specify the endpoint within the Jungle Testnet and execute the "Hello" action. For this example, we put as input: "eoscostarica". The output of the action will be the text "Hello eoscostarica".
 
 We can verify in the blocks explorer the executed actions.
 
 Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.
 
-Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://latamlink.io/docs/sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
+Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://guide.eoscostarica.io/docs/sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
 
 ## Video-Tutorial
 
