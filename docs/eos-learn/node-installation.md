@@ -1,0 +1,190 @@
+---
+id: node-installation
+title: EOSIO Node Installation
+sidebar_label: Node Installation
+---
+
+EOSIO version tag: `v2.0.5`
+
+Chain ID: `2c1f36d2e3774cba3e47804b6463c207544ac24183194e0b96ffad31e8f4acd5`
+
+Genesis File: `genesis.json`
+
+## 1. Install EOSIO from precompiled binaries
+
+Download the latest version of EOSIO for your OS from: https://github.com/EOSIO/eos/releases/tag/v2.0.5
+
+For example, for ubuntu 18.04 you need to download `eosio_2.0.5-1-ubuntu-18.04_amd64.deb`
+
+You can use apt to install it:
+
+```
+wget https://github.com/eosio/eos/releases/download/v2.0.5/eosio_2.0.5-1-ubuntu-18.04_amd64.deb
+sudo apt install ./eosio_2.0.5-1-ubuntu-18.04_amd64.deb
+```
+
+It will download all dependencies and install EOSIO to `/usr/opt/eosio/v2.0.5`
+
+### Uninstall Script
+
+To uninstall the EOSIO built/installed binaries and dependencies, run:
+
+```
+./scripts/eosio_uninstall.sh
+```
+
+## 2. Configure LatamLink Testnet Node
+
+```
+mkdir ~/LatamLink-testnet
+cd ~/LatamLink-testnet
+git clone https://github.com/LatamLink/testnet.git ./
+```
+
+- Edit config.ini
+
+    - Enter your server's external address: `p2p-server-address = YOUR_DOMAIN_OR_IP:9876`
+
+- Open TCP Ports (8888, 9876) on your firewall/router
+
+Specify a genesis.json file the first time you run nodeos
+
+```
+./start.sh --delete-all-blocks --genesis-json genesis.json
+```
+Follow logs to check your node is running OK.
+
+```
+tail -f stderr.txt
+```
+
+Check if you can access your node using link `http://**YOUR_SERVER**/v1/chain/get_info`
+
+Here is an API [Example](https://latamlink.eosio.cr/v1/chain/get_info)
+
+### Starting and Stopping Nodeos
+
+- `./start.sh` Starts and restarts Nodeos service.
+
+- `./stop.sh` Performs graceful shutdown of Nodeos service.
+
+## Relevant nodeos configurations
+
+This is not a list of configurations that can be used out of the box, rather a list of important options for each type of node.
+
+### Validator
+
+```
+producer-name = <validator_name>
+
+signature-provider = EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV=KEY:5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+
+peer-key =
+peer-private-key =
+
+eosio::producer_plugin
+```
+
+### Validator p2p layer 1
+
+```
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
+
+### Validator p2p bidir
+
+```
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
+
+### boot p2p out
+
+```
+p2p-accept-transactions = false
+api-accept-transactions = false
+
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
+
+### boot p2p bidir
+
+```
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
+
+### writer p2p
+
+```
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
+
+### writer api
+
+Please see [dfuse documentation](https://www.dfuse.io/en)
+
+### observer api
+
+Please see [dfuse documentation](https://www.dfuse.io/en)
+
+### observer p2p
+
+```
+p2p-accept-transactions = false
+api-accept-transactions = false
+
+peer-key =
+peer-private-key =
+p2p-listen-endpoint =
+p2p-server-address =
+p2p-peer-address =
+p2p-max-nodes-per-host =
+max-clients =
+net-threads =
+
+eosio::net_plugin
+```
