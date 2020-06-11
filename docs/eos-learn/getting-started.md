@@ -18,7 +18,7 @@ Additionally, we recommend install Contract Development Toolkit (CDT) beforehand
 
 ## Get your private keys
 
-More information [about private keys](https://developers.eoscostarica.io/docs/eos-learn/private-keys)
+More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
 
 ## Agile accounts creator
 
