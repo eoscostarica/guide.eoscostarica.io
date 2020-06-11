@@ -1,4 +1,4 @@
-# developers.eoscostarica.io
+# guide.eoscostarica.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -7,11 +7,11 @@ EOS Costa Rica Developers Documentation Site.
 
 ## Contributing
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/developers.eoscostarica.io/projects/1).
+We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
 
 Contributing Guidelines  https://guide.eoscostarica.io/docs/open-source-guidelines .
 
-Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/developers.eoscostarica.io/issues).
+Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues).
 
 ## Instructions to run the portal locally in Windows 10
 
