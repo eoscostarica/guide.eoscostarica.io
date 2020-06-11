@@ -4,7 +4,7 @@ title: EOSIO Node Installation
 sidebar_label: Node Installation
 ---
 
-EOSIO version tag: `v2.0.5`
+EOSIO version tag: `v2.0.6`
 
 Chain ID: `2c1f36d2e3774cba3e47804b6463c207544ac24183194e0b96ffad31e8f4acd5`
 
