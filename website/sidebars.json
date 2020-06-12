@@ -30,6 +30,8 @@
       "eos-learn/node-installation",
       "eos-learn/hello-world-contract",
       "eos-learn/command-line",
+      "eos-learn/eosio-sdk-libraries",
+      "eos-learn/eosio-networks",
       "eos-learn/block-explorers",
       "eos-learn/eosio-sdk-libraries",
       "eos-learn/block-producers",
