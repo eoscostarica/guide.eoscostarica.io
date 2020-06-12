@@ -30,6 +30,7 @@
       "eos-learn/important-functions",
       "eos-learn/hello-world-contract",
       "eos-learn/eosio-sdk-libraries",
+      "eos-learn/eosio-networks",
       "eos-learn/block-explorers",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
