@@ -28,3 +28,21 @@ This flexibility is achieved thanks to a set of smart contracts separated from t
 * To have transparent rules for the operation of the system.
 * Synchronize the changes in system contracts in a instantaneous way with the whole network, which reduces the administration costs and delays of any governance updates.
 * Maintain total compatibility with other EOSIO blockchains.
+
+### EOS explained by Dan Larimer   
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Introduction to EOS
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Internal economy
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>

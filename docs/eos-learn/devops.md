@@ -12,7 +12,6 @@ Continuous integration allows us to detect problems early reducing costs and hel
 
 Continuous communication and frequent one-on-one calls as well as pair programming are essential part of our day to day work.
 
-
 ## Understanding DevOps
 
 <figure class="video_container">
@@ -23,6 +22,7 @@ Continuous communication and frequent one-on-one calls as well as pair programmi
 To accomplish these goals we leverage a set of technologies explained in the following videos:
 
 ## Introduction to Infrastructure as Code ( IAC )
+
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
