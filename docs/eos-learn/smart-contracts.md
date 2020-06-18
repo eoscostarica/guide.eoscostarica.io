@@ -39,3 +39,11 @@ https://github.com/eoscostarica/eos-contracts
 Also check out this list of open source contracts for EOSIO maintained by César Rodríguez :
 
 https://github.com/kesar/eos-awesome-contracts
+
+## Basic smart contract scheme
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EbWDHrm2ETY" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+You can see more on this channel: https://www.youtube.com/user/grandmoren1/videos
