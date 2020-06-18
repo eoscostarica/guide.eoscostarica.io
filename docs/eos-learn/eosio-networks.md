@@ -4,6 +4,8 @@ title: EOSIO based Blockchain Networks
 sidebar_label: EOSIO Networks
 ---
 
+# Blockchain Networks
+
 The EOSIO ecosystem is composed of many public and private blockchains, each one with different governance models and aimed at different use cases and markets.
 
 Below we included a list of some other well known public blockchains launched on EOSIO, we did not include any EOSIO private networks.
