@@ -43,6 +43,12 @@
       "eos-learn/eosio-software",
       "eos-learn/modern-cpp",
       "eos-learn/smart-contracts"
+    ],
+    "Tools": [
+      "tools/glossary"
+    ],
+    "Community Resources": [
+      "community-resources/telegram-channels"
     ]
   }
 }
