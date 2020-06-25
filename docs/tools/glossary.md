@@ -11,13 +11,13 @@ List of terms necessary to understand the contents of this guide.
 
 ### ACL (Access Control List)
 
-It is a traffic filter of a list of networks and correlated actions used to improve security. Block or allow users to access specific resources.
+A traffic filter of a list of networks and correlated actions used to improve security. Block or allow users to access specific resources.
 
 * * *
 
 ### ACL (Lista de control de acceso)
 
-It is a traffic filter of a list of networks and correlated actions used to improve security. Block or allow users to access specific resources.
+A traffic filter of a list of networks and correlated actions used to improve security. Block or allow users to access specific resources.
 
 * * *
 
@@ -49,7 +49,7 @@ Within account permissions, this is the owner's primary child permission by defa
 
 ### Airdrop
 
-It is a general method of placing tokens in EOS accounts. It is a distribution of a cryptocurrency token or coin, usually free, to numerous wallet addresses.
+A general method of placing tokens in EOS accounts. It is a distribution of a cryptocurrency token or coin, usually free, to numerous wallet addresses.
 
 * * *
 
@@ -116,7 +116,7 @@ Block producers are one of Block.one's main innovations, they are the decentrali
 
 ### Blockchain 
 
-It is a growing list of records, called blocks, that are linked by cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (usually represented as a Merkle tree).
+A growing list of records, called blocks, that are linked by cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (usually represented as a Merkle tree).
 
 * * *
 
@@ -136,7 +136,7 @@ It is used for communication between different data formats. A form of business 
 
 ### CDT (Contract Development Toolkit)
 
-It is a complete smart contract development toolkit with a set of tools and utilities necessary for the development of EOSIO Smart Contracts. It provides support for the Gnu and C ++ 11 style by creating a more reliable way to declare your smart contract structure and associated data structures.
+A complete smart contract development toolkit with a set of tools and utilities necessary for the development of EOSIO Smart Contracts. It provides support for the Gnu and C ++ 11 style by creating a more reliable way to declare your smart contract structure and associated data structures.
 
 * * *
 
@@ -168,25 +168,25 @@ They are digital applications or programs run on a blockchain or P2P computer ne
 
 ### DevOps
 
-It is a set of practices that combines software development and IT operations. Its goal is to shorten the life cycle of systems development and provide continuous delivery with high-quality software.
+A set of practices that combines software development and IT operations. Its goal is to shorten the life cycle of systems development and provide continuous delivery with high-quality software.
 
 * * *
 
-### DFuse
+### dfuse
 
-It is a platform to train dapp developers with capabilities to create modern blockchain applications with fast and fluid interfaces that provide exceptional user experiences.
+A platform to train dapp developers with capabilities to create modern blockchain applications with fast and fluid interfaces that provide exceptional user experiences.
 
 * * *
 
 ### Docker
 
-It is a set of platform as a service products that uses virtualization at the operating system level to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and configuration files; they can communicate with each other through well-defined channels. All containers are run by a single core operating system, therefore using fewer resources than virtual machines.
+A set of platform as a service products that uses virtualization at the operating system level to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and configuration files; they can communicate with each other through well-defined channels. All containers are run by a single core operating system, therefore using fewer resources than virtual machines.
 
 * * *
 
 ### DPoS
 
-It is a consensus algorithm developed to secure a blockchain, this by ensuring the representation of transactions within it. DPoS is designed as a technology-based implementation of democracy, using voting and election processes to protect blockchain from centralization and malicious use.
+A consensus algorithm developed to secure a blockchain, this by ensuring the representation of transactions within it. DPoS is designed as a technology-based implementation of democracy, using voting and election processes to protect blockchain from centralization and malicious use.
 
 * * *
 
@@ -200,7 +200,7 @@ EOS is a decentralized blockchain-based system that enables the development, hos
 
 ### EOS Hub
 
-It is a mobile platform that offers the benefits of EOS to people.
+A mobile platform that offers the benefits of EOS to people.
 It is an easy and secure way to help users access various EOS functions like tokens, voting, resource management, and RAM trading.
 
 * * *
@@ -233,17 +233,26 @@ Eosfinex combines the scalability and speed of EOS with Bitfinex's industry lead
 
 ### EOSIO
 
+EOSIO is a blockchain designed to facilitate the operation of a new type of program called decentralized application (dapp).
+Its technology attempts to solve historical problems by using blockchains to run dapps, as popular apps have even clogged up the capacity on larger and more developed blockchains, resulting in performance issues for all users.
+
 * * *
 
 ### EOSJS 
+
+A library created to easily control the EOS blockchain with Javascript. It can be said that it was made to easily use the `EOS HTTP API (nodeos)`. (web3.js on Ethereum, neon-js on Neo)
 
 * * *
 
 ### EOSQ
 
+A highly accurate block explorer that provides access to accurate, detailed and actionable data on accounts, stocks and block producers.
+
 * * *
 
 ### EOSX
+
+A block browser, wallet and network monitor all in one. It is designed to be easy, fast and clean.
 
 * * *
 
@@ -251,19 +260,27 @@ Eosfinex combines the scalability and speed of EOS with Bitfinex's industry lead
 
 ### Fiat
 
+Trust money (fiat) is a government-issued currency that is not backed by a physical product, such as gold or silver, but by the government that issued it.
+
 * * *
 
 ## **G**
 
 ### Genesis JSON
 
+genesis.json is the file that defines the `Genesis block`, which is the starting block of the blockchain. This is like the "configuration" of your blockchain. For example, the chain configuration and the level of difficulty to extract blocks.
+
 * * *
 
 ### GitHub
 
+A platform that provides hosting for version control of software development, in addition, it allows to manage distributed version control and the functionality of source code management, as well as its own characteristics. It provides access control and various collaboration features such as bug tracking, feature requests, task management, and wikis for each project.
+
 * * *
 
 ### GraphQL
+
+An API query language, it uses a runtime to populate those queries with your existing data. GraphQL provides a comprehensive and understandable description of the data in your API, gives customers the power to ask for exactly what they need and nothing else, makes APIs evolve over time, and enables powerful developer tools.
 
 * * *
 
@@ -271,43 +288,71 @@ Eosfinex combines the scalability and speed of EOS with Bitfinex's industry lead
 
 ### Hackathon
 
+A hackathon is an event (competition) in which computer programmers, graphic designers, interface designers, project managers meet and try to work on projects related to technology and specific problems.
+
 * * *
 
 ### Hapi
+
+A backend service for custom business logic, integrated with Hasura, using actions
 
 * * *
 
 ### Hardware biométrico
 
+These are technological devices that allow biometric data from humans or other objects to be perceived, an example of this is the easy recognition that some security cameras and mobile devices have, also the unlocking of artifacts by means of fingerprints, to mention Some.
+
 * * *
 
 ### Hash
+
+It is the process of transforming a string into a fixed-length key or value. A data string will always produce the same hash, so it is used as a means of checking the content of the string against the expected content.
 
 * * *
 
 ### Hasura 
 
+An ultra-fast GraphQL server that offers you real-time GraphQL API over Postgres, with webhook triggers on database events and remote schemas for business logic.
+
+It also helps build Postgres-supported GraphQL applications or gradually move to GraphQL for existing applications that use Postgres.
+
 * * *
 
 ### Head Block
+
+The `Head Block` is the last block written on the blockchain, stored in reversible blocks.
 
 * * *
 
 ### Httpie
 
+It is an easy to use command line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget downloads, plugins, and more.
+
 * * *
 
 ## **I**
 
+### IAC (infraestructura como código)
+
+It is the process of managing computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+
+* * *
+
 ### IBC (Inter-Blockchain Communication)
+
+A tool by which multiple blockchains can communicate with each other. This can be used to send tokens from one chain to another, or to expand the capacity of a network by increasing the number of chains running in parallel.
 
 * * *
 
 ### ICO Inter Blockchain Communication
 
+Popular method of distributing the initial supply of coins (tokens) by selling them in exchange for fiat currency or other cryptocurrencies.
+
 * * *
 
 ### Immutable
+
+Term used to refer to something that cannot be changed.
 
 * * *
 
@@ -324,6 +369,8 @@ Eosfinex combines the scalability and speed of EOS with Bitfinex's industry lead
 * * *
 
 ### IPFS 
+
+It is a distributed storage mechanism for putting files online for decentralized storage.
 
 * * *
 
