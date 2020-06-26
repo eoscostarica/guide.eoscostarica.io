@@ -288,7 +288,7 @@ An API query language, it uses a runtime to populate those queries with your exi
 
 ### Hackathon
 
-A hackathon is an event (competition) in which computer programmers, graphic designers, interface designers, project managers meet and try to work on projects related to technology and specific problems.
+`Hackathon` is an event (competition) in which computer programmers, graphic designers, interface designers, project managers meet and try to work on projects related to technology and specific problems.
 
 * * *
 
@@ -306,7 +306,7 @@ These are technological devices that allow biometric data from humans or other o
 
 ### Hash
 
-It is the process of transforming a string into a fixed-length key or value. A data string will always produce the same hash, so it is used as a means of checking the content of the string against the expected content.
+`Hash` is the process of transforming a string into a fixed-length key or value. A data string will always produce the same hash, so it is used as a means of checking the content of the string against the expected content.
 
 * * *
 
@@ -326,7 +326,7 @@ The `Head Block` is the last block written on the blockchain, stored in reversib
 
 ### Httpie
 
-It is an easy to use command line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget downloads, plugins, and more.
+Is an easy to use command line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget downloads, plugins, and more.
 
 * * *
 
@@ -334,7 +334,7 @@ It is an easy to use command line HTTP client for the API era. It comes with JSO
 
 ### IAC (infraestructura como código)
 
-It is the process of managing computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+Is the process of managing computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
 * * *
 
@@ -358,13 +358,13 @@ Term used to refer to something that cannot be changed.
 
 ### Inflation
 
+The mechanism through which new tokens are created on the EOS mainnet. 20% of these are used to pay Block Producers and Standby Producers, with the remainder going into the eosio.saving account.
+
 * * *
 
 ### Inline Action
 
-* * *
-
-### Inter-Blockchain
+`Inline actions` are actions that are created within a smart contract. A single action that a user authorizes can then create many subsequent actions that will execute within a single transaction, or create deferred transactions as well.
 
 * * *
 
@@ -376,15 +376,21 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Issue
 
+`Issues` are a great way to track tasks, improvements and bugs for your projects through the GitHub platform.
+
 * * *
 
 ## **J**
 
 ### Jq
 
+ Is a lightweight and flexible command line to process JSON files.
+
 * * *
 
 ### Jungle Testnet
+
+The `Jungle TestNet` was initiated by and has served as sandbox for many development teams and EOS Block Producers since the birth of EOSIO.
 
 * * *
 
@@ -392,13 +398,21 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Kanban 
 
+A `Kanban` board is a tool that allows us to visualize a team workflow, creating columns with the most important stages of project development. It assigns tasks to team members, allowing a better organization of time and resources.
+
 * * *
 
 ### KEOSD
 
+`keosd` is the component that securely stores EOSIO keys in wallets. 
+
+keosd = key + eos
+
 * * *
 
 ### Kubernetes
+
+`Kubernetes` is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
 * * *
 
@@ -406,21 +420,31 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### LACCHAIN
 
+`LACChain` is an initiative by IDB Lab (part of the Inter-American Development Bank) to accompany and accelerate the development of the blockchain ecosystem in Latin America. It aims to establish national consortiums in the region, to develop and promote standards for interoperability of networks, and to develop and maintain interoperable blockchain infrastructures.
+
 * * *
 
 ### LatamLink 
+
+`LatamLink` is a voluntary regional alliance led by Latin American technology companies. We develop an EOSIO-based testnet for the LACChain network to highlight the benefits of this technology. LatamLink deploys a public permissioned version of EOSIO technology for Latin American developers and organizations to test their decentralized applications and infrastructure.
 
 * * *
 
 ### Latency
 
+Period of time that elapses between the communication of a packet through the network.
+
 * * *
 
 ### Launch
 
+The term used to signify the beginning of a blockchain.
+
 * * *
 
 ### LIB (Last irreversible block)
+
+A block is considered irreversible (i.e. immutable) on an EOSIO based blockchain when 2/3rd of the currently elected block producers have acknowledged it.
 
 * * *
 
@@ -428,17 +452,27 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Mainnet
 
+`Mainnet` is the main EOSIO blockchain under the `ChainID: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906`. 
+
+Since EOSIO software is open source and available for free, there may be many instances of it.
+
 * * *
 
 ### Merkle Tree
+
+A `Merkle Tree` is a tree in which every leaf node is labelled with the hash of a data block, and every non-leaf node is labelled with the cryptographic hash of the labels of its child nodes. Hash trees allow efficient and secure verification of the contents of large data structures.
 
 * * *
 
 ### Micro Fork 
 
+A microfork occurs when a Block Producer begins to produce blocks with the same block height as a block that was recently produced. 
+
 * * *
 
 ### Multi-Sig
+
+`Multisig` is a short term for multiple signatures.It’s used to describe the case in which one requires more than one account's permission to execute a transaction. 
 
 * * *
 
@@ -446,17 +480,27 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Network
 
+`NET` is a very important resource in EOSIO based blockchains. It is the network bandwidth (measured in bytes) required to store transactions on a blockchain.
+
 * * *
 
 ### Nodeos
+
+`Nodeos` is the core EOSIO node daemon that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints, and local development. 
+
+nodeos = node + eos
 
 * * *
 
 ### Nodos
 
+`node` is the fundamental basis of blockchain technology, they make up the infrastructure of a blockchain. All nodes in a blockchain are connected to each other and constantly exchange the latest data in the blockchain so that all nodes are kept up to date.
+
 * * *
 
 ### NPM 
+
+[NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) `Node Package Manager` is an online repository for publishing open source projects, it also allows the installation of packages, version administration and dependency administration.
 
 * * *
 
@@ -464,9 +508,13 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Oracle
 
+An oracle is a system that makes off-chain data available on-chain. An example of this would be an oracle that takes the score of a basketball game and puts it on-chain for smart contracts to consume and base decisions on.
+
 * * *
 
 ### Owner Permission
+
+Within the permissions structure of an account, owner is the top-level authority. The owner permission can sign on behalf of, and restructure, all lower-level permissions. It is one of two default permissions that come with a new account, owner and active.
 
 * * *
 
@@ -474,29 +522,45 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Permisos
 
+A weighted security mechanism that determines whether or not a message is properly authorized by evaluating its signature(s) authority. 
+
 * * *
 
 ### Podcasts EOS
+
+A set of EOS-related sites where new content is constantly being added to channels. This content can be in video, audio, or blog format.
 
 * * *
 
 ### Private Key
 
+A `private key` is a secret key used to sign transactions. In EOSIO, a private key's authority is determined by it's mapping to an EOSIO account name.
+
 * * *
 
 ### Proof of Work
+
+`Proof of Work` is a consensus mechanism used by many blockchains, most notably by Bitcoin. The miner of the next block is the first to solve a hashing problem. The difficulty of this problem increases as more hashing power attempts to solve this problem at the same time. The ever-increasing amount of work that has gone into a blockchain over time is what protects the chain's history.
 
 * * *
 
 ### Proxy
 
+The actual act of delegating your vote towards another account. If a user does not want, or have the available time, to research which Block Producers should receive their vote (but still wants to participate in voting), they can proxy their vote strength towards another account. 
+
 * * *
 
 ### Public Key
 
+A publicly available key that can be authorized to permissions of an account and can be used to identify the origin transaction. A `public key` can be inferred from a signature.
+
 * * *
 
 ### Pull request
+
+`Pull requests` let you tell others about changes you've pushed to a branch in a repository on GitHub. 
+
+Once a `pull request` is opened, you can discuss and review the potential changes with collaborators and add follow-up `commits` before your changes are merged into the base branch.
 
 * * *
 
@@ -506,17 +570,25 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### RAM
 
+`RAM` is required to store account information such as keys, balances, and contract state on an EOSIO based blockchain.
+
 * * *
 
 ### Resources
+
+EOSIO accounts have three types of resources that they must maintain: `RAM`,` CPU` and `Net`
 
 * * *
 
 ### REX
 
+The `REX` (Resource Exchange) is a CPU and Network resource rental market in which holders of the core token of a blockchain can buy and sell slices of the REX pool in the form of REX tokens. Blockchain users can then rent CPU and Network resources from the REX pool.
+
 * * *
 
 ### Ricardian Contract
+
+In the EOSIO based blockchain context `Ricardian Contract` is a digital document that accompanies a smart contract and defines the terms and conditions of an interaction between the `smart contract` and its users, written in human readable text, which is then cryptographically signed and verified. It is easily readable for both humans and programs, and aids in providing clarity to any situations that may arise in the interactions between `smart contract` and its users.
 
 * * *
 
@@ -524,13 +596,19 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Smart Contract
 
+A `smart contract` is a computer protocol intended to facilitate, verify, or enforce the negotiation or performance of a contract.
+
 * * *
 
 ### Snapshot
 
+At any given point in time, a `Snapshot` of the total state of the chain can be taken. For example, this could be used by a token that wants to `airdrop` to all current `token` holders based on their current holdings.
+
 * * *
 
 ### SPOF
+
+Part of a system that if it fails to detect the operation of the entire system. These are not desirable in any system with a goal of high availability or reliability.
 
 * * *
 
@@ -542,13 +620,13 @@ Squash merging is a `merge` option that allows you to condense the Git history o
 
 ### Stablecoin
 
-A token whose value is intended to remain stable.  This can be done by pegging to another currency or token, or algorithmically. Many stablecoins peg to the US dollar, meaning that one token should always be redeemable for one US dollar.
+A `token`whose value is intended to remain stable.  This can be done by pegging to another currency or token, or algorithmically. Many stablecoins peg to the US dollar, meaning that one token should always be redeemable for one US dollar.
 
 * * *
 
 ### Stake 
 
-Staking is the act of locking tokens for resources on an EOSIO network. This includes but is not limited to, CPU time, RAM, and on-chain governance.
+Your total `EOS token` holding is referred to as your stake.
 
 * * *
 
@@ -592,7 +670,7 @@ These are accounts that begin with the prefix eosio.* and hold either the code o
 
 ### TestNet 
 
-A test network or testnet is an instantiation of the EOSIO platform that is intended for testing purposes. Generally, the native token has no value and is given away to developers so they can test.
+A test network or `testnet` is an instantiation of the EOSIO platform that is intended for testing purposes. Generally, the native token has no value and is given away to developers so they can test.
 
 * * *
 
@@ -610,7 +688,7 @@ A metric by which the performance of a blockchain is measured.
 
 ### Transactions
 
-It is a combination of one or more actions. Usually the result of executing a smart contract.
+It is a combination of one or more actions. Usually the result of executing a `smart contract`.
 
 * * *
 
@@ -638,7 +716,7 @@ Voting is a fundamental part of the system. The most widely used application of 
 
 ### Vote Decay
 
-To discourage users from casting a vote for Block Producers and then not updating their vote periodically, a decay in the relative vote strength of old votes was introduced. To maintain maximum vote strength, a user should vote at least once per week.
+To discourage users from casting a vote for Block Producers and then not updating their `vote` periodically, a decay in the relative vote strength of old votes was introduced. To maintain maximum vote strength, a user should vote at least once per week.
 
 * * *
 
@@ -654,7 +732,7 @@ To discourage users from casting a vote for Block Producers and then not updatin
 
 The EOSIO based blockchains execute user-generated applications and code using WebAssembly. 
 
-WASM is an emerging web standard with widespread support of Google, Microsoft, Apple, and others. At the moment the most mature toolchain for building applications that compile to WASM is clang/llvm with their C/C++ compiler. 
+`WASM` is an emerging web standard with widespread support of Google, Microsoft, Apple, and others. At the moment the most mature toolchain for building applications that compile to WASM is clang/llvm with their C/C++ compiler. 
 
 * * *
 
@@ -696,6 +774,3 @@ It is a system through which community funds would be used to support blockchain
 [Zeplin](https://zeplin.io/) is a collaborative tool for designers and Front-End developers that allows a workflow in which they can create designs, facilitating communication, and better organization of time.
 
 * * *
-
-
-
