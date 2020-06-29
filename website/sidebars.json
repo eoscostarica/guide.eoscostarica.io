@@ -30,15 +30,14 @@
     ],
     "Tools": [
       "tools/glossary",
-      "eos-learn/command-line",
-      "eos-learn/block-explorers",
-      "eos-learn/eosio-sdk-libraries"
+      "tools/command-line",
+      "tools/block-explorers",
+      "tools/eosio-sdk-libraries"
     ],
-    
     "Community Resources": [
       "community-resources/telegram-channels",
-      "eos-learn/eos-podcasts",
-      "eos-learn/eosio-networks"
+      "community-resources/eos-podcasts",
+      "community-resources/eosio-networks"
     ]
   }
 }
