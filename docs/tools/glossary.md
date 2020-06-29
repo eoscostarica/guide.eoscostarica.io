@@ -15,12 +15,6 @@ A traffic filter of a list of networks and correlated actions used to improve se
 
 * * *
 
-### ACL (Lista de control de acceso)
-
-A traffic filter of a list of networks and correlated actions used to improve security. Block or allow users to access specific resources.
-
-* * *
-
 ### Acounts
 
 An EOSIO account is a human-readable name that is stored on the blockchain. It can be owned by an individual or group of individuals depending on the configuration of the permissions. An account is required to transfer or send any valid transaction to the blockchain.
