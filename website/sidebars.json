@@ -6,18 +6,7 @@
       "web-app-boilerplate",
       "backend-boilerplate",
       "open-source-projects",
-      "developer-tools",
-      {
-        "type": "subcategory",
-        "label": "Visual Resources",
-        "ids": [
-          "visual-resources/material-ui",
-          "visual-resources/eoscr-logos",
-          "visual-resources/eos-surf-logos",
-          "visual-resources/eos-rate-logos",
-          "visual-resources/eos-local-logos"
-        ]
-      }
+      "developer-tools"
     ],
     "Learn EOSIO": [
       "eos-learn/eosio-protocol",
@@ -25,30 +14,31 @@
       "eos-learn/system-resources",
       "eos-learn/accounts-and-permissions",
       "eos-learn/important-functions",
-      "eos-learn/getting-started",
       "eos-learn/private-keys",
-      "eos-learn/node-installation",
-      "eos-learn/hello-world-contract",
-      "eos-learn/command-line",
-      "eos-learn/eosio-sdk-libraries",
-      "eos-learn/eosio-networks",
-      "eos-learn/block-explorers",
-      "eos-learn/eosio-sdk-libraries",
       "eos-learn/block-producers",
       "eos-learn/dapp-development",
       "eos-learn/devops",
       "eos-learn/eos-blockchain",
-      "eos-learn/eos-podcasts",
-      "eos-learn/eos-sister-chains",
       "eos-learn/eosio-software",
-      "eos-learn/modern-cpp",
-      "eos-learn/smart-contracts"
+      "eos-learn/smart-contract"
+    ],
+    "Tutorials": [
+      "eos-learn/getting-started",
+      "eos-learn/node-installation",
+      "eos-learn/hello-world-contract",
+      "eos-learn/modern-cpp"
     ],
     "Tools": [
-      "tools/glossary"
+      "tools/glossary",
+      "eos-learn/command-line",
+      "eos-learn/block-explorers",
+      "eos-learn/eosio-sdk-libraries"
     ],
+    
     "Community Resources": [
-      "community-resources/telegram-channels"
+      "community-resources/telegram-channels",
+      "eos-learn/eos-podcasts",
+      "eos-learn/eosio-networks"
     ]
   }
 }
