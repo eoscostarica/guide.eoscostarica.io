@@ -112,6 +112,8 @@ Block producers are one of Block.one's main innovations, they are the decentrali
 
 ### Block Rewards	
 
+Bitcoin block reward refers to the new bitcoins that are awarded by the blockchain network to eligible cryptocurrency miners for each block they mine successfully.
+
 * * *
 
 ### Blockchain 
