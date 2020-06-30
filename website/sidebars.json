@@ -23,10 +23,10 @@
       "eos-learn/smart-contract"
     ],
     "Tutorials": [
-      "eos-learn/getting-started",
-      "eos-learn/node-installation",
-      "eos-learn/hello-world-contract",
-      "eos-learn/modern-cpp"
+      "tutorials/getting-started",
+      "tutorials/node-installation",
+      "tutorials/hello-world-contract",
+      "tutorials/modern-cpp"
     ],
     "Tools": [
       "tools/glossary",
