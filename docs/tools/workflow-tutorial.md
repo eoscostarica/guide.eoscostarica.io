@@ -1,7 +1,7 @@
 ---
-id: workflow-tutorial 
-title: Workflow Tutorial
-sidebar_label: Workflow Tutorial
+id: git-workflow-tutorial 
+title: Git workflow Tutorial
+sidebar_label: Git workflow Tutorial
 ---
 
 ## Git workflow Tutorial
