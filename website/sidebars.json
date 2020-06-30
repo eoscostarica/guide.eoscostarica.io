@@ -41,7 +41,7 @@
     ],
     "Tools": [
       "tools/glossary",
-      "tools/workflow-tutorial"
+      "tools/git-workflow-tutorial"
     ],
     "Community Resources": [
       "community-resources/telegram-channels"
