@@ -43,7 +43,8 @@
       "tools/glossary"
     ],
     "Community Resources": [
-      "community-resources/telegram-channels"
+      "community-resources/telegram-channels",
+      "community-resources/blog-posts"
     ]
   }
 }
