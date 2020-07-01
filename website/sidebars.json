@@ -13,7 +13,8 @@
       "visual-resources/eoscr-logos",
       "visual-resources/eos-surf-logos",
       "visual-resources/eos-rate-logos",
-      "visual-resources/eos-local-logos"
+      "visual-resources/eos-local-logos",
+      "visual-resources/lifebank-logos"
     ],
     "Learn EOSIO": [
       "eos-learn/eosio-protocol",
