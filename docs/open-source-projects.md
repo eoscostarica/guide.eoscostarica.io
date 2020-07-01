@@ -4,14 +4,72 @@ title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
 
-## EOS Rate
 
-[EOS Rate](https://eosrate.io) is a community-driven visual rating tool that allows EOS token holders to easily rate Block Producers in distinct categories.
+## EOS Rate 
+
+
+<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" style="width:30%" >
+
+[EOS Rate](https://eosrate.io) is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
 
 - **Website** : https://eosrate.io
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
 
+
+![EOS Rate](../img/OSS_screnshots/EOS_Rate.png)
+
+![EOS Rate](../img/OSS_screnshots/EOS_Rate_2.png)
+
+* * *
+
+## LatamLink Testnet
+
+<img src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png" style="width:30%" >
+
+The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the benefits of this platform. LACChain is an initiative of BID Labs (part of the Inter-American Development Bank) whose purpose is to accompany and accelerate the development of the blockchain ecosystem in Latin America. 
+
+- **Website** : https://latamlink.io
+
+- **GitHub** : https://github.com/LatamLink/latamlink.io
+
+![Latam Link](../img/OSS_screnshots/Latam_Link.png)
+
+![Latam Link](../img/OSS_screnshots/Latam_Link_monitor.png)
+
+
+* * *
+
+## EOSIO network monitor
+
+An EOSIO Infrastructure monitor and node dashboard.
+ 
+- **GitHub** : https://github.com/eoscostarica/eosio-monitor
+
+![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor.png)
+
+![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor_2.png)
+
+
+* * *
+
+## EOS Foundation 
+
+
+<img src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png" style="width:30%" >
+
+
+We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
+
+- **Website** : https://eos-foundation.eosio.cr
+
+- **GitHub** : https://github.com/eoscostarica/eos-foundation
+
+![EOS Fundation](../img/OSS_screnshots/EOS_Fundation_2.png)
+
+![EOS Fundation](../img/OSS_screnshots/EOS_Fundation.png)
+
+* * *
 
 ## Digital notary smart contract
 
@@ -21,25 +79,23 @@ It also allows anyone who owns the document to validate the record on the blockc
 
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
+* * *
 
-## LatamLink Testnet
+## EOSIO hackathons
 
-The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the benefits of this platform. LACChain is an initiative of BID Labs (part of the Inter-American Development Bank) whose purpose is to accompany and accelerate the development of the blockchain ecosystem in Latin America. 
+### LifeBank
 
-- **Website** : https://latamlink.io
+<img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" style="width:50%">
 
-- **GitHub** : https://github.com/eoscostarica/notarioeoscr
+Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
 
+Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
 
-## EOSIO network monitor
+- **Website** : https://lifebank.io/
 
-An EOSIO Infrastructure monitor and node dashboard.
- 
-### Monitor Frontend 
+- **GitHub** : https://github.com/eoscostarica/lifebank
 
-https://github.com/eoscostarica/eosio-monitor
-
-### Monitor Backend
+![LifeBank](../img/OSS_screnshots/LifeBank.png)
 
 
 ## React Components for EOSIO
@@ -48,14 +104,4 @@ https://github.com/eoscostarica/eosio-monitor
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-components
 
-
-## EOS Foundation 
-
-We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
-
-- **Website** : https://eos-foundation.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eos-foundation
-
-
-## EOSIO hackathons
+* * *

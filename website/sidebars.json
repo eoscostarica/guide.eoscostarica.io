@@ -40,12 +40,17 @@
       "tools/glossary",
       "tools/command-line",
       "tools/block-explorers",
-      "tools/eosio-sdk-libraries"
+      "tools/eosio-sdk-libraries",
+      "tools/git-workflow-tutorial"
     ],
     "Community Resources": [
       "community-resources/telegram-channels",
       "community-resources/eos-podcasts",
-      "community-resources/eosio-networks"
+      "community-resources/eosio-networks"    
+    ],
+    "Community Resources": [
+      "community-resources/telegram-channels",
+      "community-resources/blog-posts"
     ]
   }
 }
