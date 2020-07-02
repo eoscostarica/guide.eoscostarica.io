@@ -36,7 +36,7 @@
       "tutorials/node-installation",
       "tutorials/hello-world-contract",
       "tutorials/modern-cpp",
-      "tools/git-workflow-tutorial"
+      "tutorials/git-workflow-tutorial"
     ],
     "Tools": [
       "tools/glossary",
