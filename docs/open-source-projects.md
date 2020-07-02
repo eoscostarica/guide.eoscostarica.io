@@ -108,8 +108,8 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
 
 ## NPM Packages
 
-* [**eoscr-components**](https://www.npmjs.com/package/@eoscostarica/eoscr-components): A collection of React Components for EOSIO. 
+* [**EOS Costa Rica components**](https://www.npmjs.com/package/@eoscostarica/eoscr-components): A collection of React Components for EOSIO. 
 * [**EOS Costa Rica standard theme**](https://www.npmjs.com/package/@eoscostarica/eoscr-theme): EOS Costa Rica standard theme will allow us a faster developments of our web apps and at the same time it's availabe for anyone who will want to use it.
 * [**EOS API module ( in CamelCase 🐫)**](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api): This project wraps the official eosio/eosjs-api to provide camelcase output. 
-* [**fastify-eos**](https://www.npmjs.com/package/fastify-eos): A plugin that decorates Fastify with an EOS.js instance.
+* [**Fastify EOS**](https://www.npmjs.com/package/fastify-eos): A plugin that decorates Fastify with an EOS.js instance.
 
