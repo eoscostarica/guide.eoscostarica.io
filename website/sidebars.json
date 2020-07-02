@@ -35,23 +35,20 @@
       "tutorials/getting-started",
       "tutorials/node-installation",
       "tutorials/hello-world-contract",
-      "tutorials/modern-cpp"
+      "tutorials/modern-cpp",
+      "tutorials/git-workflow-tutorial"
     ],
     "Tools": [
       "tools/glossary",
       "tools/command-line",
       "tools/block-explorers",
-      "tools/eosio-sdk-libraries",
-      "tools/git-workflow-tutorial"
+      "tools/eosio-sdk-libraries"
     ],
     "Community Resources": [
       "community-resources/telegram-channels",
+      "community-resources/blog-posts",
       "community-resources/eos-podcasts",
-      "community-resources/eosio-networks"    
-    ],
-    "Community Resources": [
-      "community-resources/telegram-channels",
-      "community-resources/blog-posts"
+      "community-resources/eosio-networks"
     ]
   }
 }
