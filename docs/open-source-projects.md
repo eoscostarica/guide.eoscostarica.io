@@ -17,9 +17,9 @@ sidebar_label: Open Source Projects
 - **GitHub** : https://github.com/eoscostarica/eos-rate
 
 
-![EOS Rate](../img/OSS_screnshots/EOS_Rate.png)
+![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Rate.PNG)
 
-![EOS Rate](../img/OSS_screnshots/EOS_Rate_2.png)
+![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Rate_2.PNG)
 
 * * *
 
@@ -33,9 +33,9 @@ The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the ben
 
 - **GitHub** : https://github.com/LatamLink/latamlink.io
 
-![Latam Link](../img/OSS_screnshots/Latam_Link.png)
+![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/Latam_Link.PNG)
 
-![Latam Link](../img/OSS_screnshots/Latam_Link_monitor.png)
+![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
 
 
 * * *
@@ -46,9 +46,9 @@ An EOSIO Infrastructure monitor and node dashboard.
  
 - **GitHub** : https://github.com/eoscostarica/eosio-monitor
 
-![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor.png)
+![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
 
-![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor_2.png)
+![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
 
 
 * * *
@@ -65,9 +65,9 @@ We view the EOS Foundation as a container for facilitating code, capital, and co
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](../img/OSS_screnshots/EOS_Fundation_2.png)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
 
-![EOS Fundation](../img/OSS_screnshots/EOS_Fundation.png)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Fundation.PNG)
 
 * * *
 
@@ -95,7 +95,7 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
 
 - **GitHub** : https://github.com/eoscostarica/lifebank
 
-![LifeBank](../img/OSS_screnshots/LifeBank.png)
+![LifeBank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/LifeBank.PNG)
 
 
 ## React Components for EOSIO
@@ -105,3 +105,11 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
 - **GitHub** : https://github.com/eoscostarica/eoscr-components
 
 * * *
+
+## NPM Packages
+
+* [**EOS Costa Rica components**](https://www.npmjs.com/package/@eoscostarica/eoscr-components): A collection of React Components for EOSIO. 
+* [**EOS Costa Rica standard theme**](https://www.npmjs.com/package/@eoscostarica/eoscr-theme): EOS Costa Rica standard theme will allow us a faster developments of our web apps and at the same time it's availabe for anyone who will want to use it.
+* [**EOS API module ( in CamelCase 🐫)**](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api): This project wraps the official eosio/eosjs-api to provide camelcase output. 
+* [**Fastify EOS**](https://www.npmjs.com/package/fastify-eos): A plugin that decorates Fastify with an EOS.js instance.
+
