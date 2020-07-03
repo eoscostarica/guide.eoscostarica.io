@@ -43,6 +43,8 @@ The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the ben
 ## EOSIO network monitor
 
 An EOSIO Infrastructure monitor and node dashboard.
+
+- **Website** : https://mainnet.eosio.io/
  
 - **GitHub** : https://github.com/eoscostarica/eosio-monitor
 
@@ -77,11 +79,13 @@ This smart contract serves as a tool for any user who wishes to register the exi
 
 It also allows anyone who owns the document to validate the record on the blockchain.
 
+- **Website** : https://notarize.eosio.io/
+
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
 * * *
 
-## EOSIO hackathons
+## EOSIO hackathons 
 
 ### LifeBank
 
