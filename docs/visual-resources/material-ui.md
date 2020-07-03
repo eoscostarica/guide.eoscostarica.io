@@ -1,21 +1,43 @@
 ---
 id: material-ui
-title: Material UI & NPM Package
+title: Material UI & Theme
 sidebar_label: Material UI Theme
 ---
 
 
 ## Logo and visual assets
 
+In this link you have access to Logos and visual assets
+
 - **GitHub** : https://github.com/eoscostarica/design-assets
+
+* * *
 
 ## Color Palette
 
+In this link you can see the color palette that the company uses on its sites
+
 - [Color Scheme](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
+
+Example:
+
+![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary)
+
+![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary)
+
+* * *
 
 ## Typography
 
+In this link you can see the typography styles that are used in the company sites
+
 - [Typography](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
+
+Example:
+
+![Typography Scale](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Typography_Scale)
+
+* * *
 
 ## Material UI theme
 
