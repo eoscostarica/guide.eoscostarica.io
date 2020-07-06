@@ -6,7 +6,9 @@
       "web-app-boilerplate",
       "backend-boilerplate",
       "open-source-projects",
-      "developer-tools"
+      "material-ui",
+      "developer-tools",
+      "visual-resources"
     ],
     "Visual Resources": [
       "visual-resources/material-ui",
