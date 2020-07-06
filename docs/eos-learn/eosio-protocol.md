@@ -9,7 +9,7 @@ EOSIO is open-source software that enables launching highly configurable blockch
 
 Some innovative features of EOSIO include:
 
-* **Free transactions** with consumption limits.EOSIO GitHub
+* **Free transactions** with consumption limits.
 * **Low latency** confirming new blocks (0.5 seconds)
 * ***Byzantine Fault Tolerance**
 * Human Readable Account Names (***e.g. :*** `eosioaccount` )
@@ -17,6 +17,10 @@ Some innovative features of EOSIO include:
 * Updatable contracts **written in C++**.
 * Support for keys protected by **biometric hardware** (e.g. : Apple Secure Enclave)
 * Designed for **Inter-Blockchain communication**
+* Designed for Sparse Header Light Client Validation.
+* Scheduled Recurring Transactions.
+* Time Delay Security.
+* Designed for Parallel Execution of Context Free Validation Logic.
 
 Another important feature of EOSIO based blockchain networks is it's flexible architecture, because many of the network's "rules of engagement" are defined through system contracts.
 
