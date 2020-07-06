@@ -6,7 +6,6 @@ sidebar_label: Telegram Channels
 
 Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS community, in which content is shared that can be very useful
 
-
 ### EOS General Community
 
 - [EOS](https://t.me/EOSproject)
@@ -25,6 +24,8 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Jobs](https://t.me/eos_jobs)
 - [EOS Project](https://t.me/EOSproject)
 - [EOS Opportunities](https://t.me/eos_opportunities)
+- [Jungle Testnet](https://t.me/jungletestnet)
+
 
 ### EOS CR Community
 
@@ -40,6 +41,9 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Block Pros](https://t.me/EOSPros)
 - [Bancor Developers](https://t.me/BancorDevelopers)
 - [EOS Game Developers](https://t.me/EosGameDevelopers)
+- [EOS Dev en Español](https://t.me/eosDevEs)
+- [EOS Block Pros](https://t.me/EOSPros)
+- [Bancor Developers](https://t.me/BancorDevelopers)
 - [EOS Kylin Testnet](https://t.me/cryptokylin1en)
 - [EOS Mechanics](https://t.me/EOSMechanics)
 - [DAPP Network Devs](https://t.me/joinchat/GTxt3lEL6HLeFzgsWA87qg)
