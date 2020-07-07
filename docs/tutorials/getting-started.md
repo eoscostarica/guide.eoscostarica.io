@@ -8,9 +8,9 @@ sidebar_label: Getting Started
 
 At first, is recommendable have installed the software EOSIO developed by Block.one to create actions with the EOS protocol following the command brew tap eosio/eosio y brew install eosio. This software it's made up of:
 
-- cleos: is the command line tool that connects with the API exposed by nodeos and functions to manage the wallet, account, keys, transactions and Smart Contracts.
-- nodeos: functions as the central daemon that manages EOSIO's net and could be configured as node to produce blocks.
-- keosd: functions as wallet to manage the keys for EOSIO.
+- **cleos**: is the command line tool that connects with the API exposed by nodeos and functions to manage the wallet, account, keys, transactions and Smart Contracts.
+- **nodeos**: functions as the central daemon that manages EOSIO's net and could be configured as node to produce blocks.
+- **eosd**: functions as wallet to manage the keys for EOSIO.
 
 ![Diagrama](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/img/diagrams/cleos.png)
 

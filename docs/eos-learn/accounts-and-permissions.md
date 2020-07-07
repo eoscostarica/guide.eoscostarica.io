@@ -34,7 +34,7 @@ To get more information about these concepts, see [accounts and permissions docu
 
 The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (unencrypted) that is protected by a high entropy password.
 
-### Transit Wallet Access Layer
+## Transit Wallet Access Layer
 
 This library is a small abstraction layer on top of `eosjs` which aims to assist EOS dApp (decentralized app) developers with wallet communication (signature verification and acceptance) by providing a simple and intuitive API.
 
@@ -42,13 +42,13 @@ Instead of focusing on supporting specific signature providers one by one, devel
 
 Please see the "Quick Start" and thorough guide in the `eos-transit` [package docs](https://github.com/eosnewyork/eos-transit)
 
-### Universal Authenticator Library
+## Universal Authenticator Library
 
 A library exists that allows apps to easily use different auth providers. App Developers need to support many authentication providers (wallets) in order to maximize user reach and permit user choice.
 
 The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library) achieves this goal by abstracting the internal business logic of many authentication providers and exposing a single universal API.
 
-### Available Authenticators:
+## Available Authenticators:
 
 * [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
 * [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
@@ -57,11 +57,11 @@ The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-a
 * [UAL for MEET.ONE](https://github.com/meet-one/ual-meetone)
 * [UAL for Anchor](https://github.com/greymass/ual-anchor)
 
-### KEOSD
+## KEOSD
 
 In the EOSIO's distribution comes included a CLI client called `cleos` that interacts with lite client called `keosd` which provides a secure wallet service and API endpoint for applications that require back-end integration with a signature provider.
 
-### EOSIO permissions
+## EOSIO permissions
 
 EOSIO's permissions make it possible to strengthen account security to the point where the loss or theft of keys is nothing more than minor inconveniences. This weekly EOS episode covers what EOSIO permissions are on a conceptual level and the trend towards strong interconnected account networks.
 
