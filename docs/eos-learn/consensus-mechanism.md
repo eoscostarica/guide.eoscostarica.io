@@ -57,7 +57,7 @@ It is also important that private keys used by production nodes are properly bac
 
 ### Stand-By Block Producers
 
-EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers by the permisioning committee.
+EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers.
 
 ## Delegated Proof of Stake (DPoS)
 
@@ -69,9 +69,8 @@ A consensus algorithm is a process in Computer Science used to achieve agreement
 
 Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blokchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
 
-
 EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake -(DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
 
- - [DPOS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
- - [BitShares DPOS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)
+ - [DPoS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+ - [BitShares DPoS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)
 
