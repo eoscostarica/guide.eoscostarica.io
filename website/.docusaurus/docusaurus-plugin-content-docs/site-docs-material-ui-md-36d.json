@@ -1,0 +1,20 @@
+{
+  "id": "material-ui",
+  "isDocsHomePage": false,
+  "title": "Material UI & Theme",
+  "description": "Logo and visual assets",
+  "source": "@site/docs\\material-ui.md",
+  "permalink": "/docs/material-ui",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Material UI Theme",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Open Source Projects",
+    "permalink": "/docs/open-source-projects"
+  },
+  "next": {
+    "title": "Our Favorite Tools",
+    "permalink": "/docs/developer-tools"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eos-learn/consensus-mechanism",
+  "isDocsHomePage": false,
+  "title": "Consensus Mechanism",
+  "description": "Consensus Mechanism",
+  "source": "@site/docs\\eos-learn\\consensus-mechanism.md",
+  "permalink": "/docs/eos-learn/consensus-mechanism",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Consensus Mechanism",
+  "sidebar": "docs",
+  "previous": {
+    "title": "EOSIO Protocol",
+    "permalink": "/docs/eos-learn/eosio-protocol"
+  },
+  "next": {
+    "title": "System Resources",
+    "permalink": "/docs/eos-learn/system-resources"
+  }
+}

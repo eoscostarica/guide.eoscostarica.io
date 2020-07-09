@@ -1,0 +1,20 @@
+{
+  "id": "backend-boilerplate",
+  "isDocsHomePage": false,
+  "title": "Backend Boilerplate",
+  "description": "A highly scalable skeleton with best practices, made for quick start backend projects.",
+  "source": "@site/docs\\backend-boilerplate.md",
+  "permalink": "/docs/backend-boilerplate",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Backend Boilerplate",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Web App Boilerplate",
+    "permalink": "/docs/web-app-boilerplate"
+  },
+  "next": {
+    "title": "Open Source Projects",
+    "permalink": "/docs/open-source-projects"
+  }
+}

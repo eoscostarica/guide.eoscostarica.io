@@ -1,0 +1,16 @@
+{
+  "id": "engineering-culture",
+  "isDocsHomePage": false,
+  "title": "Engineering Culture",
+  "description": "We are a fast paced startup with really talented engineers who love open source and agile principles.",
+  "source": "@site/docs\\engineering-culture.md",
+  "permalink": "/docs/engineering-culture",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Engineering Culture",
+  "sidebar": "docs",
+  "next": {
+    "title": "Open Source Contributing Guidelines",
+    "permalink": "/docs/open-source-guidelines"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tutorials/getting-started",
+  "isDocsHomePage": false,
+  "title": "Getting Started",
+  "description": "Before you begin",
+  "source": "@site/docs\\tutorials\\getting-started.md",
+  "permalink": "/docs/tutorials/getting-started",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Getting Started",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Git workflow Tutorial",
+    "permalink": "/docs/tutorials/git-workflow-tutorial"
+  },
+  "next": {
+    "title": "EOSIO Node Installation",
+    "permalink": "/docs/tutorials/node-installation"
+  }
+}

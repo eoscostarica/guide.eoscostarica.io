@@ -1,0 +1,20 @@
+{
+  "id": "web-app-boilerplate",
+  "isDocsHomePage": false,
+  "title": "Web App Boilerplate",
+  "description": "React Webapp Boilerplate",
+  "source": "@site/docs\\web-app-boilerplate.md",
+  "permalink": "/docs/web-app-boilerplate",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Webapp Boilerplate",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Open Source Contributing Guidelines",
+    "permalink": "/docs/open-source-guidelines"
+  },
+  "next": {
+    "title": "Backend Boilerplate",
+    "permalink": "/docs/backend-boilerplate"
+  }
+}

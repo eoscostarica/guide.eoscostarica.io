@@ -1,0 +1,20 @@
+{
+  "id": "visual-resources",
+  "isDocsHomePage": false,
+  "title": "Visual Resources",
+  "description": "EOS Costa Rica",
+  "source": "@site/docs\\visual-resources.md",
+  "permalink": "/docs/visual-resources",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Visual Resources",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Agile methodologies",
+    "permalink": "/docs/agile-methodologies"
+  },
+  "next": {
+    "title": "EOSIO Protocol",
+    "permalink": "/docs/eos-learn/eosio-protocol"
+  }
+}

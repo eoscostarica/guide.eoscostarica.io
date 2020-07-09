@@ -1,0 +1,16 @@
+{
+  "id": "community-resources/eosio-networks",
+  "isDocsHomePage": false,
+  "title": "EOSIO based Blockchain Networks",
+  "description": "Blockchain Networks",
+  "source": "@site/docs\\community-resources\\eosio-networks.md",
+  "permalink": "/docs/community-resources/eosio-networks",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "EOSIO Networks",
+  "sidebar": "docs",
+  "previous": {
+    "title": "EOS Podcasts",
+    "permalink": "/docs/community-resources/eos-podcasts"
+  }
+}

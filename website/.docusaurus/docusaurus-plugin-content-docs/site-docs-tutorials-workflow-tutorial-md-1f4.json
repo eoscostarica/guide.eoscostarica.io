@@ -1,0 +1,20 @@
+{
+  "id": "tutorials/git-workflow-tutorial",
+  "isDocsHomePage": false,
+  "title": "Git workflow Tutorial",
+  "description": "Git workflow Tutorial",
+  "source": "@site/docs\\tutorials\\workflow-tutorial.md",
+  "permalink": "/docs/tutorials/git-workflow-tutorial",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Git workflow Tutorial",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Modern C++",
+    "permalink": "/docs/tutorials/modern-cpp"
+  },
+  "next": {
+    "title": "Telegram Channels",
+    "permalink": "/docs/community-resources/telegram-channels"
+  }
+}
