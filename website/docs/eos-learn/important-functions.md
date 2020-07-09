@@ -4,9 +4,11 @@ title: Important Functions in EOSIO
 sidebar_label: Important Functions
 ---
 
-This account has unlimited access to CPU, NET, and RAM resources. An account consisting of the permitting committee representing the highest authority of the network will be set.
+## 
 
-You can create specific permissions for each privileged action and you can also use a multi-signature (or "multisig") contract with variable parameters that will require the consent of most of the actors in the table. This privileged account will be called the `eosio` account.
+This account has unlimited access to CPU, NET, and RAM resources  representing the highest authority of the network which can execute priviledged functions.
+
+Usually this authority is invoked by a  multi-signature (or "multisig") contract that will require the consent of a super-majorit of the block producers. This privileged account will be called the `eosio` account.
 
 ## EOSIO Privileged Features
 
