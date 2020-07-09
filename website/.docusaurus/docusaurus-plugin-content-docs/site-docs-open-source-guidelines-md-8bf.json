@@ -1,0 +1,20 @@
+{
+  "id": "open-source-guidelines",
+  "isDocsHomePage": false,
+  "title": "Open Source Contributing Guidelines",
+  "description": "Development Process",
+  "source": "@site/docs\\open-source-guidelines.md",
+  "permalink": "/docs/open-source-guidelines",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Open Source Guidelines",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Engineering Culture",
+    "permalink": "/docs/engineering-culture"
+  },
+  "next": {
+    "title": "Web App Boilerplate",
+    "permalink": "/docs/web-app-boilerplate"
+  }
+}

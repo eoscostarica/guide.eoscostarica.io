@@ -1,0 +1,20 @@
+{
+  "id": "tutorials/modern-cpp",
+  "isDocsHomePage": false,
+  "title": "Modern C++",
+  "description": "Welcome to C++",
+  "source": "@site/docs\\tutorials\\modern-cpp.md",
+  "permalink": "/docs/tutorials/modern-cpp",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Modern C++",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Hello World Contract",
+    "permalink": "/docs/tutorials/hello-world-contract"
+  },
+  "next": {
+    "title": "Git workflow Tutorial",
+    "permalink": "/docs/tutorials/git-workflow-tutorial"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tutorials/node-installation",
+  "isDocsHomePage": false,
+  "title": "EOSIO Node Installation",
+  "description": "EOSIO version tag: v2.0.6",
+  "source": "@site/docs\\tutorials\\node-installation.md",
+  "permalink": "/docs/tutorials/node-installation",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Node Installation",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/tutorials/getting-started"
+  },
+  "next": {
+    "title": "Hello World Contract",
+    "permalink": "/docs/tutorials/hello-world-contract"
+  }
+}

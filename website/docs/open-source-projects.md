@@ -8,7 +8,10 @@ sidebar_label: Open Source Projects
 ## EOS Rate 
 
 
-<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" style="width:30%" >
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
+  style={{ width: "30%" }}
+/>
 
 [EOS Rate](https://eosrate.io) is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
 
@@ -25,7 +28,10 @@ sidebar_label: Open Source Projects
 
 ## LatamLink Testnet
 
-<img src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png" style="width:30%" >
+<img
+  src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png"
+  style={{ width: "30%" }}
+/>
 
 The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the benefits of this platform. LACChain is an initiative of BID Labs (part of the Inter-American Development Bank) whose purpose is to accompany and accelerate the development of the blockchain ecosystem in Latin America. 
 
@@ -57,9 +63,10 @@ An EOSIO Infrastructure monitor and node dashboard.
 
 ## EOS Foundation 
 
-
-<img src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png" style="width:30%" >
-
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
+  style={{ width: "30%" }}
+/>
 
 We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
 
@@ -89,7 +96,10 @@ It also allows anyone who owns the document to validate the record on the blockc
 
 ### LifeBank
 
-<img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" style="width:50%">
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
+  style={{ width: "50%" }}
+/>
 
 Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
 

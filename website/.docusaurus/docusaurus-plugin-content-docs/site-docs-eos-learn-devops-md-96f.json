@@ -1,0 +1,20 @@
+{
+  "id": "eos-learn/devops",
+  "isDocsHomePage": false,
+  "title": "DevOps",
+  "description": "At EOS Costa Rica we follow the DevOps principles to build and deploy software.",
+  "source": "@site/docs\\eos-learn\\devops.md",
+  "permalink": "/docs/eos-learn/devops",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "DevOps",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dapp Development",
+    "permalink": "/docs/eos-learn/dapp-development"
+  },
+  "next": {
+    "title": "EOS Blockchain",
+    "permalink": "/docs/eos-learn/eos-blockchain"
+  }
+}

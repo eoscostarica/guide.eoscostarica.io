@@ -1,0 +1,147 @@
+{
+  "/": {
+    "component": "component---site-src-pages-index-jsece-a18"
+  },
+  "/__docusaurus/debug": {
+    "component": "component---theme-debugd-45-c28"
+  },
+  "/search": {
+    "component": "component---c-users-angelo-cg-desktop-migracion-guide-eoscostarica-io-guide-eoscostarica-io-website-node-modules-docusaurus-theme-search-algolia-src-pages-search-index-js-8-ca-0e1"
+  },
+  "/docs": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---docs-20-a-426"
+  },
+  "/docs/agile-methodologies": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-agile-methodologies-525-982"
+  },
+  "/docs/backend-boilerplate": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-backend-boilerplatede-9-bfa"
+  },
+  "/docs/community-resources/blog-posts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-community-resources-blog-postsfc-3-a19"
+  },
+  "/docs/community-resources/eos-podcasts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-community-resources-eos-podcasts-1-d-4-398"
+  },
+  "/docs/community-resources/eosio-networks": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-community-resources-eosio-networks-74-c-ed0"
+  },
+  "/docs/community-resources/telegram-channels": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-community-resources-telegram-channelsbd-9-57a"
+  },
+  "/docs/developer-tools": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-developer-tools-1-fd-ac0"
+  },
+  "/docs/engineering-culture": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-engineering-culture-6-c-0-c24"
+  },
+  "/docs/eos-learn/accounts-and-permissions": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-accounts-and-permissionsa-3-c-30d"
+  },
+  "/docs/eos-learn/block-producers": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-block-producers-891-f04"
+  },
+  "/docs/eos-learn/consensus-mechanism": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-consensus-mechanisme-10-355"
+  },
+  "/docs/eos-learn/dapp-development": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-dapp-developmente-28-cfc"
+  },
+  "/docs/eos-learn/devops": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-devops-96-f-9b8"
+  },
+  "/docs/eos-learn/eos-blockchain": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-eos-blockchainf-1-a-c2c"
+  },
+  "/docs/eos-learn/eosio-protocol": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-eosio-protocol-5-b-6-5fb"
+  },
+  "/docs/eos-learn/important-functions": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-important-functionsb-06-33c"
+  },
+  "/docs/eos-learn/private-keys": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-private-keys-5-d-3-ccc"
+  },
+  "/docs/eos-learn/smart-contract": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-smart-contract-84-d-280"
+  },
+  "/docs/eos-learn/system-resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-system-resourcesa-4-f-23b"
+  },
+  "/docs/material-ui": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-material-ui-36-d-2bb"
+  },
+  "/docs/open-source-guidelines": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-open-source-guidelines-8-bf-d75"
+  },
+  "/docs/open-source-projects": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-open-source-projects-113-6e0"
+  },
+  "/docs/tools/block-explorers": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tools-block-explorers-449-bfc"
+  },
+  "/docs/tools/command-line": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tools-command-lineaa-0-e40"
+  },
+  "/docs/tools/eosio-sdk-libraries": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tools-eosio-sdk-librariesbc-8-52f"
+  },
+  "/docs/tools/glossary": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tools-glossary-45-c-a2a"
+  },
+  "/docs/tutorials/getting-started": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-getting-started-484-53f"
+  },
+  "/docs/tutorials/git-workflow-tutorial": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-git-workflow-tutorial-1-f-4-c5d"
+  },
+  "/docs/tutorials/hello-world-contract": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-hello-world-contract-41-e-075"
+  },
+  "/docs/tutorials/modern-cpp": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-modern-cpp-103-ff2"
+  },
+  "/docs/tutorials/node-installation": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-node-installation-0-f-2-456"
+  },
+  "/docs/visual-resources": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-visual-resources-7-e-8-756"
+  },
+  "/docs/web-app-boilerplate": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-web-app-boilerplate-0-bb-f96"
+  }
+}

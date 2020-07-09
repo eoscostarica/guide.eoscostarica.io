@@ -1,0 +1,20 @@
+{
+  "id": "community-resources/eos-podcasts",
+  "isDocsHomePage": false,
+  "title": "EOS Podcasts",
+  "description": "EOSIO",
+  "source": "@site/docs\\community-resources\\eos-podcasts.md",
+  "permalink": "/docs/community-resources/eos-podcasts",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "EOS Podcasts",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Blog Posts",
+    "permalink": "/docs/community-resources/blog-posts"
+  },
+  "next": {
+    "title": "EOSIO based Blockchain Networks",
+    "permalink": "/docs/community-resources/eosio-networks"
+  }
+}

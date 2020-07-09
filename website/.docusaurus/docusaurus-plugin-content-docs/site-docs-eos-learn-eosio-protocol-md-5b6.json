@@ -1,0 +1,20 @@
+{
+  "id": "eos-learn/eosio-protocol",
+  "isDocsHomePage": false,
+  "title": "EOSIO Protocol",
+  "description": "Protocol",
+  "source": "@site/docs\\eos-learn\\eosio-protocol.md",
+  "permalink": "/docs/eos-learn/eosio-protocol",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "EOSIO Protocol",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Visual Resources",
+    "permalink": "/docs/visual-resources"
+  },
+  "next": {
+    "title": "Consensus Mechanism",
+    "permalink": "/docs/eos-learn/consensus-mechanism"
+  }
+}
