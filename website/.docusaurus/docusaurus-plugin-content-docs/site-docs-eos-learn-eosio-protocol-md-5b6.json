@@ -2,7 +2,7 @@
   "id": "eos-learn/eosio-protocol",
   "isDocsHomePage": false,
   "title": "EOSIO Protocol",
-  "description": "Protocol",
+  "description": "EOSIO is open-source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can run highly performant blockchain applications. EOSIO was created in 2018 and is maintained by Block One. The first public network launched on EOSIO is called EOS, also referred as \"mainnet\". EOS is however just one of multiple public blockchain networks currently using EOSIO. Take a look at the following EOSIO network list. There are also multiple private networks currently using EOSIO.",
   "source": "@site/docs\\eos-learn\\eosio-protocol.md",
   "permalink": "/docs/eos-learn/eosio-protocol",
   "lastUpdatedBy": "Author",

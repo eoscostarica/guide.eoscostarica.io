@@ -2,7 +2,7 @@
   "id": "eos-learn/important-functions",
   "isDocsHomePage": false,
   "title": "Important Functions in EOSIO",
-  "description": "This account has unlimited access to CPU, NET, and RAM resources. An account consisting of the permitting committee representing the highest authority of the network will be set.",
+  "description": "This account has unlimited access to CPU, NET, and RAM resources  representing the highest authority of the network which can execute priviledged functions.",
   "source": "@site/docs\\eos-learn\\important-functions.md",
   "permalink": "/docs/eos-learn/important-functions",
   "lastUpdatedBy": "Author",

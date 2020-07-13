@@ -2,7 +2,7 @@
   "id": "eos-learn/consensus-mechanism",
   "isDocsHomePage": false,
   "title": "Consensus Mechanism",
-  "description": "Consensus Mechanism",
+  "description": "A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.",
   "source": "@site/docs\\eos-learn\\consensus-mechanism.md",
   "permalink": "/docs/eos-learn/consensus-mechanism",
   "lastUpdatedBy": "Author",
