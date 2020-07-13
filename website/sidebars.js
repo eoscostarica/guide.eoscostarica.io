@@ -47,11 +47,10 @@ module.exports = {
       type: 'category',
       label: 'Tools',
       items: [
-        'tutorials/getting-started',
-        'tutorials/node-installation',
-        'tutorials/hello-world-contract',
-        'tutorials/modern-cpp',
-        'tutorials/git-workflow-tutorial'
+        'tools/block-explorers',
+        'tools/command-line',
+        'tools/eosio-sdk-libraries',
+        'tools/glossary'
       ],
     },
     {

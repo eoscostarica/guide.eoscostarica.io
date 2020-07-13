@@ -21,10 +21,6 @@ https://eosq.app/
 
 https://eosflare.io/
 
-## EOS Hub
-
-https://eoshub.io/
-
 ## EOS Network Monitor
 
 https://eosnetworkmonitor.io/
@@ -37,25 +33,9 @@ https://eostracker.io/
 
 https://eospark.com/
 
-## Vote Tracker
-
-https://votetracker.io/
-
 ## EOSDAC Explorer
 
 https://explorer.eosdac.io
-
-## EOS Web
-
-https://eosweb.net/
-
-## Cypherblock
-
-https://www.cypherblock.io/
-
-## EOS Tree
-
-https://eostree.io/
 
 ## EOS Radar
 
@@ -68,7 +48,3 @@ https://glass.cypherglass.com/map/main/top50
 ## Telos Network Monitor
 
 https://monitor.telosfoundation.io/
-
-## Worbli Network Monitor
-
-[Worbli network](https://worbli.io/network/)
