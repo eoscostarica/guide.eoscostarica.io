@@ -1,0 +1,89 @@
+/**
+ * You can override the default Infima variables here.
+ * Note: this is not a complete list of --ifm- variables.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+:root {
+  --ifm-color-primary: #3EBBD3;
+    --ifm-color-primary-dark: #212121;
+    --ifm-color-primary-darker: #424242;
+    --ifm-color-primary-darkest: #757575;
+    --ifm-color-primary-light: #5ECFE2;
+    --ifm-color-primary-lighter: #88DDEB;
+    --ifm-color-primary-lightest: #B6EBF3;
+}
+body {
+font-family: 'PT Sans', sans-serif;
+}
+h1{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 101.4px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.5px;
+  }
+h2{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 63.4px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+  }
+  h3{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 50.7px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  h4{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 35.9px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+  }
+  h5{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 25.4px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  h6{
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 21.1px;*/
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+  }
+  button {
+    font-family: 'PT Sans', sans-serif;
+    /*font-size: 14.8px;*/
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: 1.25px;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: 0.5px;
+  }

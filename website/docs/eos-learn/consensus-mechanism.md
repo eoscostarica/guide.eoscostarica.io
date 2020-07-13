@@ -4,8 +4,6 @@ title: Consensus Mechanism
 sidebar_label: Consensus Mechanism
 ---
 
-## Consensus Mechanism
-
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
 
 EOSIO will delegate the the authority to validate and write new blocks to a group of nodes that we call **Block Producers**.
@@ -20,20 +18,6 @@ Block producers provide the infrastructure required to process transactions. Som
   <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
-### Proof of Authority (POA)
-
-The group of block producers have the authority to write to the blockchain because this privilege was granted by a higher authority, the **permisioning committee**, who will be the maximum authority and who determines which nodes will be the block producing nodes.
-
-### Permisioning Committee
-
-The authority of the permisioning committee can be derived from a set of actors through multi-signature [`multisig`](https://developers.eos.io/manuals/eosjs/v21.0/how-to-guides/how-to-propose-a-multisig-transaction#gatsby-focus-wrapper) approvals so that the group's consensus is required by way of a simple majority, that is, the votes gathered sum 1/2 +1 of the actors.
-
-One of the main functions of the permisioning committee is to evaluate the entities that want to register as block producers.
-
->Any entity that meets a minimum of technical and legal requirements can apply to be a block producer
-
-Eventually there will be a legal vehicle, who verifies identity and signs contracts with block producers.
 
 ### Active Blocks Producers
 
@@ -73,23 +57,7 @@ It is also important that private keys used by production nodes are properly bac
 
 ### Stand-By Block Producers
 
-EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers by the permisioning committee.
-
-### Block Producer Rotation
-
-The periodic rotation of active block producing nodes in the schedule favors decentralization. For this reason, the permisioning committee will have a [network management tool](https://latamlink.io/docs/network-governance) that allows selecting the block producers that it wants to include or exclude in the schedule.
-
->For example: You can define a weekly active node rotation policy.
-
-Later on, periodic and automatic rotation based on smart contracts will be enabled. In such a way that it is impossible to predict who are the producers of selected active blocks. (external entropy)
-
-### Replacement of an active Block Producer
-
-If a node on the schedule stops responding. The permisioning committee may manually replace block producers with performance or security issues.
-
-Eventually, a smart contract may be implemented to replace a block producer's account in the schedule automatically based on objective performance metrics.
-
-### Custom EOSIO system contracts
+EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers.
 
 ## Delegated Proof of Stake (DPoS)
 
@@ -101,9 +69,8 @@ A consensus algorithm is a process in Computer Science used to achieve agreement
 
 Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blokchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
 
+EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake -(DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
 
-EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Proof of Delegated Participation**(Delegated Proof of Stake - DPOS). Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
-
- - [DPOS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
- - [BitShares DPOS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)
+ - [DPoS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+ - [BitShares DPoS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)
 
