@@ -57,6 +57,24 @@ sidebar_label: EOS Blockchain
   </iframe>
 </figure>
 
+### EOS explained by Dan Larimer   
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Introduction to EOS
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Internal economy
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 <br/>
 <p style={{ align: "center" }}>
   <img src="/img/eos-blockchain/eos-application-stack.png" width="100%" />
