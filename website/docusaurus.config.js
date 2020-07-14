@@ -15,7 +15,7 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   //cname: "guide.eoscostarica.io",
   // Used for publishing and more
-  projectName: 'guias.eoscostarica.io',
+  projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
@@ -106,8 +106,8 @@ const siteConfig = {
     },
     //Algolia integration
     algolia: {
-      apiKey: 'bc2a776159634dff6c77c849d8b80dc1',
-      indexName: 'eoscostarica_guias',
+      apiKey: 'b385fd20b79dbd8086bb917c038de56e',
+      indexName: 'eoscostarica',
       placeholder: 'Search',
       algoliaOptions: {} // Optional, if provided by Algolia
     },
