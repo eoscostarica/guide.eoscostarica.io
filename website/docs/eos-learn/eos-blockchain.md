@@ -39,11 +39,9 @@ sidebar_label: EOS Blockchain
   <br />
 </p>
 
-
 ## EOS Storage
 
 [EOS.IO Storage White Paper](https://steemit.com/eos/@eosio/eos-io-storage-white-paper-now-available)
-
 
 <figure className="video_container">
   <iframe
