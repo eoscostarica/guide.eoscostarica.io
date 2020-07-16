@@ -88,7 +88,7 @@ const siteConfig = {
           title: 'Más',
           items: [
             {
-              label: 'LinnkedIn',
+              label: 'Linkedin',
               href: 'https://www.linkedin.com/company/eoscostarica/',
             },
             {
