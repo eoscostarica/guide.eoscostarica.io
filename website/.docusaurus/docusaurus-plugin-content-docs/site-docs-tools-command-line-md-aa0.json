@@ -7,5 +7,14 @@
   "permalink": "/docs/tools/command-line",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
-  "sidebar_label": "Command Line"
+  "sidebar_label": "Command Line",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Block Explorers",
+    "permalink": "/docs/tools/block-explorers"
+  },
+  "next": {
+    "title": "EOSIO SDK Libraries",
+    "permalink": "/docs/tools/eosio-sdk-libraries"
+  }
 }

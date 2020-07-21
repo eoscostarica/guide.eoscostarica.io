@@ -112,6 +112,11 @@
             "type": "link",
             "label": "Smart Contracts",
             "href": "/docs/eos-learn/smart-contract"
+          },
+          {
+            "type": "link",
+            "label": "Ricardian contracts",
+            "href": "/docs/eos-learn/ricardian-contracts"
           }
         ]
       },
@@ -154,28 +159,23 @@
         "items": [
           {
             "type": "link",
-            "label": "Getting Started",
-            "href": "/docs/tutorials/getting-started"
+            "label": "Block Explorers",
+            "href": "/docs/tools/block-explorers"
           },
           {
             "type": "link",
-            "label": "Node Installation",
-            "href": "/docs/tutorials/node-installation"
+            "label": "Command Line",
+            "href": "/docs/tools/command-line"
           },
           {
             "type": "link",
-            "label": "Hello World Contract",
-            "href": "/docs/tutorials/hello-world-contract"
+            "label": "EOSIO SDK Libraries",
+            "href": "/docs/tools/eosio-sdk-libraries"
           },
           {
             "type": "link",
-            "label": "Modern C++",
-            "href": "/docs/tutorials/modern-cpp"
-          },
-          {
-            "type": "link",
-            "label": "Git workflow Tutorial",
-            "href": "/docs/tutorials/git-workflow-tutorial"
+            "label": "Glossary",
+            "href": "/docs/tools/glossary"
           }
         ]
       },
@@ -184,6 +184,11 @@
         "type": "category",
         "label": "Community Resources",
         "items": [
+          {
+            "type": "link",
+            "label": "Social Media Guidelines",
+            "href": "/docs/community-resources/social-media-guidelines"
+          },
           {
             "type": "link",
             "label": "Telegram Channels",
@@ -214,6 +219,7 @@
     "/docs/community-resources/blog-posts": "docs",
     "/docs/community-resources/eos-podcasts": "docs",
     "/docs/community-resources/eosio-networks": "docs",
+    "/docs/community-resources/social-media-guidelines": "docs",
     "/docs/community-resources/telegram-channels": "docs",
     "/docs/developer-tools": "docs",
     "/docs/engineering-culture": "docs",
@@ -226,11 +232,16 @@
     "/docs/eos-learn/eosio-protocol": "docs",
     "/docs/eos-learn/important-functions": "docs",
     "/docs/eos-learn/private-keys": "docs",
+    "/docs/eos-learn/ricardian-contracts": "docs",
     "/docs/eos-learn/smart-contract": "docs",
     "/docs/eos-learn/system-resources": "docs",
     "/docs/material-ui": "docs",
     "/docs/open-source-guidelines": "docs",
     "/docs/open-source-projects": "docs",
+    "/docs/tools/block-explorers": "docs",
+    "/docs/tools/command-line": "docs",
+    "/docs/tools/eosio-sdk-libraries": "docs",
+    "/docs/tools/glossary": "docs",
     "/docs/tutorials/getting-started": "docs",
     "/docs/tutorials/git-workflow-tutorial": "docs",
     "/docs/tutorials/hello-world-contract": "docs",

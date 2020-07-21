@@ -7,5 +7,14 @@
   "permalink": "/docs/tools/eosio-sdk-libraries",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
-  "sidebar_label": "EOSIO SDK Libraries"
+  "sidebar_label": "EOSIO SDK Libraries",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Command Line Interface",
+    "permalink": "/docs/tools/command-line"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/tools/glossary"
+  }
 }

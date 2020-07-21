@@ -58,6 +58,7 @@ module.exports = {
       type: 'category',
       label: 'Community Resources',
       items: [
+        'community-resources/social-media-guidelines',
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',

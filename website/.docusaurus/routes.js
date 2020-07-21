@@ -58,6 +58,12 @@ export default [
   
 },
 {
+  path: '/docs/community-resources/social-media-guidelines',
+  component: ComponentCreator('/docs/community-resources/social-media-guidelines'),
+  exact: true,
+  
+},
+{
   path: '/docs/community-resources/telegram-channels',
   component: ComponentCreator('/docs/community-resources/telegram-channels'),
   exact: true,
@@ -126,6 +132,12 @@ export default [
 {
   path: '/docs/eos-learn/private-keys',
   component: ComponentCreator('/docs/eos-learn/private-keys'),
+  exact: true,
+  
+},
+{
+  path: '/docs/eos-learn/ricardian-contracts',
+  component: ComponentCreator('/docs/eos-learn/ricardian-contracts'),
   exact: true,
   
 },

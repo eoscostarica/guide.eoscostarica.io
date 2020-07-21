@@ -9,8 +9,10 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Developer Guidelines', // Title for your website.
-  tagline: 'EOS Costa Rica Developer Documentation',
+  title: 'EOS Costa Rica Developers Guide', // Title for your website.
+  tagline: 'We’d like to welcome you to our collaborative effort '+
+           'and induct you on to awesome blockchain technology ' +
+           'and all the paradigms that make it possible.',
   url: 'https://guide.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   //cname: "guide.eoscostarica.io",
@@ -45,8 +47,8 @@ const siteConfig = {
     footer: {
       logo: {
         alt: 'EOS Costa Rica Logo',
-        src: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png',
-        srcDark: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png',
+        src: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
+        srcDark: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
         href: 'https://guide.eoscostarica.io/',
       },
       links: [
@@ -68,14 +70,14 @@ const siteConfig = {
           ],
         },
         {
-          title: 'Comunidad',
+          title: 'Community',
           items: [
             {
               label: 'Meetup',
               href: 'https://www.meetup.com/es/EOS-Costa-Rica/',
             },
             {
-              label: 'Canal de Telegram',
+              label: 'Telegram channels',
               href: 'https://t.me/eoscr',
             },
             {
@@ -85,7 +87,7 @@ const siteConfig = {
           ],
         },
         {
-          title: 'Más',
+          title: 'More',
           items: [
             {
               label: 'Linkedin',
@@ -132,6 +134,19 @@ const siteConfig = {
         },
       },
     ],
+  ],
+
+  scripts: [
+    {
+      src:
+        'https://medium-widget.pixelpoint.io/widget.js',
+      async: true,
+    },
+    {
+      src:
+        '../../static/scripts/mediumScript.js',
+      async: true,
+    },
   ]
 };
 module.exports = siteConfig;
