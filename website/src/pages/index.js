@@ -17,8 +17,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
-
-
 const lightTheme = makeStyles({
   heroButton:{
     width: 131,
@@ -136,14 +134,12 @@ const HeroSection  = () => {
           <p className="intro-text">We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.</p>
         </div>
         <div className="buttons-intro-container">
-          <Button className={classes.heroButton} href="/docs/cultura-ingenieril">DOCUMENTS</Button> 
+          <Button className={classes.heroButton} href="/docs/engineering-culture">GET STARTED</Button> 
         </div>
       </div>
     </div>
   );
 }
-
-
 
 const CustomCard= (props) =>{
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
@@ -175,7 +171,7 @@ const CustomCard= (props) =>{
 const CardsSection = () =>{
   return (
     <div className="container section-container">
-      <h1 className="section-tittle">Get Started Right Away</h1>
+      <h1 className="section-tittle">Follow to our sections</h1>
       <Grid
         container
         direction="row"
@@ -261,7 +257,7 @@ const CustomArticle= (props) =>{
 const MediumSection = () =>{
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Medium Articles</h1>
+       <h1 className="section-tittle">Read our Medium articles</h1>
        <Grid
         container
         direction="row"

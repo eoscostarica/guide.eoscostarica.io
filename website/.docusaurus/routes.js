@@ -130,6 +130,12 @@ export default [
   
 },
 {
+  path: '/docs/eos-learn/ricardian-contracts',
+  component: ComponentCreator('/docs/eos-learn/ricardian-contracts'),
+  exact: true,
+  
+},
+{
   path: '/docs/eos-learn/smart-contract',
   component: ComponentCreator('/docs/eos-learn/smart-contract'),
   exact: true,
