@@ -1,25 +1,23 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
-import '../css/homepage.css';
-
+import useThemeContext from '@theme/hooks/useThemeContext';
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Card } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
-
+import '../css/homepage.css';
 
 const lightTheme = makeStyles({
+
   heroButton:{
     width: 131,
     height: 50,
@@ -71,6 +69,7 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
+
   card:{
     backgroundColor: '#242526'
   },
@@ -114,14 +113,15 @@ const DarkTheme = makeStyles({
 });
 
 const HeroSection  = () => {
+
   const images = ["https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/heroe.png"];
   const background = images[Math.floor(Math.random() * images.length)];
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
+
   if(!isDarkTheme){
      classes = lightTheme();
-  }
-  else{
+  }else{
      classes = DarkTheme();
   }
   return(  
@@ -136,22 +136,22 @@ const HeroSection  = () => {
           <p className="intro-text">We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.</p>
         </div>
         <div className="buttons-intro-container">
-          <Button className={classes.heroButton} href="/docs/cultura-ingenieril">DOCUMENTS</Button> 
+          <Button className={classes.heroButton} href="/docs/engineering-culture">GET STARTED</Button> 
         </div>
       </div>
     </div>
   );
 }
 
+const CustomCard= (props) => {
 
-
-const CustomCard= (props) =>{
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
+  
   let classes=null;
+
   if(!isDarkTheme){
      classes = lightTheme();
-  }
-  else{
+  }else{
      classes = DarkTheme();
   }
   
@@ -172,10 +172,11 @@ const CustomCard= (props) =>{
   );
 }
 
-const CardsSection = () =>{
+const CardsSection = () => {
+
   return (
     <div className="container section-container">
-      <h1 className="section-tittle">Get Started Right Away</h1>
+      <h1 className="section-tittle">Follow to our sections</h1>
       <Grid
         container
         direction="row"
@@ -195,7 +196,7 @@ const CardsSection = () =>{
           title="Learn EOSIO"
           body= "Set of information necessary to learn about the EOSIO protocol."
           href= "/docs/eos-learn/eosio-protocol"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/learneosio.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/website/static/img/icons-eosio.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
@@ -223,20 +224,22 @@ const CardsSection = () =>{
           title="Open source projects"
           body= "List of open source projects that we carry out."
           href= "docs/open-source-projects"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/guidelines.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/website/static/img/icons-opensource.svg"></CustomCard>
       </Grid>
     </Grid>
     </div>    
   );
 }
 
-const CustomArticle= (props) =>{
+const CustomArticle= (props) => {
+
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
+
   let classes=null;
+
   if(!isDarkTheme){
      classes = lightTheme();
-  }
-  else{
+  }else{
      classes = DarkTheme();
   }
   
@@ -258,10 +261,11 @@ const CustomArticle= (props) =>{
   );
 }
 
-const MediumSection = () =>{
+const MediumSection = () => {
+
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Medium Articles</h1>
+       <h1 className="section-tittle">Read our Medium articles</h1>
        <Grid
         container
         direction="row"
@@ -296,7 +300,9 @@ const MediumSection = () =>{
 }
 
 const HomePage = () => {
+
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
       permalink="/"
