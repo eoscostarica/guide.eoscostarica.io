@@ -33,8 +33,8 @@ export default {
     "footer": {
       "logo": {
         "alt": "EOS Costa Rica Logo",
-        "src": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
-        "srcDark": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png",
+        "src": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
+        "srcDark": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
         "href": "https://guide.eoscostarica.io/"
       },
       "links": [
@@ -56,14 +56,14 @@ export default {
           ]
         },
         {
-          "title": "Comunidad",
+          "title": "Community",
           "items": [
             {
               "label": "Meetup",
               "href": "https://www.meetup.com/es/EOS-Costa-Rica/"
             },
             {
-              "label": "Canal de Telegram",
+              "label": "Telegram channels",
               "href": "https://t.me/eoscr"
             },
             {
@@ -73,10 +73,10 @@ export default {
           ]
         },
         {
-          "title": "Más",
+          "title": "More",
           "items": [
             {
-              "label": "LinnkedIn",
+              "label": "Linkedin",
               "href": "https://www.linkedin.com/company/eoscostarica/"
             },
             {
@@ -93,8 +93,8 @@ export default {
       "copyright": "Copyright © 2020 EOS Costa Rica"
     },
     "algolia": {
-      "apiKey": "bc2a776159634dff6c77c849d8b80dc1",
-      "indexName": "eoscostarica_guias",
+      "apiKey": "b385fd20b79dbd8086bb917c038de56e",
+      "indexName": "eoscostarica",
       "placeholder": "Search",
       "algoliaOptions": {}
     },
@@ -102,11 +102,11 @@ export default {
       "trackingID": "UA-173987-66"
     }
   },
-  "title": "Developer Guidelines",
-  "tagline": "EOS Costa Rica Developer Documentation",
+  "title": "EOS Costa Rica Developers Guide",
+  "tagline": "We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.",
   "url": "https://guide.eoscostarica.io",
   "baseUrl": "/",
-  "projectName": "guias.eoscostarica.io",
+  "projectName": "guide.eoscostarica.io",
   "organizationName": "eoscostarica",
   "favicon": "img/favicon/favicon.ico",
   "presets": [
@@ -115,12 +115,12 @@ export default {
       {
         "docs": {
           "path": "./docs",
-          "sidebarPath": "C:\\Users\\Angelo CG\\Desktop\\migracion guide.eoscostarica.io\\guide.eoscostarica.io\\website\\sidebars.js",
+          "sidebarPath": "C:\\Users\\Angelo CG\\Desktop\\guide.eoscostarica.io\\website\\sidebars.js",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true
         },
         "theme": {
-          "customCss": "C:\\Users\\Angelo CG\\Desktop\\migracion guide.eoscostarica.io\\guide.eoscostarica.io\\website\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\Angelo CG\\Desktop\\guide.eoscostarica.io\\website\\src\\css\\custom.css"
         }
       }
     ]

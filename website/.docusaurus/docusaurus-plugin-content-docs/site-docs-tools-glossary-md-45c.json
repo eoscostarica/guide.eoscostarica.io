@@ -7,5 +7,14 @@
   "permalink": "/docs/tools/glossary",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
-  "sidebar_label": "Glossary"
+  "sidebar_label": "Glossary",
+  "sidebar": "docs",
+  "previous": {
+    "title": "EOSIO SDK Libraries",
+    "permalink": "/docs/tools/eosio-sdk-libraries"
+  },
+  "next": {
+    "title": "Telegram Channels",
+    "permalink": "/docs/community-resources/telegram-channels"
+  }
 }
