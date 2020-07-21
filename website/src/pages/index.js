@@ -191,7 +191,7 @@ const CardsSection = () =>{
           title="Learn EOSIO"
           body= "Set of information necessary to learn about the EOSIO protocol."
           href= "/docs/eos-learn/eosio-protocol"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/learneosio.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/website/static/img/icons-eosio.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
