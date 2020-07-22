@@ -21,6 +21,8 @@ Continuous communication and frequent one-on-one calls as well as pair programmi
 
 To accomplish these goals we leverage a set of technologies explained in the following videos:
 
+* * *
+
 ## Introduction to Infrastructure as Code ( IAC )
 
 
@@ -29,12 +31,16 @@ To accomplish these goals we leverage a set of technologies explained in the fol
   </iframe>
 </figure>
 
+* * *
+
 ## What is a Container?
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/53X-EnJ7qX9fkcU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
+
+* * *
 
 ## Containers 101
 
@@ -46,12 +52,16 @@ To accomplish these goals we leverage a set of technologies explained in the fol
 Watch the full intro to containers playlist here   
 https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0H
 
+* * *
+
 ## What is Docker?
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
+
+* * *
 
 ## Kubernetes in 5 mins
 
@@ -60,6 +70,8 @@ https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0
   </iframe>
 </figure>
 
+* * *
+
 ## Kubernetes vs. Docker: It's Not an Either/Or Question
 
 <figure class="video_container">
@@ -67,12 +79,16 @@ https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0
   </iframe>
 </figure>
 
+* * *
+
 ## Introduction to Terraform ( Infrastructure as Code )
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
+
+* * *
 
 ## Introduction to HashiCorp Terraform with Armon Dadgar
 

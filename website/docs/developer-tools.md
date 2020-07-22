@@ -4,7 +4,7 @@ title: Our Favorite Tools
 sidebar_label: Our Favorite Tools
 ---
 
-## **EOSIO**
+## EOSIO
 
 EOSIO is a blockchain designed to facilitate the operation of decentralized applications (dapp).
 
@@ -12,7 +12,7 @@ https://github.com/EOSIO
 
 * * * 
 
-## **jq**
+## jq
 
 A lightweight and flexible command-line JSON processor.
 
@@ -36,7 +36,7 @@ https://github.com/hapijs/hapi
 
 * * *
 
-## **Hasura**
+## Hasura
 
 Hasura's GraphQL engine is an ultrafast GraphQL server that gives you real-time, snapshot GraphQL APIs over Postgres, with webhook triggers on database events and remote schemas for business logic.
 
@@ -44,7 +44,7 @@ https://github.com/hasura
 
 * * *
 
-## **httpie**
+## httpie
 
 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.
 
@@ -52,7 +52,7 @@ https://github.com/jakubroztocil/httpie
 
 * * * 
 
-## **PostgresDB**
+## PostgresDB
 
 PostgreSQL is a powerful open source object relational database system that uses and extends the SQL language combined with many features that securely store and scale the most complicated data workloads.
 
@@ -60,7 +60,7 @@ https://github.com/postgres/postgres
 
 * * *
 
-## **PostMan**
+## PostMan
 
 It enables developers to test calls to APIs. Postman users enter data. The data is sent to a special web server address. Typically, information is returned, which Postman presents to the user.
 
