@@ -278,7 +278,7 @@ const MediumSection = () => {
       <Grid item xs={12} sm={12} md={4}>
         <CustomArticle 
           title="You Should Participate in an Open-Source Project"
-          body= "We explain what the EOSIO blockchain protocol consists of."
+          body= "We show some important aspects for which it should be dealt with in open source projects."
           href= "https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41"
           img="https://miro.medium.com/max/875/1*_eTme4t7HJfE7aeeyd3kxQ.jpeg"></CustomArticle>
       </Grid>

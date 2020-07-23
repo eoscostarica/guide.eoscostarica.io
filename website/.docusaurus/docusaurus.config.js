@@ -33,8 +33,8 @@ export default {
     "footer": {
       "logo": {
         "alt": "EOS Costa Rica Logo",
-        "src": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
-        "srcDark": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
+        "src": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
+        "srcDark": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png",
         "href": "https://guide.eoscostarica.io/"
       },
       "links": [
