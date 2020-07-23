@@ -134,6 +134,19 @@ const siteConfig = {
         },
       },
     ],
+  ],
+
+  scripts: [
+    {
+      src:
+        'https://medium-widget.pixelpoint.io/widget.js',
+      async: true,
+    },
+    {
+      src:
+        '../../static/scripts/mediumScript.js',
+      async: true,
+    },
   ]
 };
 module.exports = siteConfig;
