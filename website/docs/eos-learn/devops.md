@@ -14,11 +14,11 @@ Continuous communication and frequent one-on-one calls as well as pair programmi
 
 ## EOS Costa Rica Infrastructure as Code (IaC)
 
-# Openstack documentation
+* Openstack documentation
 
 https://github.com/edenia/openstack-docs
 
-# Kubernetes documentation
+* Kubernetes documentation
 
 https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
@@ -31,7 +31,7 @@ https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
 To accomplish these goals we leverage a set of technologies explained in the following videos:
 
-## Introduction to Infrastructure as Code ( IAC )
+## Introduction to Infrastructure as Code
 
 
 <figure class="video_container">
