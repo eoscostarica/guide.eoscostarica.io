@@ -12,6 +12,16 @@ Continuous integration allows us to detect problems early reducing costs and hel
 
 Continuous communication and frequent one-on-one calls as well as pair programming are essential part of our day to day work.
 
+## EOS Costa Rica Infrastructure as Code (IaC)
+
+# Openstack documentation
+
+https://github.com/edenia/openstack-docs
+
+# Kubernetes documentation
+
+https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
+
 ## Understanding DevOps
 
 <figure class="video_container">
