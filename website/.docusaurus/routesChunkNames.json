@@ -6,7 +6,7 @@
     "component": "component---theme-debugd-45-c28"
   },
   "/search": {
-    "component": "component---c-users-angelo-cg-desktop-migracion-guide-eoscostarica-io-guide-eoscostarica-io-website-node-modules-docusaurus-theme-search-algolia-src-pages-search-index-js-8-ca-0e1"
+    "component": "component---c-users-angelo-cg-desktop-guide-eoscostarica-io-website-node-modules-docusaurus-theme-search-algolia-src-pages-search-index-js-8-e-1-c09"
   },
   "/docs": {
     "component": "component---theme-doc-page-1-be-9be",
@@ -79,6 +79,10 @@
   "/docs/eos-learn/private-keys": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-eos-learn-private-keys-5-d-3-ccc"
+  },
+  "/docs/eos-learn/ricardian-contracts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-eos-learn-ricardian-contracts-9-a-0-a56"
   },
   "/docs/eos-learn/smart-contract": {
     "component": "component---theme-doc-item-178-a40",

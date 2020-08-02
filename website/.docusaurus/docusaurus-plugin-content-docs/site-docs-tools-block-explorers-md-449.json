@@ -7,5 +7,14 @@
   "permalink": "/docs/tools/block-explorers",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
-  "sidebar_label": "Block Explorers"
+  "sidebar_label": "Block Explorers",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Git workflow Tutorial",
+    "permalink": "/docs/tutorials/git-workflow-tutorial"
+  },
+  "next": {
+    "title": "Command Line Interface",
+    "permalink": "/docs/tools/command-line"
+  }
 }
