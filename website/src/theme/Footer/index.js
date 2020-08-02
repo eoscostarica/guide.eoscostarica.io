@@ -57,57 +57,62 @@ function Footer() {
       className={clsx('footer', {
         'footer--dark': footer.style === 'dark',
       })}>
-      <div className="container">
-        {links && links.length > 0 && (
-          <div className="row footer__links">
-            {links.map((linkItem, i) => (
-              <div key={i} className="col footer__col">
-                {linkItem.title != null ? (
-                  <h4 className="footer__title">{linkItem.title}</h4>
-                ) : null}
-                {linkItem.items != null &&
-                Array.isArray(linkItem.items) &&
-                linkItem.items.length > 0 ? (
-                  <ul className="footer__items">
-                    {linkItem.items.map((item, key) =>
-                      item.html ? (
-                        <li
-                          key={key}
-                          className="footer__item"
-                          dangerouslySetInnerHTML={{
-                            __html: item.html,
-                          }}
-                        />
-                      ) : (
-                        <li key={item.href || item.to} className="footer__item">
-                          <FooterLink {...item} />
-                        </li>
-                      ),
+      <div className="Rectangle-Footer">
+        <div className = "Footer-content">
+          <div className="Div-Image-Footer">
+                {logo && logo.src && (
+                  <div className="margin-bottom--sm">
+                    {logo.href ? (
+                      <a
+                        href={logo.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.footerLogoLink}>
+                        <FooterLogo alt={logo.alt} url={logoUrl} />
+                      </a>
+                    ) : (
+                      <FooterLogo alt={logo.alt} url={logoUrl} />
                     )}
-                  </ul>
-                ) : null}
-              </div>
-            ))}
-          </div>
-        )}
-        {(logo || copyright) && (
-          <div className="text--center">
-            {logo && logo.src && (
-              <div className="margin-bottom--sm">
-                {logo.href ? (
-                  <a
-                    href={logo.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.footerLogoLink}>
-                    <FooterLogo alt={logo.alt} url={logoUrl} />
-                  </a>
-                ) : (
-                  <FooterLogo alt={logo.alt} url={logoUrl} />
+                  </div>
                 )}
-              </div>
-            )}
+          </div>
 
+          {links && links.length > 0 && (
+            <div className="row footer__links Link-footer">
+              {links.map((linkItem, i) => (
+                <div key={i} className="col footer__col">
+                  {linkItem.title != null ? (
+                    <h4 className="footer__title white-text">{linkItem.title}</h4>
+                  ) : null}
+                  {linkItem.items != null &&
+                  Array.isArray(linkItem.items) &&
+                  linkItem.items.length > 0 ? (
+                    <ul className="footer__items white-text">
+                      {linkItem.items.map((item, key) =>
+                        item.html ? (
+                          <li
+                            key={key}
+                            className="footer__items white-text"
+                            dangerouslySetInnerHTML={{
+                              __html: item.html,
+                            }}
+                          />
+                        ) : (
+                          <li key={item.href || item.to} className="footer__items white-text">
+                            <FooterLink {...item} />
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          )}
+
+        </div>      
+        {(logo || copyright) && (
+          <div className="text--center white-text">
             <div
               dangerouslySetInnerHTML={{
                 __html: copyright,

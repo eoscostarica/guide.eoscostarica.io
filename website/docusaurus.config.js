@@ -47,8 +47,8 @@ const siteConfig = {
     footer: {
       logo: {
         alt: 'EOS Costa Rica Logo',
-        src: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png',
-        srcDark: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png',
+        src: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
+        srcDark: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
         href: 'https://guide.eoscostarica.io/',
       },
       links: [
@@ -116,7 +116,7 @@ const siteConfig = {
     googleAnalytics: {
       trackingID: "UA-173987-66",
     },
-  },
+  }, 
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -125,6 +125,8 @@ const siteConfig = {
           // Docs folder path relative to website dir.
           path: './docs',
           // Sidebars file relative to website dir.
+          editUrl:
+            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/website',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
