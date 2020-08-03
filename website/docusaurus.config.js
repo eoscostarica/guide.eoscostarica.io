@@ -116,7 +116,7 @@ const siteConfig = {
     googleAnalytics: {
       trackingID: "UA-173987-66",
     },
-  },
+  }, 
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -125,6 +125,8 @@ const siteConfig = {
           // Docs folder path relative to website dir.
           path: './docs',
           // Sidebars file relative to website dir.
+          editUrl:
+            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/website',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -134,6 +136,19 @@ const siteConfig = {
         },
       },
     ],
+  ],
+
+  scripts: [
+    {
+      src:
+        'https://medium-widget.pixelpoint.io/widget.js',
+      async: true,
+    },
+    {
+      src:
+        '../../static/scripts/mediumScript.js',
+      async: true,
+    },
   ]
 };
 module.exports = siteConfig;
