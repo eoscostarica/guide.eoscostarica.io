@@ -28,7 +28,7 @@ const siteConfig = {
         src: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png',
         srcDark: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png'
       },
-      links: [
+      items: [
         /*{
           href: 'https://guias.eoscostarica.io/',
           label: 'Inicio',
