@@ -69,8 +69,8 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
-
-  card:{
+  
+card:{
     backgroundColor: '#242526'
   },
   cardmedia:{

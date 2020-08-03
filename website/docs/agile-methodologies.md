@@ -12,14 +12,14 @@ These are work methodologies that allow adaptation to the circumstances of the p
 
 Some of the best known and used agile methodologies in the industry are:
 
-### Scrum
+### **Scrum**
 
 It is an agile methodology that is based on constant communication and review of the tasks performed (sprints), for each sprint the planning, quality assurance, development, quality inspection and feedback processes are carried out, this reduces the cost in the correction of errors because a sprint is terminated until the client accepts all the ** acceptance criteria **. The base values ​​of this methodology are innovation, flexibility, competitiveness and productivity.
 
-### Kanban
+### **Kanban**
 
 It consists of the elaboration of a table or diagram in which three columns of tasks are reflected; pending, in process and finished. This table should be available to all team members, thus avoiding the repetition of tasks or the possibility of forgetting any of them. Therefore, it helps to improve the productivity and efficiency of the work team. Among its objectives is to improve work planning, improve performance, define continuous delivery times.
 
-### Extreme programming (XP)
+### **Extreme programming (XP)**
 
 It is a methodology based on a set of rules and good practices for software development in highly changing environments with imprecise requirements, therefore, it is focused on continuous feedback between the development team and the client. XP is based on simplicity and aims at customer satisfaction.
