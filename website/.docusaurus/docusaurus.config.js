@@ -1,7 +1,11 @@
 export default {
-  "plugins": [],
-  "themes": [],
-  "customFields": {},
+  "title": "EOS Costa Rica Developers Guide",
+  "tagline": "We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.",
+  "url": "https://guide.eoscostarica.io",
+  "baseUrl": "/",
+  "projectName": "guide.eoscostarica.io",
+  "organizationName": "eoscostarica",
+  "favicon": "img/favicon/favicon.ico",
   "themeConfig": {
     "navbar": {
       "logo": {
@@ -9,7 +13,7 @@ export default {
         "src": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
         "srcDark": "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png"
       },
-      "links": [
+      "items": [
         {
           "to": "docs/open-source-guidelines",
           "label": "Developer Guidelines",
@@ -21,20 +25,36 @@ export default {
           "position": "left"
         },
         {
+          "to": "docs/tutorials/getting-started",
+          "label": "Tutorials",
+          "position": "left"
+        },
+        {
+          "to": "docs/tools/block-explorers",
+          "label": "Tools",
+          "position": "left"
+        },
+        {
+          "to": "docs/community-resources/telegram-channels",
+          "label": "Community",
+          "position": "left"
+        },
+        {
           "href": "https://guias.eoscostarica.io/",
           "label": "Español",
           "position": "right"
         },
         {
-          "to": "search"
+          "to": "search",
+          "position": "left"
         }
-      ]
+      ],
+      "hideOnScroll": false
     },
     "footer": {
       "logo": {
         "alt": "EOS Costa Rica Logo",
         "src": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
-        "srcDark": "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png",
         "href": "https://guide.eoscostarica.io/"
       },
       "links": [
@@ -90,37 +110,44 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2020 EOS Costa Rica"
+      "copyright": "Copyright © 2020 EOS Costa Rica",
+      "style": "light"
     },
     "algolia": {
       "apiKey": "b385fd20b79dbd8086bb917c038de56e",
       "indexName": "eoscostarica",
       "placeholder": "Search",
-      "algoliaOptions": {}
+      "algoliaOptions": {},
+      "appId": "BH4D9OD16A"
     },
     "googleAnalytics": {
       "trackingID": "UA-173987-66"
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false,
+      "switchConfig": {
+        "darkIcon": "🌜",
+        "darkIconStyle": {},
+        "lightIcon": "🌞",
+        "lightIconStyle": {}
+      }
     }
   },
-  "title": "EOS Costa Rica Developers Guide",
-  "tagline": "We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.",
-  "url": "https://guide.eoscostarica.io",
-  "baseUrl": "/",
-  "projectName": "guide.eoscostarica.io",
-  "organizationName": "eoscostarica",
-  "favicon": "img/favicon/favicon.ico",
   "presets": [
     [
       "@docusaurus/preset-classic",
       {
         "docs": {
           "path": "./docs",
-          "sidebarPath": "C:\\Users\\Angelo CG\\Desktop\\guide.eoscostarica.io\\website\\sidebars.js",
+          "editUrl": "https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/website",
+          "sidebarPath": "/Users/rodrigofernandez/dev/guide.eoscostarica.io/website/sidebars.js",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true
         },
         "theme": {
-          "customCss": "C:\\Users\\Angelo CG\\Desktop\\guide.eoscostarica.io\\website\\src\\css\\custom.css"
+          "customCss": "/Users/rodrigofernandez/dev/guide.eoscostarica.io/website/src/css/custom.css"
         }
       }
     ]
@@ -134,5 +161,10 @@ export default {
       "src": "../../static/scripts/mediumScript.js",
       "async": true
     }
-  ]
+  ],
+  "onBrokenLinks": "throw",
+  "onDuplicateRoutes": "warn",
+  "customFields": {},
+  "plugins": [],
+  "themes": []
 };

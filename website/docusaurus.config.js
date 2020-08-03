@@ -34,8 +34,11 @@ const siteConfig = {
           label: 'Inicio',
           position: 'left',
         },*/
-        {to: 'docs/open-source-guidelines', label: 'Developer Guidelines', position: 'left'},
+          {to: 'docs/open-source-guidelines', label: 'Developer Guidelines', position: 'left'},
           {to: 'docs/eos-learn/eosio-protocol', label: 'Learn EOSIO', position: 'left'},
+          {to: 'docs/tutorials/getting-started', label: 'Tutorials', position: 'left'},
+          {to: 'docs/tools/block-explorers', label: 'Tools', position: 'left'},
+          {to: 'docs/community-resources/telegram-channels', label: 'Community', position: 'left'},
           {
             href: 'https://guias.eoscostarica.io/',
             label: 'Español',
@@ -48,7 +51,6 @@ const siteConfig = {
       logo: {
         alt: 'EOS Costa Rica Logo',
         src: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
-        srcDark: 'https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/eoscostarica-logo.png',
         href: 'https://guide.eoscostarica.io/',
       },
       links: [
