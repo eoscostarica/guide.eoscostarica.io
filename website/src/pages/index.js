@@ -69,8 +69,8 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
-
-  card:{
+  
+card:{
     backgroundColor: '#242526'
   },
   cardmedia:{
@@ -125,7 +125,7 @@ const HeroSection  = () => {
   }
   return(  
     <div className=" hero-header">
-      <img className="hero-img" src={background} />
+      <img className="hero-img" src={background} ></img>
       <div className="hero-content">
         <div className="title-container">
           <h1 className="EOS-Costa-Rica-Devel text-style-1 ">EOS Costa Rica</h1>
@@ -231,6 +231,7 @@ const CardsSection = () => {
 const CustomArticle= (props) =>{
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
+  
   if(!isDarkTheme){
      classes = lightTheme();
   }
@@ -257,9 +258,10 @@ const CustomArticle= (props) =>{
 }
 
 const MediumSection = () => {
+
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de Medium</h1>
+       <h1 className="section-tittle">Read our Medium articles</h1>
        <Grid
         container
         direction="row"
@@ -269,24 +271,24 @@ const MediumSection = () => {
       >
       <Grid item xs={12} sm={12} md={4}>
         <CustomArticle 
-          title="Conozca EOS Costa Rica"
-          body= "Conozca más sobre nuestra historia, equipo y proyectos que realizamos."
+          title="Get to Know EOS Costa Rica"
+          body= "Learn more about our history, team and projects we carry out."
           href= "https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4"
           img="https://miro.medium.com/max/700/1*x7OW2wAhH1YapNVZl_-SEA.png"></CustomArticle>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomArticle 
-          title="¿Qué es EOSIO?"
-          body= "Explicamos en qué consiste el protocolo blockchain EOSIO."
-          href= "https://medium.com/@eoscostarica/que-es-eosio-178e21ac2ebb"
-          img="https://miro.medium.com/max/700/1*Po0W5EAkJDn4LPTFytFl9A.png"></CustomArticle>
+          title="You Should Participate in an Open-Source Project"
+          body= "We show some important aspects for which it should be dealt with in open source projects."
+          href= "https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41"
+          img="https://miro.medium.com/max/875/1*_eTme4t7HJfE7aeeyd3kxQ.jpeg"></CustomArticle>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomArticle 
-          title="¿Cómo funciona una blockchain?"
-          body= "Explicamos, con ejemplos, qué es y cómo funciona una blockchain."
-          href= "https://medium.com/@eoscostarica/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3"
-          img="https://miro.medium.com/max/700/1*iv_880P8jBGDlTKRwmNmfw.jpeg"></CustomArticle>
+          title="What Is Blockchain?"
+          body= "We explain, with examples, what a blockchain is and how it works."
+          href= "https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005"
+          img="https://miro.medium.com/max/875/1*ohmD1qq4dAUOu4G-gXtaqA.jpeg"></CustomArticle>
       </Grid>
     </Grid>
     </div>
@@ -294,7 +296,6 @@ const MediumSection = () => {
 }
 
 const HomePage = () => {
-
   const {siteConfig} = useDocusaurusContext();
 
   return (
