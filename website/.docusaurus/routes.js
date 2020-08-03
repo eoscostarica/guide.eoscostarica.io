@@ -58,6 +58,12 @@ export default [
   
 },
 {
+  path: '/docs/community-resources/social-media-guidelines',
+  component: ComponentCreator('/docs/community-resources/social-media-guidelines'),
+  exact: true,
+  
+},
+{
   path: '/docs/community-resources/telegram-channels',
   component: ComponentCreator('/docs/community-resources/telegram-channels'),
   exact: true,

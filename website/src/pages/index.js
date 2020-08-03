@@ -231,6 +231,7 @@ const CardsSection = () => {
 const CustomArticle= (props) =>{
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
+  
   if(!isDarkTheme){
      classes = lightTheme();
   }
