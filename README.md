@@ -5,6 +5,9 @@
 
 EOS Costa Rica Developers Documentation Site.
 
+In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
+
+
 ## Contributing
 
 We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
@@ -13,38 +16,68 @@ Contributing Guidelines  https://guide.eoscostarica.io/docs/open-source-guidelin
 
 Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues).
 
+## Quick guide
+
+### File Structure
+
+```bash
+guias.eoscostarica.io/
+├── .github
+│ ├── workflows
+│ | ├── nodejs.yml
+│ | └── services
+│ └── pull_request_template.md
+├── docs
+├── src
+│ ├── css
+│ | ├── custom.css
+│ | └── homepage.css
+│ ├── pages
+│ | └── index.js
+├── static
+│ ├── img
+│ ├── scripts
+│ └── CNAME
+├── .all-contributorsrc
+├── .gitignore
+├── docusaurus.config.JS
+├── package.json
+├── package.json
+├── yarn.lock
+└── README.md
+```
+
+### Before to start
+
+Somethings you need before getting started
+* git
+* node.js
+
 ## Instructions to run the portal locally in Windows 10
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 Follow the instructions below.
 
-1. Make sure you have a recent version of nodejs and docusaurus installed.
-
-2. Create a copy of the repository:
+1. Clone this repo
 
 ```bash
 $ git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
-``` 	
-3. Open the command line and go to the directory where the project is located
+``` 
+
+2. Move to the appropriate directory
 
 ```bash
 $ cd guide.eoscostarica.io
-``` 
-
-3. Position yourself in the projects `website` directory: 
-
-```bash
-$ cd website
 ```
 
-4. Install all dependencies:
+3. Install all dependencies:
 
 ```bash
 $ yarn install
 ```
 
-5. Run the project:
+4. Run the project:
 
 ```bash
 $ yarn start
