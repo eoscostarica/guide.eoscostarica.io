@@ -20,7 +20,7 @@ Please report bugs big and small by [opening an issue](https://github.com/eoscos
 
 ### File Structure
 
-```bash
+```sh
 guias.eoscostarica.io/
 ├── .github
 │ ├── workflows
@@ -77,10 +77,16 @@ $ cd guide.eoscostarica.io
 $ yarn install
 ```
 
-4. Run the project:
+4. Build the project
 
 ```bash
-$ yarn start
+$ yarn build
+```
+
+5. Run the project:
+
+```bash
+$ yarn serve
 ```
 
 ## About EOS Costa Rica
