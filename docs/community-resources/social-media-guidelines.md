@@ -7,10 +7,10 @@ sidebar_label: Social Media Guidelines
 
 This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.
 
-## LinkedIn
+## [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
 
-## Twitter
+## [Twitter](https://twitter.com/EOSCostaRica)
 
-## Facebook
+## [Facebook](https://www.facebook.com/costaricaeos)
 
 ## Telegrams Channels
