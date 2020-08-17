@@ -92,6 +92,25 @@ It also allows anyone who owns the document to validate the record on the blockc
 
 * * *
 
+## Evodex
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
+  style={{ width: "30%" }}
+/>
+
+Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool.
+
+EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
+
+
+- **Website** : https://evodex.netlify.app/evodex/exchange
+
+- **GitHub** : https://github.com/eoscostarica/evodex
+
+
+* * *
+
 ## EOSIO hackathons 
 
 ### LifeBank
