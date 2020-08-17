@@ -221,7 +221,7 @@ const CardsSection = () => {
           title="Open source projects"
           body= "List of open source projects that we carry out."
           href= "docs/open-source-projects"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/static/img/icons-opensource.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/09d2e8422c246a3f0d8481ee3185cd0683e280d6/static/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
     </Grid>
     </div>    
