@@ -48,10 +48,11 @@ module.exports = {
       type: 'category',
       label: 'Tools',
       items: [
-        'tools/block-explorers',
+        'tools/glossary',
         'tools/command-line',
+        'tools/nodeos-command-line-reference',
+        'tools/block-explorers',
         'tools/eosio-sdk-libraries',
-        'tools/glossary'
       ],
     },
     {
