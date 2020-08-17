@@ -128,7 +128,7 @@ const siteConfig = {
           path: './docs',
           // Sidebars file relative to website dir.
           editUrl:
-            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/website',
+            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
