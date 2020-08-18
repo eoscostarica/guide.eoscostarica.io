@@ -15,7 +15,7 @@ Block producers provide the infrastructure required to process transactions. Som
 ### Explaining the role of an EOS block producer.
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 
@@ -62,7 +62,7 @@ EOSIO networks keep a list of registered block producer accounts that run nodes 
 ## Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 A consensus algorithm is a process in Computer Science used to achieve agreement on a single data value between processes or distributed systems.
