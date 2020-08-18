@@ -113,7 +113,7 @@ card:{
 });
 
 const HeroSection  = () => {
-  const images = ["https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/heroe.png"];
+  const images = ["https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/heroe.png"];
   const background = images[Math.floor(Math.random() * images.length)];
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
@@ -186,42 +186,42 @@ const CardsSection = () => {
           title="Developer Guidelines"
           body= "Guides for developers on how to program in open source."
           href= "/docs/open-source-guidelines"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/guidelines.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/guidelines.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Learn EOSIO"
           body= "Set of information necessary to learn about the EOSIO protocol."
           href= "/docs/eos-learn/eosio-protocol"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/website/static/img/icons-eosio.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/1d17451528083fef3efe62f603f895d972e47efa/static/img/cards-icons/icons-eosio.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Tutorials"
           body= "Support information needed to perform the installation and execution of processes."
           href= "docs/tutorials/getting-started"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/tutorials.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/tutorials.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Tools"
           body= "Set of useful tools during the learning process."
           href= "docs/tools/glossary"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/tools.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/tools.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Community"
           body= "Links to EOS community sites of interest."
           href= "docs/community-resources/telegram-channels"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/cards-icons/community.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/community.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Open source projects"
           body= "List of open source projects that we carry out."
           href= "docs/open-source-projects"
-          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/f6549f9c5d054282dcbbf640c159ed03e9018b76/website/static/img/icons-opensource.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/09d2e8422c246a3f0d8481ee3185cd0683e280d6/static/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
     </Grid>
     </div>    

@@ -37,7 +37,7 @@ const siteConfig = {
           {to: 'docs/open-source-guidelines', label: 'Developer Guidelines', position: 'left'},
           {to: 'docs/eos-learn/eosio-protocol', label: 'Learn EOSIO', position: 'left'},
           {to: 'docs/tutorials/getting-started', label: 'Tutorials', position: 'left'},
-          {to: 'docs/tools/block-explorers', label: 'Tools', position: 'left'},
+          {to: 'docs/tools/glossary', label: 'Tools', position: 'left'},
           {to: 'docs/community-resources/telegram-channels', label: 'Community', position: 'left'},
           {
             href: 'https://guias.eoscostarica.io/',
@@ -128,7 +128,7 @@ const siteConfig = {
           path: './docs',
           // Sidebars file relative to website dir.
           editUrl:
-            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/website',
+            'https://github.com/eoscostarica/guide.eoscostarica.io/tree/master/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,

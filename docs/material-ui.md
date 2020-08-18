@@ -21,9 +21,9 @@ In this link you can see the color palette that the company uses on its sites
 
 Example:
 
-![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
+![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
 
-![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
+![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
 
 * * *
 
@@ -35,7 +35,7 @@ In this link you can see the typography styles that are used in the company site
 
 Example:
 
-![Typography Scale](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSCR_Typography_Scale.PNG)
+![Typography Scale](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Typography_Scale.PNG)
 
 * * *
 
