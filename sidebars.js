@@ -25,7 +25,6 @@ module.exports = {
         'eos-learn/accounts-and-permissions',
         'eos-learn/important-functions',
         'eos-learn/private-keys',
-        'eos-learn/block-producers',
         'eos-learn/dapp-development',
         'eos-learn/devops',
         'eos-learn/eos-blockchain',
