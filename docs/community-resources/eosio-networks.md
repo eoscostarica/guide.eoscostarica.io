@@ -18,10 +18,10 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-* [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO 
+* [**EOS FORCE**](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO 
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -46,7 +46,7 @@ Below we included a list of some other well known public blockchains launched on
 * [**Telos**](https://www.telos.net/): a blockchain platform without high-performance permissions for decentralized applications with advanced data storage and governance functions.
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -63,7 +63,7 @@ Below we included a list of some other well known public blockchains launched on
 * [**WAX**](https://wax.io/): a blockchain token and protocol specially designed to make e-commerce transactions faster, easier and more secure.
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -72,11 +72,11 @@ Below we included a list of some other well known public blockchains launched on
 * [**Worbli**](https://worbli.io/): a blockchain designed for the normative compliance with the financial sector, KYC verified accounts included.
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ideiyhAlvOQ" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/ideiyhAlvOQ" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 * * *
 
-You can see a complete description of several EOSIO public blockchains here [ineos.io](https://ineos.io/)
+You can see a complete description of several EOSIO public blockchains here **[ineos.io](https://ineos.io/)**
 
