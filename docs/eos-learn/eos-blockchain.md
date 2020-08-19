@@ -8,7 +8,7 @@ sidebar_label: EOS Blockchain
 
 <figure className="video_container">
   <iframe
-    width={560}
+    width="100%"
     height={315}
     src="https://www.youtube.com/embed/NxLQzVIa69A"
     frameBorder={0}
@@ -22,7 +22,7 @@ sidebar_label: EOS Blockchain
 
 <figure className="video_container">
   <iframe
-    width={560}
+    width="100%"
     height={315}
     src="https://www.youtube.com/embed/YmwZ3xvIyN4"
     frameBorder={0}
@@ -47,7 +47,7 @@ sidebar_label: EOS Blockchain
 
 <figure className="video_container">
   <iframe
-    width={560}
+    width="100%"
     height={315}
     src="https://www.youtube.com/embed/7mFzb5SqS9U"
     frameBorder={0}
@@ -62,7 +62,7 @@ sidebar_label: EOS Blockchain
 ### EOS explained by Dan Larimer   
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -70,7 +70,7 @@ sidebar_label: EOS Blockchain
 ### Introduction to EOS
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -78,7 +78,7 @@ sidebar_label: EOS Blockchain
 ### Internal economy
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 <br/>

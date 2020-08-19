@@ -7,20 +7,20 @@ sidebar_label: Dapp Development
 ## Why EOS was designed to Decentralized Apps
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Building Decentralized Applications
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 More on Max G's channel https://www.youtube.com/user/apexmaxable/videos
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -31,7 +31,7 @@ Para obetenr mas informacion sobre los contratos inteligentes puede viisitar [es
 ## Jungle Testnet
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -68,11 +68,11 @@ https://developers.eos.io/
 ## Decentralized Storage - IPFS
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>

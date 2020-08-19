@@ -66,5 +66,5 @@ In the EOSIO's distribution comes included a CLI client called `cleos` that inte
 EOSIO's permissions make it possible to strengthen account security to the point where the loss or theft of keys is nothing more than minor inconveniences. This weekly EOS episode covers what EOSIO permissions are on a conceptual level and the trend towards strong interconnected account networks.
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kTjF0-Edxw8" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/kTjF0-Edxw8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
