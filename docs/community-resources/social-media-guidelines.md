@@ -13,4 +13,4 @@ This site shows the different social networks in which you can follow the compan
 
 ## [Facebook](https://www.facebook.com/costaricaeos)
 
-## Telegrams Channels
+## [Telegrams Channels](https://t.me/eoscr)
