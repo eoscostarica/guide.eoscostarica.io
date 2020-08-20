@@ -104,7 +104,7 @@ Evolution DEX is a Protocol created by EOS Argentina that allows anyone to creat
 EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
 
 
-- **Website** : https://evodex.netlify.app/exchange
+- **Website** : https://evodex.io
 
 - **GitHub** : https://github.com/eoscostarica/evodex
 
