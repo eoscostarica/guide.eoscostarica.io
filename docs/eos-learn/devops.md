@@ -22,6 +22,38 @@ https://github.com/edenia/openstack-docs
 
 https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
+
+## Kubernetes at EOS Costa Rica
+
+Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/
+
+To be able to try these tutorials in a real environment, you could try our Kubernetes installation 
+in Openstack. If you prefer so, you may also create a local setup in your own machine: 
+
+https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/. 
+
+Request to the administrators for access to our Openstack installation dashboard and the Sandbox
+project. Then you can follow the next steps:
+
+- First of all connect to the master node using the SSH tool:
+
+```
+ssh -i key.pem user@master-sandbox
+```
+
+- Get information about the cluster:
+
+```
+kubectl cluster-info
+```
+- Show the current available nodes in the cluster:
+
+```
+kubectl get nodes
+```
+
 ## Introduction to Infrastructure as Code ( IAC )
 
 <figure class="video_container">
@@ -69,12 +101,6 @@ https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0
 </figure>
 
 * * *
-
-## Kubernetes at EOS Costa Rica
-
-Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
-
-https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
 ## Kubernetes vs. Docker: It's Not an Either/Or Question
 
