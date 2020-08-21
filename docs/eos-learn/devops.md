@@ -22,17 +22,6 @@ https://github.com/edenia/openstack-docs
 
 https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
-## Understanding DevOps
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/EIvOZA1HgHU" frameborder="0" allowfullscreen="true">
-  </iframe>
-</figure>
-
-To accomplish these goals we leverage a set of technologies explained in the following videos:
-
-* * *
-
 ## Introduction to Infrastructure as Code ( IAC )
 
 <figure class="video_container">
@@ -80,6 +69,12 @@ https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0
 </figure>
 
 * * *
+
+## Kubernetes at EOS Costa Rica
+
+Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
 ## Kubernetes vs. Docker: It's Not an Either/Or Question
 
