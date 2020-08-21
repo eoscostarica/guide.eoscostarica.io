@@ -6,13 +6,14 @@ module.exports = {
       items: [
         'engineering-culture',
         'open-source-guidelines',
+        'agile-methodologies',
+        'developer-tools',
+        'open-source-projects',
         'web-app-boilerplate',
         'backend-boilerplate',
-        'open-source-projects',
+        'visual-resources',
         'material-ui',
-        'developer-tools',
-        'agile-methodologies',
-        'visual-resources'
+        'community-resources/social-media-guidelines'
       ],
     },
     {
@@ -51,14 +52,13 @@ module.exports = {
         'tools/command-line',
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
-        'tools/eosio-sdk-libraries',
+        'tools/eosio-sdk-libraries'
       ],
     },
     {
       type: 'category',
       label: 'Community Resources',
       items: [
-        'community-resources/social-media-guidelines',
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',
