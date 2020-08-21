@@ -62,7 +62,9 @@ module.exports = {
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',
-        'community-resources/eosio-networks'
+        'community-resources/eosio-networks',
+        'community-resources/useful-links'
+        
       ],
     },
   ],  
