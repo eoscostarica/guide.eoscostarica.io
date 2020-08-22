@@ -151,6 +151,7 @@ const siteConfig = {
         '../../static/scripts/mediumScript.js',
       async: true,
     },
+    "https://platform.twitter.com/widgets.js"
   ]
 };
 module.exports = siteConfig;
