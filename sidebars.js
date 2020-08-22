@@ -7,13 +7,14 @@ module.exports = {
         'engineering-culture',
         'open-source-guidelines',
         'agile-methodologies',
+        'devops',
         'developer-tools',
         'open-source-projects',
         'web-app-boilerplate',
         'backend-boilerplate',
-        'visual-resources',
         'material-ui',
-        'community-resources/social-media-guidelines'
+        'visual-resources',
+        'social-media-guidelines'
       ],
     },
     {
@@ -27,7 +28,6 @@ module.exports = {
         'eos-learn/important-functions',
         'eos-learn/private-keys',
         'eos-learn/dapp-development',
-        'eos-learn/devops',
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
         'eos-learn/ricardian-contracts'
