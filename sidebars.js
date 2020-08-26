@@ -6,13 +6,15 @@ module.exports = {
       items: [
         'engineering-culture',
         'open-source-guidelines',
+        'agile-methodologies',
+        'devops',
+        'developer-tools',
+        'open-source-projects',
         'web-app-boilerplate',
         'backend-boilerplate',
-        'open-source-projects',
         'material-ui',
-        'developer-tools',
-        'agile-methodologies',
-        'visual-resources'
+        'visual-resources',
+        'social-media-guidelines'
       ],
     },
     {
@@ -26,7 +28,6 @@ module.exports = {
         'eos-learn/important-functions',
         'eos-learn/private-keys',
         'eos-learn/dapp-development',
-        'eos-learn/devops',
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
         'eos-learn/ricardian-contracts'
@@ -51,18 +52,19 @@ module.exports = {
         'tools/command-line',
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
-        'tools/eosio-sdk-libraries',
+        'tools/eosio-sdk-libraries'
       ],
     },
     {
       type: 'category',
       label: 'Community Resources',
       items: [
-        'community-resources/social-media-guidelines',
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',
-        'community-resources/eosio-networks'
+        'community-resources/eosio-networks',
+        'community-resources/useful-links'
+        
       ],
     },
   ],  

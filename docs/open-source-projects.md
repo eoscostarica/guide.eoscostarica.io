@@ -50,7 +50,7 @@ The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the ben
 
 An EOSIO Infrastructure monitor and node dashboard.
 
-- **Website** : https://mainnet.eosio.io/
+- **Website** : https://mainnet.eosio.cr
  
 - **GitHub** : https://github.com/eoscostarica/eosio-monitor
 
@@ -86,7 +86,7 @@ This smart contract serves as a tool for any user who wishes to register the exi
 
 It also allows anyone who owns the document to validate the record on the blockchain.
 
-- **Website** : https://notarize.eosio.io/
+- **Website** : https://notarize.eosio.cr/dashboard/notary
 
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
@@ -104,7 +104,7 @@ Evolution DEX is a Protocol created by EOS Argentina that allows anyone to creat
 EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
 
 
-- **Website** : https://evodex.netlify.app/evodex/exchange
+- **Website** : https://evodex.io
 
 - **GitHub** : https://github.com/eoscostarica/evodex
 

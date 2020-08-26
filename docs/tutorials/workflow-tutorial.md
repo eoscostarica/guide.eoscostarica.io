@@ -1,11 +1,8 @@
 ---
 id: git-workflow-tutorial 
 title: Git workflow Tutorial
-sidebar_label: Git workflow Tutorial
+sidebar_label: Git Workflow
 ---
-
-## Git workflow Tutorial
-
 
 In this tutorial, we explain step by step how to program an open source project using the **GitHub** platform. This is a repository with access to various functions and tools for project development and administration.
 

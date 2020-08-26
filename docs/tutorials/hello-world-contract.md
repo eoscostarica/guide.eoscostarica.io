@@ -50,7 +50,7 @@ We can verify in the blocks explorer the executed actions.
 
 Is necessary to wait some seconds to complete the irreversibility of the block, since the block producers should validate the data block for this.
 
-Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://guide.eoscostarica.io/docs/sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
+Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://guide.eoscostarica.io/docs/tools/eosio-sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
 
 ## Video-Tutorial
 
