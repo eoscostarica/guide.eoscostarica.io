@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://guide.eoscostarica.io/blog</id>
+    <title>EOS Costa Rica Developers Guide Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://guide.eoscostarica.io/blog"/>
+    <subtitle>EOS Costa Rica Developers Guide Blog</subtitle>
+    <icon>https://guide.eoscostarica.io/img/favicon/favicon.ico</icon>
+</feed>
