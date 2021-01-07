@@ -3,7 +3,10 @@
 
 .DS_Store
 
-.vs
+.vscode
+
+.alpackages
+
 
 # dependencies
 /node_modules
