@@ -23,14 +23,14 @@ This guide is for Windows users , more information for Linux and Mac [on this si
 - Open Git Bash
 
 - Paste the text below, substitute `"your_email@example.com"` with your GitHub email address.
-```coffee
+```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 ---
 >**NOTE :** 
 If you are using a legacy system that doesn't support the `ed25519` algorithm, use:
 
-```coffee
+```shell
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 ---
@@ -45,7 +45,7 @@ Now you have a new SSH key!
 
 - Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
 
-```coffee
+```shell
 #start the ssh-agent in the background
 $ eval $(ssh-agent -s)
 > Agent pid 59566
@@ -59,7 +59,7 @@ If you are following this ssh key generation flow , there is no need to start th
 
 - Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace `id_ed25519` in the command with the name of your private key file.
 
-```coffee
+```shell
 $ ssh-add ~/.ssh/id_ed25519
 ```
 
