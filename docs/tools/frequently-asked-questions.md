@@ -5,74 +5,76 @@ sidebar_label: FAQ
 ---
 # Need Some Help?
 
-- [Spell-check doesn't work; how do I enable it?](#spell-check-doesnt-work-how-do-i-enable-it)
-- [Some of my Markdown elements aren't highlighted](#some-of-my-markdown-elements-arent-highlighted)
-- [Which elements of Markdown are supported?](#which-elements-of-markdown-are-supported)
-- [Autocompletion doesn't work](#autocompletion-doesnt-work)
-- [Syntax-highlighting is broken after uninstall](#syntax-highlighting-is-broken-after-uninstall)
-- [Trailing whitespace is automatically removed, but I don't want that](#trailing-whitespace-is-automatically-removed-but-i-dont-want-that)
+- [What is a SSH (Secure Shell) ?](#what-is-a-ssh-(secure-shell))
+- [How to generate a new SSH key?](#how-to-generate-a-new-ssh-key)
+- [How to add your SSH key to the ssh-agent](#how-to-add-your-ssh-key-to-the-ssh-agent)
+- [What is the difference between a public and private key?](#what-is-the-difference-between-a-public-and-private-key)
 
-## Spell-check doesn't work; how do I enable it?
 
-The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself:
+## What is a SSH (Secure Shell) ?
 
-- Open the Atom settings, and find the Packages tab
-- Search for the `spell-check` package; you can find it under the Core Packages
-- Open the settings for `spell-check`
-- Append `text.md` to the list of grammars (make sure the scopes are comma-separated)
-- Reload Atom to make sure the updated settings take effect
+The `SSH` is also known as Secure Shell or Secure Socket Shell, it is a protocol that you can use to connect and aunthenticate to remote servers and services. [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh)
 
-## Some of my Markdown elements aren't highlighted
 
-`language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do.
+## How to generate a new SSH key?
 
-## Which elements of Markdown are supported?
+This guide is for Windows users , more information for Linux and Mac [on this site](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/).
+- Open Git Bash
 
-#### Notes on implementation
-
-- Raw `html` is included when you have the default `language-html` grammar enabled
-- The Github Flavored `task-lists` are implemented as part of 'normal' `lists`
-- Setext-headers (underlined-headers) are not supported
-- `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420))
-- Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives
-
-## Autocompletion doesn't work
-
-Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy.
-
-For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`:
+- Paste the text below, substitute `"your_email@example.com"` with your GitHub email address.
+```coffee
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+---
+>**NOTE :** 
+If you are using a legacy system that doesn't support the `ed25519` algorithm, use:
 
 ```coffee
-'.text.md':
-    autocomplete:
-        symbols:
-            constant:
-                selector: "*"
-                typePriority: 1
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+---
 
-You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150).
+- It will ask for a file to save the key , just press enter. This accepts the default file location. 
 
-## Syntax-highlighting is broken after uninstall
+- At the prompt , type a secure passphrase. For security reasons it should be as complex as possible.
 
-The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy.
+Now you have a new SSH key!
 
-1. Open the "Settings" and go to the "Packages" tab
-2. Search for `language-gfm`
-3. Click `Enable` to re-activate it
-4. You probably want to reload Atom to make sure the change takes effect
+## How to add your SSH key to the ssh-agent
 
-## Trailing whitespace is automatically removed, but I don't want that
-
-By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115).
+- Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
 
 ```coffee
-'*':
-  # all current config
-'.md.text':
-  whitespace:
-    removeTrailingWhitespace: false
+#start the ssh-agent in the background
+$ eval $(ssh-agent -s)
+> Agent pid 59566
 ```
+---
+
+>**NOTE :** 
+If you are following this ssh key generation flow , there is no need to start the ssh-agent.
+
+---
+
+- Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace `id_ed25519` in the command with the name of your private key file.
+
+```coffee
+$ ssh-add ~/.ssh/id_ed25519
+```
+
+- Now you need to add your public key to your GitHub account , for this [follow this steps](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+Now you are set!
+
+
+## What is the difference between a public and private key?
+
+
+They are part of the `Asymmetric Cipher`. Imagine a lock where the public key is used for closing the lock (encrypt the message) and the private key is used for opening the lock (decrypt the message). 
+Mentioned in Whitfield Diffie and Martin Hellman 1976 paper `New Directions in Cryptography`
+
+>Public and private key definition can be found in the Tools, Glossary section.  
+
+[More information on how it works](https://www.preveil.com/blog/public-and-private-key/)
 
