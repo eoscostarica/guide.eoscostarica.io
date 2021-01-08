@@ -14,7 +14,8 @@ module.exports = {
         'backend-boilerplate',
         'material-ui',
         'visual-resources',
-        'social-media-guidelines'
+        'social-media-guidelines',
+        'readme-file-template'
       ],
     },
     {
