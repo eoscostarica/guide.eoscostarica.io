@@ -41,7 +41,8 @@ module.exports = {
         'tutorials/node-installation',
         'tutorials/hello-world-contract',
         'tutorials/modern-cpp',
-        'tutorials/git-workflow-tutorial'
+        'tutorials/git-workflow-tutorial',
+        'tutorials/markdown-guide'
       ],
     },
     {
