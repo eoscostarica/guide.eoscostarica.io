@@ -3,12 +3,13 @@ id: frequently-asked-questions
 title: Frequently Asked Questions 
 sidebar_label: FAQ 
 ---
-# Need Some Help?
 
-- [What is a SSH (Secure Shell) ?](#what-is-a-ssh-(secure-shell))
-- [How to generate a new SSH key?](#how-to-generate-a-new-ssh-key)
-- [How to add your SSH key to the ssh-agent](#how-to-add-your-ssh-key-to-the-ssh-agent)
-- [What is the difference between a public and private key?](#what-is-the-difference-between-a-public-and-private-key)
+
+At EOS Costa Rica we are interested in the doubts of our engineers.
+
+Good development is key to the success of each of our products, so we seek to provide the best answers to each of your questions.
+
+Below is a list of the questions most frequently asked during the development process documented by our workers.
 
 
 ## What is a SSH (Secure Shell) ?
@@ -16,56 +17,16 @@ sidebar_label: FAQ
 The `SSH` is also known as Secure Shell or Secure Socket Shell, it is a protocol that you can use to connect and aunthenticate to remote servers and services. [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh)
 
 
-## How to generate a new SSH key?
+## What is the difference between a Regular Account and a Blockcahin Account?
 
-This guide is for Windows users , more information for Linux and Mac [on this site](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+| Regular Account | Blockchain Account |  
+|------|------|
+|-Password is stored on company servers <br/> -Prone to be hack <br/> -No transparency   | -Should be kept secret <br/> -Assymmetric crytography <br/> -Public key and private key <br/> -Different key pairs have different permissions asociated   |
 
-- Open Git Bash
 
-- Paste the text below, substitute `"your_email@example.com"` with your GitHub email address.
-```shell
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
-```
----
->**NOTE :** 
-If you are using a legacy system that doesn't support the `ed25519` algorithm, use:
+## What is EOSIO ?
 
-```shell
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-```
----
-
-- It will ask for a file to save the key , just press enter. This accepts the default file location. 
-
-- At the prompt , type a secure passphrase. For security reasons it should be as complex as possible.
-
-Now you have a new SSH key!
-
-## How to add your SSH key to the ssh-agent
-
-- Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
-
-```shell
-#start the ssh-agent in the background
-$ eval $(ssh-agent -s)
-> Agent pid 59566
-```
----
-
->**NOTE :** 
-If you are following this ssh key generation flow , there is no need to start the ssh-agent.
-
----
-
-- Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace `id_ed25519` in the command with the name of your private key file.
-
-```shell
-$ ssh-add ~/.ssh/id_ed25519
-```
-
-- Now you need to add your public key to your GitHub account , for this [follow this steps](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
-
-Now you are set!
+It is a blockchain platform. Built for both public and private use cases. It is customizable to suit a wide range of business needs across industries with rich role-based security.
 
 
 ## What is the difference between a public and private key?
@@ -77,4 +38,47 @@ Mentioned in Whitfield Diffie and Martin Hellman 1976 paper `New Directions in C
 >Public and private key definition can be found in the Tools, Glossary section.  
 
 [More information on how it works](https://www.preveil.com/blog/public-and-private-key/)
+
+
+## What are the best practices for programming in JavaScript?
+
+
+Following ** a standard makes it easier to understand the code **, more than one engineer works in a software project and being able to understand the code is vital for the development flow of the final product. Some of the most outstanding recommendations of this stardard are the following:
+- Use single quote
+
+    ```js
+    console.log('hello there')    // ✓ ok
+    console.log("hello there")    // ✗ avoid
+    console.log(`hello there`)    // ✗ avoid
+    $("<div class='box'>")        // ✓ ok
+    console.log(`hello ${name}`)  // ✓ ok
+    ```
+
+- Add a space after a keyword
+
+    ```js
+    if (condition) { ... }   // ✓ ok
+    if(condition) { ... }    // ✗ avoid
+    ```
+
+- Add a space before the declaration of the parentheses of the function
+
+    ```js
+    function name (arg) { ... }   // ✓ ok
+    function name(arg) { ... }    // ✗ avoid
+    run(function () { ... })      // ✓ ok
+    run(function() { ... })       // ✗ avoid
+    ```
+
+For more information on the guidelines to follow, see [this link](https://standardjs.com/rules.html)
+
+## Why blockchain?
+
+A blockchain is a data registry that works as a large ledger of accounts shared between several users or "nodes" in which transactions are recorded in a reliable and secure way. In this ledger, "blocks" are recorded, which are collections of data. These blocks are connected to each other in a chronological way creating a kind of chain.
+For more details, see [How does a blockchain work?](https://eoscostarica.medium.com/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3)
+
+## How does a smart contract work?  
+
+A contract is simply a formalization agreement between two or more parties. It must define the scope, how to act and the consequences of acting in a different way. However, traditional contracts can present a problem: they are subject to interpretation.
+For more details on a smart contract, you can see [What is a smart contract?](https://eoscostarica.medium.com/qu%C3%A9-es-un-smart-contract-793d2042c65d)
 
