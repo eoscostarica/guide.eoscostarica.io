@@ -31,7 +31,7 @@ With a good view about the information structure can make the reader go to the s
 3. Content Table
 4. Project Purpose
 5. Version
-6. Teach Stack
+6. Tech Stack
 7. Development Environment
 8. File Structure
 9. License
@@ -62,7 +62,7 @@ We also use the git commit messages to generate the project change log.
 Using the yarn version command you can update the version of your package via the command line.
 :::
 
-## Teach Stack
+## Tech Stack
 The purpose is to make the user know the main technology were needed to develop the project, so the user could understand the project with a new kind of view, for example, the information that could be given here is:
 
 
@@ -175,7 +175,11 @@ If you find a bug, please report big and small bugs by **opening an issue** `<li
 
 List the people who work in the project.
 
-## About Company
+## About EOS Costa Rica
+
+<div style={{ display: "block", textAlign: "center" }}>
+    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+</div>
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
