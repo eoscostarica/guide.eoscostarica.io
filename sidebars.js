@@ -52,7 +52,8 @@ module.exports = {
         'tools/command-line',
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
-        'tools/eosio-sdk-libraries'
+        'tools/eosio-sdk-libraries',
+        'tools/frequently-asked-questions'
       ],
     },
     {
