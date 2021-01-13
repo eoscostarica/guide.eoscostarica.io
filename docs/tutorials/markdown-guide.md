@@ -33,9 +33,8 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 ### **Unordered List**  
 
-Unordered list syntax
 
-```markdown title="Markdown"
+```markdown title="Syntax"
     - First Item
         - Sub Item
     - Second Item
@@ -47,12 +46,11 @@ Unordered list syntax
 - Second Item
 - Third Item
 
->[more information](https://www.markdownguide.org/basic-syntax/#unordered-lists)
+>[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists)
 
 ### **Ordered List**
-Ordered list syntax
 
-```markdown title="Markdown"
+```markdown title="Syntax"
     1. First Item
         1. Sub Item
     2. Second Item
@@ -65,13 +63,12 @@ Ordered list syntax
 2. Second Item
 3. Third Item
 
->[more information](https://www.markdownguide.org/basic-syntax/#ordered-lists)
+>[More Information](https://www.markdownguide.org/basic-syntax/#ordered-lists)
 
 ### **Table**
 
-Table syntax
 
-```markdown title="Markdown"
+```markdown title="Syntax"
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
@@ -84,13 +81,12 @@ Table syntax
 | Header | Title |
 | Paragraph | Text |
 
->[more information](https://www.markdownguide.org/extended-syntax/#tables)
+>[More Information](https://www.markdownguide.org/extended-syntax/#tables)
 
 ### **Check List** 
 
-Check list syntax
 
-```markdown title="Markdown"
+```markdown title="Syntax"
     - [x] First option
     - [ ] Second option
     - [ ] Third option
@@ -102,13 +98,11 @@ Check list syntax
 - [ ] Second option
 - [ ] Third option
 
->[more information](https://www.markdownguide.org/extended-syntax/#task-lists)
+>[More Information](https://www.markdownguide.org/extended-syntax/#task-lists)
 
 ### **Line Break**
 
-Line break syntax
-
-```markdown title="Markdown"
+```markdown title="Syntax"
     Text  <!---Space Space--->
     another Text
 ```
@@ -123,7 +117,7 @@ Another Text
 
 **Example:**
 
-```markdown title="Markdown"
+```markdown title="Syntax"
     [comment]: <> (This is a comment, it will not be included)
 
     [//]: <> (This is also a comment.)
@@ -135,9 +129,8 @@ Another Text
 
 ### **Links**
 
-Links syntax
 
-```markdown title="Markdown"
+```markdown title="Syntax"
 [Eos Costa Rica](https://es.eoscostarica.io)
 ```
 **Example:**
@@ -145,9 +138,8 @@ Links syntax
 
 ### **Images**
 
-Images syntax
 
-```markdown title="Markdown" 
+```markdown title="Syntax" 
 ![](https://media-exp1.licdn.com/dms/image/C4E0BAQFBDxX8sb8eRQ/company-logo_200_200/0/1562012485976?e=2159024400&v=beta&t=gifOwJQ3a5xmVcAzmORT7thKl9uzaKH9bv74yp2vHns)
 ```
 **Example:**  
@@ -156,9 +148,7 @@ Images syntax
 
 ### **Block Citation**
 
-Block citation Syntax
-
-```markdown title="Markdown"
+```markdown title="Syntax"
 > Main Text
 >> Text
 >>
@@ -179,8 +169,7 @@ Block citation Syntax
 
 ### **Horizontal Rule**
 
-Horizontal rule syntax
-```markdown title="Markdown"
+```markdown title="Syntax"
 ---
 ***
 - - - -
@@ -193,7 +182,7 @@ Horizontal rule syntax
 
 - - - -
 
->[more information](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
+>[More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
 
 
 For more information about Markdown Syntax visit [this page](https://www.markdownguide.org/cheat-sheet/)
