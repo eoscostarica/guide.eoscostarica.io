@@ -28,11 +28,11 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 > Can get up to 6 different headings depending on the number of `#`
 
+***
+
 ## Structure Syntax
 
-
 ### **Unordered List**  
-
 
 ```markdown title="Syntax"
     - First Item
@@ -46,7 +46,9 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 - Second Item
 - Third Item
 
->[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists)
+>[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists)  
+
+
 
 ### **Ordered List**
 
@@ -64,6 +66,8 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 3. Third Item
 
 >[More Information](https://www.markdownguide.org/basic-syntax/#ordered-lists)
+
+
 
 ### **Table**
 
@@ -83,6 +87,8 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 >[More Information](https://www.markdownguide.org/extended-syntax/#tables)
 
+
+
 ### **Check List** 
 
 
@@ -100,6 +106,8 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 
 >[More Information](https://www.markdownguide.org/extended-syntax/#task-lists)
 
+
+
 ### **Line Break**
 
 ```markdown title="Syntax"
@@ -114,9 +122,6 @@ Another Text
 
 ### **Comments **
 
-
-**Example:**
-
 ```markdown title="Syntax"
     [comment]: <> (This is a comment, it will not be included)
 
@@ -124,6 +129,7 @@ Another Text
 
     [//]: # (This may be the most platform independent comment)`
 ```
+***
 
 ## Another Syntaxes
 
@@ -140,10 +146,10 @@ Another Text
 
 
 ```markdown title="Syntax" 
-![](https://media-exp1.licdn.com/dms/image/C4E0BAQFBDxX8sb8eRQ/company-logo_200_200/0/1562012485976?e=2159024400&v=beta&t=gifOwJQ3a5xmVcAzmORT7thKl9uzaKH9bv74yp2vHns)
+![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
 **Example:**  
-![](https://media-exp1.licdn.com/dms/image/C4E0BAQFBDxX8sb8eRQ/company-logo_200_200/0/1562012485976?e=2159024400&v=beta&t=gifOwJQ3a5xmVcAzmORT7thKl9uzaKH9bv74yp2vHns)
+![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 
 ### **Block Citation**
@@ -180,9 +186,8 @@ Another Text
 
 ***
 
-- - - -
-
 >[More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
 
+***
 
 For more information about Markdown Syntax visit [this page](https://www.markdownguide.org/cheat-sheet/)
