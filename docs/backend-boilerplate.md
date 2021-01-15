@@ -22,7 +22,7 @@ This template features all the latest tools and best practices in the industry. 
 ### Prerequisites
 1. [git](https://git-scm.com/)
 1. [nodejs](https://nodejs.org)
-1. [hasura](https://hasura.io/docs/2.0/graphql/manual/hasura-cli/install-hasura-cli.html#install-hasura-cli)
+1. [hasura](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html#install-a-binary-globally)
 
 ### Step by step
 1. Clone the repo using the command `git clone --depth=1 https://github.com/eoscostarica/backend-boilerplate.git`
