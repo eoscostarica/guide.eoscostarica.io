@@ -32,10 +32,6 @@ https://www.youtube.com/channel/UCphVYR2CHULYHf59ZSQMEag
 
 https://www.youtube.com/channel/UC6SxkB3kM4uNs_yIU0Lqo_w
 
-## EOS Radio
-
-https://www.youtube.com/channel/UCSkVL53-3TAmWAocZDdGiIw
-
 ## EOS Voter 
 
 https://open.spotify.com/show/7aa00qzbKFjX1PTugmn4vn
@@ -52,10 +48,6 @@ https://www.youtube.com/channel/UCuyr4l0-6Gkw7kW80lUwHLQ
 
 https://www.youtube.com/channel/UCoTHlEOVdeN9NOc5b5C1-vQ
 
-## EOS Dublin 
-
-https://eosdublin.podbean.com/
-
 ## EOS Detroit
 
 https://www.youtube.com/channel/UCnbdh6f2U54_18YEe89xpnA
@@ -64,12 +56,6 @@ https://www.youtube.com/channel/UCnbdh6f2U54_18YEe89xpnA
 
 https://www.youtube.com/channel/UCR9iyxumPn7n14nbBocfCMQ
 
-## EOS Dapp Stars
-
-https://www.youtube.com/channel/UCgXggdgpan84WJmR5gLSwhw
-
 ## Thomas Cox
 
 https://www.youtube.com/channel/UC1YXNL469qIagGyTzZM-uRw
-
-
