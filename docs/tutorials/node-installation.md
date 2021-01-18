@@ -60,7 +60,7 @@ tail -f stderr.txt
 
 Check if you can access your node using link `http://**YOUR_SERVER**/v1/chain/get_info`
 
-Here is an API [Example](https://latamlink.eosio.cr/v1/chain/get_info)
+Here is an API [Example](https://lacchain.eosio.cr/v1/chain/get_info)
 
 ### Starting and Stopping Nodeos
 

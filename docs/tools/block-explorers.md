@@ -29,10 +29,6 @@ https://eosnetworkmonitor.io/
 
 https://eostracker.io/
 
-## EOS Spark
-
-https://eospark.com/
-
 ## EOSDAC Explorer
 
 https://explorer.eosdac.io
@@ -40,11 +36,3 @@ https://explorer.eosdac.io
 ## EOS Radar
 
 https://www.eos-radar.com/
-
-## Glass
-
-https://glass.cypherglass.com/map/main/top50
-
-## Telos Network Monitor
-
-https://monitor.telosfoundation.io/

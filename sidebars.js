@@ -14,7 +14,8 @@ module.exports = {
         'backend-boilerplate',
         'material-ui',
         'visual-resources',
-        'social-media-guidelines'
+        'social-media-guidelines',
+        'readme-file-template'
       ],
     },
     {
@@ -53,7 +54,8 @@ module.exports = {
         'tools/command-line',
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
-        'tools/eosio-sdk-libraries'
+        'tools/eosio-sdk-libraries',
+        'tools/frequently-asked-questions'
       ],
     },
     {
