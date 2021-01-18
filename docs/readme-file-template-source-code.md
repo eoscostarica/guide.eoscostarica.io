@@ -179,5 +179,5 @@ title: Readme file source code template
 
     EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
-    eoscostarica.io
+    [eoscostarica.io](https://eoscostarica.io/)
 ```
