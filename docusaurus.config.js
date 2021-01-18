@@ -39,6 +39,7 @@ const siteConfig = {
           {to: 'docs/tutorials/getting-started', label: 'Tutorials', position: 'left'},
           {to: 'docs/tools/glossary', label: 'Tools', position: 'left'},
           {to: 'docs/community-resources/telegram-channels', label: 'Community', position: 'left'},
+          {to: 'https://eoscostarica.io/', label: 'Website', position: 'left'},
           {
             href: 'https://guias.eoscostarica.io/',
             label: 'Español',
