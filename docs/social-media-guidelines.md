@@ -7,9 +7,9 @@ sidebar_label: Social Media Guidelines
 
 This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.
 
-Be respectful, use mind language, and keep it professional when representing the company or talking about related topics to blockchain/crypto.
+Be respectful, mind your language, and keep it professional when representing the company or talking about related topics to blockchain/crypto.
 
-## **Objetive:**
+## **Objective:**
 >Our potential clients or new talents could be found on LinkedIn, Twitter, Telegram, and other social media.Therefore, it is highly important for EOS Costa Rica that all the representatives will be recognized as part of the company in social media.
 
 ## [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
@@ -122,7 +122,7 @@ More on:
     - https://t.me/evodex_io 
     - https://t.me/latamlink
 
-## Nice to follow us:
+## Other channels to follow EOS Costa Rica:
 - ### [Facebook](https://www.facebook.com/costaricaeos)
 - ### [Instagram](https://www.instagram.com/eoscostarica/)
 - ### [Youtube](https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ)
