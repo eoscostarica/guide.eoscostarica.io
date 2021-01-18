@@ -1,3 +1,9 @@
+---
+id: readme-file-source-code-template
+title: Readme file source code template
+---
+
+```
 ## Gif or Image Introduction
 
 Is simple and can sound so easy and yes, It does, but the impact that a Gif or Image can produce is too big. The viewer acquire the needed information to get interested in the project. For example:
@@ -174,3 +180,4 @@ List the people who work in the project.
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
 eoscostarica.io
+```
