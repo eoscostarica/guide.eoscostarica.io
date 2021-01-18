@@ -92,9 +92,9 @@ Give the needed instruction to run the project locally, for example:
 
 #### **Prerequisites**
 
-```
+`
 yarn
-```
+`
 
 #### **Installation**
 
