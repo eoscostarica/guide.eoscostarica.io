@@ -6,7 +6,7 @@ sidebar_label: GitHub Keys
 
 ## Why we need GitHub Keys?
 
-Let's first define GitHub as a browser-based online control system of distributed version for those software developers using the Git revision control system. Git uses SSH public key authetication and not a password authetication.  Each user of the system has to generate a key. 
+Let's first define GitHub as a browser-based online control system of distributed version for those software developers using the Git revision control system. Git uses SSH public key authentication and not a password authentication.  Each user of the system has to generate a key. 
 
 The `SSH` is also known as Secure Shell or Secure Socket Shell [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). SSH keys are used to authenticate secure connections they are generate through a public key cryptographic algorithm, the most common being RSA or DSA. This is a one-way formula that ensures the public key can be derived from the private key but the private key cannot be derived from the public key.
 
