@@ -9,6 +9,7 @@ import React from 'react';
 import clsx from 'clsx';
 
 import Link from '@docusaurus/Link';
+import useThemeContext from '@theme/hooks/useThemeContext';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -40,16 +41,21 @@ const FooterLogo = ({url, alt}) => (
 );
 
 function Footer() {
+  const {isDarkTheme} = useThemeContext();
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   const {themeConfig = {}} = siteConfig;
   const {footer} = themeConfig;
 
   const {copyright, links = [], logo = {}} = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
+  var logoUrl = useBaseUrl(logo.src);
 
   if (!footer) {
     return null;
+  }
+
+  if(isDarkTheme) {
+    logoUrl = 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png'
   }
 
   return (
