@@ -4,7 +4,7 @@ title: Readme file template
 sidebar_label: Readme file template
 ---
 
-README is a file that brings a little description about the whole project, which contains an introduction and explanation of this one. The kind of information that can be describe here is information requeried to understand the project and its structure or purpose. Then, we will give a template to create a README file for a new project.
+README is a file that brings a little description about the whole project, which contains an introduction and explanation of this one. The kind of information that can be describe here is information requeried to understand the project and its structure or purpose. Then, we will give a template to create a README file for a new project. To copy this readme markdown source code, [please follow this link](readme-file-source-code-template).
 
 ***
 
@@ -12,7 +12,7 @@ README is a file that brings a little description about the whole project, which
 
 Is simple and can sound so easy and yes, It does, but the impact that a Gif or Image can produce is too big. The viewer acquire the needed information to get interested in the project. For example:
 
-![Life bank](../static/img/life-bank.png)
+![Life bank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/life-bank.png)
 
 ## About the Project
 
@@ -92,9 +92,9 @@ Give the needed instruction to run the project locally, for example:
 
 #### **Prerequisites**
 
-```
+`
 yarn
-```
+`
 
 #### **Installation**
 
