@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx';
 
 import Link from '@docusaurus/Link';
@@ -48,15 +48,18 @@ function Footer() {
   const {footer} = themeConfig;
 
   const {copyright, links = [], logo = {}} = footer || {};
-  var logoUrl = useBaseUrl(logo.src);
+  const [logoUrl, setLogoUrl] = useState(useBaseUrl(logo.src));
 
   if (!footer) {
     return null;
   }
 
-  if(isDarkTheme) {
-    logoUrl = 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png'
-  }
+  useEffect(() => {
+    if(isDarkTheme)
+      setLogoUrl('https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png')
+    else
+      setLogoUrl(logo.src)
+  }, [isDarkTheme]);
 
   return (
     <footer
