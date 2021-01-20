@@ -261,7 +261,7 @@ const MediumSection = () => {
 
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Read our Medium articles</h1>
+       <h1 className="section-tittle">Read our blog posts</h1>
        <Grid
         container
         direction="row"
