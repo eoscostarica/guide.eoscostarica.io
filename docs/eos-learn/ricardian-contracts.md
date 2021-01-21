@@ -1,7 +1,7 @@
 ---
 id: ricardian-contracts
-title: Ricardian contracts
-sidebar_label: Ricardian contracts
+title: Ricardian Contracts
+sidebar_label: Ricardian Contracts
 ---
 
 ## **What are Ricardian contracts?**
