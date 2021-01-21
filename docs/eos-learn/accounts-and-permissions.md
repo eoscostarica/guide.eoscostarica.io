@@ -1,7 +1,7 @@
 ---
 id: accounts-and-permissions
-title: Accounts and Permissions
-sidebar_label: Accounts and Permissions
+title: Accounts And Permissions
+sidebar_label: Accounts And Permissions
 ---
 
 ## Accounts
