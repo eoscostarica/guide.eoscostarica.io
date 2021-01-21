@@ -31,7 +31,8 @@ module.exports = {
         'eos-learn/dapp-development',
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
-        'eos-learn/ricardian-contracts'
+        'eos-learn/ricardian-contracts',
+        'eos-learn/eosio-core'
       ],
     },
     {
