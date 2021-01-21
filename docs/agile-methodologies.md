@@ -48,9 +48,9 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 - **Time:**  Since stories should be completable in one sprint, stories that might take weeks or months to complete should be broken up into smaller stories or should be considered their own epic.
 
 ### Examples:
->- As a **manager**, I want to **be able to understand my colleagues progress**, so I **can better report our success and failures**. 
->- As a **customer** , I want **shopping cart feature** so that **I can easily purchase items online**.
->- As an **manager**, I want to **generate a report** so that **I can understand which departments need more resources**.
+>- As  **manager**, I want to **be able to understand my colleagues progress**, so I **can better report our success and failures**. 
+>- As  **customer** , I want **shopping cart feature** so that **I can easily purchase items online**.
+>- As  **manager**, I want to **generate a report** so that **I can understand which departments need more resources**.
 
 ## Work meetings
 
@@ -82,7 +82,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 7. Confirm any new issues and concerns raised during meeting and record.
 8. Confirm any assumptions or dependencies discovered during planning and record.
 9. ScrumMaster calls for a group consensus on the plan.
-10. Team and Product Owner signal if this is the best plan they can make given what they know right now.
+10. Team and Product Owner point out if this is the best plan they can make given what they know right now.
 11. Get back to work.
 
 
@@ -120,7 +120,7 @@ Retrospectives can be held more frequently, including for minor releases, each s
 
 ### **Demo Session**
 
-The sprint demo is invaluable for keeping stakeholders up to speed with the progress of product development. It allows them to feedback and discuss with the Product Owner and Scrum team any possible amendments to the Product Backlog which would help to maximise value.  
+The sprint demo is invaluable for keeping stakeholders up to speed with the progress of product development. It allows them to feedback and discuss with the Product Owner and Scrum team any possible amendments to the Product Backlog which would help to maximize value.  
 The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring that the sprint review meeting is an informal affair where questions, feedback and discussion are welcome – allows for prep time to be kept to a minimum.
 
 
