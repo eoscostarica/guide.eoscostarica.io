@@ -1,7 +1,7 @@
 ---
 id: agile-methodologies
-title: Agile methodologies
-sidebar_label: Agile methodologies
+title: Agile Methodologies
+sidebar_label: Agile Methodologies
 ---
 
 ## What are agile methodologies?

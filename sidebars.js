@@ -31,7 +31,8 @@ module.exports = {
         'eos-learn/dapp-development',
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
-        'eos-learn/ricardian-contracts'
+        'eos-learn/ricardian-contracts',
+        'eos-learn/eosio-core'
       ],
     },
     {
@@ -43,7 +44,7 @@ module.exports = {
         'tutorials/hello-world-contract',
         'tutorials/modern-cpp',
         'tutorials/git-workflow-tutorial',
-        'tutorials/markdown-guide'
+        'tutorials/github-keys'
       ],
     },
     {
