@@ -69,7 +69,16 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
-  
+heroButton:{
+  width: 131,
+  height: 50,
+  fontFamily: "PT Sans",
+  fontSize: 14.8,
+  border: 'none',
+  lineHeight: 1.8,
+  letterSpacing:1.25,
+  margin:"auto"
+},
 card:{
     backgroundColor: '#242526'
   },
@@ -182,21 +191,21 @@ const CardsSection = () => {
         spacing={2}
       >
       <Grid item xs={12} sm={12} md={4}>
-        <CustomCard 
+        <CustomCard
           title="Developer Guidelines"
           body= "Guides for developers on how to program in open source."
           href= "/docs/open-source-guidelines"
           img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/guidelines.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
-        <CustomCard 
+        <CustomCard
           title="Learn EOSIO"
           body= "Set of information necessary to learn about the EOSIO protocol."
           href= "/docs/eos-learn/eosio-protocol"
           img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/1d17451528083fef3efe62f603f895d972e47efa/static/img/cards-icons/icons-eosio.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
-        <CustomCard 
+        <CustomCard
           title="Tutorials"
           body= "Support information needed to perform the installation and execution of processes."
           href= "docs/tutorials/getting-started"
