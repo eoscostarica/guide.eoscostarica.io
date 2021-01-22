@@ -36,7 +36,7 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 **-Phoenix Project**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7bc6509-de0a-4efd-aa9c-f3a4486809b5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7bc6509-de0a-4efd-aa9c-f3a4486809b5/Untitled.png)
+![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
 
 ## Areas of Emphasis
 
@@ -58,11 +58,11 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## CI Systems - Examples
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70d28084-e01c-4807-9dce-d106519ba31c/CI_Example.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70d28084-e01c-4807-9dce-d106519ba31c/CI_Example.png)
+![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
 
 ## CD Systems - Examples
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db2bfb4e-779e-4c7b-9933-05cb788f5008/CD_Example.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db2bfb4e-779e-4c7b-9933-05cb788f5008/CD_Example.png)
+![](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
 
 * * *
@@ -172,3 +172,4 @@ kubectl get nodes
 
 * [Periodic Table of DevOps Tools](https://www.notion.so/Periodic-Table-of-DevOps-Tools-4e9b29562a944132b1235cfa7e400d68)
 * [Automation](https://www.notion.so/Automation-e4dee021a4494d9cbdebb3ebc6205f4f)
+* [DevOps with GitHub](https://lab.github.com/githubtraining/devops-with-github-actions)
