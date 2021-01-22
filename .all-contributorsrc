@@ -36,6 +36,81 @@
         "projectManagement",
         "review"
       ]
+    },
+    {
+      "login": "Edgar097",
+      "name": "Edgar Parra",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/76976401?v=4",
+      "profile": "https://github.com/Edgar097",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "leisterfrancisco",
+      "name": "Leister Francisco Alvarez Campos",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28828796?v=4",
+      "profile": "https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "steph222",
+      "name": "Steph",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31549144?v=4",
+      "profile": "https://www.linkedin.com/in/stephaniedelgadobrenes/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "AngeloCG97",
+      "name": "AngeloCG97",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51149817?v=4",
+      "profile": "https://github.com/AngeloCG97",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "JeanVegaD",
+      "name": "Jean Vega",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19317138?v=4",
+      "profile": "https://github.com/JeanVegaD",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "ldrojas",
+      "name": "Luis Diego Rojas",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29232417?v=4",
+      "profile": "https://github.com/ldrojas",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7
