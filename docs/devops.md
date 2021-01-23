@@ -15,11 +15,11 @@ It focuses on unifying Development & IT Operations through the principles of flo
 
 ## Key Definitions
 
-- Continuous Integration (CI): Addresses building software from contributions of individual developers in a controlled, agile way. (Checking all code into centralized repo daily)
-- Continuous Deployment (CD): Automated Deployment (or transport) of code to production with no manual steps required. This will not be the plan with all applications.
-- Continuous Delivery (CD): Automation that ensures deployment is validated, however manual step still required to deploy to production.
-- Deployment: The deployment (or transport) of code to a higher-level environment, up to & including production.
-- Release: The defined scope and business objective for a set of features to be delivered in a certain timeline.
+- **Continuous Integration (CI)**: Addresses building software from contributions of individual developers in a controlled, agile way. (Checking all code into centralized repo daily)
+- **Continuous Deployment (CD)**: Automated Deployment (or transport) of code to production with no manual steps required. This will not be the plan with all applications.
+- **Continuous Delivery (CD)**: Automation that ensures deployment is validated, however manual step still required to deploy to production.
+- **Deployment**: The deployment (or transport) of code to a higher-level environment, up to & including production.
+- **Release**: The defined scope and business objective for a set of features to be delivered in a certain timeline.
 
 ## Why do DevOps?
 
@@ -42,9 +42,9 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 DevOps principles are applied to and assisted by the following 3 Key areas all working together:
 
-- People - DevOps relies on strong people & a strong culture of experimentation, learning, collaboration, and shared goals between Development, QA & IT Operations.
-- Processes – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams.
-- Tools– DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools.
+- **People** - DevOps relies on strong people & a strong culture of experimentation, learning, collaboration, and shared goals between Development, QA & IT Operations.
+- **Processes** – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams.
+- **Tools** – DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools.
 
 ## What Is the Goal of DevOps?
 
@@ -166,9 +166,9 @@ kubectl get nodes
 
 # References
 
-“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream..” - Phoenix Project
+*“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream..”* - Phoenix Project
 
-“Imagine living in a DevOps world, where product owners, Development, QA, IT Ops, and InfoSec work together relentlessly to help each other and the overall organization win. They are enabling fast flow of planned work into production, while preserving world-class stability, reliability, availability, and security.” - Phoenix Project
+*“Imagine living in a DevOps world, where product owners, Development, QA, IT Ops, and InfoSec work together relentlessly to help each other and the overall organization win. They are enabling fast flow of planned work into production, while preserving world-class stability, reliability, availability, and security.”* - Phoenix Project
 
 * [Periodic Table of DevOps Tools](https://www.notion.so/Periodic-Table-of-DevOps-Tools-4e9b29562a944132b1235cfa7e400d68)
 * [Automation](https://www.notion.so/Automation-e4dee021a4494d9cbdebb3ebc6205f4f)
