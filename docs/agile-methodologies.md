@@ -9,6 +9,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 These are work methodologies that allow adaptation to the circumstances of the projects and reduce the documentation processes, they are generally used in projects that do not have a defined scope with certainty, which causes them to be very prone to change, because in these methodologies deliveries of functional products in a short time (2 to 4 weeks) allow the process of changes and correction of errors to be fast and not have a very high cost for the project in general.
 
+## Modern Agile
+
+Modern Agile is far broader than the Agile Manifesto for Software Development. Modern Agile is a concept that is taking many different areas into account, not just software development. It can even be applied in organizations without software development.  
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/47RN5F525PA" frameborder="0" allow="true" allowfullscreen></iframe>
+
+To clarify how Modern Agile came to be here’s a snippet from the website: Over the past decade, innovative companies, software industry thought leaders and lean/agile pioneers have discovered simpler, sturdier, more streamlined ways to be agile. These modern approaches share a focus on producing exceptional outcomes and growing an outstanding culture. Today, it makes far more sense to bypass antiquated agility in favor of modern approaches.  
+
+Modern Agile methods are defined by four guiding principles:
+
+<img alt="Imagen Modern Agile" src={ useBaseUrl( 'img/ModernAgile.png' )} />
+
+
 ## Types of agile methodologies?
 
 Some of the best known and used agile methodologies in the industry are:
@@ -108,6 +121,24 @@ correcting estimates in light of newly discovered information.
 5. Splitting user stories which are high priority.
 6. Get back to work.
 
+### **Stand-up Session**
+
+A daily stand-up meeting is an opportunity for the project team to discuss a project’s progress at a high level. These meetings last 15 minutes and allow each contributor to report on their accomplishments since the last stand-up meeting.
+
+True to its name, all participants in stand-ups usually remain standing to keep the meetings short and on-topic. However, virtual stand-ups are also possible. 
+
+In Agile project management, daily stand-up meetings are essential. These meetings allow project members to share critical information, openly discuss issues, and hold themselves and each other accountable.
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameborder="0" allow="true" allowfullscreen></iframe>
+
+### Benefits of daily Agile stand-ups
+
+- Daily stand-ups allow team members to work collaboratively toward project goals. 
+- Daily stand-up meetings are important for keeping Agile teams focused and on-task while providing quick, project-level updates to the rest of the team. 
+- The Agile methodology is all about versatility and flexibility, it’s important to make tweaks and improvements to your meetings to fit your team’s needs. 
+- Your daily stand-up should inform and draw out issues so that you can keep your project on track and get ahead of issues before they pop up.
+
+
 ### **Retrospective Session** 
 
 Is a meeting held after a product ships to discuss what happened during the product development and release process, with the goal of improving things in the future based on those learnings and conversations.  
@@ -134,32 +165,4 @@ The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring 
 3. **Set expectations:** Setting expectations and providing context are critical for a successful demo. 
 4. **Action items:** List all completed stories in your agenda, weed out any stories that shouldn’t be demoed, organize the remaining stories roughly into scenarios or topics, decide whether to have developers help give parts of the demo and always set expectations and give context throughout the demo.
 
-### **Stand-up Session**
 
-A daily stand-up meeting is an opportunity for the project team to discuss a project’s progress at a high level. These meetings last 15 minutes and allow each contributor to report on their accomplishments since the last stand-up meeting.
-
-True to its name, all participants in stand-ups usually remain standing to keep the meetings short and on-topic. However, digital stand-ups are also possible. 
-
-In Agile project management, daily stand-up meetings are essential. These meetings allow project members to share critical information, openly discuss issues, and hold themselves and each other accountable.
-
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameborder="0" allow="true" allowfullscreen></iframe>
-
-### Benefits of daily Agile stand-ups
-
-- Daily stand-ups allow team members to work collaboratively toward project goals. 
-- Daily stand-up meetings are important for keeping Agile teams focused and on-task while providing quick, project-level updates to the rest of the team. 
-- The Agile methodology is all about versatility and flexibility, it’s important to make tweaks and improvements to your meetings to fit your team’s needs. 
-- Your daily stand-up should inform and draw out issues so that you can keep your project on track and get ahead of issues before they pop up.
-
-
-## Modern Agile
-
-Modern Agile is far broader than the Agile Manifesto for Software Development. Modern Agile is a concept that is taking many different areas into account, not just software development. It can even be applied in organizations without software development.  
-
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/47RN5F525PA" frameborder="0" allow="true" allowfullscreen></iframe>
-
-To clarify how Modern Agile came to be here’s a snippet from the website: Over the past decade, innovative companies, software industry thought leaders and lean/agile pioneers have discovered simpler, sturdier, more streamlined ways to be agile. These modern approaches share a focus on producing exceptional outcomes and growing an outstanding culture. Today, it makes far more sense to bypass antiquated agility in favor of modern approaches.  
-
-Modern Agile methods are defined by four guiding principles:
-
-<img alt="Imagen Modern Agile" src={ useBaseUrl( 'img/ModernAgile.png' )} />
