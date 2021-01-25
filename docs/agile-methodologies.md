@@ -56,7 +56,7 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 ### How to write user stories?
 - **Definition of Done:** The story is generally “done” when the user can complete the outlined task.
 - **Outline subtasks or tasks:** Decide which specific steps need to be completed and who is responsible for each of them.
-- **User personas:** For Whom? If there are multiple end users, consider making multiple stories.
+- **User:** For Whom? If there are multiple end users, consider making multiple stories.
 - **Ordered Steps:** Write a story for each step in a larger process.
 - **Listen to feedback:** Talk to your users and capture the problem or need in their words.
 - **Time:**  Since stories should be completable in one sprint, stories that might take weeks or months to complete should be broken up into smaller stories or should be considered their own epic.
