@@ -1,7 +1,7 @@
 ---
-id: eosio-core
-title: EOSIO Core
-sidebar_label: EOSIO Core
+id: eosio-components
+title: EOSIO Components
+sidebar_label: EOSIO Components
 ---
 
 ## Nodeos
