@@ -162,4 +162,4 @@ To clarify how Modern Agile came to be here’s a snippet from the website: Over
 
 Modern Agile methods are defined by four guiding principles:
 
-<img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/ModernAgile.png' )} />
+<img alt="Imagen Modern Agile" src={ useBaseUrl( 'img/ModernAgile.png' )} />
