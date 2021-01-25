@@ -3,6 +3,7 @@ id: agile-methodologies
 title: Agile Methodologies
 sidebar_label: Agile Methodologies
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## What are agile methodologies?
 
@@ -39,7 +40,7 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### How to write user stories
+### How to write user stories?
 - **Definition of Done:** The story is generally “done” when the user can complete the outlined task.
 - **Outline subtasks or tasks:** Decide which specific steps need to be completed and who is responsible for each of them.
 - **User personas:** For Whom? If there are multiple end users, consider making multiple stories.
@@ -132,3 +133,33 @@ The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring 
 2. **Let developers brag:** Whenever possible, it’s great to allow developers to present their own work, which helps to build confidence, morale, and a sense of ownership. A good compromise can be to have one organizing speaker with a different “guest” developer showing off their work each week.
 3. **Set expectations:** Setting expectations and providing context are critical for a successful demo. 
 4. **Action items:** List all completed stories in your agenda, weed out any stories that shouldn’t be demoed, organize the remaining stories roughly into scenarios or topics, decide whether to have developers help give parts of the demo and always set expectations and give context throughout the demo.
+
+### **Stand-up Session**
+
+A daily stand-up meeting is an opportunity for the project team to discuss a project’s progress at a high level. These meetings last 15 minutes and allow each contributor to report on their accomplishments since the last stand-up meeting.
+
+True to its name, all participants in stand-ups usually remain standing to keep the meetings short and on-topic. However, digital stand-ups are also possible. 
+
+In Agile project management, daily stand-up meetings are essential. These meetings allow project members to share critical information, openly discuss issues, and hold themselves and each other accountable.
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameborder="0" allow="true" allowfullscreen></iframe>
+
+### Benefits of daily Agile stand-ups
+
+- Daily stand-ups allow team members to work collaboratively toward project goals. 
+- Daily stand-up meetings are important for keeping Agile teams focused and on-task while providing quick, project-level updates to the rest of the team. 
+- The Agile methodology is all about versatility and flexibility, it’s important to make tweaks and improvements to your meetings to fit your team’s needs. 
+- Your daily stand-up should inform and draw out issues so that you can keep your project on track and get ahead of issues before they pop up.
+
+
+## Modern Agile
+
+Modern Agile is far broader than the Agile Manifesto for Software Development. Modern Agile is a concept that is taking many different areas into account, not just software development. It can even be applied in organizations without software development.  
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/47RN5F525PA" frameborder="0" allow="true" allowfullscreen></iframe>
+
+To clarify how Modern Agile came to be here’s a snippet from the website: Over the past decade, innovative companies, software industry thought leaders and lean/agile pioneers have discovered simpler, sturdier, more streamlined ways to be agile. These modern approaches share a focus on producing exceptional outcomes and growing an outstanding culture. Today, it makes far more sense to bypass antiquated agility in favor of modern approaches.  
+
+Modern Agile methods are defined by four guiding principles:
+
+<img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/ModernAgile.png' )} />
