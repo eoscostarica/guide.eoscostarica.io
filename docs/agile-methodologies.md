@@ -123,7 +123,7 @@ correcting estimates in light of newly discovered information.
 
 ### **Stand-up Session**
 
-A daily stand-up meeting is an opportunity for the project team to discuss a project’s progress at a high level. These meetings last 15 minutes and allow each contributor to report on their accomplishments since the last stand-up meeting.
+A daily stand-up meeting is an opportunity for the project team to discuss a project’s progress at a high level. These meetings last approximately 15 minutes and allow each contributor to report on their accomplishments since the last stand-up meeting.
 
 True to its name, all participants in stand-ups usually remain standing to keep the meetings short and on-topic. However, virtual stand-ups are also possible. 
 
