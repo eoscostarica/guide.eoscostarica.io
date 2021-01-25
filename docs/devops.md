@@ -30,7 +30,7 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 - 2x the change success rate
 - 12x faster MTTR (mean time to repair)
 
-### Some examples of why do DevOps?
+### Consequences 
 
 “*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”*
 
