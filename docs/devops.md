@@ -70,6 +70,8 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## Infrastructure as Code ( IAC )
 
+The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
   </iframe>
@@ -78,6 +80,8 @@ Improve collaboration between all stakeholders from planning through delivery an
 * * *
 
 ### Introduction to Terraform 
+
+Terraform is an infrastructure software as code, developed by HashiCorp. It enables users to define and configure the infrastructure of a data center in a high-level language.
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
@@ -93,7 +97,11 @@ Improve collaboration between all stakeholders from planning through delivery an
   </iframe>
 </figure>
 
-## Introduction a Docker and Kubernetes
+# Introduction to Docker and Kubernetes 
+
+## Docker
+
+Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
 ### Containers 101
 
@@ -115,6 +123,12 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 * * *
 
+## Kubernetes
+
+Kubernetes is an open source system for automating the deployment, scaling, and handling of containerized applications that was originally designed by Google and donated to the Cloud Native Computing Foundation. It supports different environments for running containers, including Docker.
+
+Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
+
 ### Kubernetes in 5 mins
 
 <figure class="video_container">
@@ -134,8 +148,6 @@ Improve collaboration between all stakeholders from planning through delivery an
 * * *
 
 ## Kubernetes at EOS Costa Rica
-
-Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
 [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
