@@ -30,9 +30,11 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 - 2x the change success rate
 - 12x faster MTTR (mean time to repair)
 
-### Consequences 
+***
 
-“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”*
+>“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”*
+
+***
 
 **-Phoenix Project**
 
@@ -97,13 +99,13 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
   </iframe>
 </figure>
 
-# Introduction to Docker and Kubernetes 
+## Introduction to Docker and Kubernetes 
 
-## Docker
+### Docker
 
 Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
-### Containers 101
+#### **Containers 101**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
@@ -114,7 +116,7 @@ Docker is an open source project that automates the deployment of applications w
 
 * * *
 
-### What is Docker?
+#### **What is Docker?**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
@@ -123,13 +125,13 @@ Docker is an open source project that automates the deployment of applications w
 
 * * *
 
-## Kubernetes
+### Kubernetes
 
 Kubernetes is an open source system for automating the deployment, scaling, and handling of containerized applications that was originally designed by Google and donated to the Cloud Native Computing Foundation. It supports different environments for running containers, including Docker.
 
 Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
-### Kubernetes in 5 mins
+#### **Kubernetes in 5 mins**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
@@ -138,7 +140,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 * * *
 
-### Kubernetes vs. Docker: It's Not an Either/Or Question
+#### **Kubernetes vs. Docker: It's Not an Either/Or Question**
 
 <figure class="video_container">
   <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
@@ -176,7 +178,7 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-# References
+## References
 
 *“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream..”* - Phoenix Project
 
