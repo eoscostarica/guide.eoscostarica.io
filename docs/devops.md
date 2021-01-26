@@ -21,7 +21,7 @@ It focuses on unifying Development & IT Operations through the principles of flo
 - **Deployment**: The deployment (or transport) of code to a higher-level environment, up to & including production.
 - **Release**: The defined scope and business objective for a set of features to be delivered in a certain timeline.
 
-## Why do DevOps?
+## Why Implement DevOps?
 
 In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs using DevOps and found:
 
