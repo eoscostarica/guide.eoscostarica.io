@@ -38,7 +38,7 @@ $cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
->[More Information](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
+>[More Information](https://guide.eoscostarica.io/docs/tools/command-line)
 
 ## EOSIO.CDT
 
