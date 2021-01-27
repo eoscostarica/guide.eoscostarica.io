@@ -32,14 +32,13 @@ module.exports = {
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
         'eos-learn/ricardian-contracts',
-        'eos-learn/eosio-core'
+        'eos-learn/eosio-components'
       ],
     },
     {
       type: 'category',
       label: 'Tutorials',
       items: [
-        'tutorials/getting-started',
         'tutorials/node-installation',
         'tutorials/hello-world-contract',
         'tutorials/modern-cpp',
