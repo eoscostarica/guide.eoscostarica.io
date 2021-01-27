@@ -7,6 +7,7 @@ module.exports = {
         'engineering-culture',
         'open-source-guidelines',
         'agile-methodologies',
+        'pair-mob-programming',
         'devops',
         'developer-tools',
         'open-source-projects',
