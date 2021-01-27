@@ -1,7 +1,7 @@
 ---
-id: eosio-core
-title: EOSIO Core
-sidebar_label: EOSIO Core
+id: eosio-components
+title: EOSIO Components
+sidebar_label: EOSIO Components
 ---
 
 ## Nodeos
@@ -13,12 +13,15 @@ sidebar_label: EOSIO Core
 * Produce blocks containing valid transactions
 * Confirm blocks to record them on the blockchain
 
+>[More Information](https://guide.eoscostarica.io/docs/tools/nodeos-command-line-reference)
 
 ## Cleos
 
 [Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) is a command line tool that interfaces with Nodeos with a wallet utility (Keosd) responsible for managing keys and signing transactions. Developers can also use cleos to deploy and test EOSIO smart contracts.
 
-To use Cleos, you need the end point(IP address and port number) of a running nodeos instance.
+## How to use Cleos
+
+In order to use **cleos**, you need the domain or IP direction (and the port number) of an instance of **nodeos** in execution. The instance of nodeos needs to be configured to load `eosio :: chain_api_plugin` when starts. This allows that nodeos responds to the RPC request that come from cleos.
 
 > [Keosd](https://developers.eos.io/manuals/eos/latest/keosd/index): is a key manager service daemon for storing private keys and signing digital messages. 
 
@@ -35,12 +38,19 @@ $cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
+>[More Information](https://guide.eoscostarica.io/docs/tools/command-line)
+
 ## EOSIO.CDT
 
 [EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) or **Contract Development Toolkit** is a toolchain for WebAssembly(WASM) with tools to facilitate smart contracts development.C++ to WASM compiler and [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) generator set of C/C++ libraries for smart contracts development.
 
+## Get your private keys
+
+More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
 
 ## Getting Started
+
+![](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/diagrams/cleos.png)
 
 As a way to help you start in EOSIO world, here is a guide on how to install the EOSIO Contract Development Toolkit.
 If you are using a different OS rather than windows visit [this site](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) to see the prerequisites and skip to [Install Binaries](#install-binaries).
@@ -51,7 +61,8 @@ This installation guide will aim for Windows users, unfortunately, EOSIO does no
 - Then, click **Turn Windows features on or off**
 - Search for the option and click **Windows Subsystem for Linux** and press *OK*
 - Now you need to restart your Windows OS
-- Finally , go to your *Microsoft Store* and Search for whatever Linux OS you want, we recommend you install Ubuntu 18.04 LTS
+- Finally, go to your *Microsoft Store* and Search for whatever Linux OS you want, we recommend you install Ubuntu 18.04 LTS
+
 
 ### Use Linux terminal
 
