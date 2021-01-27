@@ -38,7 +38,7 @@ $cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
->[More Information](https://guide.eoscostarica.io/docs/tools/command-line)
+>[More Information](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
 
@@ -61,7 +61,7 @@ This installation guide will aim for Windows users, unfortunately, EOSIO does no
 - Then, click **Turn Windows features on or off**
 - Search for the option and click **Windows Subsystem for Linux** and press *OK*
 - Now you need to restart your Windows OS
-- Finally , go to your *Microsoft Store* and Search for whatever Linux OS you want, we recommend you install Ubuntu 18.04 LTS
+- Finally, go to your *Microsoft Store* and Search for whatever Linux OS you want, we recommend you install Ubuntu 18.04 LTS
 
 
 ### Use Linux terminal
