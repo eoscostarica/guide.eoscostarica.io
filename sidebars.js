@@ -39,7 +39,6 @@ module.exports = {
       type: 'category',
       label: 'Tutorials',
       items: [
-        'tutorials/getting-started',
         'tutorials/node-installation',
         'tutorials/hello-world-contract',
         'tutorials/modern-cpp',

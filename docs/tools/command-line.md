@@ -4,18 +4,6 @@ title: Command Line Interface
 sidebar_label: Command Line
 ---
 
-## CLEOS
-
-`cleos` is a command line tool that interacts with the API REST exposed by nodeos. The developers also can use code to implement and test EOSIO's Smart Contracts.
-
-## Installation
-
-`cleos` is distributed as part of EOSIO. In order to install `cleos` follow the instructions written in the EOSIO's software installation section.
-
-## How to use Cleos
-
-In order to use `cleos`, you need the domain or IP direction (and the port number) of an instance of `nodeos` in execution. The instance of `nodeos` needs to be configured to load `eosio :: chain_api_plugin` when starts. This allows that `nodeos` responds to the RPC request that come from `cleos`.
-
 ### Cleos command
 
 Show the complete command reference in the following link to Cleos Documentation
