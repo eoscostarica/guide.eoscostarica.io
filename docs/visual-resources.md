@@ -7,6 +7,7 @@ sidebar_label: Visual Resources
 ## EOS Costa Rica
 
 ### Horizontal
+
 <div>
   <div style={{ float: "left", width: "50%", backgroundColor: "black" }}>
     <div
@@ -47,6 +48,7 @@ sidebar_label: Visual Resources
 </div>
 
 ### Vertical
+
 <div>
   <div style={{ float: "left", width: "50%", backgroundColor: "black" }}>
     <div style={{ margin: "auto", padding: 50, width: "50%" }}>
@@ -185,6 +187,7 @@ sidebar_label: Visual Resources
 ## Logos de Lifebank
 
 ### Full Color
+
 <div>
   <div
     style={{
@@ -221,6 +224,7 @@ sidebar_label: Visual Resources
 </div>
 
 ### One color
+
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" />
@@ -232,14 +236,14 @@ sidebar_label: Visual Resources
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
         <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
+            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
                 Get resource
             </a>
         </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
-        <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
+        <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
           Get resource
         </a>
       </p>
