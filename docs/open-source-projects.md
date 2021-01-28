@@ -4,9 +4,7 @@ title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
 
-
 ## EOS Rate 
-
 
 <img
   src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
@@ -18,7 +16,6 @@ sidebar_label: Open Source Projects
 - **Website** : https://eosrate.io
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
-
 
 ![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
 
@@ -79,9 +76,9 @@ We view the EOS Foundation as a container for facilitating code, capital, and co
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
 
 * * *
 
