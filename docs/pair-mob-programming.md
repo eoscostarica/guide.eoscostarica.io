@@ -21,8 +21,8 @@ Pair programming specifies that there are always two people working on the code 
 **Team size:** 2 people.
 
 ### Roles:
-- **Pilot:** He is charge of writing the code.
-- **Copilot:** He is charge of supervising that code.
+- **Driver** He is charge of writing the code.
+- **Navigator:** He is charge of supervising that code.
 
 One of the rules of pair programming establishes that these two roles are exchanged regularly, in this way a possible hierarchical gap is avoided.
 
@@ -62,7 +62,7 @@ A group of highly intelligent people with great challenges working as a team to 
 - Do not discuss a problem for more than 10 minutes (Recommended).
 - If there is more than one solution to a problem, experiment with two or 3 (Use
 paretto).
-- Use examples to keep the conversation going by walking.
+- Use examples to keep the conversation going.
 - The ideas of the browsers are only implemented by the driver.
 - The skill level of the driver is key for navigators to further develop the instructions.
 - Immediate feedback.
@@ -73,7 +73,7 @@ paretto).
 
 ### Artifacts:
 
-- Backlog of specific problems defined by the product owner or the Tech lead.
+- Backlog of specific problems defined by the product owner or the tech lead.
 - Alignment in programming katas (New code, bug fixing, test driven development, refactoring).
 - Test automation.
 - Repo - DevOps.
@@ -99,7 +99,7 @@ organizational culture.
 ### Benefits for other organizations and services.
 
 - Recruiting.
-- Design(Service, UX, Production).
+- Design (Service, UX, Production).
 - Tech debt and refactoring.
 
 >Information provided by:
