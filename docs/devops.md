@@ -32,12 +32,9 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 ***
 
->“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”*   
-**-Phoenix Project**
+>“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”* ** - Phoenix Project **
 
 ***
-
-
 
 ![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
 
@@ -67,9 +64,7 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ![](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
-
 * * *
-
 
 ## Infrastructure as Code ( IAC )
 
@@ -82,7 +77,7 @@ The process of managing and provisioning computer data centers through machine-r
 
 * * *
 
-### Introduction to Terraform 
+## Introduction to Terraform 
 
 Terraform is an infrastructure software as code, developed by HashiCorp. It enables users to define and configure the infrastructure of a data center in a high-level language.
 
@@ -93,20 +88,21 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 * * *
 
-### Introduction to HashiCorp Terraform 
+## Introduction to HashiCorp Terraform 
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Introduction to Docker and Kubernetes 
+## Infraestructura como código en EOS CR
 
-### Docker
+* [Openstack Documentation](https://github.com/edenia/openstack-docs)
+* [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
 
-Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
+## Introduction to Kubernetes and Docker
 
-#### **Containers 101**
+### **Containers 101**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
@@ -117,7 +113,9 @@ Docker is an open source project that automates the deployment of applications w
 
 * * *
 
-#### **What is Docker?**
+### What is Docker?
+
+Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
@@ -132,7 +130,7 @@ Kubernetes is an open source system for automating the deployment, scaling, and 
 
 Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
-#### **Kubernetes in 5 mins**
+### Kubernetes in 5 mins
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
@@ -141,10 +139,10 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 * * *
 
-#### **Kubernetes vs. Docker: It's Not an Either/Or Question**
+### Kubernetes vs. Docker: Not a question of both or one
 
 <figure class="video_container">
-  <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -152,10 +150,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 ## Kubernetes at EOS Costa Rica
 
-[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-
-To be able to try these tutorials in a real environment, you could try our Kubernetes installation 
-in Openstack. If you prefer so, you may also create a local setup in your own machine: 
+To be able to try the [tutorials](https://kubernetes.io/docs/tutorials/kubernetes-basics/) in a real environment, you could try our Kubernetes installation in Openstack. If you prefer so, you may also create a local setup in your own machine: 
 
 [Install Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/) 
 
@@ -181,7 +176,7 @@ kubectl get nodes
 
 ## References
 
-*“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream..”* - Phoenix Project
+*“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream...”* - Phoenix Project
 
 *“Imagine living in a DevOps world, where product owners, Development, QA, IT Ops, and InfoSec work together relentlessly to help each other and the overall organization win. They are enabling fast flow of planned work into production, while preserving world-class stability, reliability, availability, and security.”* - Phoenix Project
 
