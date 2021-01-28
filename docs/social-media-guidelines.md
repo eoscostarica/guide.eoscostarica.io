@@ -16,7 +16,7 @@ Be respectful, mind your language, and keep it professional when representing th
 
 ### **Instructions**
 
-- Create an account and follow [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/)
+- Create an account and follow [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/).
 
 - Reshare posts with community.
 
@@ -85,7 +85,7 @@ More on:
 ## [Github](https://github.com/eoscostarica)
 
 ### **Instructions** 
-- Create an account and follow [EOS Costa Rica](https://github.com/eoscostarica)
+- Create an account and follow [EOS Costa Rica](https://github.com/eoscostarica).
 - Review repositories and ask for permissions.
 - Edit profile to appear as collab for EOSCR.
 
@@ -95,8 +95,6 @@ More on:
 <div style={{  textAlign: "center" }}>
     <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GithubEstado.png" />
 </div>
-
-
 
 ** *Examples of description:* **
 
