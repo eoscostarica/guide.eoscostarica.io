@@ -32,7 +32,7 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 ***
 
->“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”* ** - Phoenix Project **
+> “*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”* ** - Phoenix Project **
 
 ***
 
@@ -130,7 +130,7 @@ Kubernetes is an open source system for automating the deployment, scaling, and 
 
 Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
-### Kubernetes in 5 mins
+### Kubernetes in 5 minutes
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
