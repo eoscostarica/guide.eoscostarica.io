@@ -8,7 +8,7 @@ EOSIO is open-source software that enables launching highly configurable blockch
 
 Some innovative features of EOSIO include:
 
-- **Free transactions** with consumption limits.
+- **Free transactions** with consumption limits
 - **Low latency** confirming new blocks (0.5 seconds)
 - **Byzantine Fault Tolerance**
 - Human Readable Account Names (`eosioaccount`)
