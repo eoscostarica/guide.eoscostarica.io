@@ -76,9 +76,9 @@ We view the EOS Foundation as a container for facilitating code, capital, and co
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
 
 * * *
 

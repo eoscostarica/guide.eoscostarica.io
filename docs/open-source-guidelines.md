@@ -8,7 +8,7 @@ sidebar_label: Open Source Guidelines
 
 We use a Kanban-style board to prioritize the work. For example the [EOS rate project board](https://github.com/eoscostarica/eos-rate/projects/1).
 
-We have added a additional column to the default automated board in order to maintain a prioritized `To` Do column.
+We have added a additional column to the default automated board in order to maintain a prioritized `To Do` column.
 
 When a new issues is create you need to explicitly use the project option on the GitHub issue to include it in the board; Once you do that it gets automatically added to the New Issues column.
 

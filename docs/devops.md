@@ -66,7 +66,7 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 * * *
 
-## Infrastructure as Code ( IAC )
+## Infrastructure as Code (IAC)
 
 The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
@@ -77,7 +77,7 @@ The process of managing and provisioning computer data centers through machine-r
 
 * * *
 
-## Introduction to Terraform 
+### Introduction to HashiCorp Terraform
 
 Terraform is an infrastructure software as code, developed by HashiCorp. It enables users to define and configure the infrastructure of a data center in a high-level language.
 
@@ -86,16 +86,12 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
   </iframe>
 </figure>
 
-* * *
-
-## Introduction to HashiCorp Terraform 
-
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Infraestructura como código en EOS CR
+## Infrastructure as code in EOS CR
 
 * [Openstack Documentation](https://github.com/edenia/openstack-docs)
 * [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
