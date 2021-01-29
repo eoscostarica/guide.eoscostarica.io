@@ -68,7 +68,6 @@ module.exports = {
         'community-resources/eos-podcasts',
         'community-resources/eosio-networks',
         'community-resources/useful-links'
-        
       ],
     },
   ],  
