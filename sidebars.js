@@ -45,6 +45,7 @@ module.exports = {
         'tutorials/modern-cpp',
         'tutorials/git-workflow-tutorial',
         'tutorials/markdown-guide',
+        'tutorials/github-guide',
         'tutorials/github-keys'
       ],
     },
