@@ -8,11 +8,11 @@ A consensus mechanism ensures that each new block that is added to the blockchai
 
 EOSIO will delegate the the authority to validate and write new blocks to a group of nodes that we call **Block Producers**.
 
-## What is a block producer
+## What is a block producer?
 
 Block producers provide the infrastructure required to process transactions. Some block producers operate on their own physical equipment, while others provide services using third-party cloud services.
 
-### Explaining the role of an EOS block producer.
+### Explaining the role of an EOS block producer
 
 <figure class="video_container">
   <iframe width="100%"  height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
@@ -27,7 +27,7 @@ They are able to recognize the signatures of other nodes and verify that the tra
 
 An EOSIO network is configured by default to use 21 active producers and a series of reserve producers for stable operation.
 
->EOSIO allows up to 125 active block producers, specified by `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
+> EOSIO allows up to 125 active block producers, specified by `max_producers` in [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
 
 ### Block producer schedule
 
@@ -43,7 +43,7 @@ If a producer node is not ready or unavailable, there is no one to produce the 1
 
 New blocks are considered reversible until they have been validated by 2/3 +1 of the active producers. This way if a producer node inserts an invalid block, the following nodes will reject it and the block will not be included unless 2/3 +1 of the producers group approve it.
 
->Example: A network of 21 active producers requires validation of 15 nodes (2/3 +1), which takes on average 90 seconds to obtain irreversibility of a new block.
+> **Example:** A network of 21 active producers requires validation of 15 nodes (2/3 +1), which takes on average 90 seconds to obtain irreversibility of a new block
 
 ### Node Fault Tolerance
 
@@ -51,7 +51,7 @@ Once a block is signed, other producers on the schedule validate it and it goes 
 
 Servers sometimes fail, and sometimes must be decommissioned for software updates and system maintenance, which is important to consider on small EOSIO networks.
 
-With only 5 producers, the network will tolerate 1 producer going offline. If more than one is offline, the number of the Last Irreversible Block will stop increasing and the network will stop. With 4 nodes, a single failed a node will stall the network. With 9 producers, two nodes can be disconnected without breaking the network.
+With only 5 producers, the network will tolerate 1 producer going offline. If more than one is offline, the number of the **LIB** will stop increasing and the network will stop. With 4 nodes, a single failed a node will stall the network. With 9 producers, two nodes can be disconnected without breaking the network.
 
 It is also important that private keys used by production nodes are properly backed up. If block producer keys are lost due to a system disaster, there is a chance that the network will stop working forever.
 
@@ -59,7 +59,7 @@ It is also important that private keys used by production nodes are properly bac
 
 EOSIO networks keep a list of registered block producer accounts that run nodes that can successfully produce blocks just by being added to the schedule of active producers.
 
-## Delegated Proof of Stake (DPoS)
+### Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">
   <iframe width="100%"  height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
@@ -69,7 +69,7 @@ A consensus algorithm is a process in Computer Science used to achieve agreement
 
 Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blokchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
 
-EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake -(DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
+EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake (DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
 
  - [DPoS Consensus algorithm](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
 
