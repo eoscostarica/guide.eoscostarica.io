@@ -39,11 +39,21 @@ GitHub [CLI](https://cli.github.com) is a command line tool for using GitHub fun
 
 <img alt="Git Bash Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.png' )} />
 
+### [Hub](https://hub.github.com)
+
+[Hub](https://github.com/github/hub) is an extension to command-line git that helps you do everyday GitHub tasks without ever leaving the terminal.
+
+
+### [Git-extras](https://www.mankier.com/1/git-extras)
+[Git-extras](https://github.com/tj/git-extras) repo hosts more than 60 scripts that add to Git's basic functionality. More information about [Commands](https://github.com/tj/git-extras/blob/master/Commands.md).
+
+
+
 * * * 
 
 ## **Commands** 
 
-### **Start Repository**
+### Start Repository
 
 Create a new directory.
 ```
@@ -56,7 +66,7 @@ git clone <url>
 ```
 >[More information](https://github.com/joshnh/Git-Commands)
 
-### **Branch**
+### Branch
 
 List the existing branches.
 ```
@@ -85,7 +95,7 @@ git branch -d <branch name>
 ```
 >[More information](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
 
-### **Upload Changes**
+### Upload Changes
 
 Update your local repository.
 ```
@@ -128,7 +138,7 @@ git merge <branch name>
 ```
 >[More information](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/)
 
-### **Fork**
+### Fork
 
 Download remote from a fork
 ```
@@ -142,7 +152,7 @@ git merge upstream/master
 ```
 >[More information](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 
-### **Other Commands**
+### Other Commands
 
 Review commit logs.
 ```
