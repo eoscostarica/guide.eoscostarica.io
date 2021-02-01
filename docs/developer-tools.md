@@ -4,6 +4,50 @@ title: Our Favorite Tools
 sidebar_label: Our Favorite Tools
 ---
 
+## Apollo
+
+### What is  Apollo?
+
+Apollo is a suite of tools to create a GraphQL server, and to consume a GraphQL API.  Apollo is a team and community that builds on top of GraphQL, and provides different tools that help you build your projects.
+
+### Why we use  Apollo?
+
+1. **Documentation:** While Apollo continues to evolve, the team and community behind it keeps the documentation up to date, and they have plenty of insight about how to build applications. 
+2. **Libraries:** Apollo offers plenty of libraries for implementing an effective GraphQL tech stack for JavaScript applications, and their libraries are open-sourced to be more manageable.
+3. **Features:** Apollo comes with built-in features to pull all the complexity out of applications and handle the intersection between client and server applications.
+
+### Instalation of Apollo
+
+[Apollo CLI Instalation](https://www.apollographql.com/docs/devtools/cli/)
+
+[Apollo GitHub](https://github.com/apollographql)
+
+* * *
+
+## Axios
+
+### What is Axios?
+
+Axios is a very popular JavaScript library you can use to perform HTTP requests, that works in both Browser and Node.js platforms. It supports all modern browsers, including support for IE8 and higher.
+
+### Why we use Axios?
+
+1. Supports older browsers.
+2. Has a way to abort a request.
+3. Has a way to set a response timeout.
+4. has built-in CSRF protection.
+5. Supports upload progress.
+6. Performs automatic JSON data transformation.
+7. Works in Node.js
+
+### Instalation of Axios
+
+[Axios Instalation](https://www.npmjs.com/package/axios)
+
+[Axios GitHub](https://github.com/axios/axios)
+
+* * *
+
 ## EOSIO
 
 ### What is EOSIO?
@@ -77,7 +121,7 @@ Javascript is not a strongly typed language, this might create some problems for
 ### Why we use React JS?
 
 1. **Fast Learning Curve**. React is very a simple and lightweight library that only deals with the view layer.
-2. **Reusable Components**. React provides a component based structure. Components are your lego pieces. You start with tiny components like button, checkbox, dropdown etc. and the you create wrapper components composed of those smaller components.
+2. **Reusable Components**. React provides a component based structure. Components are your lego pieces. You start with tiny components like button, checkbox, dropdown etc and then you create wrapper components composed of those smaller components.
 3. **Fast render with Virtual DOM**. Updating DOM is usually the bottleneck when it comes to the web performance. React is trying to solve this problem by using something called virtual DOM; a DOM kept in memory.
 4. **Great Developer Tools**. Developer toolset is another important factor when you are choosing a development platform. There are two great tools you should be aware of: React Developer Tools and Redux Developer Tools. Both can be installed as Chrome extensions.
 
@@ -134,31 +178,31 @@ Hasura's GraphQL engine is an ultrafast GraphQL server that gives you real-time,
 
 [Hasura CLI Installation](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html).
 
-[Hsura GitHub](https://github.com/hasura)
+[Hasura GitHub](https://github.com/hasura)
 
 * * *
 
-## httpie
+## HTTPie
 
-### What is httpie?
+### What is HTTPie?
 
 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.
 
-### Why we use httpie?
+### Why we use HTTPie?
 
 1. **Simple**, expressive and intuitive HTTP command syntax.
-2. **Nicely formatted** and colorized terminal output.
-3. **Out-of-box** JSON support.
+2. Nicely formatted and colorized terminal output.
+3. **Out-of-box**, JSON support.
 4. **Forms** and **file uploads**.
-5. **Support**, for custom HTTP header and supports arbitrary request data..
-6. **Major OS supports** — Linux, macOS, and Windows.
-7. **Plugins** to support additional feature.
+5. **Support**, for custom HTTP header and supports arbitrary request data.
+6. Major OS supports **Linux**, **macOS**, and **Windows**.
+7. Plugins to support additional feature.
 
-### httpie Installation
+### HTTPie Installation
 
-[httpie Installation](https://httpie.io/docs#installation).
+[HTTPie Installation](https://httpie.io/docs#installation).
 
-[httpie GitHub](https://github.com/httpie/httpie)
+[HTTPie GitHub](https://github.com/httpie/httpie)
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/SUWCS0FCb9s" frameborder="0" allowfullscreen="true"> </iframe>
@@ -188,23 +232,23 @@ PostgreSQL is a powerful open source object relational database system that uses
 
 * * *
 
-## PostMan
+## Postman
 
-### What is PostMan?
+### What is Postman?
 
 It enables developers to test calls to APIs. Postman users enter data. The data is sent to a special web server address. Typically, information is returned, which Postman presents to the user.
 
-### Why we use PostMan?
+### Why we use Postman?
 
 1. **User-Friendly:** Having a user-friendly interface enables one to send a simple request by only entering it, filling in the necessary headers, selecting the HTTP method and pressing the ‘send’ button. 
 2. **Automation:**  Automated tests can be easily set up using the Postman API testing tool. You can automate your test cases in Postman in javascript with impressive features like write test suites, build request that consists of dynamic parameters, pass on data in between the request, etc. In this way tests and requests can be aggregated into a single automated test sequence.
 3. **Cost Effective:**  Apart from the many benefits which this tool provides us, this tool is also very cost effective. You can use the Postman in their free plan, which consists of limited features but most helpful.
 
-### PostMan Installation
+### Postman Installation
 
-[PostMan Installation](https://www.softwaretestingmaterial.com/install-postman/)
+[Postman Installation](https://www.softwaretestingmaterial.com/install-postman/)
 
-[PostMan GitHub](https://github.com/postmanlabs)
+[Postman GitHub](https://github.com/postmanlabs)
 
-<iframe 
+<iframe
 width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true"> </iframe>
