@@ -29,7 +29,7 @@ Functionality exposed by a smart contract that is exercised by passing the corre
 
 ### Actions (Hasura)
 
-Actions are a way to extend the Hasura schema with custom business logic through custom mutations and queries.
+`Actions` are a way to extend the Hasura schema with custom business logic through custom mutations and queries.
 
 Actions can be added to Hasura to handle various use cases, such as data validation, enrichment of data from external sources, and any other complex business logic.
 
@@ -53,7 +53,7 @@ The Airgrab model is designed to be a more capital efficient way to deploy dApp 
 
 * * *
 
-### API
+### API (Application programming interface)
 
 Set of functions and procedures that allow the creation of applications that access the characteristics or data of an operating system, application or other specific service.
 
