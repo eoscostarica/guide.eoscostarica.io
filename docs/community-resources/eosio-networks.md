@@ -78,5 +78,4 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-You can see a complete description of several EOSIO public blockchains here in [eos.io](https://eos.io/)
-
+You can see a complete description of several EOSIO public blockchains here in [eos.io](https://eos.io/).
