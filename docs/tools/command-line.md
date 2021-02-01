@@ -6,7 +6,7 @@ sidebar_label: Command Line
 
 ### Cleos command
 
-Show the complete command reference in the following link to Cleos Documentation
+Show the complete command reference in the following link to [Cleos Documentation](https://developers.eos.io/manuals/eos/latest/cleos/index)
 
 To get a full list of the available `cleos` commands, execute:
 
@@ -47,7 +47,7 @@ Subcommands:
   system                      Send eosio.system contract action to the blockchain.
 ```
 
-### Cleos subcommands
+### Cleos Subcommands
 
 To get help whit whatever subcommand in particular, execute `code SUBCOMMAND --help`. For example:
 
@@ -98,11 +98,11 @@ Options:
   --delay-sec UINT            set the delay_sec seconds, defaults to 0s
 ```
 
-## Cleos example
+## Cleos Example
 
 The following command `cleos` creates a local wallet called `my_wallet` and shows the password on the screen:
 
-```
+```bash
 cleos wallet create -n my_wallet --to-console
 ```
 

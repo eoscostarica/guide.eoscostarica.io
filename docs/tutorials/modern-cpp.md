@@ -16,7 +16,7 @@ sidebar_label: Modern C++
 
 * * *
 
-## Hello world in c++
+## Hello World in c++
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true"> </iframe>
