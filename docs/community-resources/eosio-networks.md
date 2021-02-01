@@ -18,7 +18,7 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO 
+- [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO.
 
 <figure class="video_container">
   <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">

@@ -53,7 +53,7 @@ The Airgrab model is designed to be a more capital efficient way to deploy dApp 
 
 * * *
 
-### API (Application programming interface)
+### API (Application Programming Interface)
 
 Set of functions and procedures that allow the creation of applications that access the characteristics or data of an operating system, application or other specific service.
 
@@ -122,7 +122,7 @@ It is the first DPOS blockchain equipped with IBC. Its goal is to refactor busin
 
 * * *
 
-### Bytecode canonical
+### Bytecode Canonical
 
 It is used for communication between different data formats. A form of business application integration, it aims to reduce costs and standardize the agreed definitions of data associated with the integration of business systems.
 

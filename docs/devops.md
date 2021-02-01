@@ -38,8 +38,6 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 ***
 
-![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
-
 ## Areas of Emphasis
 
 DevOps principles are applied to and assisted by the following 3 Key areas all working together:
@@ -60,11 +58,11 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## CI Systems - Examples
 
-![CI_System_image](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
+![CI_System_image](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png 'Devops')
 
 ## CD Systems - Examples
 
-![CD_System_image](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
+![CD_System_image](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png '')
 
 * * *
 

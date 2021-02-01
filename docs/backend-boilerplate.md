@@ -26,9 +26,9 @@ This template features all the latest tools and best practices in the industry. 
 1. [hasura](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html#install-a-binary-globally)
 
 ### Step by step
-1. Clone the repo using the command `git clone --depth=1 https://github.com/eoscostarica/backend-boilerplate.git`
-1. Access the directory using the command: `cd backend-boilerplate`
-1. Copy `.env.example` file and then update the variables according to your needs
+1. Clone the repo using the command `git clone --depth=1 https://github.com/eoscostarica/backend-boilerplate.git`.
+1. Access the directory using the command: `cd backend-boilerplate`.
+1. Copy `.env.example` file and then update the variables according to your needs.
 
 ## Execution
 > You need to have a terminal that is capable of run the `makefile`, which is in the root directory. You can find more information about make [here](https://www.gnu.org/software/make/manual/make.html).

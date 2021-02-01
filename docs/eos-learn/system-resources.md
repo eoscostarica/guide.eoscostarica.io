@@ -36,7 +36,7 @@ As CPU and RAM, NET is also a very important resource in EOSIO-based blockchains
 
 You can find more details about NET as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
-## Account Resource imits
+## Account Resource Limits
 
 Every account on a EOSIO-based blockchain has resource limits for CPU/NET and RAM associated with it. These limits specify how much of each resource can be used by the account and they can be dynamically changed by calling the privileged API `set_resource_limits`.
 
