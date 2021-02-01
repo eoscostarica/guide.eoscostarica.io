@@ -120,7 +120,7 @@ More on:
     - https://t.me/evodex_io 
     - https://t.me/latamlink
 
-## Other channels to follow EOS Costa Rica:
+## Other Channels to Follow EOS Costa Rica:
 - ### [Facebook](https://www.facebook.com/costaricaeos)
 - ### [Instagram](https://www.instagram.com/eoscostarica/)
 - ### [Youtube](https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ)

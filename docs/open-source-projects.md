@@ -82,7 +82,7 @@ We view the EOS Foundation as a container for facilitating code, capital, and co
 
 * * *
 
-## Digital notary smart contract
+## Digital Notary Smart Contract
 
 This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
 
@@ -113,7 +113,7 @@ EOS Costa Rica is working with EOS Argentina creating a web interface that will 
 
 * * *
 
-## EOSIO hackathons 
+## EOSIO Hackathons 
 
 ### LifeBank
 

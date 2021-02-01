@@ -80,25 +80,25 @@ Blocks are files where the data belonging to the blockchain is permanently recor
 
 * * *
 
-### Block explorer
+### Block Explorer
 
 A block explorer is a program or website accessible through a browser that allows a user to search and navigate through the blocks of a blockchain, their contents and their relevant details.
 
 * * *
 
-### Block height
+### Block Height
 
 It is defined as the number of blocks in the chain between a given block and the first block in the block chain. For example a block height of 500 refers to block number 500 of that chain.
 
 * * *
 
-### Block one
+### Block One
 
 `Block.one` is the company that created the EOSIO software. A producer of highly scalable, high-performance open source software, it is at the forefront of developing the next generation of the Internet.
 
 * * *
 
-### Block producer
+### Block Producer
 
 Block producers are one of Block.one's main innovations, they are the decentralized entities that govern the EOSIO blockchain. Rather than being managed by a small number of mining groups, EOSIO will have a constantly changing group of 21 block producers.
 
@@ -294,7 +294,7 @@ A backend service for custom business logic, integrated with Hasura, using actio
 
 * * *
 
-### Hardware biométrico
+### Hardware Biométrico
 
 These are technological devices that allow biometric data from humans or other objects to be perceived, an example of this is the easy recognition that some security cameras and mobile devices have, also the unlocking of artifacts by means of fingerprints, to mention Some.
 
@@ -328,7 +328,7 @@ Is an easy to use command line HTTP client for the API era. It comes with JSON s
 
 ## **I**
 
-### IAC (infraestructura como código)
+### IAC (Infrastructure as Code)
 
 Is the process of managing computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
@@ -438,7 +438,7 @@ The term used to signify the beginning of a blockchain.
 
 * * *
 
-### LIB (Last irreversible block)
+### LIB (Last Irreversible Block)
 
 A block is considered irreversible (i.e. immutable) on an EOSIO based blockchain when 2/3rd of the currently elected block producers have acknowledged it.
 
@@ -552,7 +552,7 @@ A publicly available key that can be authorized to permissions of an account and
 
 * * *
 
-### Pull request
+### Pull Request
 
 `Pull requests` let you tell others about changes you've pushed to a branch in a repository on GitHub. 
 
@@ -608,7 +608,7 @@ Part of a system that if it fails to detect the operation of the entire system. 
 
 * * *
 
-### Squash merge
+### Squash Merge
 
 Squash merging is a `merge` option that allows you to condense the Git history of topic branches when you complete a `pull request`. Instead of each `commit` on the topic `branch` being added to the history of the default `branch`, a squash merge takes all the file changes and adds them to a single new `commit` on the default `branch`.
 

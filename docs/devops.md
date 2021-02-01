@@ -23,7 +23,7 @@ It focuses on unifying Development & IT Operations through the principles of flo
 - **Deployment**: The deployment (or transport) of code to a higher-level environment, up to & including production.
 - **Release**: The defined scope and business objective for a set of features to be delivered in a certain timeline.
 
-## Why Implement DevOps?
+## Why implement DevOps?
 
 In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs using DevOps and found:
 
@@ -46,7 +46,7 @@ DevOps principles are applied to and assisted by the following 3 Key areas all w
 - **Processes** – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams.
 - **Tools** – DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools.
 
-## What Is the Goal of DevOps?
+## What is the goal of DevOps?
 
 Improve collaboration between all stakeholders from planning through delivery and automation of the delivery process in order to:
 
@@ -66,7 +66,7 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 * * *
 
-## Infrastructure as Code ( IAC )
+## Infrastructure as Code (IAC)
 
 The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
@@ -92,8 +92,6 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 * * *
 
-### Introduction to HashiCorp Terraform 
-
 <figure 
   class="video_container">
   <iframe 
@@ -101,7 +99,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
   </iframe>
 </figure>
 
-## Infrastructure as code in EOS Costa Rica
+## Infrastructure as Code in EOS Costa Rica
 
 * [Openstack Documentation](https://github.com/edenia/openstack-docs)
 * [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)

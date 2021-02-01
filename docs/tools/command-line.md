@@ -4,7 +4,7 @@ title: Command Line Interface
 sidebar_label: Command Line
 ---
 
-### Cleos command
+### Cleos Command
 
 Show the complete command reference in the following link to [Cleos Documentation](https://developers.eos.io/manuals/eos/latest/cleos/index)
 

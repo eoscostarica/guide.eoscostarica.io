@@ -60,7 +60,7 @@ https://github.com/postgres/postgres
 
 * * *
 
-## PostMan
+## Postman
 
 It enables developers to test calls to APIs. Postman users enter data. The data is sent to a special web server address. Typically, information is returned, which Postman presents to the user.
 

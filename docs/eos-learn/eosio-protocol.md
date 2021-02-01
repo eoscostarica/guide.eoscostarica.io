@@ -25,7 +25,7 @@ Another important feature of EOSIO based blockchain networks is it's flexible ar
 
 This flexibility is achieved thanks to a set of smart contracts separated from the EOSIO core protocol. Because of this, the core functionality that validates blocks and transactions is separated from the **system contracts**.
 
-## System contracts
+## System Contracts
 
 System contracts allow EOSIO networks to :
 

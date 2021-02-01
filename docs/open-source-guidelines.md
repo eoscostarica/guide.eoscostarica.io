@@ -77,6 +77,7 @@ The version in our package.json gets copied to the one we publish, and users nee
 Even more [samples](https://github.com/angular/angular/commits/master)
 
 ### Revert
+
 If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>`, where the hash is the SHA of the commit being reverted.
 
 ### Type
@@ -124,7 +125,7 @@ reference GitHub `issues` that this commit closes.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
-## Reporting bugs
+## Reporting Bugs
 
 Before submitting your `issue` please check that you've completed the following steps:
 
@@ -164,7 +165,7 @@ When a documented feature does not behave as documented, or when a security issu
 
 On each release we generate a changelog file to document changes using the standard [git-changelog](https://github.com/rafinskipg/git-changelog) package. There's an npm task for it.
 
-## Advanced Git tools
+## Advanced Git Tools
 
 There are also tools like [Hub](https://hub.github.com/) and [git-extras](https://github.com/tj/git-extras) that facilitate interacting with Github. You can leverage these tools to contribute to this repository.
 

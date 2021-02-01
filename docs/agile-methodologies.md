@@ -44,7 +44,7 @@ It is a methodology based on a set of rules and good practices for software deve
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/hbFOwqYIOcU" frameborder="0" allow="true" allowfullscreen></iframe>
 
-## Agile project management
+## Agile Project Management
 
 ### User Stories
 
@@ -53,7 +53,8 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### How to write user stories?
+#### How to write User Stories?
+
 - **Definition of Done:** The story is generally “done” when the user can complete the outlined task.
 - **Outline subtasks or tasks:** Decide which specific steps need to be completed and who is responsible for each of them.
 - **User:** For Whom? If there are multiple end users, consider making multiple stories.
@@ -62,11 +63,12 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 - **Time:**  Since stories should be completable in one sprint, stories that might take weeks or months to complete should be broken up into smaller stories or should be considered their own epic.
 
 #### Examples:
+
 >- As  **manager**, I want to **be able to understand my colleagues progress**, so I **can better report our success and failures**. 
 >- As  **customer** , I want **shopping cart feature** so that **I can easily purchase items online**.
 >- As  **manager**, I want to **generate a report** so that **I can understand which departments need more resources**.
 
-## Work meetings
+## Work Meetings
 
 ### Planning Session
 
@@ -85,7 +87,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 
 - **Scrum Master:** Typically facilitates sprint planning in order to ensure that the discussion is effective and that there is agreement to the sprint goal and that the appropriate product backlog items are included in the sprint backlog.
 
-#### Planning steps
+#### Planning Steps
 
 1. Discuss any new information that may impact the plan.
 2. Confirm any currently known issues and concerns and record as appropriate.
@@ -111,7 +113,7 @@ Backlog grooming, also referred to as backlog refinement or story time, is a rec
 - **Team Members:** These events are meant to be collaborative. That means the entire cross-functional team should be represented at refinement sessions.
 - **QA representatives:** You need the combined expertise of the various functions on your team to effectively flesh out your user stories.
 
-#### Grooming steps
+#### Grooming Steps
 
 1. Removing user stories that no longer appear relevant.
 2. Creating new user stories in response to newly discovered needs.
@@ -131,7 +133,7 @@ In Agile project management, daily stand-up meetings are essential. These meetin
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### Benefits of daily Agile stand-ups
+#### Benefits of Daily Agile Stand-ups
 
 - Daily stand-ups allow team members to work collaboratively toward project goals. 
 - Daily stand-up meetings are important for keeping Agile teams focused and on-task while providing quick, project-level updates to the rest of the team. 
@@ -158,11 +160,9 @@ The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Njxek3s3Shs" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### Demo steps
+#### Demo Steps
 
 1. **Tell a story:** This is one of the most important factors for a great demo, and also the most overlooked. Given the structured nature of Agile stories and epics, it’s easy to fall into the trap of simply enumerating the work that you’ve done. This isn’t necessarily bad, but it’s unlikely to excite non-technical stakeholders.
 2. **Let developers brag:** Whenever possible, it’s great to allow developers to present their own work, which helps to build confidence, morale, and a sense of ownership. A good compromise can be to have one organizing speaker with a different “guest” developer showing off their work each week.
 3. **Set expectations:** Setting expectations and providing context are critical for a successful demo. 
 4. **Action items:** List all completed stories in your agenda, weed out any stories that shouldn’t be demoed, organize the remaining stories roughly into scenarios or topics, decide whether to have developers help give parts of the demo and always set expectations and give context throughout the demo.
-
-
