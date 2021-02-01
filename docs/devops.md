@@ -142,7 +142,7 @@ Kubernetes is an open source system for automating the deployment, scaling, and 
 
 Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
-### Kubernetes in 5 minutes
+### Kubernetes in 5 Minutes
 
 <figure 
   class="video_container">
@@ -153,7 +153,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 * * *
 
-### Kubernetes vs Docker: Not a question of both or one
+### Kubernetes vs Docker: Not a Question of Both or One
 
 <figure 
   class="video_container">
