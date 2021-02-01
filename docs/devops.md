@@ -8,8 +8,10 @@ DevOps is the practice & culture of applying lean manufacturing principles to th
 
 It focuses on unifying Development & IT Operations through the principles of flow, feedback, & experimentation.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
+<figure
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -58,20 +60,22 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## CI Systems - Examples
 
-![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
+![CI_System_image](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
 
 ## CD Systems - Examples
 
-![](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
+![CD_System_image](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
 * * *
 
-## Infrastructure as Code (IAC)
+## Infrastructure as Code ( IAC )
 
 The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -81,17 +85,25 @@ The process of managing and provisioning computer data centers through machine-r
 
 Terraform is an infrastructure software as code, developed by HashiCorp. It enables users to define and configure the infrastructure of a data center in a high-level language.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+* * *
+
+### Introduction to HashiCorp Terraform 
+
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Infrastructure as code in EOS CR
+## Infrastructure as code in EOS Costa Rica
 
 * [Openstack Documentation](https://github.com/edenia/openstack-docs)
 * [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
@@ -100,8 +112,10 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 ### **Containers 101**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -113,8 +127,10 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 
 Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -128,8 +144,10 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 ### Kubernetes in 5 minutes
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -137,8 +155,10 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 ### Kubernetes vs Docker: Not a question of both or one
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+    width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -164,6 +184,7 @@ ssh -i key.pem user@master-sandbox
 ```shell
 kubectl cluster-info
 ```
+
 - Show the current available nodes in the cluster:
 
 ```shell

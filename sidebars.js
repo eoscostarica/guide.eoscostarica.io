@@ -7,6 +7,7 @@ module.exports = {
         'engineering-culture',
         'open-source-guidelines',
         'agile-methodologies',
+        'pair-mob-programming',
         'devops',
         'developer-tools',
         'open-source-projects',
@@ -44,6 +45,7 @@ module.exports = {
         'tutorials/modern-cpp',
         'tutorials/git-workflow-tutorial',
         'tutorials/markdown-guide',
+        'tutorials/github-guide',
         'tutorials/github-keys'
       ],
     },
