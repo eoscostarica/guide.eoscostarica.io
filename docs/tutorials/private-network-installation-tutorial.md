@@ -230,3 +230,156 @@ executed transaction: 17fa4e06ed0b2f52cadae2cd61dee8fb3d89d3e46d5b133333816a04d2
 #         eosio <= eosio::setcode               {"account":"eosio.bios","vmtype":0,"vmversion":0,"code":"0061736d01000000017f1560037f7e7f0060057f7e...
 #         eosio <= eosio::setabi                {"account":"eosio.bios","abi":{"types":[],"structs":[{"name":"transfer","base":"","fields":[{"name"...
 ```
+# Block producer nodes: configuration and execution
+We must create the configuration directories for each block producer. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), we are creating their directories To do this, execute the following commands:
+```bash
+$ cd ~
+$ mkdir producer1
+
+$ touch ~/producer1/config.ini
+$ touch ~/producer1/genesis.json
+$ touch ~/producer1/start.sh
+
+$ cp -R producer1 producer2
+$ cp -R producer1 producer3
+```
+Once the files were created, proceed to copy the content with the corresponding file:
+
+## `config.ini`
+```bash
+agent-name = producer1
+
+# PLUGINS
+plugin = eosio::chain_plugin
+plugin = eosio::producer_plugin
+
+# CHAIN 
+chain-state-db-size-mb = 16384
+reversible-blocks-db-size-mb = 512
+contracts-console = true
+abi-serializer-max-time-ms = 2000
+wasm-runtime = wabt
+enable-stale-production = false
+pause-on-startup = false
+max-irreversible-block-age = -1
+txn-reference-block-lag = 0
+
+# BLOCK PRODUCER
+producer-name = producer1
+
+# PEERING NETWORK
+p2p-server-address =  producer1:9876     # change according to directory
+p2p-listen-endpoint = 0.0.0.0:9876
+p2p-max-nodes-per-host = 150
+max-clients = 150
+connection-cleanup-period = 30
+sync-fetch-span = 2000
+allowed-connection = any
+
+p2p-peer-address = seed:9876
+p2p-peer-address = producer2:9876        # change according to the directory of this file
+p2p-peer-address = producer3:9876        # change according to the directory of this file
+p2p-peer-address = api-node:9876
+```
+## `genesis.json`
+```json
+{
+	"initial_timestamp": "2020-08-11T04:20:00.000",
+	"initial_key": "EOS_PUB_DEV_KEY",
+	"initial_configuration": {
+		"max_block_net_usage": 1048576,
+		"target_block_net_usage_pct": 1000,
+		"max_transaction_net_usage": 524288,
+		"base_per_transaction_net_usage": 12,
+		"net_usage_leeway": 500,
+		"context_free_discount_net_usage_num": 20,
+		"context_free_discount_net_usage_den": 100,
+		"max_block_cpu_usage": 100000,
+		"target_block_cpu_usage_pct": 500,
+		"max_transaction_cpu_usage": 90000,
+		"min_transaction_cpu_usage": 100,
+		"max_transaction_lifetime": 3600,
+		"deferred_trx_expiration_window": 600,
+		"max_transaction_delay": 3888000,
+		"max_inline_action_size": 4096,
+		"max_inline_action_depth": 4,
+		"max_authority_depth": 6
+	},
+	"initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+}
+```
+## `start.sh`
+```bash
+#!/usr/bin/env bash
+echo "Starting Producer Node...";
+set -e;
+ulimit -n 65535
+ulimit -s 64000
+
+mkdir -p $CONFIG_DIR
+cp $WORK_DIR/config.ini $CONFIG_DIR/config.ini
+
+pid=0;
+
+nodeos=$"nodeos \
+	--config-dir $CONFIG_DIR \
+	--data-dir $DATA_DIR \
+	--blocks-dir $DATA_DIR/blocks \
+	--signature-provider $EOS_PUB_KEY=KEY:$EOS_PRIV_KEY" ; #configurar variables de entorno
+
+term_handler() {
+	if [ $pid -ne 0 ]; then
+		kill -SIGTERM "$pid";
+		wait "$pid";
+	fi
+	exit 0;
+}
+
+start_nodeos() {
+	$nodeos &
+	sleep 10;
+	if [ -z "$(pidof nodeos)" ]; then
+		$nodeos --hard-replay-blockchain &
+	fi
+}
+
+start_fresh_nodeos() {
+	echo 'Starting new chain from genesis JSON'
+	$nodeos --delete-all-blocks --genesis-json $WORK_DIR/genesis.json &
+}
+
+trap 'echo "Shutdown of EOSIO service...";kill ${!}; term_handler' 2 15;
+
+if [ ! -d $DATA_DIR/blocks ]; then
+  start_fresh_nodeos &
+elif [ -d $DATA_DIR/blocks ]; then
+  start_nodeos &
+fi
+
+pid="$(pidof nodeos)"
+
+while true
+do
+  tail -f /dev/null & wait ${!}
+done
+```
+To run each node it is necessary to enter the directory, assign permissions and execute each `start.sh` file:
+```bash
+$ chmod 755 start.sh # asigna permisos de ejecución
+$ ./start.sh
+```
+Once the necessary steps to start up the producer nodes it is time to set produder1, producer2 and producer3 accounts as a block producers in the **schedule**, to do so, it is necessary to execute the following command (remember to replace EOS_PUB_DEV_KEY with its respective value):
+```bash
+$ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"productor1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"productor2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"productor3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
+```
+# API node: configuration and execution
+```bash
+$ cd ~
+$ mkdir api-node
+$ cd api-node
+$ touch config.ini
+$ touch genesis.json
+$ touch start.sh
+```
+Now copy the code snippet content to the appropriate file:
+## `config.ini`
