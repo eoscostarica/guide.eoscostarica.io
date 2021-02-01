@@ -96,7 +96,7 @@ The virtual cpu limit will be contracted (expanded) by the `contract (expand) ra
 The average CPU utilization is computed using an EMA (Exponential Moving Average) placing a greater weight and significance on the most recent usage.
 
 ```python
-def update_elastic_limit(current_limit, average_usage, elastic_resource_limit) {
+def update_elastic_limit(current_limit, average_usage, elastic_resource_limit):
    result = current_limit
    if average_usage > elastic_resource_limit.target:
       result = result * elastic_resource_limit.contract_rate
