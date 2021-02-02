@@ -8,11 +8,11 @@ sidebar_label: Our Favorite Tools
 
 ### What is  Apollo?
 
-Apollo is a suite of tools to create a GraphQL server, and to consume a GraphQL API.  Apollo is a team and community that builds on top of GraphQL, and provides different tools that help you build your projects.
+Apollo is a suite of tools to create a GraphQL server, and to consume a GraphQL API.  Apollo is a team and community that builds on top of GraphQL and provides different tools that help you build your projects.
 
 ### Why we use  Apollo?
 
-1. **Documentation:** While Apollo continues to evolve, the team and community behind it keeps the documentation up to date, and they have plenty of insight about how to build applications. 
+1. **Documentation:** While Apollo continues to evolve, the team and community behind it keeps the documentation up to date, and they have plenty of insight about how to build applications.
 2. **Libraries:** Apollo offers plenty of libraries for implementing an effective GraphQL tech stack for JavaScript applications, and their libraries are open-sourced to be more manageable.
 3. **Features:** Apollo comes with built-in features to pull all the complexity out of applications and handle the intersection between client and server applications.
 
@@ -116,7 +116,7 @@ React is an open-source JavaScript library for building user interfaces. It is m
 
 #### **PropTypes**
 
-Javascript is not a strongly typed language, this might create some problems for the developers. PropTypes is a library that helps when you need to resolve a problem related with this. Checking the types of the passed props object against a specificaction set beforehand. [PropTypes Documentation](https://reactjs.org/docs/typechecking-with-proptypes.html)
+JavaScript is not a strongly typed language, this might create some problems for the developers. PropTypes is a library that helps when you need to resolve a problem related with this. Checking the types of the passed props object against a specification set beforehand. [PropTypes Documentation](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
 ### Why we use React JS?
 
@@ -240,8 +240,8 @@ It enables developers to test calls to APIs. Postman users enter data. The data 
 
 ### Why we use Postman?
 
-1. **User-Friendly:** Having a user-friendly interface enables one to send a simple request by only entering it, filling in the necessary headers, selecting the HTTP method and pressing the ‘send’ button. 
-2. **Automation:**  Automated tests can be easily set up using the Postman API testing tool. You can automate your test cases in Postman in javascript with impressive features like write test suites, build request that consists of dynamic parameters, pass on data in between the request, etc. In this way tests and requests can be aggregated into a single automated test sequence.
+1. **User-Friendly:** Having a user-friendly interface enables one to send a simple request by only entering it, filling in the necessary headers, selecting the HTTP method and pressing the ‘send’ button.
+2. **Automation:**  Automated tests can be easily set up using the Postman API testing tool. You can automate your test cases in Postman in JavaScript with impressive features like write test suites, build request that consists of dynamic parameters, pass on data in between the request, etc. In this way tests and requests can be aggregated into a single automated test sequence.
 3. **Cost Effective:**  Apart from the many benefits which this tool provides us, this tool is also very cost effective. You can use the Postman in their free plan, which consists of limited features but most helpful.
 
 ### Postman Installation
