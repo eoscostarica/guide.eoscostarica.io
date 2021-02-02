@@ -21,22 +21,17 @@ This project recollect all new knowledge gotten by our workers to help and share
 
 ## Table of Contents
 
-With a good view about the information structure can make the reader go to the specific needed information, so then give a good view of the information with a Table of Contents will make easier this process. For example:
-
-**Table of Contents**
-
-1. Gif or Image Introduction
-2. About The Project
-3. Content Table
-4. Project Purpose
-5. Version
-6. Tech Stack
-7. Development Environment
-8. File Structure
-9. License
-10. Contributing
-11. Contributors
-12. About Company
+1. About The Project
+1. Content Table
+1. Project Purpose
+1. Version
+1. Tech Stack
+1. Development Environment
+1. File Structure
+1. License
+1. Contributing
+1. Contributors
+1. About Company
 
 ## Project Purpose
 
