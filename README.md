@@ -3,22 +3,106 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
 EOS Costa Rica Developers Documentation Site.
 
 In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
 
+<img
+  alt="Guide front page"
+  src={useBaseUrl('img/guide-page.png')}
+/>;
 
-## Contributing
+## About the Project
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+This project recollect all new knowledge gotten by our workers to help and share information.
 
-Contributing Guidelines  https://guide.eoscostarica.io/docs/open-source-guidelines .
+## Table of Contents
 
-Please report bugs big and small by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues).
+With a good view about the information structure can make the reader go to the specific needed information, so then give a good view of the information with a Table of Contents will make easier this process. For example:
 
-## Quick guide
+**Table of Contents**
 
-### File Structure
+1. Gif or Image Introduction
+2. About The Project
+3. Content Table
+4. Project Purpose
+5. Version
+6. Tech Stack
+7. Development Environment
+8. File Structure
+9. License
+10. Contributing
+11. Contributors
+12. About Company
+
+## Project Purpose
+
+We have created this project to improve our workflow which allows the old and new member have a guideline to follow to help them feel as comfortable as possible following the programming practices, recommendations, programming bases and others.
+
+## Version
+:::note modify
+we are on version 0.2.0
+:::
+
+## Tech Stack
+- React.js - React 16✨, React Router 5
+- Docusaurus - Build optimized websites quickly, focus on your content
+- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
+- Lint - ESlint
+- Styles - Material-UI Theme (customizable)
+
+
+## Development Environment
+
+[evodex.io](https://evodex.io/exchange) is running on the EOS MainNet and is built from the master branch, our production branch.
+
+[jungle.evodex.io](https://jungle.evodex.io/) is running on the Jungle 3 TestNet and is built from the develop branch used for development, integration, and testing new features.
+
+### Quick start
+
+- Clone this repo using `https://github.com/eoscostarica/guide.eoscostarica.io.git`
+- Move to the appropriate directory: `cd guide.eoscostarica.io.git`.
+- Run `yarn` in order to install dependencies. At this point you can run `yarn start` to see the example app at http://localhost:3000.
+
+### Getting Started
+
+Give the needed instruction to run the project locally, for example:
+
+#### **Prerequisites**
+
+- `yarn`
+- `git`
+- `node.js`
+
+#### **Installation**
+
+1. Clone the repository
+
+    `
+    git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
+    `
+2. Install yarn packages
+
+    `
+    yarn install
+    `
+
+    or just
+
+    `
+    yarn
+    `
+3. Run the project
+    
+    `
+    yarn start
+    `
+
+## File Structure
+This could help the reader understand the organization inside the project, for example:
 
 ```sh
 guias.eoscostarica.io/
@@ -47,59 +131,27 @@ guias.eoscostarica.io/
 └── README.md
 ```
 
-### Before to start
-
-Somethings you need before getting started
-* git
-* node.js
-
-## Instructions to run the portal locally in Windows 10
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-
-Follow the instructions below.
-
-1. Clone this repo
-
-```bash
-$ git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
-``` 
-
-2. Move to the appropriate directory
-
-```bash
-$ cd guide.eoscostarica.io
-```
-
-3. Install all dependencies:
-
-```bash
-$ yarn install
-```
-
-4. Build the project
-
-```bash
-$ yarn build
-```
-
-5. Run the project:
-
-```bash
-$ yarn serve
-```
-
-## About EOS Costa Rica
-
-EOS Costa Rica is an independently-owned, self-funded, bare-metal genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise solutions and custom smart contract development for our clients.
-
-[eoscostarica.io](https://eoscostarica.io)
-
 ## License
 
 MIT © [EOS Costa Rica](https://eoscostarica.io)
 
-## Contributors ✨
+## Contributing
+
+We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+
+If you want to make a contribution, please follow the next steps:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m '<type>(<scope>): <subject>'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+
+If you find a bug, please report big and small bugs by **opening an issue** `<link to issue project section>`
+
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -126,3 +178,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## About EOS Costa Rica
+
+<div style={{ display: "block", textAlign: "center" }}>
+    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+</div>
+
+EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
+
+[eoscostarica.io](https://eoscostarica.io/)
