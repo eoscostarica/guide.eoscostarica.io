@@ -12,8 +12,8 @@ React is a JavaScript library that will be used to build web interfaces and mobi
 
 For React the following tools are suggested, tools with * are required:
 
-* Web Navigator (Google Chorme, Moxilla Firefox)*
-* [Node Js](https://nodejs.org/en/)*
+* Web Browser (Google Chorme, Moxilla Firefox)*
+* [Node JS](https://nodejs.org/en/)*
 * Package Managers ([Brew](https://brew.sh/index_es), [Chocolatey](https://chocolatey.org/) ).
 * Terminal, it can be used with the native terminal but we recommend [iTerm2](https://iterm2.com/), [Hyper](https://hyper.is/), [cmder](https://cmder.net/).
 * Code editor, it is suggested to use [Visual Studio Code](https://code.visualstudio.com/).  
@@ -142,7 +142,7 @@ class App extends Component{
 export default App;
 ```
 
-## What are the Components?
+## What are Components?
 
 Components are defined as a single unit of code that will have a specifically assigned responsibility that certain behaviors can be encapsulated in components.
 
