@@ -37,7 +37,7 @@ we are on version 0.2.0
 
 ## Tech Stack
 - React.js - React 16✨, React Router 5
-- Docusaurus - Build optimized websites quickly, focus on your content
+- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
 - Core - React components for faster and easier web development
 - Lint - ESlint
 - Styles - Material-UI Theme (customizable)
@@ -118,10 +118,11 @@ We use a Kanban-style board. That's were we prioritize the work. [Go to Project 
 If you want to make a contribution, please follow the next steps:
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m '<type>(<scope>): <subject>'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+1. Add your Changes to Commit (`git add <fileName>`)
+1. Commit your Changes (`git commit -m '<type>(<scope>): <subject>'`)
+1. Push to the Branch (`git push origin feature/AmazingFeature`)
+1. Open a Pull Request
 
 Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
 
