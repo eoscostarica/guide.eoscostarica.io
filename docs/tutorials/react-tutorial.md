@@ -63,7 +63,7 @@ React realized that updating the full screen is a task that can be costly in per
 
 * * *
 
-## Check Facilities
+## Check Versions
 
 Verify Node js, with these commands you can verify the version and also if they are installed.
 
