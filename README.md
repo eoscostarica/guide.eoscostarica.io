@@ -3,21 +3,14 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 
 EOS Costa Rica Developers Documentation Site.
 
-In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
-
-<img
-  alt="Guide front page"
-  src={useBaseUrl('img/guide-page.png')}
-/>;
+![Guide front page](static/img/guide-page.png)
 
 ## About the Project
 
-This project recollect all new knowledge gotten by our workers to help and share information.
+In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
 
 ## Table of Contents
 
@@ -31,36 +24,23 @@ This project recollect all new knowledge gotten by our workers to help and share
 1. License
 1. Contributing
 1. Contributors
-1. About Company
+1. About EOS Costa Rica
 
 ## Project Purpose
 
-We have created this project to improve our workflow which allows the old and new member have a guideline to follow to help them feel as comfortable as possible following the programming practices, recommendations, programming bases and others.
+This project is meant to serve as a tool for assisting with new developer on-boarding. Initially created by a group of university students to facilitate getting up to speed with other team members and contribute to open source projects. It's main purpose is to provide guidance to new team members and accelerate becoming familiar with processes and the culture at EOS Costa Rica.
 
 ## Version
-:::note modify
+:::note
 we are on version 0.2.0
 :::
 
 ## Tech Stack
 - React.js - React 16✨, React Router 5
 - Docusaurus - Build optimized websites quickly, focus on your content
-- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
+- Core - React components for faster and easier web development
 - Lint - ESlint
 - Styles - Material-UI Theme (customizable)
-
-
-## Development Environment
-
-[evodex.io](https://evodex.io/exchange) is running on the EOS MainNet and is built from the master branch, our production branch.
-
-[jungle.evodex.io](https://jungle.evodex.io/) is running on the Jungle 3 TestNet and is built from the develop branch used for development, integration, and testing new features.
-
-### Quick start
-
-- Clone this repo using `https://github.com/eoscostarica/guide.eoscostarica.io.git`
-- Move to the appropriate directory: `cd guide.eoscostarica.io.git`.
-- Run `yarn` in order to install dependencies. At this point you can run `yarn start` to see the example app at http://localhost:3000.
 
 ### Getting Started
 
@@ -79,26 +59,27 @@ Give the needed instruction to run the project locally, for example:
     `
     git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
     `
-2. Install yarn packages
+
+1. Move to the appropriate directory
 
     `
-    yarn install
+    cd guide.eoscostarica.io.git
     `
 
-    or just
+1. Install yarn packages
 
     `
     yarn
     `
-3. Run the project
-    
+
+1. Run the project
+
     `
     yarn start
     `
 
-## File Structure
-This could help the reader understand the organization inside the project, for example:
 
+## File Structure
 ```sh
 guias.eoscostarica.io/
 ├── .github
@@ -146,7 +127,7 @@ Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide
 
 If you find a bug, please report big and small bugs by **opening an issue** `<link to issue project section>`
 
-## Contributors
+## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
