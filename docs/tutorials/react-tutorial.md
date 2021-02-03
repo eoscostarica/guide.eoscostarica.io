@@ -50,7 +50,7 @@ It is important to follow the JavaScript standards, it is recommended to use the
 
 **Document Object Model for Document Representation** (Document Object Model) is essentially a platform interface that provides a standard set of objects to represent HTML, XHTML and XML documents. A standard model on how these objects can be combined, and a standard interface to access and manipulate them.
 
-React realized that updating the full screen is a task that can be costly in performance and time. So I create a Virtual DOM. This virtual DOM object is identical to the JavaScript DOM object.
+React realized that updating the full screen is a task that can be costly in performance and time. Then a virtual DOM is created. This virtual DOM object is identical to the JavaScript DOM object.
 
 ### How does it work?
 
@@ -99,7 +99,9 @@ Once the code has been opened in your editor, in this case recommended Visual St
 
 ```javascript
 import logo from './logo.svg';
+
 import './App.css';
+
 function App() {
      return (
     <div className="App">
@@ -120,6 +122,7 @@ function App() {
     </div>
   );
 }
+
 export default App;
 ```
 
@@ -128,17 +131,20 @@ You can change the content to the following and make the changes you want as the
 ```javascript
 import { Component } from 'react';
 
-	import logo from './logo.svg';
+import logo from './logo.svg';
+
 import './App.css';
+
 class App extends Component{
   render(){
-  return (
-    <div className="App">
-      <p>Hola Mundo</p>
-    </div>
-  );
+    return (
+      <div className="App">
+        <p>Hola Mundo</p>
+      </div>
+    );
+  }
 }
-}
+
 export default App;
 ```
 
@@ -150,6 +156,7 @@ This is an example of a component. Create a new file inside your `components` fo
 
 ```javascript
 import React, { Component } from "react";
+
 class Header extends Component{
     render(){
         return(
@@ -159,6 +166,7 @@ class Header extends Component{
         );
     }
 }
+
 export default Header;
 ```
 
@@ -171,16 +179,16 @@ import './styles/App.css';
 
 import Header from "./components/header" //Se debe agregar el import del componente
 
-	class App extends Component{
+class App extends Component{
   render(){
-  return (
-    <div className="App">
-      <Header />  /*Se agrega el componente*/
+    return (
+      <div className="App">
+        <Header />  /*Se agrega el componente*/
+      </div>
+    );
+  }
+}
 
-    </div>
-  );
-}
-}
 export default App;
 ```
 
@@ -262,21 +270,27 @@ This is an example of use, you can replace the code of your `App.js` to test it.
 
 ```javascript
 import React , { useState, useEffect } from "react";
+
 import "./styles/App.css"
+
 const App = () => {
   const [width,setWidth] = useState(window.innerWidth);
   const [height, setHeight]= useState(window.innerHeight);
+
   const updateDimensions = () => {
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
   }
+
   useEffect( () => {
     window.addEventListener('resize', updateDimensions);
+
     return() => {
       window.removeEventListener('resize',updateDimensions);
     }
   }
   )
+
   return(
     <div className="App">
       Width = {width}
@@ -285,6 +299,7 @@ const App = () => {
     </div>
   );
 }
+
 export default App;
 ```
 
