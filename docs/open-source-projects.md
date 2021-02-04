@@ -4,6 +4,8 @@ title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## EOS Rate 
 
 <img
@@ -56,9 +58,15 @@ An EOSIO Infrastructure monitor and node dashboard.
  
 - **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.png')}
+/>
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.png')}
+/>
 
 
 * * *

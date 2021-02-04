@@ -4,7 +4,7 @@ title: EOSIO SDK Libraries
 sidebar_label: EOSIO SDK Libraries
 ---
 
-## SDK Libraries for EOSIO
+## SDKs for EOSIO
 
 APIs for integrating with EOSIO blockchains.
 
