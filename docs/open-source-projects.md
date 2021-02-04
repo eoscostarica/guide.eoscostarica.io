@@ -8,7 +8,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## EOS Rate 
 
-
 <img
   src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
   style={{ width: "30%" }}
@@ -19,7 +18,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - **Website** : https://eosrate.io
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
-
 
 ![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
 
@@ -86,13 +84,13 @@ We view the EOS Foundation as a container for facilitating code, capital, and co
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
 
 * * *
 
-## Digital notary smart contract
+## Digital Notary Smart Contract
 
 This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
 
@@ -123,7 +121,7 @@ EOS Costa Rica is working with EOS Argentina creating a web interface that will 
 
 * * *
 
-## EOSIO hackathons 
+## EOSIO Hackathons 
 
 ### LifeBank
 

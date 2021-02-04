@@ -6,25 +6,24 @@ sidebar_label: GitHub Keys
 
 ## Why we need GitHub Keys?
 
-Let's first define GitHub as a browser-based online control system of distributed version for those software developers using the Git revision control system. Git uses SSH public key authentication and not a password authentication.  Each user of the system has to generate a key. 
+Let's first define GitHub as a browser-based online control system of distributed version for those software developers using the Git revision control system. Git uses SSH public key authentication and not a password authentication.  Each user of the system has to generate a key.
 
 The `SSH` is also known as Secure Shell or Secure Socket Shell [More About SSH in GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). SSH keys are used to authenticate secure connections they are generate through a public key cryptographic algorithm, the most common being RSA or DSA. This is a one-way formula that ensures the public key can be derived from the private key but the private key cannot be derived from the public key.
 
-
 ## How to generate a new SSH key?
 
-This guide is for Windows users, more information for Linux and Mac [on this site](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+This guide is for Windows users, more information for Linux and Mac [on this site](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-Windows environments do not have a standard default Unix shell. External shell programs will need to be installed for to have a complete keygen experience. The most straight forward option is to utilize Git Bash. 
+Windows environments do not have a standard default Unix shell. External shell programs will need to be installed for to have a complete keygen experience. The most straight forward option is to utilize Git Bash.
 
 - Open Git Bash
 
-- Paste the text below, substitute `"your_email@example.com"` with your GitHub email address.
+- Paste the text below, substitute `"your_email@example.com"` with your GitHub email address
 ```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 ---
->**NOTE :** 
+**NOTE :** 
 If you are using a legacy system that doesn't support the `ed25519` algorithm, use:
 
 ```shell
@@ -38,7 +37,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Now you have a new SSH key!
 
-## How to add your SSH key to the ssh-agent
+## How to Add your SSH Key to the ssh-agent
 
 - Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
 
@@ -49,7 +48,7 @@ $ eval $(ssh-agent -s)
 ```
 ---
 
->**NOTE :** 
+**NOTE :** 
 If you are following this ssh key generation flow , there is no need to start the ssh-agent.
 
 ---
@@ -60,9 +59,9 @@ If you are following this ssh key generation flow , there is no need to start th
 $ ssh-add ~/.ssh/id_ed25519
 ```
 
-- Now you need to add your public key to your **GitHub account** , for this [follow this steps](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+- Now you need to add your public key to your **GitHub account** , for this [follow this steps](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
-Now you are set!
+Now you are set.
 
-[More information on how it works](https://www.preveil.com/blog/public-and-private-key/)
+[More information on how it works](https://www.preveil.com/blog/public-and-private-key/).
 
