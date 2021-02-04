@@ -46,7 +46,9 @@ module.exports = {
         'tutorials/git-workflow-tutorial',
         'tutorials/markdown-guide',
         'tutorials/github-guide',
-        'tutorials/github-keys'
+        'tutorials/github-keys',
+        'tutorials/react-tutorial'
+
       ],
     },
     {
