@@ -16,7 +16,8 @@ module.exports = {
         'material-ui',
         'visual-resources',
         'social-media-guidelines',
-        'readme-file-template'
+        'readme-file-template',
+        'kubernetes'
       ],
     },
     {
