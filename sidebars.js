@@ -60,6 +60,7 @@ module.exports = {
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
         'tools/eosio-sdk-libraries',
+        'tools/docker',
         'tools/frequently-asked-questions'
       ],
     },
