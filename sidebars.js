@@ -47,8 +47,8 @@ module.exports = {
         'tutorials/markdown-guide',
         'tutorials/github-guide',
         'tutorials/github-keys',
-        'tutorials/react-tutorial'
-
+        'tutorials/react-tutorial',
+        'tools/docker'
       ],
     },
     {
@@ -60,7 +60,6 @@ module.exports = {
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
         'tools/eosio-sdk-libraries',
-        'tools/docker',
         'tools/frequently-asked-questions'
       ],
     },
