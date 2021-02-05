@@ -11,8 +11,6 @@ module.exports = {
         'devops',
         'developer-tools',
         'open-source-projects',
-        'web-app-boilerplate',
-        'backend-boilerplate',
         "boilerplate",
         'material-ui',
         'visual-resources',
