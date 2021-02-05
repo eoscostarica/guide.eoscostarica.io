@@ -13,6 +13,7 @@ module.exports = {
         'open-source-projects',
         'web-app-boilerplate',
         'backend-boilerplate',
+        "boilerplate",
         'material-ui',
         'visual-resources',
         'social-media-guidelines',
