@@ -6,7 +6,7 @@ sidebar_label: Kubernetes
 
 Kubernetes is an open source platform, which was created by Google, used for the management, deployment, scalability and monitoring of Docker containers. 
 
-### Kubernetes features
+### Kubernetes Features
 
 - Intelligent container deployment.
 - Management of workloads (provides load balancing).
@@ -15,7 +15,7 @@ Kubernetes is an open source platform, which was created by Google, used for the
 - Great flexibility and allows modular work.
 - Container monitoring.
 
-### Kubernetes architecture
+### Kubernetes Architecture
 
 There are two main roles, "master" and "node". The master is in charge of managing and orchestrating the different microservices between the 4 available nodes in the cluster.
 
@@ -23,9 +23,9 @@ There are two main roles, "master" and "node". The master is in charge of managi
 
 ![image](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
 
-### Key concepts in k8s
+### Key Concepts in k8s
 
-**Cluster:** It is a group of devices that can be physical or virtual and that are united many times by a network and, therefore, they behave as one.
+**Cluster:** It is a group of devices that can be physical or virtual, are united many times by a network and, therefore, they behave as one.
 
 **Kubernetes node:** A machine that is running Kubernetes, on which pods can be programmed.
 
