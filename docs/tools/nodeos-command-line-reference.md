@@ -6,7 +6,6 @@ sidebar_label: Nodeos Command Line Reference
 
 ## Nodeos Application Options:
 
-
 ### Config Options for eosio::chain_plugin:
 
 ```

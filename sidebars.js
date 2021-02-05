@@ -7,6 +7,7 @@ module.exports = {
         'engineering-culture',
         'open-source-guidelines',
         'agile-methodologies',
+        'pair-mob-programming',
         'devops',
         'developer-tools',
         'open-source-projects',
@@ -32,19 +33,22 @@ module.exports = {
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
         'eos-learn/ricardian-contracts',
-        'eos-learn/eosio-core'
+        'eos-learn/eosio-components'
       ],
     },
     {
       type: 'category',
       label: 'Tutorials',
       items: [
-        'tutorials/getting-started',
         'tutorials/node-installation',
         'tutorials/hello-world-contract',
         'tutorials/modern-cpp',
         'tutorials/git-workflow-tutorial',
-        'tutorials/github-keys'
+        'tutorials/markdown-guide',
+        'tutorials/github-guide',
+        'tutorials/github-keys',
+        'tutorials/react-tutorial'
+
       ],
     },
     {
@@ -68,7 +72,6 @@ module.exports = {
         'community-resources/eos-podcasts',
         'community-resources/eosio-networks',
         'community-resources/useful-links'
-        
       ],
     },
   ],  

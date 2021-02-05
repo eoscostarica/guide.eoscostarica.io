@@ -8,7 +8,7 @@ We are a fast paced startup with really talented engineers who love open source 
 
 Our values are reflected in the way we build software. 
 
-## At EOS Costa Rica we value:
+## At EOS Costa Rica we Value:
 
 ### Decentralization 
 
