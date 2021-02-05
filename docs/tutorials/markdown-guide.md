@@ -6,19 +6,22 @@ sidebar_label: Markdown Guide
 
 ## What is Markdown?
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. [More About Markdown](https://www.markdownguide.org/getting-started/)
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
 
+Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. [More About Markdown](https://www.markdownguide.org/getting-started/).
 
-## Main components
+* * *
 
-| Component | Markdown Syntax |
+## Basic Syntax
+
+| Component | Syntax |
 | ----------- | ----------- |
 | [Heading](https://www.markdownguide.org/basic-syntax/#headings) |  # H1   <br /> ## H2 <br />  ### H3  |
 | [Bold](https://www.markdownguide.org/basic-syntax/#bold) |  `**Text**` or `__text__` |
 | [Italic](https://www.markdownguide.org/basic-syntax/#italic) |   `*text*` or  `_text_`|
-| [Blockquote](https://www.markdownguide.org/basic-syntax/#blockquotes-1)    | > blockquote   |
-| [Ordered List](#ordered-list) | 1. Item <br /> 2. Item <br /> 3. Item  |
-| [Unordered List](#unordered-list) | - Item <br /> - Item <br /> - Item |
+| [Blockquote](https://www.markdownguide.org/basic-syntax/#blockquotes-1)    | > Blockquote   |
+| [Ordered List](#ordered-list) | 1. First Item <br /> 2. Second Item <br /> 3. Third Item  |
+| [Unordered List](#unordered-list) | - First Item <br /> - Second Item <br /> - Third Item |
 | [Horizontal Rule](#horizontal-rule) | --- |
 | [Link](https://www.markdownguide.org/basic-syntax/#links) | `[title](https://www.example.com)` |  
 | [Image](https://www.markdownguide.org/basic-syntax/#images-1) | `![text](image.jpg)` |
@@ -46,7 +49,7 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 - Second Item
 - Third Item
 
->[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists)  
+[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
 
 
@@ -65,37 +68,35 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 2. Second Item
 3. Third Item
 
->[More Information](https://www.markdownguide.org/basic-syntax/#ordered-lists)
+[More Information](https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
 
 
 ### **Table**
 
-
 ```markdown title="Syntax"
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+|Left title  | Title center | Right title |  
+| :----  |  :----:  |  ----:  |  
+| Left | Center | Right |  
+| Left | Center | Right |  
 ```
+
 **Example:**  
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+|Left title  | Title  | Right title |  
+| :----  |  :----:  |  ----:  |  
+| Left | Center | Right |  
+| Left | Center | Right |  
 
->[More Information](https://www.markdownguide.org/extended-syntax/#tables)
-
-
+[More Information](https://www.markdownguide.org/extended-syntax/#tables).
 
 ### **Check List** 
 
 
 ```markdown title="Syntax"
-    - [x] First option
-    - [ ] Second option
-    - [ ] Third option
+- [x] First option
+- [ ] Second option
+- [ ] Third option
 ```
 
 **Example:**
@@ -104,15 +105,15 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 - [ ] Second option
 - [ ] Third option
 
->[More Information](https://www.markdownguide.org/extended-syntax/#task-lists)
+[More Information](https://www.markdownguide.org/extended-syntax/#task-lists).
 
 
 
 ### **Line Break**
 
 ```markdown title="Syntax"
-    Text  <!---Space Space--->
-    another Text
+Text  <!---Space Space--->
+another Text
 ```
 
 **Example:**
@@ -123,24 +124,25 @@ Another Text
 ### **Comments **
 
 ```markdown title="Syntax"
-    [comment]: <> (This is a comment, it will not be included)
+[comment]: <> (This is a comment, it will not be included)
 
-    [//]: <> (This is also a comment.)
+[//]: <> (This is also a comment.)
 
-    [//]: # (This may be the most platform independent comment)`
+[//]: # (This may be the most platform independent comment)`
 ```
+
 ***
 
 ## Another Syntaxes
 
 ### **Links**
 
-
 ```markdown title="Syntax"
-[Eos Costa Rica](https://es.eoscostarica.io)
+[EOS Costa Rica](https://es.eoscostarica.io)
 ```
-**Example:**
-[Eos Costa Rica](https://es.eoscostarica.io)
+
+**Example:**  
+[EOS Costa Rica](https://es.eoscostarica.io)
 
 ### **Images**
 
@@ -150,7 +152,6 @@ Another Text
 ```
 **Example:**  
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
-
 
 ### **Block Citation**
 
@@ -183,10 +184,10 @@ Another Text
 **Example:**
 
 ---
-
 ***
+- - - -
 
->[More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
+[More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
 
 ***
 

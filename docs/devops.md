@@ -8,8 +8,10 @@ DevOps is the practice & culture of applying lean manufacturing principles to th
 
 It focuses on unifying Development & IT Operations through the principles of flow, feedback, & experimentation.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
+<figure
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -21,7 +23,7 @@ It focuses on unifying Development & IT Operations through the principles of flo
 - **Deployment**: The deployment (or transport) of code to a higher-level environment, up to & including production.
 - **Release**: The defined scope and business objective for a set of features to be delivered in a certain timeline.
 
-## Why Implement DevOps?
+## Why implement DevOps?
 
 In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs using DevOps and found:
 
@@ -32,14 +34,9 @@ In 2012, Puppet Labs “state of DevOps report” benchmarked 4,039 IT orgs usin
 
 ***
 
->“*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”*   
-**-Phoenix Project**
+> “*The competitive advantage this capability creates is enormous, enabling faster feature time to market, increased customer satisfaction, market share, employee productivity, and happiness.”* ** - Phoenix Project **
 
 ***
-
-
-
-![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
 
 ## Areas of Emphasis
 
@@ -49,7 +46,7 @@ DevOps principles are applied to and assisted by the following 3 Key areas all w
 - **Processes** – DevOps builds further upon Lean Agile, applying concepts of lean manufacturing to IT value streams.
 - **Tools** – DevOps relies on enhanced tools & technologies, including automation, telemetry, & collaboration tools.
 
-## What Is the Goal of DevOps?
+## What is the goal of DevOps?
 
 Improve collaboration between all stakeholders from planning through delivery and automation of the delivery process in order to:
 
@@ -61,55 +58,60 @@ Improve collaboration between all stakeholders from planning through delivery an
 
 ## CI Systems - Examples
 
-![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
+![CI_System_image](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png 'Devops')
 
 ## CD Systems - Examples
 
-![](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
-
+![CD_System_image](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png '')
 
 * * *
 
-
-## Infrastructure as Code ( IAC )
+## Infrastructure as Code (IAC)
 
 The process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 * * *
 
-### Introduction to Terraform 
+### Introduction to HashiCorp Terraform
 
 Terraform is an infrastructure software as code, developed by HashiCorp. It enables users to define and configure the infrastructure of a data center in a high-level language.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 * * *
 
-### Introduction to HashiCorp Terraform 
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Introduction to Docker and Kubernetes 
+## Infrastructure as Code in EOS Costa Rica
 
-### Docker
+* [Openstack Documentation](https://github.com/edenia/openstack-docs)
+* [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
 
-Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
+## Introduction to Kubernetes and Docker
 
-#### **Containers 101**
+### **Containers 101**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -117,10 +119,14 @@ Docker is an open source project that automates the deployment of applications w
 
 * * *
 
-#### **What is Docker?**
+### What is Docker?
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+Docker is an open source project that automates the deployment of applications within software containers, providing an additional layer of abstraction and application virtualization automation across multiple operating systems.
+
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -132,19 +138,23 @@ Kubernetes is an open source system for automating the deployment, scaling, and 
 
 Following you can find a set of very convenient tutorials for learning kubernetes from scratch:
 
-#### **Kubernetes in 5 mins**
+### Kubernetes in 5 Minutes
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 * * *
 
-#### **Kubernetes vs. Docker: It's Not an Either/Or Question**
+### Kubernetes vs Docker: Not a Question of Both or One
 
-<figure class="video_container">
-  <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+    width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -152,10 +162,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 
 ## Kubernetes at EOS Costa Rica
 
-[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-
-To be able to try these tutorials in a real environment, you could try our Kubernetes installation 
-in Openstack. If you prefer so, you may also create a local setup in your own machine: 
+To be able to try the [tutorials](https://kubernetes.io/docs/tutorials/kubernetes-basics/) in a real environment, you could try our Kubernetes installation in Openstack. If you prefer so, you may also create a local setup in your own machine: 
 
 [Install Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/) 
 
@@ -173,6 +180,7 @@ ssh -i key.pem user@master-sandbox
 ```shell
 kubectl cluster-info
 ```
+
 - Show the current available nodes in the cluster:
 
 ```shell
@@ -181,7 +189,7 @@ kubectl get nodes
 
 ## References
 
-*“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream..”* - Phoenix Project
+*“The principles behind DevOps are the same that transformed manufacturing. Instead of optimizing how raw materials are transformed into finished goods, DevOps shows how we optimize the IT value stream...”* - Phoenix Project
 
 *“Imagine living in a DevOps world, where product owners, Development, QA, IT Ops, and InfoSec work together relentlessly to help each other and the overall organization win. They are enabling fast flow of planned work into production, while preserving world-class stability, reliability, availability, and security.”* - Phoenix Project
 

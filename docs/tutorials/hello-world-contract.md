@@ -4,13 +4,13 @@ title: Hello World Contract
 sidebar_label: Hello World Contract
 ---
 
-We explain by example how to create an account and a "Hello World" contract to upload to a EOS.IO based blockchain. For this example, we based on the resources published by [Block.one to share with the community](https://developers.eos.io/).
+We explain by example how to create an account and a `Hello World` contract to upload to a EOS.IO based blockchain. For this example, we based on the resources published by [Block.one to share with the community](https://developers.eos.io/).
 
-## Get your private keys
+## Get your Private Keys
 
-More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys)
+More information [about private keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys).
 
-## Acquire RAM resource
+## Acquire RAM Resource
 
 We can use the Faucet to receive dummy tokens for free, that in this case will be EOS, necessary to use network resources (as long as we have participation on that network). The sense of that is, for the contract, we will be requiring to acquire RAM resources of the block producers, for which that we will need these EOS that were just sent to us.
 
@@ -22,7 +22,7 @@ After executing the buy, we can verify that now we have 86 KiB of RAM and just 5
 
 In the Bloks.io explorer, we can search for the information in that account. Additionally, we can review the taken actions, including the RAM buy transactions, the Faucet tokens and the complete history of movements.
 
-## Create a contract
+## Create a Contract
 
 To continue, let's create a simple contract inside a new directory, which we call "hellocontract". As resources are needed on EOS, these should be associated with the account tokens, so first should put the same contract name previously created.
 
@@ -52,6 +52,6 @@ Is necessary to wait some seconds to complete the irreversibility of the block, 
 
 Finally, this is a sample of how you can interact with a blockchain. There are JavaScript tools, library [EOS JS](https://guide.eoscostarica.io/docs/tools/eosio-sdk-libraries) that could be implemented to execute actions in a way more programmatic to integrate with dApps, data may persist, or even execute business logic on the blockchain with this same pattern.
 
-## Video-Tutorial
+## Video Tutorial
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
