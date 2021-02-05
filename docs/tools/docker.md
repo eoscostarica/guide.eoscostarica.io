@@ -20,7 +20,7 @@ For more details, see [Docker Architecture](https://docs.docker.com/get-started/
 To have an initial docker configuration, we need to set up three main thing:
 
 1. **Dockerfile**: Define the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image.
-1. **Image**: An image is a read-only template with instructions for creating a Docker container
+1. **Image**: An image is a read-only template with instructions for creating a Docker container.
 1. **Container**: A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI.
 
 ## Docker Compose
