@@ -119,7 +119,7 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 {
   "name": "docker-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello world, we are EOS Costa Rica 🦋",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
