@@ -4,11 +4,15 @@ title: Docker
 sidebar_label: Docker
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Docker is a tool that allows you to quickly create, test, and deploy applications. The idea behind Docker is to create “containers” that are lightweight and portable so that applications can run on any machine with Docker installed, regardless of the operating system.
 
 For example, each node of the blockchain network or service / application developed will be compiled into a docker image that contains all of its dependencies and is deployed to one of several infrastructure providers with docker available.
 
-![Docker Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Docker-containerized-and-vm-transparent-bg.png/800px-Docker-containerized-and-vm-transparent-bg.png)
+<div style={{  textAlign: "center" }}>
+  <img alt="Docker vs. Traditional VMs"   src={ useBaseUrl( '/img/documentation-images/Docker-containerized-and-vm-transparent-bg.png' )} />
+</div>
 
 In addition to Docker we use a container “orchestrator” tool called Kubernetes (K8s).
 
