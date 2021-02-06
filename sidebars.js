@@ -11,12 +11,12 @@ module.exports = {
         'devops',
         'developer-tools',
         'open-source-projects',
-        'web-app-boilerplate',
-        'backend-boilerplate',
+        "boilerplate",
         'material-ui',
         'visual-resources',
         'social-media-guidelines',
-        'readme-file-template'
+        'readme-file-template',
+        'kubernetes'
       ],
     },
     {
@@ -46,7 +46,9 @@ module.exports = {
         'tutorials/git-workflow-tutorial',
         'tutorials/markdown-guide',
         'tutorials/github-guide',
-        'tutorials/github-keys'
+        'tutorials/github-keys',
+        'tutorials/react-tutorial',
+        'tutorials/docker'
       ],
     },
     {
@@ -70,7 +72,6 @@ module.exports = {
         'community-resources/eos-podcasts',
         'community-resources/eosio-networks',
         'community-resources/useful-links'
-        
       ],
     },
   ],  

@@ -77,7 +77,7 @@ title: Readme file source code template
 
     [jungle.evodex.io](https://jungle.evodex.io/) is running on the Jungle 3 TestNet and is built from the develop branch used for development, integration, and testing new features.
 
-    ### Quick start
+    ### Quick Start
 
     - Clone this repo using `git clone https://github.com/YOUR_PROJECT_NAME.git`
     - Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.

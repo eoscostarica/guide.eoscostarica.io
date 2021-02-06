@@ -4,55 +4,41 @@ title: Material UI & Theme
 sidebar_label: Material UI Theme
 ---
 
+## Logo and Visual Assets
 
-## Logo and visual assets
-
-In this link you have access to Logos and visual assets
-
-- **GitHub** : https://github.com/eoscostarica/design-assets
-
-* * *
+In this [link](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets
 
 ## Color Palette
-
-In this link you can see the color palette that the company uses on its sites
-
-- [Color Scheme](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
-
-Example:
 
 ![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
 
 ![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
 
-* * *
+To see a complete guide to the colors, you can visit [this link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Typography
 
-In this link you can see the typography styles that are used in the company sites
+![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_typography_scale.PNG)
 
-- [Typography](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
-
-Example:
-
-![Typography Scale](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Typography_Scale.PNG)
-
-* * *
+For a complete guide to font sizes and shapes, you can visit this [link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
 
 ## Material UI theme
 
-Our own Material Design UI library.
+We have our own `Material Design` Library to facilitate the development of new applications.
 
 ### Zeplin
+
+You can check our portfolio at `Zeplin` for more details of our components.
+
 - [Zeplin Project](https://zpl.io/brZKD4L)
 - [Zeplin Scene](https://scene.zeplin.io/project/5ea8f7f46cfde425751bc5ec)
 
-### Material UI theme NPM package
+### Material UI Theme NPM Package
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-theme
 - **NPM cloud** : https://www.npmjs.com/package/@eoscostarica/eoscr-theme
 
-### Theme exports
+### Theme Exports
 - [Theme UI](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Theme_UI.pdf)
 - [Product Icons](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/System_Icons.pdf)
 - [System Icons](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
