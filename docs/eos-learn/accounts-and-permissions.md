@@ -8,15 +8,15 @@ sidebar_label: Accounts And Permissions
 
 An **account** on EOSIO is a legible name for humans that get stored on the blockchain. An account can belong to an individual or group of individuals depending on the permissions configuration. An account is required in order to execute any transaction on the blockchain.
 
-The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`
+The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`.
 
-Read more on [EOSIO accounts](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts)
+Read more on [EOSIO accounts](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts).
 
-## Account Permissions
+## Permissions
 
 EOSIO allows to create custom hierarchical permissions that stem from the owner permission. A custom permission is basically a key that can only perform the actions you allow it to perform.
 
->**For example:** Any account can create a custom permission with its unique key pair to solely interact with a single contract.
+> **For example:** Any account can create a custom permission with its unique key pair to solely interact with a single contract.
 
 In this way EOSIO offers state of the art permissioning capabilities with huge flexibility to configure simple or complex built in to the base protocol.
 
@@ -40,7 +40,7 @@ This library is a small abstraction layer on top of `eosjs` which aims to assist
 
 Instead of focusing on supporting specific signature providers one by one, developers can support every one that has built a Transit plugin, allowing the user to use their signature provider of choice. This way, the best UX for signature providers wins and the developers can focus on building their dApp instead of setting up `eosjs` and wallet connections.
 
-Please see the "Quick Start" and thorough guide in the `eos-transit` [package docs](https://github.com/eosnewyork/eos-transit)
+Please see the **Quick Start guide** and thorough guide in the [eos-transit](https://github.com/eosnewyork/eos-transit) package docs.
 
 ## Universal Authenticator Library
 
@@ -48,7 +48,7 @@ A library exists that allows apps to easily use different auth providers. App De
 
 The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library) achieves this goal by abstracting the internal business logic of many authentication providers and exposing a single universal API.
 
-## Available Authenticators:
+### Available Authenticators:
 
 * [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
 * [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
@@ -59,9 +59,9 @@ The [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-a
 
 ## KEOSD
 
-In the EOSIO's distribution comes included a CLI client called `cleos` that interacts with lite client called `keosd` which provides a secure wallet service and API endpoint for applications that require back-end integration with a signature provider.
+In the EOSIO's distribution comes included a CLI client called [cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) that interacts with lite client called [keosd](https://developers.eos.io/manuals/eos/latest/keosd/index) which provides a secure wallet service and API endpoint for applications that require back-end integration with a signature provider.
 
-## EOSIO permissions
+## EOSIO Permissions
 
 EOSIO's permissions make it possible to strengthen account security to the point where the loss or theft of keys is nothing more than minor inconveniences. This weekly EOS episode covers what EOSIO permissions are on a conceptual level and the trend towards strong interconnected account networks.
 
