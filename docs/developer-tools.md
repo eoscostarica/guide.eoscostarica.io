@@ -51,6 +51,7 @@ Axios is a very popular JavaScript library you can use to perform HTTP requests,
 ## EOSIO
 
 ### What is EOSIO?
+<<<<<<< HEAD
 
 EOSIO is open-source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can highly run performant blockchain applications. For more depth information about EOSIO visit [Learn EOS](https://guide.eoscostarica.io/docs/eos-learn/eosio-protocol).
 
@@ -62,6 +63,19 @@ Here are some reasons why we use EOSIO:
 
 2. **It’s fast**.  By using EOSIO apps, consumers and enterprises do not even need to know that they’re using a ‘blockchain app’; all they know is that whatever data they have inputted for any transaction is more secure but no slower than your normal, non-blockchain app.  
 
+=======
+
+EOSIO is open-source software that enables launching highly configurable blockchain networks on which developers and entrepreneurs can highly run performant blockchain applications. For more depth information about EOSIO visit [Learn EOS](https://guide.eoscostarica.io/docs/eos-learn/eosio-protocol).
+
+### Why we use EOSIO?
+
+Here are some reasons why we use EOSIO:
+
+1. **It's scalable**. For businesses that need to transact with thousands of customers simultaneously, for example, this transaction speed is insufficient. EOSIO, on the other hand, has been benchmarked to process over 4,000 transactions per second on its public blockchain, which means that it is 200 times faster than its closest competitor and that’s just the public network.  
+
+2. **It’s fast**.  By using EOSIO apps, consumers and enterprises do not even need to know that they’re using a ‘blockchain app’; all they know is that whatever data they have inputted for any transaction is more secure but no slower than your normal, non-blockchain app.  
+
+>>>>>>> a8ad7ab14d708a0fad4dc53f2b75fa15efc7e50c
 3. **It’s virtually free**. Unlike other blockchain protocols, EOSIO offers a more favorable cost model for consumers and developers, as it eliminates the need for transaction fees.  
 
 4. **It’s green**. One of the most common complaints you hear about blockchain technology is just how expensive and environmentally-unfriendly it is. Indeed, a lot of blockchain platforms require a substantial amount of electricity to run the computers needed to manage the distributed database.
@@ -77,6 +91,7 @@ We have a guide for you to start in the EOSIO world, visit [EOSIO Components](ht
 ## jq
 
 ### What is jq?
+<<<<<<< HEAD
 
 A lightweight and flexible command-line JSON processor. jq is like [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/) for JSON data you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
 
@@ -93,6 +108,24 @@ class="video_container">
 
 ### jq Installation
 
+=======
+
+A lightweight and flexible command-line JSON processor. jq is like [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/) for JSON data you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+
+### Why we use jq?
+
+<figure
+class="video_container">
+    <iframe width="100%"
+    height="315" src="https://www.youtube.com/embed/EvpwhGeiH0U" frameborder="0" allowfullscreen="true">
+    </iframe>
+</figure>
+
+>[Tutorial](https://stedolan.github.io/jq/tutorial/)
+
+### jq Installation
+
+>>>>>>> a8ad7ab14d708a0fad4dc53f2b75fa15efc7e50c
 Install jq from the [jq page](https://stedolan.github.io/jq/).
 
 #### **Follow this video if you are using Windows OS**
@@ -249,6 +282,7 @@ It enables developers to test calls to APIs. Postman users enter data. The data 
 [Postman Installation](https://www.softwaretestingmaterial.com/install-postman/)
 
 [Postman GitHub](https://github.com/postmanlabs)
+<<<<<<< HEAD
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true"> </iframe>
@@ -256,3 +290,8 @@ width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameb
 ## Other Tools
 
 [**More Tools we Love**](developer-tools-ux-ui)
+=======
+
+<iframe
+width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true"> </iframe>
+>>>>>>> a8ad7ab14d708a0fad4dc53f2b75fa15efc7e50c
