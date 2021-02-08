@@ -1,3 +1,30 @@
+- [Private network installation tutorial](#private-network-installation-tutorial)
+- [Software requirements](#software-requirements)
+  - [EOSIO precompiled binaries installation](#eosio-precompiled-binaries-installation)
+  - [EOSIO.CDT (Contract Development Toolkit) binaries installation](#eosiocdt-contract-development-toolkit-binaries-installation)
+- [Genesis node configuration](#genesis-node-configuration)
+- [Start the nodeos service](#start-the-nodeos-service)
+- [nodeos service registries](#nodeos-service-registries)
+- [`eosio.contracts` configuration and compilation](#eosiocontracts-configuration-and-compilation)
+  - [Deploy **old** contracts version](#deploy-old-contracts-version)
+  - [Deploy latest contracts version](#deploy-latest-contracts-version)
+- [Block producer nodes: configuration and execution](#block-producer-nodes-configuration-and-execution)
+  - [`config.ini`](#configini)
+  - [`genesis.json`](#genesisjson)
+  - [`start.sh`](#startsh)
+- [API node: configuration and execution](#api-node-configuration-and-execution)
+  - [`config.ini`](#configini-1)
+  - [`genesis.json`](#genesisjson-1)
+  - [`start.sh`](#startsh-1)
+- [Seed node: configuration and execution](#seed-node-configuration-and-execution)
+  - [`config.ini`](#configini-2)
+  - [`genesis.json`](#genesisjson-2)
+  - [`start.sh`](#startsh-2)
+- [Stop the nodeos service](#stop-the-nodeos-service)
+- [Reboot the nodeos service](#reboot-the-nodeos-service)
+- [Reboot nodeos from scratch](#reboot-nodeos-from-scratch)
+- [Interacting with the network](#interacting-with-the-network)
+  - [Get stored data](#get-stored-data)
 # Private network installation tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
@@ -370,7 +397,7 @@ $ ./start.sh
 ```
 Once the necessary steps to start up the producer nodes it is time to set produder1, producer2 and producer3 accounts as a block producers in the **schedule**, to do so, it is necessary to execute the following command (remember to replace EOS_PUB_DEV_KEY with its respective value):
 ```bash
-$ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"productor1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"productor2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"productor3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
+$ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"producer1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
 ```
 # API node: configuration and execution
 ```bash
@@ -383,3 +410,379 @@ $ touch start.sh
 ```
 Now copy the code snippet content to the appropriate file:
 ## `config.ini`
+```bash
+agent-name = api-node
+
+# PLUGINS
+plugin = eosio::chain_plugin
+plugin = eosio::chain_api_plugin
+
+# HTTP
+access-control-allow-origin = *
+http-validate-host = false
+verbose-http-errors = true
+http-server-address = 0.0.0.0:80
+
+# SSL
+#https-server-address = 0.0.0.0:443
+#https-certificate-chain-file = ./ssl/eosio.cr.crt
+#https-private-key-file = ./ssl/eosio.cr.priv.key
+
+# CHAIN 
+chain-state-db-size-mb = 16384
+reversible-blocks-db-size-mb = 512
+abi-serializer-max-time-ms = 2000	
+contracts-console = true
+
+# PEERING NETWORK
+p2p-listen-endpoint = 0.0.0.0:9876
+p2p-server-address =  api-node:9876
+p2p-max-nodes-per-host = 150
+max-clients = 150
+sync-fetch-span = 2000
+
+p2p-peer-address = producer1:9876
+p2p-peer-address = producer2:9876
+p2p-peer-address = producer3:9876
+p2p-peer-address = seed:9876
+```
+## `genesis.json`
+```json
+{
+  "initial_timestamp": "2020-08-11T04:20:00.000",
+  "initial_key": "EOS_PUB_DEV_KEY",
+  "initial_configuration": {
+    "max_block_net_usage": 1048576,
+    "target_block_net_usage_pct": 1000,
+    "max_transaction_net_usage": 524288,
+    "base_per_transaction_net_usage": 12,
+    "net_usage_leeway": 500,
+    "context_free_discount_net_usage_num": 20,
+    "context_free_discount_net_usage_den": 100,
+    "max_block_cpu_usage": 100000,
+    "target_block_cpu_usage_pct": 500,
+    "max_transaction_cpu_usage": 90000,
+    "min_transaction_cpu_usage": 100,
+    "max_transaction_lifetime": 3600,
+    "deferred_trx_expiration_window": 600,
+    "max_transaction_delay": 3888000,
+    "max_inline_action_size": 4096,
+    "max_inline_action_depth": 4,
+    "max_authority_depth": 6
+  },
+  "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+}
+
+```
+## `start.sh`
+```bash
+#!/usr/bin/env bash
+echo "Starting API Node...";
+set -e;
+ulimit -n 65535
+ulimit -s 64000
+
+mkdir -p $CONFIG_DIR
+cp $WORK_DIR/config.ini $CONFIG_DIR/config.ini
+
+pid=0;
+
+nodeos=$"nodeos \
+  --config-dir $CONFIG_DIR \
+  --data-dir $DATA_DIR \
+  --blocks-dir $DATA_DIR/blocks" ;
+
+term_handler() {
+  if [ $pid -ne 0 ]; then
+    kill -SIGTERM "$pid";
+    wait "$pid";
+  fi
+  exit 0;
+}
+
+start_nodeos() {
+  $nodeos &
+  sleep 10;
+  if [ -z "$(pidof nodeos)" ]; then
+    $nodeos --hard-replay-blockchain &
+  fi
+}
+
+start_fresh_nodeos() {
+  echo 'Starting new chain from genesis JSON'
+  $nodeos --delete-all-blocks --genesis-json $WORK_DIR/genesis.json &
+}
+
+trap 'echo "Shutdown of EOSIO service...";kill ${!}; term_handler' 2 15;
+
+if [ ! -d $DATA_DIR/blocks ]; then
+  start_fresh_nodeos &
+elif [ -d $DATA_DIR/blocks ]; then
+  start_nodeos &
+fi
+
+pid="$(pidof nodeos)"
+
+while true
+do
+  tail -f /dev/null & wait ${!}
+done
+```
+To start the node, assign execute permissions to `start.sh` and run it:
+```bash
+$ chmod 755 start.sh
+$ ./start.sh
+```
+# Seed node: configuration and execution
+```bash
+$ cd ~
+$ mkdir seed
+$ touch config.ini
+$ touch genesis.json
+$ touch start.sh 
+```
+Now copy the code snippet content to the appropriate file:
+## `config.ini`
+```bash
+# EOSIO Testnet SEED NODE Config file
+# https://eoscostarica.io
+
+agent-name = seed
+
+# PLUGINS
+plugin = eosio::chain_plugin
+
+# CHAIN 
+chain-state-db-size-mb = 16384
+reversible-blocks-db-size-mb = 512
+contracts-console = true
+abi-serializer-max-time-ms = 2000
+
+# PEERING NETWORK
+p2p-listen-endpoint = 0.0.0.0:9876
+p2p-server-address = seedbios:9876
+
+p2p-peer-address = producer1:9876
+p2p-peer-address = producer2:9876
+p2p-peer-address = producer3:9876
+p2p-peer-address = api-node:9876
+```
+## `genesis.json`
+```json
+{
+  "initial_timestamp": "2020-08-11T04:20:00.000",
+  "initial_key": "EOS_PUB_DEV_KEY",
+  "initial_configuration": {
+    "max_block_net_usage": 1048576,
+    "target_block_net_usage_pct": 1000,
+    "max_transaction_net_usage": 524288,
+    "base_per_transaction_net_usage": 12,
+    "net_usage_leeway": 500,
+    "context_free_discount_net_usage_num": 20,
+    "context_free_discount_net_usage_den": 100,
+    "max_block_cpu_usage": 100000,
+    "target_block_cpu_usage_pct": 500,
+    "max_transaction_cpu_usage": 90000,
+    "min_transaction_cpu_usage": 100,
+    "max_transaction_lifetime": 3600,
+    "deferred_trx_expiration_window": 600,
+    "max_transaction_delay": 3888000,
+    "max_inline_action_size": 4096,
+    "max_inline_action_depth": 4,
+    "max_authority_depth": 6
+  },
+  "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+}
+```
+## `start.sh`
+```bash
+#!/usr/bin/env bash
+echo "Starting SEED Node...";
+set -e;
+ulimit -n 65535
+ulimit -s 64000
+
+mkdir -p $CONFIG_DIR
+cp $WORK_DIR/config.ini $CONFIG_DIR/config.ini
+
+pid=0;
+
+nodeos=$"nodeos \
+  --config-dir $CONFIG_DIR \
+  --data-dir $DATA_DIR \
+  --blocks-dir $DATA_DIR/blocks" ;
+
+term_handler() {
+  if [ $pid -ne 0 ]; then
+    kill -SIGTERM "$pid";
+    wait "$pid";
+  fi
+  exit 0;
+}
+
+start_nodeos() {
+  $nodeos &
+  sleep 10;
+  if [ -z "$(pidof nodeos)" ]; then
+    $nodeos --hard-replay-blockchain &
+  fi
+}
+
+start_fresh_nodeos() {
+  echo 'Starting new chain from genesis JSON'
+  $nodeos --delete-all-blocks --genesis-json $WORK_DIR/genesis.json &
+}
+
+trap 'echo "Shutdown of EOSIO service...";kill ${!}; term_handler' 2 15;
+
+if [ ! -d $DATA_DIR/blocks ]; then
+  start_fresh_nodeos &
+elif [ -d $DATA_DIR/blocks ]; then
+  start_nodeos &
+fi
+
+pid="$(pidof nodeos)"
+
+while true
+do
+  tail -f /dev/null & wait ${!}
+done
+
+```
+To start the seed node, simply assign execution permissions to the start.sh file and execute it:
+```bash
+$ chmod 755 start.sh
+$ ./start.sh
+```
+# Stop the nodeos service
+Create the file `stop.sh in the` `~/biosboot/genesis/` directory and copy the following contents:
+```bash
+#!/bin/bash
+DATADIR="./blockchain/"
+
+if [ -f $DATADIR"/eosd.pid" ]; then
+    pid=`cat $DATADIR"/eosd.pid"`
+    echo $pid
+    kill $pid
+    rm -r $DATADIR"/eosd.pid"
+    echo -ne "Stopping Node"
+    while true; do
+        [ ! -d "/proc/$pid/fd" ] && break
+        echo -ne "."
+        sleep 1
+    done
+    echo -ne "\rNode Stopped. \n"
+fi
+```
+Now you can execute `stop.sh` file:
+```bash
+$ chmod 755 stop.sh 
+$ ./stop.sh
+```
+# Reboot the nodeos service
+It is important to take into account that once the node is producing blocks it is not possible to restart the nodeos service using the same script created in the section [Start the nodeos service](#start-the-nodeos-service), since the blockchain database already contains information from the initial execution. This is why it is recommended to create a new script with the name `start.sh`. This file can continue to be used for future restarts of the node once the process is stopped.
+
+Copy and paste the following content into the `start.sh` file:
+```bash
+#!/bin/bash
+DATADIR="./blockchain"
+
+if [ ! -d $DATADIR ]; then
+  mkdir -p $DATADIR;
+fi
+
+nodeos \
+--signature-provider EOS_PUB_DEV_KEY=KEY:EOS_PRIV_DEV_KEY \
+--plugin eosio::producer_plugin \
+--plugin eosio::producer_api_plugin \
+--plugin eosio::chain_plugin \
+--plugin eosio::chain_api_plugin \
+--plugin eosio::http_plugin \
+--plugin eosio::history_api_plugin \
+--plugin eosio::history_plugin \
+--data-dir $DATADIR"/data" \
+--blocks-dir $DATADIR"/blocks" \
+--config-dir $DATADIR"/config" \
+--producer-name eosio \
+--http-server-address 127.0.0.1:8888 \
+--p2p-listen-endpoint 127.0.0.1:9010 \
+--access-control-allow-origin=* \
+--contracts-console \
+--http-validate-host=false \
+--verbose-http-errors \
+--enable-stale-production \
+--p2p-peer-address localhost:9011 \
+--p2p-peer-address localhost:9012 \
+--p2p-peer-address localhost:9013 \
+>> $DATADIR"/nodeos.log" 2>&1 & \
+echo $! > $DATADIR"/eosd.pid"
+```
+
+Now, assign execution permissions to the `start.sh` file and execute it:
+```bash
+$ chmod 755 start.sh
+$ ./start.sh
+```
+
+The following code fragment corresponds to the `hard_replay.sh` script with the `--hard-replay-blockchain` flag:
+```bash
+#!/bin/bash
+DATADIR="./blockchain"
+
+if [ ! -d $DATADIR ]; then
+  mkdir -p $DATADIR;
+fi
+
+nodeos \
+--signature-provider EOS_PUB_DEV_KEY=KEY:EOS_PRIV_DEV_KEY \
+--plugin eosio::producer_plugin \
+--plugin eosio::producer_api_plugin \
+--plugin eosio::chain_plugin \
+--plugin eosio::chain_api_plugin \
+--plugin eosio::http_plugin \
+--plugin eosio::history_api_plugin \
+--plugin eosio::history_plugin \
+--data-dir $DATADIR"/data" \
+--blocks-dir $DATADIR"/blocks" \
+--config-dir $DATADIR"/config" \
+--producer-name eosio \
+--http-server-address 127.0.0.1:8888 \
+--p2p-listen-endpoint 127.0.0.1:9010 \
+--access-control-allow-origin=* \
+--contracts-console \
+--http-validate-host=false \
+--verbose-http-errors \
+--enable-stale-production \
+--p2p-peer-address localhost:9011 \
+--p2p-peer-address localhost:9012 \
+--p2p-peer-address localhost:9013 \
+--hard-replay-blockchain \
+>> $DATADIR"/nodeos.log" 2>&1 & \
+echo $! > $DATADIR"/eosd.pid"
+```
+> **“perhaps we need to replay”**: this error may occur when restarting nodeos due to a missing `--hard-replay-blockchain` flag (parameter that replays all transactions from the genesis node). To fix this error, run the `hard_replay.sh` script.
+
+# Reboot nodeos from scratch
+To restart the nodeos service from scratch, create the `clean.sh` script, copy the following content and give it execution permissions (`chmod 755 clean.sh`):
+```bash
+#!/bin/bash
+rm -fr blockchain
+ls -al
+```
+If you want to delete the current configuration, blockchain data and log files, execute the following commands in the order they appear:
+```bash
+$ cd ~/biosboot/genesis/
+$ ./stop.sh
+$ ./clean.sh
+$ ./genesis_start.sh
+```
+# Interacting with the network
+At this point, the network is able to host any contract. Let's suppose you want to deploy a contract like [easycontract](https://github.com/eoscostarica/eoscr-smart-contracts/tree/master/easycontract) EOS Costa Rica's example repo. After you follow the specified instructions there, you can call easycontract's `save` ACTION like following:
+```bash
+cleos -u NODE_URL_HERE push action easycontract save '{"date":"2021/01/10 21:01:35","filename":"ejemplo.pdf","path":"/var/www/docs"}' -p easycontract@active
+```
+After the execution, you will get an output in the terminal.
+## Get stored data
+```bash
+cleos -u NODE_URL_HERE TRANSACTION_ID_HERE
+```
