@@ -443,14 +443,14 @@ GraphQL comes with a set of default scalar types out of the box:
 - `Float`: A signed double-precision floating-point value.
 - `String`: A UTF‐8 character sequence.
 - `Boolean`: true or false.
-- `ID`: The ID scalar type represents a unique identifier The ID type is serialized in the same way as a String
+- `ID`: The ID scalar type represents a unique identifier The ID type is serialized in the same way as a String.
 
 ### Enumeration Types
 
 Also called Enums, enumeration types are a special kind of scalar that is restricted to a particular set of allowed values. This allows you to:
 
-Validate that any arguments of this type are one of the allowed values.
-Communicate through the type system that a field will always be one of a finite set of values.
+- Validate that any arguments of this type are one of the allowed values.
+- Communicate through the type system that a field will always be one of a finite set of values.
 
 ```graphql title="Enum"
 enum Episode {
@@ -539,7 +539,7 @@ type Droid implements Character {
 }
 ```
 
-Interfaces are useful when you want to return an object or set of objects
+Interfaces are useful when you want to return an object or set of objects.
 
 ### Union Types
 Union types are very similar to interfaces, but they don't get to specify any common fields between the types.
@@ -720,13 +720,14 @@ Each field on each type is backed by a function called the resolver which is pro
 
 - **Apollo Client:** A powerful JavaScript GraphQL client, designed to work well with React, React Native, Angular 2, or just plain JavaScript.
 - **GraphQL Request:** A simple and flexible JavaScript GraphQL client that works in all JavaScript environments (the browser, Node.js, and React Native) - basically a lightweight wrapper around fetch. 
-Tools
+
+### Tools
 - **GraphiQL:** An interactive in-browser GraphQL IDE.
-GraphQL CLI: A command line tool for common GraphQL development workflows..
+- **GraphQL CLI:** A command line tool for common GraphQL development workflows.
 
 
 #### Services
 
 - [**Apollo:**](https://guide.eoscostarica.io/docs/developer-tools#apollo) A cloud service for monitoring the performance and usage of your GraphQL backend.
-- [**Hasura:**](https://guide.eoscostarica.io/docs/developer-tools#hasura) Hasura connects to your databases & microservices and instantly gives you a production-ready GraphQL API.
+- [**Hasura:**](https://guide.eoscostarica.io/docs/developer-tools#hasura) Hasura connects to your databases and microservices and instantly gives you a production-ready GraphQL API.
 - [**Postman:**](https://guide.eoscostarica.io/docs/developer-tools#postman) An HTTP Client that supports editing GraphQL queries.
