@@ -15,7 +15,8 @@ module.exports = {
         'material-ui',
         'visual-resources',
         'social-media-guidelines',
-        'readme-file-template'
+        'readme-file-template',
+        'kubernetes'
       ],
     },
     {
@@ -47,8 +48,8 @@ module.exports = {
         'tutorials/github-guide',
         'tutorials/github-keys',
         'tutorials/react-tutorial',
-        'tutorials/graphql-tutorial'
-
+        'tutorials/graphql-tutorial',
+        'tutorials/docker'
       ],
     },
     {
