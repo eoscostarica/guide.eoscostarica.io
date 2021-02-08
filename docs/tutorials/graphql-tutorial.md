@@ -703,11 +703,11 @@ Each field on each type is backed by a function called the resolver which is pro
 
 ### Top 5
 
-1. [JavaScript](https://www.javascript.com).
-2. [Go](https://golang.org).
-3. [PHP](https://www.php.net).
-4. [Python](https://www.python.org).
-5. [Java](https://www.java.com/en/).
+1. [JavaScript](https://www.javascript.com)
+2. [Go](https://golang.org)
+3. [PHP](https://www.php.net)
+4. [Python](https://www.python.org)
+5. [Java](https://www.java.com/en/)
 
 ### JavaScript
 
