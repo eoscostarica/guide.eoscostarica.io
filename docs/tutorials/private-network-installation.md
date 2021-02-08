@@ -6,6 +6,8 @@
 - [Start the nodeos service](#start-the-nodeos-service)
 - [nodeos service registries](#nodeos-service-registries)
 - [`eosio.contracts` configuration and compilation](#eosiocontracts-configuration-and-compilation)
+- [`eosio.bios` contract deployment](#eosiobios-contract-deployment)
+  - [Activate `PREACTIVATE_FEATURE`](#activate-preactivate_feature)
   - [Deploy **old** contracts version](#deploy-old-contracts-version)
   - [Deploy latest contracts version](#deploy-latest-contracts-version)
 - [Block producer nodes: configuration and execution](#block-producer-nodes-configuration-and-execution)
@@ -28,7 +30,7 @@
 # Private network installation tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
-  <img src="/img/private-network-installation-tutorial/initial-topology.png" width="100%" />
+  <img src={useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
 </p>
 
 # Software requirements
@@ -167,7 +169,7 @@ The following installation steps must be followed in the order they appear.
     $ cd ./eosio.contracts/
     $ ./build.sh
     $ cd ./build/contracts/
-   ```
+    ```
 1. Clone and install `eosio.cdt` `v1.6.3`:
     ```bash
     $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
@@ -181,7 +183,6 @@ The following installation steps must be followed in the order they appear.
     $ git checkout release/1.8.x
     $ ./build.sh
     $ cd ./build/contracts/
-    $ pwd
     ```
 # `eosio.bios` contract deployment
 ## Activate `PREACTIVATE_FEATURE`
@@ -192,7 +193,7 @@ $ curl --request POST \
 	-d '{"protocol_features_to_activate": ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]}' 
 ```
 ## Deploy **old** contracts version
-Now it is necessary to deploy the old version of the smart contracts (EOSIO_OLD_CONTRACTS_DIRECTORY), for this it execute the following command:
+Now it is necessary to deploy the old version of the smart contracts (`EOSIO_OLD_CONTRACTS_DIRECTORY`), for this it execute the following command:
 ```bash
 $ cleos set contract eosio EOSIO_OLD_CONTRACTS_DIRECTORY/eosio.bios/
 ```
@@ -258,7 +259,7 @@ executed transaction: 17fa4e06ed0b2f52cadae2cd61dee8fb3d89d3e46d5b133333816a04d2
 #         eosio <= eosio::setabi                {"account":"eosio.bios","abi":{"types":[],"structs":[{"name":"transfer","base":"","fields":[{"name"...
 ```
 # Block producer nodes: configuration and execution
-We must create the configuration directories for each block producer. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), we are creating their directories To do this, execute the following commands:
+We must create the configuration directories for each block producer. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), let's proceed to create their directories. To do this, execute the following commands:
 ```bash
 $ cd ~
 $ mkdir producer1
@@ -395,7 +396,7 @@ To run each node it is necessary to enter the directory, assign permissions and 
 $ chmod 755 start.sh # asigna permisos de ejecución
 $ ./start.sh
 ```
-Once the necessary steps to start up the producer nodes it is time to set produder1, producer2 and producer3 accounts as a block producers in the **schedule**, to do so, it is necessary to execute the following command (remember to replace EOS_PUB_DEV_KEY with its respective value):
+Once the necessary steps to start up the producer nodes are done, it is time to set produder1, producer2 and producer3 accounts as a block producers in the **schedule**, to do so, it is necessary to execute the following command (remember to replace EOS_PUB_DEV_KEY with its respective value):
 ```bash
 $ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"producer1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
 ```
@@ -472,7 +473,6 @@ p2p-peer-address = seed:9876
   },
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
-
 ```
 ## `start.sh`
 ```bash
@@ -647,15 +647,14 @@ while true
 do
   tail -f /dev/null & wait ${!}
 done
-
 ```
-To start the seed node, simply assign execution permissions to the start.sh file and execute it:
+To start the seed node, simply assign execution permissions to the `start.sh` file and execute it:
 ```bash
 $ chmod 755 start.sh
 $ ./start.sh
 ```
 # Stop the nodeos service
-Create the file `stop.sh in the` `~/biosboot/genesis/` directory and copy the following contents:
+Create the file `stop.sh` in the `~/biosboot/genesis/` directory and copy the following contents:
 ```bash
 #!/bin/bash
 DATADIR="./blockchain/"
