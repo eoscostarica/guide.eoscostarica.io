@@ -1,3 +1,10 @@
+---
+id: private-network-installation
+title: Private Network Installation and Configuration
+sidebar_label: Private Network Installation and Configuration
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 - [Private network installation tutorial](#private-network-installation-tutorial)
 - [Software requirements](#software-requirements)
   - [EOSIO precompiled binaries installation](#eosio-precompiled-binaries-installation)
@@ -30,7 +37,7 @@
 # Private network installation tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
-  <img src={useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
+  <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
 </p>
 
 # Software requirements
