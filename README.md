@@ -30,17 +30,13 @@ In this site you will find the resources collected in the day-to-day life of EOS
 
 This project is meant to serve as a tool for assisting with new developer on-boarding. Initially created by a group of university students to facilitate getting up to speed with other team members and contribute to open source projects. It's main purpose is to provide guidance to new team members and accelerate becoming familiar with processes and the culture at EOS Costa Rica.
 
-## Version
-:::note
-we are on version 0.2.0
-:::
-
 ## Tech Stack
-- React.js - React 16✨, React Router 5
-- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
-- Core - React components for faster and easier web development
-- Lint - ESlint
-- Styles - Material-UI Theme (customizable)
+- React.js - React 16✨, React Router 5.
+- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers.
+- Core - React components for faster and easier web development.
+- Lint - ESlint.
+- Styles - Material-UI Theme (customizable).
+- Docusaurus - Open source tool to build, implement and maintain web documentation.
 
 ### Getting Started
 
@@ -81,30 +77,32 @@ Give the needed instruction to run the project locally, for example:
 
 ## File Structure
 ```sh
-guias.eoscostarica.io/
-├── .github
-│ ├── workflows
-│ | ├── nodejs.yml
-│ | └── services
-│ └── pull_request_template.md
-├── docs
-├── src
-│ ├── css
+guide.eoscostarica.io/
+├── .github ...................... Version management system
+│ ├── workflows .................. Work flow
+│ | └── nodejs.yml 
+│ └── ISSUE_TEMPLATE.md .......... Templates for requests or reporting problems
+│   ├── bug_report.md 
+│   └── feature_request.md
+├── docs ......................... Markdown files
+├── src .......................... React custom components  
+│ ├── css ........................ Style sheets
 │ | ├── custom.css
 │ | └── homepage.css
-│ ├── pages
-│ | └── index.js
-├── static
+│ └── pages ...................... Components that form the main structure of the website
+│ 	├── styles.module.css
+│   ├── index.js
+│   └── Footer
+├── static ....................... Static directory
 │ ├── img
-│ ├── scripts
 │ └── CNAME
-├── .all-contributorsrc
-├── .gitignore
-├── docusaurus.config.JS
-├── package.json
-├── package.json
-├── yarn.lock
-└── README.md
+├── .all-contributorsrc .......... Contributors Information
+├── .gitignore ................... Determine which files or directories should not be uploaded to Git
+├── docusaurus.config.js ......... Docusaurus Configuration
+├── package.json ................. History of installed packages and dependency optimization
+├── sidebar.js ................... Specify the order of the documents in the side navigation
+├── yarn.lock .................... Dependency version history
+└── README.md .................... Documentation of guide.eoscostarica.io
 ```
 
 ## License
@@ -126,7 +124,7 @@ If you want to make a contribution, please follow the next steps:
 
 Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
 
-If you find a bug, please report big and small bugs by **opening an issue** `<link to issue project section>`
+If you find a bug, please report big and small bugs by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues/new/choose).
 
 ## Contributors ✨
 
@@ -158,9 +156,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## About EOS Costa Rica
 
-<div style={{ display: "block", textAlign: "center" }}>
-    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
-</div>
+<img width="50%" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
