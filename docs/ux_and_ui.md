@@ -57,7 +57,7 @@ It is a graphic editor for macOS developed by Dutch Company.
 
 It is used for user experience and user interface in web and mobile app design. Some of the features that this technology has is the prototyping and collaboration in the design.
 
-### Sketch Installation?
+### Sketch Installation
 
 [Sketch Installation](https://www.sketch.com/updates/)
 
@@ -68,7 +68,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frame
 
 ## Material.io
 
-### What is Material.io
+### What is Material.io?
 
 Design system created by Google for the purpose of high-quality experience in building for Android, iOS, Flutter and web software.
 
