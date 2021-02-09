@@ -5,48 +5,48 @@ sidebar_label: Private Network Installation and Configuration
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-- [Private network installation tutorial](#private-network-installation-tutorial)
-- [Software requirements](#software-requirements)
-  - [EOSIO precompiled binaries installation](#eosio-precompiled-binaries-installation)
-  - [EOSIO.CDT (Contract Development Toolkit) binaries installation](#eosiocdt-contract-development-toolkit-binaries-installation)
-- [Genesis node configuration](#genesis-node-configuration)
-- [Start the nodeos service](#start-the-nodeos-service)
-- [nodeos service registries](#nodeos-service-registries)
-- [`eosio.contracts` configuration and compilation](#eosiocontracts-configuration-and-compilation)
-- [`eosio.bios` contract deployment](#eosiobios-contract-deployment)
+- [Private Network Installation Tutorial](#private-network-installation-tutorial)
+- [Software Requirements](#software-requirements)
+  - [EOSIO Precompiled Binaries Installation](#eosio-precompiled-binaries-installation)
+  - [EOSIO.CDT (Contract Development Toolkit) Binaries Installation](#eosiocdt-contract-development-toolkit-binaries-installation)
+- [Genesis Node Configuration](#genesis-node-configuration)
+- [Start the nodeos Service](#start-the-nodeos-service)
+- [nodeos Service Registries](#nodeos-service-registries)
+- [`eosio.contracts` Configuration and Compilation](#eosiocontracts-configuration-and-compilation)
+- [`eosio.bios` Contract Deployment](#eosiobios-contract-deployment)
   - [Activate `PREACTIVATE_FEATURE`](#activate-preactivate_feature)
-  - [Deploy **old** contracts version](#deploy-old-contracts-version)
-  - [Deploy latest contracts version](#deploy-latest-contracts-version)
-- [Block producer nodes: configuration and execution](#block-producer-nodes-configuration-and-execution)
+  - [Deploy **Old** Contracts Version](#deploy-old-contracts-version)
+  - [Deploy Latest Contracts Version](#deploy-latest-contracts-version)
+- [Block Producer Nodes: Configuration and Execution](#block-producer-nodes-configuration-and-execution)
   - [`config.ini`](#configini)
   - [`genesis.json`](#genesisjson)
   - [`start.sh`](#startsh)
-- [API node: configuration and execution](#api-node-configuration-and-execution)
+- [API Node: Configuration and Execution](#api-node-configuration-and-execution)
   - [`config.ini`](#configini-1)
   - [`genesis.json`](#genesisjson-1)
   - [`start.sh`](#startsh-1)
-- [Seed node: configuration and execution](#seed-node-configuration-and-execution)
+- [Seed Node: Configuration and Execution](#seed-node-configuration-and-execution)
   - [`config.ini`](#configini-2)
   - [`genesis.json`](#genesisjson-2)
   - [`start.sh`](#startsh-2)
-- [Stop the nodeos service](#stop-the-nodeos-service)
-- [Reboot the nodeos service](#reboot-the-nodeos-service)
-- [Reboot nodeos from scratch](#reboot-nodeos-from-scratch)
-- [Interacting with the network](#interacting-with-the-network)
-  - [Get stored data](#get-stored-data)
-# Private network installation tutorial
+- [Stop the nodeos Service](#stop-the-nodeos-service)
+- [Reboot the nodeos Service](#reboot-the-nodeos-service)
+- [Reboot nodeos from Scratch](#reboot-nodeos-from-scratch)
+- [Interacting with the Network](#interacting-with-the-network)
+  - [Get Stored Data](#get-stored-data)
+# Private Network Installation Tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
   <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
 </p>
 
-# Software requirements
+# Software Requirements
 
 At the time of configuring a private EOSIO network there are some software installation requirements:
 1. EOSIO precompiled binaries installation
 1. EOSIO.CDT binaries installation
 
-## EOSIO precompiled binaries installation
+## EOSIO Precompiled Binaries Installation
 Execute the following commands to install EOSIO precompiled binaries:
 ```bash
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
@@ -56,13 +56,13 @@ Once you installed EOSIO binaries; nodeos, a blockchain configuration from scrat
 
 > To uninstall EOSIO execute `$ sudo apt remove eosio`
 
-## EOSIO.CDT (Contract Development Toolkit) binaries installation
+## EOSIO.CDT (Contract Development Toolkit) Binaries Installation
 EOSIO.CDT is a toolkit that facilitates smart contract development in a EOSIO blockchain networks. To install EOSIO.CDT v1.6.3 execute the following commands:
 ```bash
 $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 ```
-# Genesis node configuration
+# Genesis Node Configuration
 Before to configure the genesis node, it is necessary to create a directory called `~/biosboot/genesis`, this due to protocol particularities. So, for this execute the following:
 ```bash
 $ mkdir ~/biosboot
@@ -101,7 +101,7 @@ Copy and paste the following content in the previous created file:
 ```
 > This can be changed later on using privileged `set_param` function. Read more [here](https://guide.eoscostarica.io/docs/eos-learn/important-functions#set_params).
 
-# Start the nodeos service
+# Start the nodeos Service
 Before to start the nodeos service, it is necessary to create the file `genesis_start.sh`. For this, execute the following commands:
 
 1. Create the file
@@ -157,7 +157,7 @@ Once the previous command were executed, the genesis node that will bring **eosi
 1. Listen connection requests with other nodes at `127.0.0.1:9010`
 1. Print smart contracts output in the terminal
 
-# nodeos service registries
+# nodeos Service Registries
 You can inspect the nodeos service registries with the following commands:
 ```bash
 $ cd ~/biosboot/genesis/
@@ -165,7 +165,7 @@ $ tail -f ./blockchain/nodeos.log
 ``` 
 > To exit log print mode, press CTRL+C.
 
-# `eosio.contracts` configuration and compilation
+# `eosio.contracts` Configuration and Compilation
 It is necessary to install the latest version of `eosio.contracts` along with **v1.8.0** version. To facilitate the understanding of the steps here described, the latest version will be referred as `EOSIO_CONTRACTS_DIRECTORY` and the `v1.8.0` as `EOSIO_OLD_CONTRACTS_DIRECTORY`.
 
 The following installation steps must be followed in the order they appear.
@@ -191,7 +191,7 @@ The following installation steps must be followed in the order they appear.
     $ ./build.sh
     $ cd ./build/contracts/
     ```
-# `eosio.bios` contract deployment
+# `eosio.bios` Contract Deployment
 ## Activate `PREACTIVATE_FEATURE`
 Due to updates introduced in v1.8 and v2.0, it is necessary to activate a protocol feature called PREACTIVATE_FEATURE. To activate this feature, execute the following command:
 ```bash
@@ -199,7 +199,7 @@ $ curl --request POST \
 	--url http://127.0.0.1:8888/v1/producer/schedule_protocol_feature_activations \
 	-d '{"protocol_features_to_activate": ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]}' 
 ```
-## Deploy **old** contracts version
+## Deploy **Old** Contracts Version
 Now it is necessary to deploy the old version of the smart contracts (`EOSIO_OLD_CONTRACTS_DIRECTORY`), for this it execute the following command:
 ```bash
 $ cleos set contract eosio EOSIO_OLD_CONTRACTS_DIRECTORY/eosio.bios/
@@ -251,7 +251,7 @@ cleos push action eosio activate '["4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb8
 # WTMSIG_BLOCK_SIGNATURES
 cleos push action eosio activate '["299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707"]' -p eosio
 ```
-## Deploy latest contracts version
+## Deploy Latest Contracts Version
 Once the old version of the contracts has been deployed and the features have been activated, we proceed to deploy the recent version of the contracts:
 ```bash
 $ cleos set contract eosio.bios EOSIO_CONTRACTS_DIRECTORY/eosio.bios/
@@ -265,7 +265,7 @@ executed transaction: 17fa4e06ed0b2f52cadae2cd61dee8fb3d89d3e46d5b133333816a04d2
 #         eosio <= eosio::setcode               {"account":"eosio.bios","vmtype":0,"vmversion":0,"code":"0061736d01000000017f1560037f7e7f0060057f7e...
 #         eosio <= eosio::setabi                {"account":"eosio.bios","abi":{"types":[],"structs":[{"name":"transfer","base":"","fields":[{"name"...
 ```
-# Block producer nodes: configuration and execution
+# Block Producer Nodes: Configuration and Execution
 We must create the configuration directories for each block producer. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), let's proceed to create their directories. To do this, execute the following commands:
 ```bash
 $ cd ~
@@ -407,7 +407,7 @@ Once the necessary steps to start up the producer nodes are done, it is time to 
 ```bash
 $ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"producer1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
 ```
-# API node: configuration and execution
+# API Node: Configuration and Execution
 ```bash
 $ cd ~
 $ mkdir api-node
@@ -540,7 +540,7 @@ To start the node, assign execute permissions to `start.sh` and run it:
 $ chmod 755 start.sh
 $ ./start.sh
 ```
-# Seed node: configuration and execution
+# Seed Node: Configuration and Execution
 ```bash
 $ cd ~
 $ mkdir seed
@@ -660,7 +660,7 @@ To start the seed node, simply assign execution permissions to the `start.sh` f
 $ chmod 755 start.sh
 $ ./start.sh
 ```
-# Stop the nodeos service
+# Stop the nodeos Service
 Create the file `stop.sh` in the `~/biosboot/genesis/` directory and copy the following contents:
 ```bash
 #!/bin/bash
@@ -685,7 +685,7 @@ Now you can execute `stop.sh` file:
 $ chmod 755 stop.sh 
 $ ./stop.sh
 ```
-# Reboot the nodeos service
+# Reboot the nodeos Service
 It is important to take into account that once the node is producing blocks it is not possible to restart the nodeos service using the same script created in the section [Start the nodeos service](#start-the-nodeos-service), since the blockchain database already contains information from the initial execution. This is why it is recommended to create a new script with the name `start.sh`. This file can continue to be used for future restarts of the node once the process is stopped.
 
 Copy and paste the following content into the `start.sh` file:
@@ -768,7 +768,7 @@ echo $! > $DATADIR"/eosd.pid"
 ```
 > **“perhaps we need to replay”**: this error may occur when restarting nodeos due to a missing `--hard-replay-blockchain` flag (parameter that replays all transactions from the genesis node). To fix this error, run the `hard_replay.sh` script.
 
-# Reboot nodeos from scratch
+# Reboot nodeos from Scratch
 To restart the nodeos service from scratch, create the `clean.sh` script, copy the following content and give it execution permissions (`chmod 755 clean.sh`):
 ```bash
 #!/bin/bash
@@ -782,13 +782,13 @@ $ ./stop.sh
 $ ./clean.sh
 $ ./genesis_start.sh
 ```
-# Interacting with the network
+# Interacting with the Network
 At this point, the network is able to host any contract. Let's suppose you want to deploy a contract like [easycontract](https://github.com/eoscostarica/eoscr-smart-contracts/tree/master/easycontract) EOS Costa Rica's example repo. After you follow the specified instructions there, you can call easycontract's `save` ACTION like following:
 ```bash
 cleos -u NODE_URL_HERE push action easycontract save '{"date":"2021/01/10 21:01:35","filename":"ejemplo.pdf","path":"/var/www/docs"}' -p easycontract@active
 ```
 After the execution, you will get an output in the terminal.
-## Get stored data
+## Get Stored Data
 ```bash
 cleos -u NODE_URL_HERE TRANSACTION_ID_HERE
 ```
