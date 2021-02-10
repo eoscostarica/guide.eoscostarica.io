@@ -22,6 +22,7 @@ const siteConfig = {
   favicon: 'img/favicon/favicon.ico',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
+    respectPrefersColorScheme: true,
     navbar: {
       logo: {
         alt: 'EOS Costa Rica Logo',
