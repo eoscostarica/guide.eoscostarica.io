@@ -1,7 +1,7 @@
 ---
 id: developer-tools-ux-ui
 title: Our Favorite Tools for UX/UI
-sidebar_label: UX/UI Tools
+sidebar_label: UX/UI
 ---
 
 ## Figma
@@ -36,7 +36,7 @@ Zeplin is a plugin and a application for Mac and Windows specialized for helping
 
 ### Why we use Zeplin?
 
-Zeplin facilitates the transfer of designs by taking them from Sketch, Adobe XD, Figma, and Photoshop and exporting them into a format that can easily generate code snippets, style guides, specs, and assets.
+Zeplin facilitates the transfer of designs by taking them from Sketch, Adobe XD, Figma, and Photoshop and exporting them into a format that can easily generate code snippets, style guides, specs, and assets. It's also used as a source of truth for design deliveries.
 
 ### Zeplin Installation
 
@@ -51,7 +51,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameb
 
 ### What is Sketch?
 
-It is a graphic editor for macOS developed by Dutch Company.
+It is a web design vector-based graphic editor for macOS, developed by Dutch Company.
 
 ### Why we use Sketch?
 
@@ -66,17 +66,17 @@ width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frame
 
 * * *
 
-## Material.io
+## Material Design
 
-### What is Material.io?
+### What is Material Design?
 
 Design system created by Google for the purpose of high-quality experience in building for Android, iOS, Flutter and web software.
 
-### Why we use Material.io?
+### Why we use Material Design?
 
 It is known as an entire design ecosystem, where the assets have a complex use cases helping in the development of an application. It is a fairly flexible design library that makes components easy to use and implement.
 
-[Material.io Components](https://material.io/components)
+[Material Design Components](https://material.io/components)
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameborder="0" allowfullscreen="true"> </iframe>

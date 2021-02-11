@@ -17,7 +17,7 @@ Here is a list of helpful links related to the EOS community.
 * [Kubernetes Documentation](https://kubernetes.io/docs/tutorials/)
 * [Telos Documentation GitHub](https://github.com/telosnetwork/docs)  
 
-**UX/UI**
+### UX/UI
 
 * [Material Design](https://material.io/)
 * [Figma Page](https://www.figma.com/ui-design-tool/)
