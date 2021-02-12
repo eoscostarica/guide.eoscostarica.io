@@ -72,7 +72,7 @@ module.exports = {
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',
-        'community-resources/useful-links'
+        'community-resources/useful-links' 
       ],
     },
   ],  
