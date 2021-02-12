@@ -4,8 +4,8 @@ module.exports = {
       type: 'category',
       label: 'Developer Guidelines',
       items: [
-        'engineering-culture',
         'open-source-guidelines',
+        'engineering-culture',
         'agile-methodologies',
         'pair-mob-programming',
         'devops',
@@ -14,9 +14,7 @@ module.exports = {
         "boilerplate",
         'material-ui',
         'visual-resources',
-        'social-media-guidelines',
-        'readme-file-template',
-        'kubernetes'
+        'social-media-guidelines'
       ],
     },
     {
@@ -26,30 +24,31 @@ module.exports = {
         'eos-learn/eosio-protocol',
         'eos-learn/consensus-mechanism',
         'eos-learn/system-resources',
+        'eos-learn/eosio-components',
         'eos-learn/accounts-and-permissions',
         'eos-learn/important-functions',
         'eos-learn/private-keys',
         'eos-learn/dapp-development',
         'eos-learn/eos-blockchain',
         'eos-learn/smart-contract',
-        'eos-learn/ricardian-contracts',
-        'eos-learn/eosio-components'
+        'eos-learn/ricardian-contracts'
       ],
     },
     {
       type: 'category',
       label: 'Tutorials',
       items: [
-        'tutorials/node-installation',
-        'tutorials/hello-world-contract',
-        'tutorials/modern-cpp',
-        'tutorials/git-workflow-tutorial',
         'tutorials/markdown-guide',
+        'tutorials/git-workflow-tutorial',
         'tutorials/github-guide',
         'tutorials/github-keys',
         'tutorials/react-tutorial',
         'tutorials/graphql-tutorial',
-        'tutorials/docker'
+        'tutorials/docker',
+        'tutorials/kubernetes',
+        'tutorials/node-installation',
+        'tutorials/hello-world-contract',
+        'tutorials/modern-cpp'
       ],
     },
     {
@@ -61,6 +60,7 @@ module.exports = {
         'tools/nodeos-command-line-reference',
         'tools/block-explorers',
         'tools/eosio-sdk-libraries',
+        'tools/readme-file-template',
         'tools/frequently-asked-questions'
       ],
     },
@@ -68,10 +68,10 @@ module.exports = {
       type: 'category',
       label: 'Community Resources',
       items: [
+        'community-resources/eosio-networks',
         'community-resources/telegram-channels',
         'community-resources/blog-posts',
         'community-resources/eos-podcasts',
-        'community-resources/eosio-networks',
         'community-resources/useful-links'
       ],
     },
