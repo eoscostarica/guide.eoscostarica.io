@@ -8,7 +8,7 @@ A contract is an agreement governing outcomes for actions, given a set of inputs
 
 An EOSIO Smart Contract is software registered on the blockchain and executed on EOSIO nodes, that implements the semantics of a "contract" whose ledger of action requests are being stored on the blockchain. The Smart Contract defines the interface (actions, parameters, data structures) and the code that implements the interface. The code is compiled into a **canonical bytecode** format that nodes can retrieve and execute. The blockchain stores the transactions (e.g., legal transfers, game moves) of the contract. Each Smart Contract must be accompanied by a Ricardian Contract that defines the legally binding terms and conditions of the contract.
 
-Read More : https://guide.eoscostarica.io/docs/tutorials/modern-cpp
+Read More: https://guide.eoscostarica.io/docs/tutorials/modern-cpp
 
 ## Smart Contract Design Framework 
 Digital Scarcity's [github repo](https://github.com/digital-scarcity/equiprental) has an example designed to provide a step-by-step framework and example for creating a smart contract on EOS. It uses a simple use case of equipment rentals that list their equipment for rent and renters who pay rent for those items.
