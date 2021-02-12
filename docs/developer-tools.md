@@ -252,3 +252,26 @@ It enables developers to test calls to APIs. Postman users enter data. The data 
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true"> </iframe>
+
+* * *
+
+## Vault
+
+### What is Vault?
+
+Hashicorp's Vault is an open source tool that enables sensitive and secret data to be securely stored in dynamic cloud environments. HashiCorp Vault is designed to help organizations manage access to secrets and transmit them safely within an organization. Secrets are defined as any form of sensitive credentials that need to be tightly controlled and monitored and can be used to unlock sensitive information. 
+
+### Why we use Vault?
+
+1. Vault **reduces** the need for hard-coded and static credentials.
+2. It uses **trusted identities** to centralize passwords and control access.
+3. **Encrypt sensitive data** both in transit and at rest using centrally managed and protected encryption keys, all through a single API and workflow.
+
+### Vault Installation
+
+[Vault Installation](https://learn.hashicorp.com/tutorials/vault/getting-started-install)
+
+[Vault GitHub](https://github.com/hashicorp/vault)
+
+<iframe
+width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameborder="0" allowfullscreen="true"> </iframe>
