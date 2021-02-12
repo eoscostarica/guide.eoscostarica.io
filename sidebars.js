@@ -13,8 +13,12 @@ module.exports = {
         'boilerplate',
         'material-ui',
         'visual-resources',
+<<<<<<< HEAD
         'social-media-guidelines',
         'devops'
+=======
+        'social-media-guidelines'
+>>>>>>> master
       ],
     },
     {
@@ -54,7 +58,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Tools',
-      items: [
+      items: [ 
         'tools/glossary',
         'tools/command-line',
         'tools/nodeos-command-line-reference',
