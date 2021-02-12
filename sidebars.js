@@ -8,13 +8,13 @@ module.exports = {
         'engineering-culture',
         'agile-methodologies',
         'pair-mob-programming',
-        'devops',
         'developer-tools',
         'open-source-projects',
-        "boilerplate",
+        'boilerplate',
         'material-ui',
         'visual-resources',
-        'social-media-guidelines'
+        'social-media-guidelines',
+        'devops'
       ],
     },
     {
