@@ -6,6 +6,7 @@ sidebar_label: Useful Links
 
 Here is a list of helpful links related to the EOS community.
 
+* [EOSIO for Developers](https://eos.io/for-developers/)
 * [EOSIO Developer Documentation](https://developers.eos.io/)
 * [Learn how to develop on EOSIO](https://medium.com/@theblockstalk/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
 * [EOSIO blockchain developers workshop, March 2020](https://www.youtube.com/playlist?list=PLbq67nzUl6Prlg2Su8Rkmh8exeAL5O5l7) 
