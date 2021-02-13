@@ -1,7 +1,7 @@
 ---
 id: pair-mob-programming
-title: Software Development in Pair or Mob
-sidebar_label: Software Development in Pair or Mob
+title: Software Development in Pairs or Groups
+sidebar_label: Pair or Mob Programming
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
