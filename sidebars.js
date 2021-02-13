@@ -9,6 +9,7 @@ module.exports = {
         'agile-methodologies',
         'pair-mob-programming',
         'developer-tools',
+        'developer-tools-ux-ui',
         'open-source-projects',
         'boilerplate',
         'material-ui',

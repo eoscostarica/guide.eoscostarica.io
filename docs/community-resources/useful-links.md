@@ -17,4 +17,11 @@ Here is a list of helpful links related to the EOS community.
 * [EOSIO Training and Certification](https://training.eos.io/)
 * [Kubernetes Documentation](https://kubernetes.io/docs/tutorials/)
 * [Telos Documentation GitHub](https://github.com/telosnetwork/docs)
-* [Learning EOSIO Development (Telos, EOS and other Blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
+* [Learning EOSIO development (Telos, EOS and other blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
+
+### UX/UI
+
+* [Material Design](https://material.io/)
+* [Figma Page](https://www.figma.com/ui-design-tool/)
+* [Why Zeplin?](https://zeplin.io/why-zeplin)
+* [Sketch Blog](https://www.sketch.com/blog/)
