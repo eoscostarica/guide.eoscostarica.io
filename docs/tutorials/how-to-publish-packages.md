@@ -38,9 +38,9 @@ In order to be able to publish packages, it is necessary to generate a **Persona
 
 ## Github's Package Registry
 **Github Package Registry** is a package registry that offers among its advantages:
-- Handling of the same credentials used in Github
+- Handling of the same credentials used in Github.
 - Possibility of integration with **Github Actions** and **Webhooks**.
-- Private packages that are kept within the same scope of the organization
+- Private packages that are kept within the same scope of the organization.
 - 
 ## Authentication Using `npm login`
 To authenticate to the **Github Registry** you need to use the `npm login` command as follows:
