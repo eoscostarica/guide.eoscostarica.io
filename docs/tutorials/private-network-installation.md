@@ -1,39 +1,10 @@
 ---
 id: private-network-installation
-title: Private Network Installation and Configuration
-sidebar_label: Private Network Installation and Configuration
+title: EOSIO Private Network Installation
+sidebar_label: EOSIO Private Network Installation
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-- [Private Network Installation Tutorial](#private-network-installation-tutorial)
-- [Software Requirements](#software-requirements)
-  - [EOSIO Precompiled Binaries Installation](#eosio-precompiled-binaries-installation)
-  - [EOSIO.CDT (Contract Development Toolkit) Binaries Installation](#eosiocdt-contract-development-toolkit-binaries-installation)
-- [Genesis Node Configuration](#genesis-node-configuration)
-- [Start the nodeos Service](#start-the-nodeos-service)
-- [nodeos Service Registries](#nodeos-service-registries)
-- [`eosio.contracts` Configuration and Compilation](#eosiocontracts-configuration-and-compilation)
-- [`eosio.bios` Contract Deployment](#eosiobios-contract-deployment)
-  - [Activate `PREACTIVATE_FEATURE`](#activate-preactivate_feature)
-  - [Deploy **Old** Contracts Version](#deploy-old-contracts-version)
-  - [Deploy Latest Contracts Version](#deploy-latest-contracts-version)
-- [Block Producer Nodes: Configuration and Execution](#block-producer-nodes-configuration-and-execution)
-  - [`config.ini`](#configini)
-  - [`genesis.json`](#genesisjson)
-  - [`start.sh`](#startsh)
-- [API Node: Configuration and Execution](#api-node-configuration-and-execution)
-  - [`config.ini`](#configini-1)
-  - [`genesis.json`](#genesisjson-1)
-  - [`start.sh`](#startsh-1)
-- [Seed Node: Configuration and Execution](#seed-node-configuration-and-execution)
-  - [`config.ini`](#configini-2)
-  - [`genesis.json`](#genesisjson-2)
-  - [`start.sh`](#startsh-2)
-- [Stop the nodeos Service](#stop-the-nodeos-service)
-- [Reboot the nodeos Service](#reboot-the-nodeos-service)
-- [Reboot nodeos from Scratch](#reboot-nodeos-from-scratch)
-- [Interacting with the Network](#interacting-with-the-network)
-  - [Get Stored Data](#get-stored-data)
 ## Private Network Installation Tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
