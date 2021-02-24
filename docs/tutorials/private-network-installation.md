@@ -1,7 +1,7 @@
 ---
 id: private-network-installation
-title: Private Network Installation and Configuration
-sidebar_label: Private Network Installation and Configuration
+title: EOSIO Private Network Installation
+sidebar_label: EOSIO Private Network Installation
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
