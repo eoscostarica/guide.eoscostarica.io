@@ -5,11 +5,9 @@ sidebar_label: GitHub Guide
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[GitHub](https://docs.github.com/en/free-pro-team@latest/github) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects.
-[Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)  
+[GitHub](https://docs.github.com/en/free-pro-team@latest/github) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects. [Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/).
 
 For EOS Costa Rica, it is of utmost importance that our collaborators familiarize themselves with this tool, which is why we offer below a basic guide to get started in the world of GitHub.
-
 
 * * *
 
@@ -64,9 +62,9 @@ Clone an existing repository.
 ```
 git clone <url>
 ```
->[More information](https://github.com/joshnh/Git-Commands)
+[More information](https://github.com/joshnh/Git-Commands).
 
-### Branch
+### Branches
 
 List the existing branches.
 ```
@@ -93,7 +91,7 @@ Delete a branch.
 ```
 git branch -d <branch name> 
 ```
->[More information](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
+[More information](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).
 
 ### Upload Changes
 
@@ -136,7 +134,7 @@ Merge another branch to the current one.
 ```
 git merge <branch name> 
 ```
->[More information](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/)
+[More information](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/).
 
 ### Fork
 
@@ -150,7 +148,7 @@ Merge with master
 git fetch upstream
 git merge upstream/master 
 ```
->[More information](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
+[More information](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
 ### Other Commands
 
@@ -193,4 +191,4 @@ Delete file from repository.
 ```
 git rm <file> 
 ```
->[More information](https://dzone.com/articles/top-20-git-commands-with-examples)
+[More information](https://dzone.com/articles/top-20-git-commands-with-examples).

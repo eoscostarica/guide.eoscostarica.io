@@ -141,7 +141,7 @@ const HeroSection  = () => {
           <h1 className="EOS-Costa-Rica-Devel">Developers Guide</h1>
         </div>
         <div className="intro-container">
-          <p className="intro-text">We’d like to welcome you to our collaborative effort and induct you on to awesome blockchain technology and all the paradigms that make it possible.</p>
+          <p className="intro-text">Welcome to our open-source developers portal. Begin your journey to learn about blockchain technology and all the stuff that makes it possible.</p>
         </div>
         <div className="buttons-intro-container">
           <Button className={classes.heroButton} href="/docs/engineering-culture">GET STARTED</Button> 
@@ -182,7 +182,7 @@ const CardsSection = () => {
 
   return (
     <div className="container section-container">
-      <h1 className="section-tittle">Follow to our sections</h1>
+      <h1 className="section-title">Get started with these resources</h1>
       <Grid
         container
         direction="row"
@@ -270,7 +270,11 @@ const MediumSection = () => {
 
   return (
     <div className="container section-container">
+<<<<<<< HEAD
        <h1 className="section-tittle">Read our blog posts</h1>
+=======
+       <h1 className="section-title">Read our blog posts</h1>
+>>>>>>> 6b3733c8c865a571cc6781ab4c1e301eed347c6b
        <Grid
         container
         direction="row"

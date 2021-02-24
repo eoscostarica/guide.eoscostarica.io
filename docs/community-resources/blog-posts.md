@@ -4,7 +4,7 @@ title: Blog Posts
 sidebar_label: Blog Posts
 ---
 
-## What is blockchain?
+## What is Blockchain?
 
 Blockchain technology offers improved security, transparency, privacy, traceability and efficiency for companies and organizations.
 
@@ -12,7 +12,7 @@ A blockchain acts as a distributed ledger of information shared by a network of 
 
 See more content from **Blockchain** in this [link](https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005)
 
-## What is a smart contract?
+## What is a Smart Contract?
 
 Smart contracts have the ability to be executed autonomously and automatically through computer codes, which avoids having to go through third-party interpretations. A smart contract will be valid as a code visible to all parties and cannot be modified.
 

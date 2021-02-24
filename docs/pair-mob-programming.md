@@ -1,7 +1,7 @@
 ---
 id: pair-mob-programming
-title: Software Development in Pair or Mob
-sidebar_label: Software Development in Pair or Mob
+title: Software Development in Pairs or Groups
+sidebar_label: Pair or Mob Programming
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -10,7 +10,7 @@ Hence, in recent years other more modern working methods have been developed tha
 
 ## Pair Programming
 
-### What is pair programming?
+### What is Pair Programming?
 
 Pair programming specifies that there are always two people working on the code at the same time and  as far as possible, they sit together. One is in charge of writing the code and the other of supervising it in real time. At the same time, they are constantly exchanging impressions: they discuss problems, find solutions and develop creative ideas.
 
@@ -18,15 +18,18 @@ Pair programming specifies that there are always two people working on the code 
 <img alt="Image Pair Programing"  src={ useBaseUrl( 'img/PairMobProgramming/PairProgramming.png' )} /> </div>
 
 ### How is it done?
+
 **Team size:** 2 people.
 
 ### Roles:
+
 - **Driver** He is charge of writing the code.
 - **Navigator:** He is charge of supervising that code.
 
 One of the rules of pair programming establishes that these two roles are exchanged regularly, in this way a possible hierarchical gap is avoided.
 
-### Types of pair programming:
+### Types of Pair Programming:
+
 - **Backset Navigator:** The navigator takes on more of the driver's tactical roles. In backseat navigation, the controller continues to control the keyboard and typing, but the browser dictates syntactic instructions, such as what name to call a variable or what specific method to call. The rear seat navigator style works best with a beginner as a driver and an expert as a navigator, allowing the beginner to learn by doing.
 - **Ping Pong Pairing:** Allows roles to change frequently and forces engineers to pay attention to the coding and testing aspects of development, gaining familiarity with the process.
 - **Pomodoro:** A typical Pomodoro style matching session lasts 25 minutes followed by a 5 minute break. The controller and the browser change positions. After four 25-minute sessions, both programmers take a longer 20-minute break. Force breaks and regular position change help ensure both programmers are always productive, focused, and up-to-date when a session begins.
@@ -51,13 +54,16 @@ A group of highly intelligent people with great challenges working as a team to 
 <img alt="Image Mob Programing" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.png' )} /> </div>
 
 ### How is it done?
+
 **Team size:** 3-6 people.
 
 ### Roles:
+
 - **Driver:** Receives input from the team and executes the implementation of ideas.
 - **Navigators:** They are the ones that give the driver direction, it is also the voice of the team.
 
-### Bias for action:
+### Bias for Action:
+
 - Avoid staying in abstract conversations for a long time.
 - Do not discuss a problem for more than 10 minutes (Recommended).
 - If there is more than one solution to a problem, experiment with two or 3 (Use
@@ -78,14 +84,16 @@ paretto).
 - Test automation.
 - Repo - DevOps.
 
-### Types of mob programming:
+### Types of Mob Programming:
+
 - **Expert-Expert:** Higher productivity and high-quality results, minimal interruption of approaches and exploration to challenge existing solutions.
 - **Expert-Novice:** Increased opportunity to explore solutions and mentoring opportunities for people new to the team. The novice is more prone to challenging existing solutions and brings disruption, and the expert when teaching can rethink existing paradigms. The risk that experts cannot develop the patience to teach can create conflict and affect the
 organizational culture.
 - **Novice-Novice:** Normally not recommended for complex solutions, but good for innovation as long as it can be developed with a mentor who can generate a role model.
 - **With audience:** The team is working with an audience of stakeholders or users.
 
-### The value of mobbing:
+### The Value of Mobbing:
+
 - Solutions are delivered faster, with higher quality through increased focus.
 - Mitigate tedious tasks, have 360 ​​visibility, and improve automation.
 - Leverage training between team members.
@@ -96,7 +104,7 @@ organizational culture.
 - Team building and communication.
 - More solution options for several problems at the same time.
 
-### Benefits for other organizations and services.
+### Benefits for Other Organizations and Services
 
 - Recruiting.
 - Design (Service, UX, Production).
