@@ -17,24 +17,27 @@ At the time of configuring a private EOSIO network there are some software insta
 1. EOSIO precompiled binaries installation
 1. EOSIO.CDT binaries installation
 
+*Also, we are using Ubuntu 18.04 LTS, but if you want to use macOS or other supported OS, take a look at [EOSIO releases](https://github.com/EOSIO/eos/releases)*
 ### EOSIO Precompiled Binaries Installation
 Execute the following commands to install EOSIO precompiled binaries:
 ```bash
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 ```
-Once you installed EOSIO binaries; nodeos, a blockchain configuration from scratch and P2P networks interactions are among available functionalities the protocol provides.
+Once you installed EOSIO binaries; nodeos, a blockchain configuration from scratch and P2P networks interactions are among available functionalities that the protocol provides.
 
-> To uninstall EOSIO execute `$ sudo apt remove eosio`
+> To uninstall EOSIO execute: `$ sudo apt remove eosio`
 
 ### EOSIO.CDT (Contract Development Toolkit) Binaries Installation
-EOSIO.CDT is a toolkit that facilitates smart contract development in a EOSIO blockchain networks. To install EOSIO.CDT v1.6.3 execute the following commands:
+EOSIO.CDT is a toolkit that facilitates smart contract development in a EOSIO based blockchain networks. To install EOSIO.CDT v1.6.3 execute the following commands:
 ```bash
 $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 ```
+
+You may want take a look at [EOSIO.CDT releases](https://github.com/EOSIO/eosio.cdt/releases).
 ## Genesis Node Configuration
-Before to configure the genesis node, it is necessary to create a directory called `~/biosboot/genesis`, this due to protocol particularities. So, for this execute the following:
+Before to configure the genesis node, it is necessary to create a directory called `~/biosboot/genesis`, this is due to protocol particularities. So, for this execute the following:
 ```bash
 $ mkdir ~/biosboot
 $ mkdir ~/biosboot/genesis
@@ -109,13 +112,13 @@ Before to start the nodeos service, it is necessary to create the file `genesis_
       --http-validate-host=false \
       --verbose-http-errors \
       --enable-stale-production \
-      --p2p-peer-address localhost:9011 \
-      --p2p-peer-address localhost:9012 \
-      --p2p-peer-address localhost:9013 \
+      --p2p-peer-address GENESIS_NODE_IP:9011 \
+      --p2p-peer-address GENESIS_NODE_IP:9012 \
+      --p2p-peer-address GENESIS_NODE_IP:9013 \
     >> $DATADIR"/nodeos.log" 2>&1 & \
     echo $! > $DATADIR"/eosd.pid"
     ```
-    > Remember to replace `EOS_PUB_DEV_KEY` and `EOS_PRIV_DEV_KEY` with previous generated key pair.
+    > Remember to replace `EOS_PUB_DEV_KEY` and `EOS_PRIV_DEV_KEY` with the previous generated key pair, also replace GENESIS_NODE_IP
 1. Finally, assign execution permission to the script:
     ```bash
     $ cd ~/biosboot/genesis/
@@ -124,8 +127,8 @@ Before to start the nodeos service, it is necessary to create the file `genesis_
     ```
 Once the previous command were executed, the genesis node that will bring **eosio** as a name will be able to:
 1. Produce blocks
-1. Listen HTTP requests at `127.0.0.1:8888`
-1. Listen connection requests with other nodes at `127.0.0.1:9010`
+1. Listen HTTP requests at `SPECIFIED_GENESIS_NODE_IP:8888`
+1. Listen connection requests with other nodes at `SPECIFIED_GENESIS_NODE_IP:9010`
 1. Print smart contracts output in the terminal
 
 ## nodeos Service Registries
@@ -148,7 +151,7 @@ The following installation steps must be followed in the order they appear.
     $ ./build.sh
     $ cd ./build/contracts/
     ```
-1. Clone and install `eosio.cdt` `v1.6.3`:
+1. Clone and install `eosio.cdt` `v1.6.3` (necessary version to compile `eosio.contracts` `v1.8.0`):
     ```bash
     $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
     $ sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
@@ -167,7 +170,7 @@ The following installation steps must be followed in the order they appear.
 Due to updates introduced in v1.8 and v2.0, it is necessary to activate a protocol feature called PREACTIVATE_FEATURE. To activate this feature, execute the following command:
 ```bash
 $ curl --request POST \
-	--url http://127.0.0.1:8888/v1/producer/schedule_protocol_feature_activations \
+	--url http://GENESIS_NODE_IP:8888/v1/producer/schedule_protocol_feature_activations \
 	-d '{"protocol_features_to_activate": ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]}' 
 ```
 ### Deploy **Old** Contracts Version
@@ -187,45 +190,45 @@ executed transaction: 2150ed87e4564cd3fe98ccdea841dc9ff67351f9315b6384084e8572a3
 Now that the old version of the contracts has been deployed, it is also necessary to activate special features that are recommended for networks based on the EOSIO protocol. To activate these features, execute the following commands:
 ```bash
 # GET_SENDER
-cleos push action eosio activate '["f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d"]' -p eosio
 
 # FORWARD_SETCODE
-cleos push action eosio activate '["2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25"]' -p eosio
 
 # ONLY_BILL_FIRST_AUTHORIZER
 cleos push action eosio activate '["8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405"]' -p eosio
 
 # RESTRICT_ACTION_TO_SELF
-cleos push action eosio activate '["ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43"]' -p eosio
 
 # DISALLOW_EMPTY_PRODUCER_SCHEDULE
-cleos push action eosio activate '["68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428"]' -p eosio
 
  # FIX_LINKAUTH_RESTRICTION
-cleos push action eosio activate '["e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526"]' -p eosio
 
  # REPLACE_DEFERRED
-cleos push action eosio activate '["ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99"]' -p eosio
 
 # NO_DUPLICATE_DEFERRED_ID
-cleos push action eosio activate '["4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f"]' -p eosio
 
 # ONLY_LINK_TO_EXISTING_PERMISSION
-cleos push action eosio activate '["1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241"]' -p eosio
 
 # RAM_RESTRICTIONS
-cleos push action eosio activate '["4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67"]' -p eosio
 
 # WEBAUTHN_KEY
-cleos push action eosio activate '["4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2"]' -p eosio
 
 # WTMSIG_BLOCK_SIGNATURES
-cleos push action eosio activate '["299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707"]' -p eosio
+cleos -u http://GENESIS_NODE_IP:8888 push action eosio activate '["299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707"]' -p eosio
 ```
 ### Deploy Latest Contracts Version
 Once the old version of the contracts has been deployed and the features have been activated, we proceed to deploy the recent version of the contracts:
 ```bash
-$ cleos set contract eosio.bios EOSIO_CONTRACTS_DIRECTORY/eosio.bios/
+$ cleos -u http://GENESIS_NODE_IP:8888 set contract eosio.bios EOSIO_CONTRACTS_DIRECTORY/eosio.bios/
 ```
 **Expected output:**
 ```bash
@@ -246,19 +249,19 @@ $ touch ~/producer1/config.ini
 $ touch ~/producer1/genesis.json
 $ touch ~/producer1/start.sh
 
-$ cp -R producer1 producer2
-$ cp -R producer1 producer3
 ```
-Once the files were created, proceed to copy the content with the corresponding file:
+Once the files are created, copy the code snippet content to each corresponding file and repeat the process for each directory on each server (rename the directory according to the node):
 
 ### `config.ini`
 ```bash
-agent-name = producer1
+agent-name = producer1 # CHANGE THIS ACCORDING TO THE NODE NAME
 
 # PLUGINS
 plugin = eosio::chain_plugin
+plugin = eosio::chain_api_plugin
+plugin = eosio::http_plugin
 plugin = eosio::producer_plugin
-
+plugin = eosio::producer_api_plugin
 # CHAIN 
 chain-state-db-size-mb = 16384
 reversible-blocks-db-size-mb = 512
@@ -271,10 +274,10 @@ max-irreversible-block-age = -1
 txn-reference-block-lag = 0
 
 # BLOCK PRODUCER
-producer-name = producer1
+producer-name = producer1 # CHANGE THIS ACCORDING TO THE NODE
 
 # PEERING NETWORK
-p2p-server-address =  producer1:9876     # change according to directory
+p2p-server-address =  PRODUCER1_IP:9876     # CHANGE THIS ACCORDING TO THE NODE IP
 p2p-listen-endpoint = 0.0.0.0:9876
 p2p-max-nodes-per-host = 150
 max-clients = 150
@@ -282,101 +285,155 @@ connection-cleanup-period = 30
 sync-fetch-span = 2000
 allowed-connection = any
 
-p2p-peer-address = seed:9876
-p2p-peer-address = producer2:9876        # change according to the directory of this file
-p2p-peer-address = producer3:9876        # change according to the directory of this file
-p2p-peer-address = api-node:9876
+p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
+p2p-peer-address = PRODUCER2_IP:PRODUCER2_PORT        # CHANGE THIS ACCORDING TO THE NODE
+p2p-peer-address = PRODUCER3_IP:PRODUCER3_PORT        # CHANGE THIS ACCORDING TO THE NODE
+p2p-peer-address = API_NODE_IP:API_NODE_PORT
 ```
 ### `genesis.json`
 ```json
 {
-	"initial_timestamp": "2020-08-11T04:20:00.000",
-	"initial_key": "EOS_PUB_DEV_KEY",
-	"initial_configuration": {
-		"max_block_net_usage": 1048576,
-		"target_block_net_usage_pct": 1000,
-		"max_transaction_net_usage": 524288,
-		"base_per_transaction_net_usage": 12,
-		"net_usage_leeway": 500,
-		"context_free_discount_net_usage_num": 20,
-		"context_free_discount_net_usage_den": 100,
-		"max_block_cpu_usage": 100000,
-		"target_block_cpu_usage_pct": 500,
-		"max_transaction_cpu_usage": 90000,
-		"min_transaction_cpu_usage": 100,
-		"max_transaction_lifetime": 3600,
-		"deferred_trx_expiration_window": 600,
-		"max_transaction_delay": 3888000,
-		"max_inline_action_size": 4096,
-		"max_inline_action_depth": 4,
-		"max_authority_depth": 6
-	},
-	"initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+  "initial_timestamp": "2018-12-05T08:55:11.000",
+  "initial_key": "EOS_PUB_DEV_KEY",
+  "initial_configuration": {
+    "max_block_net_usage": 1048576,
+    "target_block_net_usage_pct": 1000,
+    "max_transaction_net_usage": 524288,
+    "base_per_transaction_net_usage": 12,
+    "net_usage_leeway": 500,
+    "context_free_discount_net_usage_num": 20,
+    "context_free_discount_net_usage_den": 100,
+    "max_block_cpu_usage": 100000,
+    "target_block_cpu_usage_pct": 500,
+    "max_transaction_cpu_usage": 50000,
+    "min_transaction_cpu_usage": 100,
+    "max_transaction_lifetime": 3600,
+    "deferred_trx_expiration_window": 600,
+    "max_transaction_delay": 3888000,
+    "max_inline_action_size": 4096,
+    "max_inline_action_depth": 4,
+    "max_authority_depth": 6
+  },
+  "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
 ### `start.sh`
 ```bash
 #!/usr/bin/env bash
-echo "Starting Producer Node...";
+DATA_DIR="blockchain"
+CONFIG_DIR="./blockchain/config"
+EOS_PUB_KEY=EOS_PUB_PRODUCER1_KEY  # CHANGE THIS ACCORDING TO THE NODE
+EOS_PRIV_KEY=EOS_PRIV_PRODUCER1_KEY  # CHANGE THIS ACCORDING TO THE NODE
+echo "Starting VALIDATOR Node...";
 set -e;
 ulimit -n 65535
 ulimit -s 64000
-
 mkdir -p $CONFIG_DIR
-cp $WORK_DIR/config.ini $CONFIG_DIR/config.ini
-
+cp ./config.ini $CONFIG_DIR/config.ini
 pid=0;
-
 nodeos=$"nodeos \
-	--config-dir $CONFIG_DIR \
-	--data-dir $DATA_DIR \
-	--blocks-dir $DATA_DIR/blocks \
-	--signature-provider $EOS_PUB_KEY=KEY:$EOS_PRIV_KEY" ; #configurar variables de entorno
-
+ --config-dir $CONFIG_DIR \
+ --data-dir $DATA_DIR \
+ --blocks-dir $DATA_DIR/blocks \
+ --signature-provider $EOS_PUB_KEY=KEY:$EOS_PRIV_KEY" ;
 term_handler() {
-	if [ $pid -ne 0 ]; then
-		kill -SIGTERM "$pid";
-		wait "$pid";
-	fi
-	exit 0;
+ if [ $pid -ne 0 ]; then
+   kill -SIGTERM "$pid";
+   wait "$pid";
+ fi
+ exit 0;
 }
-
 start_nodeos() {
-	$nodeos &
-	sleep 10;
-	if [ -z "$(pidof nodeos)" ]; then
-		$nodeos --hard-replay-blockchain &
-	fi
+ $nodeos &
+ sleep 10;
+ if [ -z "$(pidof nodeos)" ]; then
+   $nodeos --hard-replay-blockchain &
+ fi
 }
-
 start_fresh_nodeos() {
-	echo 'Starting new chain from genesis JSON'
-	$nodeos --delete-all-blocks --genesis-json $WORK_DIR/genesis.json &
+ echo 'Starting new chain from genesis JSON'
+ $nodeos --delete-all-blocks --genesis-json genesis.json &
 }
-
 trap 'echo "Shutdown of EOSIO service...";kill ${!}; term_handler' 2 15;
-
 if [ ! -d $DATA_DIR/blocks ]; then
-  start_fresh_nodeos &
+ start_fresh_nodeos &
 elif [ -d $DATA_DIR/blocks ]; then
-  start_nodeos &
+ start_nodeos &
 fi
-
 pid="$(pidof nodeos)"
-
 while true
 do
-  tail -f /dev/null & wait ${!}
+ tail -f /dev/null & wait ${!}
 done
 ```
 To run each node it is necessary to enter the directory, assign permissions and execute each `start.sh` file:
 ```bash
-$ chmod 755 start.sh # asigna permisos de ejecución
+$ chmod 755 start.sh # assign execution permission
 $ ./start.sh
 ```
-Once the necessary steps to start up the producer nodes are done, it is time to set produder1, producer2 and producer3 accounts as a block producers in the **schedule**, to do so, it is necessary to execute the following command (remember to replace EOS_PUB_DEV_KEY with its respective value):
+## Create Block Producer Accounts
 ```bash
-$ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"producer1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
+$ cleos -u http://GENESIS_NODE_IP:8888 create account eosio producer1 EOS_PUB_PRODUCER1_KEY
+$ cleos -u http://GENESIS_NODE_IP:8888 create account eosio producer2 EOS_PUB_PRODUCER2_KEY
+$ cleos -u http://GENESIS_NODE_IP:8888 create account eosio producer3 EOS_PUB_PRODUCER3_KEY
+```
+
+## Set Block Producers Schedule
+Create the `producers.json` file and paste the following content into it:
+```json
+{"schedule":
+  [
+    {
+      "producer_name": "producer1", 
+      "authority": [
+        "block_signing_authority_v0",
+        {
+          "threshold": 1,
+          "keys": [
+            {
+              "key":"EOS_PUB_PRODUCER1_KEY",
+              "weight":1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "producer_name":"producer2",
+      "authority": [
+        "block_signing_authority_v0",
+        {
+          "threshold":1,
+          "keys": [
+            {
+              "key":"EOS_PUB_PRODUCER2_KEY",
+              "weight":1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "producer_name":"producer3",
+      "authority": [
+        "block_signing_authority_v0",
+        {
+          "threshold":1,
+          "keys": [
+            {
+              "key":"EOS_PUB_PRODUCER3_KEY",
+              "weight":1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+Now, execute the following command to set the schedule:
+```bash
+$ cleos -u http://GENESIS_NODE_IP:8888 push action eosio setprods "producers.json" -p eosio@active
 ```
 ## API Node: Configuration and Execution
 ```bash
@@ -395,7 +452,9 @@ agent-name = api-node
 # PLUGINS
 plugin = eosio::chain_plugin
 plugin = eosio::chain_api_plugin
-
+plugin = eosio::http_plugin
+plugin = eosio::producer_plugin
+plugin = eosio::producer_api_plugin
 # HTTP
 access-control-allow-origin = *
 http-validate-host = false
@@ -415,95 +474,87 @@ contracts-console = true
 
 # PEERING NETWORK
 p2p-listen-endpoint = 0.0.0.0:9876
-p2p-server-address =  api-node:9876
+p2p-server-address =  API_NODE_IP:9876
 p2p-max-nodes-per-host = 150
 max-clients = 150
 sync-fetch-span = 2000
 
-p2p-peer-address = producer1:9876
-p2p-peer-address = producer2:9876
-p2p-peer-address = producer3:9876
-p2p-peer-address = seed:9876
+p2p-peer-address = PRODUCER1_IP:PRODUCER1_PORT
+p2p-peer-address = PRODUCER2_IP:PRODUCER2_PORT
+p2p-peer-address = PRODUCER3_IP:PRODUCER3_PORT
+p2p-peer-address = SEED_NODE_IP:SEED_NODE_PORT
 ```
 ### `genesis.json`
 ```json
 {
-  "initial_timestamp": "2020-08-11T04:20:00.000",
-  "initial_key": "EOS_PUB_DEV_KEY",
-  "initial_configuration": {
-    "max_block_net_usage": 1048576,
-    "target_block_net_usage_pct": 1000,
-    "max_transaction_net_usage": 524288,
-    "base_per_transaction_net_usage": 12,
-    "net_usage_leeway": 500,
-    "context_free_discount_net_usage_num": 20,
-    "context_free_discount_net_usage_den": 100,
-    "max_block_cpu_usage": 100000,
-    "target_block_cpu_usage_pct": 500,
-    "max_transaction_cpu_usage": 90000,
-    "min_transaction_cpu_usage": 100,
-    "max_transaction_lifetime": 3600,
-    "deferred_trx_expiration_window": 600,
-    "max_transaction_delay": 3888000,
-    "max_inline_action_size": 4096,
-    "max_inline_action_depth": 4,
-    "max_authority_depth": 6
-  },
-  "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+ "initial_timestamp": "2018-12-05T08:55:11.000",
+ "initial_key": "EOS_PUB_DEV_KEY",
+ "initial_configuration": {
+   "max_block_net_usage": 1048576,
+   "target_block_net_usage_pct": 1000,
+   "max_transaction_net_usage": 524288,
+   "base_per_transaction_net_usage": 12,
+   "net_usage_leeway": 500,
+   "context_free_discount_net_usage_num": 20,
+   "context_free_discount_net_usage_den": 100,
+   "max_block_cpu_usage": 100000,
+   "target_block_cpu_usage_pct": 500,
+   "max_transaction_cpu_usage": 50000,
+   "min_transaction_cpu_usage": 100,
+   "max_transaction_lifetime": 3600,
+   "deferred_trx_expiration_window": 600,
+   "max_transaction_delay": 3888000,
+   "max_inline_action_size": 4096,
+   "max_inline_action_depth": 4,
+   "max_authority_depth": 6
+ },
+ "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
 ### `start.sh`
 ```bash
 #!/usr/bin/env bash
+DATA_DIR="blockchain"
+CONFIG_DIR="./blockchain/config"
 echo "Starting API Node...";
 set -e;
 ulimit -n 65535
 ulimit -s 64000
-
 mkdir -p $CONFIG_DIR
-cp $WORK_DIR/config.ini $CONFIG_DIR/config.ini
-
+cp ./config.ini $CONFIG_DIR/config.ini
 pid=0;
-
 nodeos=$"nodeos \
-  --config-dir $CONFIG_DIR \
-  --data-dir $DATA_DIR \
-  --blocks-dir $DATA_DIR/blocks" ;
-
+ --config-dir $CONFIG_DIR \
+ --data-dir $DATA_DIR \
+ --blocks-dir $DATA_DIR/blocks" ;
 term_handler() {
-  if [ $pid -ne 0 ]; then
-    kill -SIGTERM "$pid";
-    wait "$pid";
-  fi
-  exit 0;
+ if [ $pid -ne 0 ]; then
+   kill -SIGTERM "$pid";
+   wait "$pid";
+ fi
+ exit 0;
 }
-
 start_nodeos() {
-  $nodeos &
-  sleep 10;
-  if [ -z "$(pidof nodeos)" ]; then
-    $nodeos --hard-replay-blockchain &
-  fi
+ $nodeos &
+ sleep 10;
+ if [ -z "$(pidof nodeos)" ]; then
+   $nodeos --hard-replay-blockchain &
+ fi
 }
-
 start_fresh_nodeos() {
-  echo 'Starting new chain from genesis JSON'
-  $nodeos --delete-all-blocks --genesis-json $WORK_DIR/genesis.json &
+ echo 'Starting new chain from genesis JSON'
+ $nodeos --delete-all-blocks --genesis-json genesis.json &
 }
-
 trap 'echo "Shutdown of EOSIO service...";kill ${!}; term_handler' 2 15;
-
 if [ ! -d $DATA_DIR/blocks ]; then
-  start_fresh_nodeos &
+ start_fresh_nodeos &
 elif [ -d $DATA_DIR/blocks ]; then
-  start_nodeos &
+ start_nodeos &
 fi
-
 pid="$(pidof nodeos)"
-
 while true
 do
-  tail -f /dev/null & wait ${!}
+ tail -f /dev/null & wait ${!}
 done
 ```
 To start the node, assign execute permissions to `start.sh` and run it:
@@ -538,38 +589,38 @@ abi-serializer-max-time-ms = 2000
 
 # PEERING NETWORK
 p2p-listen-endpoint = 0.0.0.0:9876
-p2p-server-address = seedbios:9876
+p2p-server-address = SEED_NODE_API:9876
 
-p2p-peer-address = producer1:9876
-p2p-peer-address = producer2:9876
-p2p-peer-address = producer3:9876
-p2p-peer-address = api-node:9876
+p2p-peer-address = PRODUCER1_IP:PRODUCER1_PORT
+p2p-peer-address = PRODUCER2_IP:PRODUCER2_PORT
+p2p-peer-address = PRODUCER3_IP:PRODUCER3_PORT
+p2p-peer-address = API_NODE_IP:API_NODE_PORT
 ```
 ### `genesis.json`
 ```json
 {
-  "initial_timestamp": "2020-08-11T04:20:00.000",
-  "initial_key": "EOS_PUB_DEV_KEY",
-  "initial_configuration": {
-    "max_block_net_usage": 1048576,
-    "target_block_net_usage_pct": 1000,
-    "max_transaction_net_usage": 524288,
-    "base_per_transaction_net_usage": 12,
-    "net_usage_leeway": 500,
-    "context_free_discount_net_usage_num": 20,
-    "context_free_discount_net_usage_den": 100,
-    "max_block_cpu_usage": 100000,
-    "target_block_cpu_usage_pct": 500,
-    "max_transaction_cpu_usage": 90000,
-    "min_transaction_cpu_usage": 100,
-    "max_transaction_lifetime": 3600,
-    "deferred_trx_expiration_window": 600,
-    "max_transaction_delay": 3888000,
-    "max_inline_action_size": 4096,
-    "max_inline_action_depth": 4,
-    "max_authority_depth": 6
-  },
-  "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
+ "initial_timestamp": "2018-12-05T08:55:11.000",
+ "initial_key": "EOS_PUB_DEV_KEY",
+ "initial_configuration": {
+   "max_block_net_usage": 1048576,
+   "target_block_net_usage_pct": 1000,
+   "max_transaction_net_usage": 524288,
+   "base_per_transaction_net_usage": 12,
+   "net_usage_leeway": 500,
+   "context_free_discount_net_usage_num": 20,
+   "context_free_discount_net_usage_den": 100,
+   "max_block_cpu_usage": 100000,
+   "target_block_cpu_usage_pct": 500,
+   "max_transaction_cpu_usage": 50000,
+   "min_transaction_cpu_usage": 100,
+   "max_transaction_lifetime": 3600,
+   "deferred_trx_expiration_window": 600,
+   "max_transaction_delay": 3888000,
+   "max_inline_action_size": 4096,
+   "max_inline_action_depth": 4,
+   "max_authority_depth": 6
+ },
+ "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
 ### `start.sh`
@@ -663,13 +714,13 @@ Copy and paste the following content into the `start.sh` file:
 ```bash
 #!/bin/bash
 DATADIR="./blockchain"
-
+EOS_PUB_KEY=EOS_PUB_KEY_HERE
+EOS_PRIV_KEY=EOS_PRIV_KEY_HERE
 if [ ! -d $DATADIR ]; then
-  mkdir -p $DATADIR;
+ mkdir -p $DATADIR;
 fi
-
 nodeos \
---signature-provider EOS_PUB_DEV_KEY=KEY:EOS_PRIV_DEV_KEY \
+--signature-provider EOS_PUB_KEY=KEY:EOS_PRIV_KEY \
 --plugin eosio::producer_plugin \
 --plugin eosio::producer_api_plugin \
 --plugin eosio::chain_plugin \
@@ -677,20 +728,20 @@ nodeos \
 --plugin eosio::http_plugin \
 --plugin eosio::history_api_plugin \
 --plugin eosio::history_plugin \
---data-dir $DATADIR"/data" \
---blocks-dir $DATADIR"/blocks" \
+--data-dir "blockchain/data" \
+--blocks-dir $DATADIR"/data/blockchain/blocks" \
 --config-dir $DATADIR"/config" \
 --producer-name eosio \
---http-server-address 127.0.0.1:8888 \
---p2p-listen-endpoint 127.0.0.1:9010 \
+--http-server-address NODE_IP_HERE:8888 \ # configurable
+--p2p-listen-endpoint NODE_IP_HERE:9010 \ # configurable
 --access-control-allow-origin=* \
 --contracts-console \
 --http-validate-host=false \
 --verbose-http-errors \
 --enable-stale-production \
---p2p-peer-address localhost:9011 \
---p2p-peer-address localhost:9012 \
---p2p-peer-address localhost:9013 \
+--p2p-peer-address PRODUCER1_IP:PRODUCER1_PORT \
+--p2p-peer-address PRODUCER2_IP:PRODUCER2_PORT \
+--p2p-peer-address PRODUCER3_IP:PRODUCER3_PORT \
 >> $DATADIR"/nodeos.log" 2>&1 & \
 echo $! > $DATADIR"/eosd.pid"
 ```
@@ -703,7 +754,6 @@ $ ./start.sh
 
 The following code fragment corresponds to the `hard_replay.sh` script with the `--hard-replay-blockchain` flag:
 ```bash
-#!/bin/bash
 DATADIR="./blockchain"
 
 if [ ! -d $DATADIR ]; then
@@ -723,16 +773,16 @@ nodeos \
 --blocks-dir $DATADIR"/blocks" \
 --config-dir $DATADIR"/config" \
 --producer-name eosio \
---http-server-address 127.0.0.1:8888 \
---p2p-listen-endpoint 127.0.0.1:9010 \
+--http-server-address IP_NODE_HERE:8888 \ # configurable
+--p2p-listen-endpoint IP_NODE_HERE:9010 \ # configurable
 --access-control-allow-origin=* \
 --contracts-console \
 --http-validate-host=false \
 --verbose-http-errors \
 --enable-stale-production \
---p2p-peer-address localhost:9011 \
---p2p-peer-address localhost:9012 \
---p2p-peer-address localhost:9013 \
+--p2p-peer-address IP_PRODUCER1:PRODUCER1_PORT \
+--p2p-peer-address IP_PRODUCER2:PRODUCER2_PORT \
+--p2p-peer-address IP_PRODUCER3:PRODUCER3_PORT \
 --hard-replay-blockchain \
 >> $DATADIR"/nodeos.log" 2>&1 & \
 echo $! > $DATADIR"/eosd.pid"
