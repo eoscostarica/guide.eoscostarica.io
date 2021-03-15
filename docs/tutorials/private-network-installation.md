@@ -240,7 +240,7 @@ executed transaction: 17fa4e06ed0b2f52cadae2cd61dee8fb3d89d3e46d5b133333816a04d2
 #         eosio <= eosio::setabi                {"account":"eosio.bios","abi":{"types":[],"structs":[{"name":"transfer","base":"","fields":[{"name"...
 ```
 ## Block Producer Nodes: Configuration and Execution
-We must create the configuration directories for each block producer. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), let's proceed to create their directories. To do this, execute the following commands:
+We must create the configuration files for each block producer in each server. Since three block producers were conceived in the [topology](#private-network-installation-tutorial), let's proceed to create their corresponding files. To do this, execute the following commands:
 ```bash
 $ cd ~
 $ mkdir producer1
