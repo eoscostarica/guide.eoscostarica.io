@@ -811,5 +811,5 @@ cleos -u NODE_URL_HERE push action easycontract save '{"date":"2021/01/10 21:01:
 After the execution, you will get an output in the terminal.
 ### Get Stored Data
 ```bash
-cleos -u NODE_URL_HERE TRANSACTION_ID_HERE
+cleos -u NODE_URL_HERE get transaction TRANSACTION_ID_HERE
 ```
