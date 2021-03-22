@@ -4,8 +4,6 @@ title: EOSIO Node Installation
 sidebar_label: Node Installation
 ---
 
-Genesis File: `genesis.json`
-
 ## A Producer Node Setup
 On EOSIO, a producing node and other types of nodes are defined and differentiated by enabling specific [Nodeos Plugins](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index). For example, to define a non-producing node, you need to except `producer_plugin`. This posibility of customization allows to expose one or more services publicly or privately by enabling one or more of those plugins.
 
@@ -15,8 +13,6 @@ Let's proceed to setup a Producing Node using EOSIO Technology. You can also fin
 ## Install EOSIO from Precompiled Binaries
 
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
-
-
 
 You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) to install it:
 
@@ -202,14 +198,17 @@ sudo dpkg -r eosio
 ```
 
 ## Start a Node Using a Snapshot
-In some situations, it is convenient to start a node using a snapshot if you wish to create a valid chain state to start from. Make sure you have deleted all existing data (`~./local/share/eosio/nodeos/data/*`) since it is recommended.
+
+In some situations, it is convenient to start a node using a snapshot if you wish to create a valid chain state to start from. Make sure you have deleted all existing data in the directory: `~./local/share/eosio/nodeos/data/*`, since it is recommended.
+
 So, let's say we are using a snapshot from Jungle Testnet. 
 So, for this execute the following command:
 ```bash
 $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./local/share/eosio/nodeos/data/snapshots/
 ```
 
-Now that the snapshot is downloaded, you can use the same [`start.sh`](#startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+Now that the snapshot is downloaded, you can use the same [`start.sh`](###startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+
 ```bash
 start_fresh_nodeos() {
  echo 'Starting new chain from genesis JSON'
