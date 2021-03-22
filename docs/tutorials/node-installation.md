@@ -9,12 +9,10 @@ On EOSIO, a producing node and other types of nodes are defined and differentiat
 
 If you are trying to set up a "Full Node", you may find [this link](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
 
-Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here]().
+Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 ## Install EOSIO from Precompiled Binaries
 
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
-
-
 
 You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) to install it:
 
@@ -82,6 +80,7 @@ p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
 # You can continue adding peer nodes here
 ```
+> Maybe you need to assign permission executions to `start.sh`, for this execute: `$ chmod 755 start.sh`
 
 > Note that above there are items that need to be replaced with their corresponding values.
 
@@ -170,6 +169,7 @@ done
 ```bash
 $ ./start.sh
 ```
+For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Create `testproducer` account
 On EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
@@ -200,7 +200,9 @@ sudo dpkg -r eosio
 ```
 
 ## Start a Node Using a Snapshot
+
 In some situations, it is convenient to start a node using a snapshot if you wish to create a valid chain state to start from. Make sure you have deleted all existing data in the directory: `~./local/share/eosio/nodeos/data/*`, since it is recommended.
+
 So, let's say we are using a snapshot from Jungle Testnet. 
 So, for this execute the following command:
 ```bash
@@ -208,6 +210,7 @@ $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./
 ```
 
 Now that the snapshot is downloaded, you can use the same [`start.sh`](###startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+
 ```bash
 start_fresh_nodeos() {
  echo 'Starting new chain from genesis JSON'
