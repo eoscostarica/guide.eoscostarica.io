@@ -14,8 +14,6 @@ Let's proceed to setup a Producing Node using EOSIO Technology. You can also fin
 
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
 
-
-
 You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) to install it:
 
 ```bash
@@ -200,7 +198,9 @@ sudo dpkg -r eosio
 ```
 
 ## Start a Node Using a Snapshot
+
 In some situations, it is convenient to start a node using a snapshot if you wish to create a valid chain state to start from. Make sure you have deleted all existing data in the directory: `~./local/share/eosio/nodeos/data/*`, since it is recommended.
+
 So, let's say we are using a snapshot from Jungle Testnet. 
 So, for this execute the following command:
 ```bash
@@ -208,6 +208,7 @@ $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./
 ```
 
 Now that the snapshot is downloaded, you can use the same [`start.sh`](###startsh) script to start the node, just delete `--genesis-json` flag in the script, so the function `start_fresh_nodes` in the file will look like:
+
 ```bash
 start_fresh_nodeos() {
  echo 'Starting new chain from genesis JSON'
