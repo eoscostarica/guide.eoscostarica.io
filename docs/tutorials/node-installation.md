@@ -9,7 +9,7 @@ On EOSIO, a producing node and other types of nodes are defined and differentiat
 
 If you are trying to set up a "Full Node", you may find [this link](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
 
-Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here]().
+Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 ## Install EOSIO from Precompiled Binaries
 
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
@@ -80,6 +80,7 @@ p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
 # You can continue adding peer nodes here
 ```
+> Maybe you need to assign permission executions to `start.sh`, for this execute: `$ chmod 755 start.sh`
 
 > Note that above there are items that need to be replaced with their corresponding values.
 
@@ -168,6 +169,7 @@ done
 ```bash
 $ ./start.sh
 ```
+For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Create `testproducer` account
 On EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
