@@ -11,10 +11,9 @@ If you are trying to set up a "Full Node", you may find [this link](https://eosc
 
 Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 ## Install EOSIO from Precompiled Binaries
-
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
 
-You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) to install it:
+Puedes usar [wget](https://www.gnu.org/software/wget/) para descargar [dpkg](https://wiki.debian.org/es/dpkg) para instalarlo:
 
 ```bash
 $ wget https://github.com/EOSIO/eos/releases/download/v2.1.0-rc2/eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
@@ -80,7 +79,6 @@ p2p-peer-address = PEER2_NODE_IP:PEER2_NODE_PORT
 p2p-peer-address = API_NODE_IP:API_NODE_PORT
 # You can continue adding peer nodes here
 ```
-> Maybe you need to assign permission executions to `start.sh`, for this execute: `$ chmod 755 start.sh`
 
 > Note that above there are items that need to be replaced with their corresponding values.
 
@@ -172,7 +170,7 @@ $ ./start.sh
 For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Create `testproducer` account
-On EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
+On a EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
 ```bash
 $ cleos -u http://DESTINATION_NODE_ADDRESS create account CREATOR testproducer EOS_PUB_KEY
 ```
@@ -223,7 +221,7 @@ For more information, please go [here](https://developers.eos.io/manuals/eos/v2.
 If you are seeking to setup a node on Jungle Testnet, you can go to [EOS Jungle Testnet - Node Manual Installation](https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation) on Github. Also, you can use [Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register). These tools were created by [cryptolions.io](https://cryptolions.io/home)
 
 ### Configure Kylin Testnet Node
-To configure anode in the Kylin Testnet, please go to [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) repo and follow instructions there.
+To configure a node in the Kylin Testnet, please go to [CryptoKylin-Testnet](https://github.com/cryptokylin/CryptoKylin-Testnet) repo and follow instructions there.
 
 # References
 - [Snapshot Related Info](https://developers.eos.io/search?query=snapshot).
