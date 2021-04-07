@@ -13,7 +13,7 @@ Let's proceed to setup a Producing Node using EOSIO Technology. You can also fin
 ## Install EOSIO from Precompiled Binaries
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
 
-Puedes usar [wget](https://www.gnu.org/software/wget/) para descargar [dpkg](https://wiki.debian.org/es/dpkg) para instalarlo:
+You can use [wget](https://www.gnu.org/software/wget/) to download [dpkg](https://wiki.debian.org/es/dpkg) and install `eosio`:
 
 ```bash
 $ wget https://github.com/EOSIO/eos/releases/download/v2.1.0-rc2/eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
@@ -170,7 +170,7 @@ $ ./start.sh
 For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Create `testproducer` account
-On a EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
+On an EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
 ```bash
 $ cleos -u http://DESTINATION_NODE_ADDRESS create account CREATOR testproducer EOS_PUB_KEY
 ```
