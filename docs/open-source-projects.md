@@ -141,6 +141,16 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
 ![LifeBank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
 
 
+### gGoods
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
+  style={{ width: "50%" }}
+/>
+gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
+
+- **Website** : https://ggoods.io/
+- **Github** : https://github.com/eoscostarica/gGoods 
+
 ## React Components for EOSIO
 
 - **Website** : https://components.eosio.cr
