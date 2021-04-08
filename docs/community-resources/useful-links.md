@@ -18,6 +18,7 @@ Here is a list of helpful links related to the EOS community.
 * [Kubernetes Documentation](https://kubernetes.io/docs/tutorials/)
 * [Telos Documentation GitHub](https://github.com/telosnetwork/docs)
 * [Learning EOSIO development (Telos, EOS and other blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f) 
+* [EOSCommunity.org Forums](https://eoscommunity.org/)
 
 ### UX/UI
 
