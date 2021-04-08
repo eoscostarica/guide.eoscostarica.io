@@ -6,6 +6,31 @@ sidebar_label: Open Source Projects
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## EOSIO Dashboard
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  style={{ width: "30%" }}
+/>
+
+An EOSIO Infrastructure monitor and node dashboard.
+
+- **Website** : https://mainnet.eosio.cr
+ 
+- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
+/>
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
+/>
+
+* * *
+
 ## EOS Rate 
 
 <img
@@ -45,62 +70,6 @@ The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the ben
 
 * * *
 
-## EOSIO DASHBOARD
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
-  style={{ width: "30%" }}
-/>
-
-An EOSIO Infrastructure monitor and node dashboard.
-
-- **Website** : https://mainnet.eosio.cr
- 
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
-
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
-/>
-
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
-/>
-
-
-* * *
-
-## EOS Foundation 
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
-  style={{ width: "30%" }}
-/>
-
-We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
-
-- **Website** : https://eos-foundation.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eos-foundation
-
-![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
-
-![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
-
-* * *
-
-## Digital Notary Smart Contract
-
-This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
-
-It also allows anyone who owns the document to validate the record on the blockchain.
-
-- **Website** : https://notarize.eosio.cr/dashboard/notary
-
-- **GitHub** : https://github.com/eoscostarica/notarioeoscr
-
-* * *
 
 ## Evodex
 
@@ -146,6 +115,7 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
   src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
   style={{ width: "50%" }}
 />
+
 gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
 
 - **Website** : https://ggoods.io/
@@ -156,6 +126,37 @@ gGoods is an open-source NFT standard that enables organizations and communities
 - **Website** : https://components.eosio.cr
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-components
+
+* * *
+
+## EOS Foundation 
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
+  style={{ width: "30%" }}
+/>
+
+We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
+
+- **Website** : https://eos-foundation.eosio.cr
+
+- **GitHub** : https://github.com/eoscostarica/eos-foundation
+
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
+
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+
+* * *
+
+## Digital Notary Smart Contract
+
+This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
+
+It also allows anyone who owns the document to validate the record on the blockchain.
+
+- **Website** : https://notarize.eosio.cr/dashboard/notary
+
+- **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
 * * *
 
