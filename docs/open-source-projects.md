@@ -6,6 +6,31 @@ sidebar_label: Open Source Projects
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## EOSIO Dashboard
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  style={{ width: "30%" }}
+/>
+
+An EOSIO Infrastructure monitor and node dashboard.
+
+- **Website** : https://mainnet.eosio.cr
+ 
+- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
+/>
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
+/>
+
+* * *
+
 ## EOS Rate 
 
 <img
@@ -42,37 +67,66 @@ The purpose of LatamLink is to offer an EOSIO-based testnet to highlight the ben
 
 ![Latam Link](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
 
-
 * * *
 
-## EOSIO DASHBOARD
+## Evodex
 
 <img
-  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
   style={{ width: "30%" }}
 />
 
-An EOSIO Infrastructure monitor and node dashboard.
+Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool.
 
-- **Website** : https://mainnet.eosio.cr
- 
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
+EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
+
+- **Website** : https://evodex.io
+
+- **GitHub** : https://github.com/eoscostarica/evodex
+
+* * *
+
+## EOSIO Hackathons 
+
+### LifeBank
 
 <img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
+  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
+  style={{ width: "50%" }}
 />
+
+Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
+
+Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
+
+- **Website** : https://lifebank.io/
+
+- **GitHub** : https://github.com/eoscostarica/lifebank
+
+![LifeBank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
+
+### gGoods
 
 <img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
+  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
+  style={{ width: "50%" }}
 />
 
+gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
+
+- **Website** : https://ggoods.io/
+
+- **Github** : https://github.com/eoscostarica/gGoods 
+
+## React Components for EOSIO
+
+- **Website** : https://components.eosio.cr
+
+- **GitHub** : https://github.com/eoscostarica/eoscr-components
 
 * * *
 
 ## EOS Foundation 
-
 <img
   src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
   style={{ width: "30%" }}
@@ -99,63 +153,6 @@ It also allows anyone who owns the document to validate the record on the blockc
 - **Website** : https://notarize.eosio.cr/dashboard/notary
 
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
-
-* * *
-
-## Evodex
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
-  style={{ width: "30%" }}
-/>
-
-Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool.
-
-EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
-
-
-- **Website** : https://evodex.io
-
-- **GitHub** : https://github.com/eoscostarica/evodex
-
-
-* * *
-
-## EOSIO Hackathons 
-
-### LifeBank
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
-  style={{ width: "50%" }}
-/>
-
-Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
-
-Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
-
-- **Website** : https://lifebank.io/
-
-- **GitHub** : https://github.com/eoscostarica/lifebank
-
-![LifeBank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
-
-
-### gGoods
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
-  style={{ width: "50%" }}
-/>
-gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
-
-- **Website** : https://ggoods.io/
-- **Github** : https://github.com/eoscostarica/gGoods 
-
-## React Components for EOSIO
-
-- **Website** : https://components.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eoscr-components
 
 * * *
 
