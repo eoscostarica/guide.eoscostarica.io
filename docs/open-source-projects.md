@@ -22,7 +22,7 @@ An EOSIO Infrastructure monitor and node dashboard.
 - **LACChain EOSIO Network Dashboard** : https://lacchain.eosio.online
 - **Jungle Testnet Network Dashboard** : https://jungle.eosio.online
 - **Proton Testnet Network Dashboard** : https://proton-testnet.eosio.online
-- **Tels Testnet Network Dashboard** : https://telos-testnet.eosio.online
+- **Telos Testnet Network Dashboard** : https://telos-testnet.eosio.online
  
 <img
   alt="EOSIO network dashboard"
