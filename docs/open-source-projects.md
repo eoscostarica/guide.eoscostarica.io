@@ -14,11 +14,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 />
 
 An EOSIO Infrastructure monitor and node dashboard.
-
-- **Website** : https://mainnet.eosio.cr
- 
 - **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
+### Monitor EOSIO Networks 
+
+- **EOS Mainnet Network Dashboard** : https://mainnet.eosio.online
+- **LACChain EOSIO Network Dashboard** : https://lacchain.eosio.online
+- **Jungle Testnet Network Dashboard** : https://jungle.eosio.online
+- **Proton Testnet Network Dashboard** : https://proton-testnet.eosio.online
+- **Tels Testnet Network Dashboard** : https://telos-testnet.eosio.online
+ 
 <img
   alt="EOSIO network dashboard"
   src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
