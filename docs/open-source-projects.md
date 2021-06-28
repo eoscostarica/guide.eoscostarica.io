@@ -4,9 +4,39 @@ title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## EOSIO Dashboard
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  style={{ width: "30%" }}
+/>
+
+An EOSIO Infrastructure monitor and node dashboard.
+- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
+
+### Monitor EOSIO Networks 
+
+- **EOS Mainnet Network Dashboard** : https://mainnet.eosio.online
+- **LACChain EOSIO Network Dashboard** : https://lacchain.eosio.online
+- **Jungle Testnet Network Dashboard** : https://jungle.eosio.online
+- **Proton Testnet Network Dashboard** : https://proton-testnet.eosio.online
+- **Telos Testnet Network Dashboard** : https://telos-testnet.eosio.online
+ 
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
+/>
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
+/>
+
+* * *
 
 ## EOS Rate 
-
 
 <img
   src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
@@ -18,7 +48,6 @@ sidebar_label: Open Source Projects
 - **Website** : https://eosrate.io
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
-
 
 ![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
 
@@ -43,58 +72,6 @@ We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO bl
 
 ![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage1.png)
 
-
-* * *
-
-## EOSIO DASHBOARD
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
-  style={{ width: "30%" }}
-/>
-
-An EOSIO Infrastructure monitor and node dashboard.
-
-- **Website** : https://mainnet.eosio.cr
- 
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
-
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
-
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
-
-
-* * *
-
-## EOS Foundation
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
-  style={{ width: "30%" }}
-/>
-
-We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
-
-- **Website** : https://eos-foundation.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eos-foundation
-
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
-
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
-
-* * *
-
-## Digital notary smart contract
-
-This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
-
-It also allows anyone who owns the document to validate the record on the blockchain.
-
-- **Website** : https://notarize.eosio.cr/dashboard/notary
-
-- **GitHub** : https://github.com/eoscostarica/notarioeoscr
-
 * * *
 
 ## Evodex
@@ -108,15 +85,13 @@ Evolution DEX is a Protocol created by EOS Argentina that allows anyone to creat
 
 EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
 
-
 - **Website** : https://evodex.io
 
 - **GitHub** : https://github.com/eoscostarica/evodex
 
-
 * * *
 
-## EOSIO hackathons 
+## EOSIO Hackathons 
 
 ### LifeBank
 
@@ -135,12 +110,54 @@ Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-
 
 ![LifeBank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
 
+### gGoods
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
+  style={{ width: "50%" }}
+/>
+
+gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
+
+- **Website** : https://ggoods.io/
+
+- **Github** : https://github.com/eoscostarica/gGoods 
 
 ## React Components for EOSIO
 
 - **Website** : https://components.eosio.cr
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-components
+
+* * *
+
+## EOS Foundation 
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
+  style={{ width: "30%" }}
+/>
+
+We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
+
+- **Website** : https://eos-foundation.eosio.cr
+
+- **GitHub** : https://github.com/eoscostarica/eos-foundation
+
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
+
+![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+
+* * *
+
+## Digital Notary Smart Contract
+
+This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
+
+It also allows anyone who owns the document to validate the record on the blockchain.
+
+- **Website** : https://notarize.eosio.cr/dashboard/notary
+
+- **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
 * * *
 

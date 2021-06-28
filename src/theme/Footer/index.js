@@ -5,10 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx';
 
 import Link from '@docusaurus/Link';
+import useThemeContext from '@theme/hooks/useThemeContext';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -40,17 +41,25 @@ const FooterLogo = ({url, alt}) => (
 );
 
 function Footer() {
+  const {isDarkTheme} = useThemeContext();
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   const {themeConfig = {}} = siteConfig;
   const {footer} = themeConfig;
 
   const {copyright, links = [], logo = {}} = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
+  const [logoUrl, setLogoUrl] = useState(useBaseUrl(logo.src));
 
   if (!footer) {
     return null;
   }
+
+  useEffect(() => {
+    if(isDarkTheme)
+      setLogoUrl('https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png')
+    else
+      setLogoUrl(logo.src)
+  }, [isDarkTheme]);
 
   return (
     <footer

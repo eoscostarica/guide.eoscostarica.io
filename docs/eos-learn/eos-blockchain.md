@@ -59,7 +59,7 @@ sidebar_label: EOS Blockchain
 
 * * *
 
-### EOS explained by Dan Larimer   
+### EOS Explained by Dan Larimer   
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
@@ -75,7 +75,7 @@ sidebar_label: EOS Blockchain
 
 * * *
 
-### Internal economy
+### Internal Economy
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
