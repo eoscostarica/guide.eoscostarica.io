@@ -29,7 +29,7 @@ sidebar_label: Open Source Projects
 ## LACChain EOSIO Testnet
 
 <img
-  src="https://raw.githubusercontent.com/lacchain/eosio.lacchain.net/master/static/img/logos/lacchain-eosio-logo-white.png"
+  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/lacchain-eosio.png"
   style={{ width: "30%" }}
 />
 
@@ -39,9 +39,9 @@ We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO bl
 
 - **GitHub** : https://github.com/lacchain/eosio.lacchain.net
 
-![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link.PNG)
+![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage.png)
 
-![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
+![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage1.png)
 
 
 * * *
