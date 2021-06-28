@@ -58,7 +58,7 @@ An EOSIO Infrastructure monitor and node dashboard.
 ## LACChain EOSIO Testnet
 
 <img
-  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/lacchain-eosio.png"
+  src="https://raw.githubusercontent.com/lacchain/eosio.lacchain.net/master/static/img/logos/lacchain-eosio-logo.png"
   style={{ width: "30%" }}
 />
 
