@@ -29,7 +29,7 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 
 ### EOS CR Community
 
-- [LatamLink](https://t.me/latamlink)
+- [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)
 - [Blockchain Costa Rica](https://t.me/blockchaincostarica)
 
