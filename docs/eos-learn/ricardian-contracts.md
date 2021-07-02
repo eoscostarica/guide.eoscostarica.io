@@ -20,10 +20,10 @@ They are digital documents that define the terms and conditions among those invo
 Blockchains operate under smart contracts, however, work is underway to include Ricardian contracts in the transactions of these networks. One of the main objectives is to convert the complexity of the code observed within Blockchain technology into a simpler language so that anyone could understand it.
 
 ## How to add a Ricardian Contract?
-The process is as similar as compiling a Smart Contract, is fact, it is done during the same process, eosio-cpp provide us some extra configuration options when compiling and one of them are `-R` which allow us to set an extra resource and that what exactly the Ricardian Contract with just providing the Ricardian path, the compiler which is responsible to add the contracts and clauses to the .abi file.
+The process is as similar as compiling a Smart Contract, is fact, it is done during the same process, eosio-cpp provide some extra configuration options when compiling and one of them are `-R`, which allow to set an extra resource in this case the Ricardian Contract with just providing the Ricardian path, the compiler then is responsible to add the contracts and clauses to the .abi file.
 
 ## How to create a Ricardian Contract?
-Usually there is contract folder called `ricardian` inside the smart contract folder which contains two main files that compose the Ricardian Contrant `<contract name>.contracts.md` and `<contract name>.clauses.md`.
+Usually there is a contract folder called `ricardian` inside the smart contract folder which contains two main files that compose the Ricardian Contrant `<contract name>.contracts.md` and `<contract name>.clauses.md`.
 
 ### Contracts
 Its purpose is to declare and define all the actions inside of the Smart Contract. According to [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) the are some Metadata Fields:
@@ -50,7 +50,7 @@ Its purpose is to declare and define clauses or rules of the Smart Contract. It 
 
 User agreement for the chain can go here.
 ```
-More on [EOSIO eosio.system](https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/contracts/eosio.system/ricardian/eosio.system.clauses.md).
+More examples on [EOSIO eosio.system](https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/contracts/eosio.system/ricardian/eosio.system.clauses.md).
 
 ## Compiling Process
 To compile a Smart Contract with its respective Ricardian Contract, execute next command adding the `-R` flag:
