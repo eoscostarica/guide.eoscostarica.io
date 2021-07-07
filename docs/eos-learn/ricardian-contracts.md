@@ -16,8 +16,14 @@ They are digital documents that define the terms and conditions among those invo
 - They can be identified safely thanks to the has of each contract.
 
 ### Ricardian contracts at EOSIO
-
 Blockchains operate under smart contracts, however, work is underway to include Ricardian contracts in the transactions of these networks. One of the main objectives is to convert the complexity of the code observed within Blockchain technology into a simpler language so that anyone could understand it.
+
+Eos costa rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in the following [link](https://components.eosio.cr/?path=/story/ricardiancontract--ricardian-contract). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
+```
+httpEndpoint: https://lacchain.eosio.cr
+contractName: eosio
+```
+The component will automatically load the content of the Ricardian Contract. The open source repository for this component is located here: https://github.com/eoscostarica/eoscr-components.
 
 ## How to add a Ricardian Contract?
 The process is as similar as compiling a Smart Contract, is fact, it is done during the same process, eosio-cpp provide some extra configuration options when compiling and one of them are `-R`, which allow to set an extra resource in this case the Ricardian Contract with just providing the Ricardian path, the compiler then is responsible to add the contracts and clauses to the .abi file.
