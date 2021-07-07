@@ -18,7 +18,7 @@ They are digital documents that define the terms and conditions among those invo
 ### Ricardian contracts at EOSIO
 Blockchains operate under smart contracts, however, work is underway to include Ricardian contracts in the transactions of these networks. One of the main objectives is to convert the complexity of the code observed within Blockchain technology into a simpler language so that anyone could understand it.
 
-EOS COSTA RICA has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in the following [link](https://components.eosio.cr/?path=/story/ricardiancontract--ricardian-contract). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
+EOS Costa Rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in the following [link](https://components.eosio.cr/?path=/story/ricardiancontract--ricardian-contract). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
 ```
 httpEndpoint: https://lacchain.eosio.cr
 contractName: eosio
