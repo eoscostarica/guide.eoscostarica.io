@@ -29,7 +29,7 @@ Functionality exposed by a smart contract that is exercised by passing the corre
 
 ### Actions (Hasura)
 
-Actions are a way to extend the Hasura schema with custom business logic through custom mutations and queries.
+`Actions` are a way to extend the Hasura schema with custom business logic through custom mutations and queries.
 
 Actions can be added to Hasura to handle various use cases, such as data validation, enrichment of data from external sources, and any other complex business logic.
 
@@ -53,7 +53,7 @@ The Airgrab model is designed to be a more capital efficient way to deploy dApp 
 
 * * *
 
-### API
+### API (Application Programming Interface)
 
 Set of functions and procedures that allow the creation of applications that access the characteristics or data of an operating system, application or other specific service.
 
@@ -80,25 +80,25 @@ Blocks are files where the data belonging to the blockchain is permanently recor
 
 * * *
 
-### Block explorer
+### Block Explorer
 
 A block explorer is a program or website accessible through a browser that allows a user to search and navigate through the blocks of a blockchain, their contents and their relevant details.
 
 * * *
 
-### Block height
+### Block Height
 
 It is defined as the number of blocks in the chain between a given block and the first block in the block chain. For example a block height of 500 refers to block number 500 of that chain.
 
 * * *
 
-### Block one
+### Block One
 
-Block.one is the company that created the EOSIO software. A producer of highly scalable, high-performance open source software, it is at the forefront of developing the next generation of the Internet.
+`Block.one` is the company that created the EOSIO software. A producer of highly scalable, high-performance open source software, it is at the forefront of developing the next generation of the Internet.
 
 * * *
 
-### Block producer
+### Block Producer
 
 Block producers are one of Block.one's main innovations, they are the decentralized entities that govern the EOSIO blockchain. Rather than being managed by a small number of mining groups, EOSIO will have a constantly changing group of 21 block producers.
 
@@ -122,9 +122,9 @@ It is the first DPOS blockchain equipped with IBC. Its goal is to refactor busin
 
 * * *
 
-### Bytecode canonical
+### Bytecode Canonical
 
-It is used for communication between different data formats. A form of business application integration, it aims to reduce costs and standardize the agreed definitions of data associated with the integration of business systems
+It is used for communication between different data formats. A form of business application integration, it aims to reduce costs and standardize the agreed definitions of data associated with the integration of business systems.
 
 * * *
 
@@ -190,7 +190,7 @@ A consensus algorithm developed to secure a blockchain, this by ensuring the rep
 
 ### EOS
 
-EOS is a decentralized blockchain-based system that enables the development, hosting, and execution of decentralized, commercial-scale applications (dApps) on its platform. EOS supports all the basic functions necessary to enable businesses and individuals to create blockchain-based applications in a similar way to web-based applications, such as providing secure access and authentication, permissions, data hosting, usage management, and communication. between dApps and the internet.
+`EOS` is a decentralized blockchain-based system that enables the development, hosting, and execution of decentralized, commercial-scale applications (dApps) on its platform. EOS supports all the basic functions necessary to enable businesses and individuals to create blockchain-based applications in a similar way to web-based applications, such as providing secure access and authentication, permissions, data hosting, usage management, and communication. between dApps and the internet.
 
 * * *
 
@@ -204,7 +204,7 @@ It is an easy and secure way to help users access various EOS functions like tok
 ### EOS Rate
 
 
-EOS Rate is an open source dApp that enables EOS token holders to rate Block Producers (BP) in just a few clicks. Users can access a rating system and voting portal, making it easy for token holders to make an informed decision.
+`EOS Rate` is an open source dApp that enables EOS token holders to rate Block Producers (BP) in just a few clicks. Users can access a rating system and voting portal, making it easy for token holders to make an informed decision.
 
 * * *
 
@@ -222,21 +222,21 @@ EOS Costa Rica is a startup derived from the pioneering company Sistemas Edenia 
 
 ### Eosfinex
 
-Eosfinex is a high performance decentralized exchange built on EOS.io. technology.
-Eosfinex combines the scalability and speed of EOS with Bitfinex's industry leading expertise to deliver a "chain" exchange built around a fast, transparent and trustless platform for digital asset trading.
+`Eosfinex` is a high performance decentralized exchange built on EOS.io. technology.
+`Eosfinex` combines the scalability and speed of EOS with Bitfinex's industry leading expertise to deliver a `chain` exchange built around a fast, transparent and trustless platform for digital asset trading.
 
 * * *
 
 ### EOSIO
 
-EOSIO is a blockchain designed to facilitate the operation of a new type of program called decentralized application (dapp).
+`EOSIO` is a blockchain designed to facilitate the operation of a new type of program called decentralized application (`dapp`).
 Its technology attempts to solve historical problems by using blockchains to run dapps, as popular apps have even clogged up the capacity on larger and more developed blockchains, resulting in performance issues for all users.
 
 * * *
 
 ### EOSJS 
 
-A library created to easily control the EOS blockchain with Javascript. It can be said that it was made to easily use the `EOS HTTP API (nodeos)`. (web3.js on Ethereum, neon-js on Neo)
+A library created to easily control the EOS blockchain with Javascript. It can be said that it was made to easily use the `EOS HTTP API (nodeos)`. (web3.js on Ethereum, neon-js on Neo).
 
 * * *
 
@@ -256,7 +256,7 @@ A block browser, wallet and network monitor all in one. It is designed to be eas
 
 ### Fiat
 
-Trust money (fiat) is a government-issued currency that is not backed by a physical product, such as gold or silver, but by the government that issued it.
+Trust money (`fiat`) is a government-issued currency that is not backed by a physical product, such as gold or silver, but by the government that issued it.
 
 * * *
 
@@ -264,7 +264,7 @@ Trust money (fiat) is a government-issued currency that is not backed by a physi
 
 ### Genesis JSON
 
-genesis.json is the file that defines the `Genesis block`, which is the starting block of the blockchain. This is like the "configuration" of your blockchain. For example, the chain configuration and the level of difficulty to extract blocks.
+`genesis.json` is the file that defines the `Genesis block`, which is the starting block of the blockchain. This is like the "configuration" of your blockchain. For example, the chain configuration and the level of difficulty to extract blocks.
 
 * * *
 
@@ -290,11 +290,11 @@ An API query language, it uses a runtime to populate those queries with your exi
 
 ### Hapi
 
-A backend service for custom business logic, integrated with Hasura, using actions
+A backend service for custom business logic, integrated with Hasura, using actions.
 
 * * *
 
-### Hardware biométrico
+### Hardware Biométrico
 
 These are technological devices that allow biometric data from humans or other objects to be perceived, an example of this is the easy recognition that some security cameras and mobile devices have, also the unlocking of artifacts by means of fingerprints, to mention Some.
 
@@ -302,7 +302,7 @@ These are technological devices that allow biometric data from humans or other o
 
 ### Hash
 
-`Hash` is the process of transforming a string into a fixed-length key or value. A data string will always produce the same hash, so it is used as a means of checking the content of the string against the expected content.
+Is the process of transforming a string into a fixed-length key or value. A data string will always produce the same hash, so it is used as a means of checking the content of the string against the expected content.
 
 * * *
 
@@ -328,7 +328,7 @@ Is an easy to use command line HTTP client for the API era. It comes with JSON s
 
 ## **I**
 
-### IAC (infraestructura como código)
+### IAC (Infrastructure as Code)
 
 Is the process of managing computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
 
@@ -386,7 +386,7 @@ It is a distributed storage mechanism for putting files online for decentralized
 
 ### Jungle Testnet
 
-The `Jungle TestNet` was initiated by and has served as sandbox for many development teams and EOS Block Producers since the birth of EOSIO.
+The `Jungle TestNet` was initiated by and has served as `sand box` for many development teams and EOS Block Producers since the birth of EOSIO.
 
 * * *
 
@@ -400,9 +400,9 @@ A `Kanban` board is a tool that allows us to visualize a team workflow, creating
 
 ### KEOSD
 
-`keosd` is the component that securely stores EOSIO keys in wallets. 
+It works as a wallet to handle the keys for EOSIO. It is the component that securely stores EOSIO keys in wallets.
 
-keosd = key + eos
+`keosd = clave + eos`
 
 * * *
 
@@ -438,7 +438,7 @@ The term used to signify the beginning of a blockchain.
 
 * * *
 
-### LIB (Last irreversible block)
+### LIB (Last Irreversible Block)
 
 A block is considered irreversible (i.e. immutable) on an EOSIO based blockchain when 2/3rd of the currently elected block producers have acknowledged it.
 
@@ -462,7 +462,7 @@ A `Merkle Tree` is a tree in which every leaf node is labelled with the hash of 
 
 ### Micro Fork 
 
-A microfork occurs when a Block Producer begins to produce blocks with the same block height as a block that was recently produced. 
+A `microfork` occurs when a Block Producer begins to produce blocks with the same block height as a block that was recently produced. 
 
 * * *
 
@@ -482,9 +482,9 @@ A microfork occurs when a Block Producer begins to produce blocks with the same 
 
 ### Nodeos
 
-`Nodeos` is the core EOSIO node daemon that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints, and local development. 
+Is the core EOSIO node `daemon` that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints, and local development. 
 
-nodeos = node + eos
+`nodeos = nodo + eos`
 
 * * *
 
@@ -510,7 +510,7 @@ An oracle is a system that makes off-chain data available on-chain. An example o
 
 ### Owner Permission
 
-Within the permissions structure of an account, owner is the top-level authority. The owner permission can sign on behalf of, and restructure, all lower-level permissions. It is one of two default permissions that come with a new account, owner and active.
+Within the permissions structure of an account, owner is the top-level authority. The owner permission can sign on behalf of, and restructure, all lower-level permissions. It is one of two default permissions that come with a new account, `owner` and `active`.
 
 * * *
 
@@ -552,7 +552,7 @@ A publicly available key that can be authorized to permissions of an account and
 
 * * *
 
-### Pull request
+### Pull Request
 
 `Pull requests` let you tell others about changes you've pushed to a branch in a repository on GitHub. 
 
@@ -572,7 +572,7 @@ Once a `pull request` is opened, you can discuss and review the potential change
 
 ### Resources
 
-EOSIO accounts have three types of resources that they must maintain: `RAM`,` CPU` and `Net`
+EOSIO accounts have three types of resources that they must maintain: `RAM`,` CPU` and `Net`.
 
 * * *
 
@@ -608,7 +608,7 @@ Part of a system that if it fails to detect the operation of the entire system. 
 
 * * *
 
-### Squash merge
+### Squash Merge
 
 Squash merging is a `merge` option that allows you to condense the Git history of topic branches when you complete a `pull request`. Instead of each `commit` on the topic `branch` being added to the history of the default `branch`, a squash merge takes all the file changes and adds them to a single new `commit` on the default `branch`.
 
@@ -648,7 +648,7 @@ These are accounts that begin with the prefix eosio.* and hold either the code o
 
 ### TaPoS - Transaction as Proof of Stake
 
-` TaPoS`  is used to ensure that a user fetches the recent state of the top of the blockchain to prove that they are aware of the state of the chain when signing a transaction. This helps to prevent certain forms of attacks, such as a replay attack where a malicious user tries to replay a transaction, despite the state of the associated accounts having already been changed.
+` TaPoS` is used to ensure that a user fetches the recent state of the top of the blockchain to prove that they are aware of the state of the chain when signing a transaction. This helps to prevent certain forms of attacks, such as a replay attack where a malicious user tries to replay a transaction, despite the state of the associated accounts having already been changed.
 
 * * *
 
@@ -666,7 +666,7 @@ These are accounts that begin with the prefix eosio.* and hold either the code o
 
 ### TestNet 
 
-A test network or `testnet` is an instantiation of the EOSIO platform that is intended for testing purposes. Generally, the native token has no value and is given away to developers so they can test.
+A test `network` or `testnet` is an instantiation of the EOSIO platform that is intended for testing purposes. Generally, the native token has no value and is given away to developers so they can test.
 
 * * *
 
@@ -759,7 +759,7 @@ It is a system through which community funds would be used to support blockchain
 
 ### Yarn
 
-[Yarn](https://yarnpkg.com/) is a package manager for web projects that supports the npm package manager structure (package.json y node_modules)
+[Yarn](https://yarnpkg.com/) is a package manager for web projects that supports the npm package manager structure (package.json y node_modules).
 
 * * *
 

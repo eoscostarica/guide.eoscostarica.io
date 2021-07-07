@@ -4,9 +4,9 @@ title: Telegram Channels
 sidebar_label: Telegram Channels
 ---
 
-Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS community, in which content is shared that can be very useful
+Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS community, in which content is shared that can be very useful.
 
-### EOS General Community
+## EOS General Community
 
 - [EOS](https://t.me/EOSproject)
 - [EOIO Gov](https://t.me/EOSGov)
@@ -26,14 +26,13 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Opportunities](https://t.me/eos_opportunities)
 - [Jungle Testnet](https://t.me/jungletestnet)
 
+## EOS Costa Rica Community
 
-### EOS CR Community
-
-- [LatamLink](https://t.me/latamlink)
+- [LAChhain EOSIO](https://t.me/lacchaineosio)
 - [EOS Surf](https://t.me/eosbeach)
 - [Blockchain Costa Rica](https://t.me/blockchaincostarica)
 
-### Developers Community
+## Developers Community
 
 - [EOS Developers](https://t.me/joinchat/DQRZHEPktgcLlyfbl-bDuQ)
 - [EOS Design](https://t.me/EOSdesign)
@@ -49,4 +48,4 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [DAPP Network Devs](https://t.me/joinchat/GTxt3lEL6HLeFzgsWA87qg)
 - [EOS Infra](https://t.me/eosinfra)
 - [EOS Ram](https://t.me/eosram)
-- [EOS Hackathon *.*](https://t.me/EOSHackathonFriends)
+- [EOS Hackathon](https://t.me/EOSHackathonFriends)
