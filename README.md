@@ -1,4 +1,4 @@
-# guide.eoscostarica.io
+# Guides EOS Costa Rica
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -156,7 +156,12 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## About EOS Costa Rica
 
-<img width="50%" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+<p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
+		width="400px" >
+	</a>
+</p>
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 
