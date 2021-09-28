@@ -118,7 +118,7 @@ More on:
     - https://t.me/blockchaincostarica
     - https://t.me/eosEs 
     - https://t.me/evodex_io 
-    - https://t.me/latamlink
+    - https://t.me/lacchaineosio
 
 ## Other Channels to Follow EOS Costa Rica:
 - ### [Facebook](https://www.facebook.com/costaricaeos)

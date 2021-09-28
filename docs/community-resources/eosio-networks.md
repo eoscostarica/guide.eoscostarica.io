@@ -14,6 +14,10 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
+- [LACChain EOSIO](https://eosio.lacchain.net/en/): LACChain EOSIO enables organizations and developers to build blockchain applications on the LACChain network powered by EOSIO technology.
+
+* * *
+
 - [BOSCore](https://boscore.io/): A high-speed blockchain and low finality for business and enterprises looking to implement parallel computing and IBC.
 
 * * *
@@ -39,7 +43,7 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [Lynxx chain](https://www.lynxwallet.io/): A blockchain that simplifies user experience by removing the need for users to worry about network resources.
+- [Proton Chain](https://www.protonchain.com/): The Proton blockchain was designed to allow websites and apps to push payment requests directly to Proton-compliant wallets.
 
 * * *
 
@@ -64,15 +68,6 @@ Below we included a list of some other well known public blockchains launched on
 
 <figure class="video_container">
   <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true">
-  </iframe>
-</figure>
-
-* * *
-
-- [Worbli](https://worbli.io/): A blockchain designed for the normative compliance with the financial sector, KYC verified accounts included.
-
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/ideiyhAlvOQ" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
