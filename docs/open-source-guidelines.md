@@ -137,7 +137,7 @@ Bug reports should contain the following information:
 * Summary: A brief description.
 * Steps to reproduce: How did you encounter the bug? Instructions to reproduce it.
 * Expected behavior: How did you expect it to behave?
-* Actual behavior: How has been its current behavior?
+* Actual behavior: How did it actually behave?
 * References: Links to any related tickets or information sources.
 * If possible, attach visual documentation of the bug. Screenshot or animated gif.
 
