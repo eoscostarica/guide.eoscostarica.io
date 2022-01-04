@@ -51,8 +51,6 @@ Created by John Gruber in 2004, Markdown is now one of the world’s most popula
 
 [More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
-
-
 ### **Ordered List**
 
 ```markdown title="Syntax"
@@ -186,6 +184,37 @@ Another Text
 ---
 ***
 - - - -
+
+### **Code**
+
+#### *Javascript*
+
+```javascript title="Syntax"
+  var s = 'JavaScript syntax highlighting';
+  alert(s);
+```
+
+
+#### *Phyton*
+
+```python title="Syntax"
+  s = "Python syntax highlighting"
+  print(s)
+```
+
+#### *No language*
+
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+
+
+#### *Function*
+
+```javascript title="Syntax"
+  function highlightMe() {
+  console.log('This line can be highlighted!');
+}
+```
 
 [More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
 
