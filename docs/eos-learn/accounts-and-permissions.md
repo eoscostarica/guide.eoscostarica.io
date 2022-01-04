@@ -10,7 +10,7 @@ An **account** on EOSIO is a legible name for humans that get stored on the bloc
 
 The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`.
 
-Read more on [EOSIO accounts](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts).
+Read more on [EOSIO accounts](https://eos-account-creator.com/choose/).
 
 ## Permissions
 
@@ -28,7 +28,7 @@ Any given account can define a mapping between any of its named permissions and 
 
 In other words each account's permission can be linked to an authority table used to determine whether a given action authorization can be satisfied
 
-To get more information about these concepts, see [accounts and permissions documentation](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
+To get more information about these concepts, see [accounts and permissions documentation](https://developers.eos.io/welcome/v2.0/protocol-guides/accounts_and_permissions).
 
 ## Authenticators (Wallets)
 
