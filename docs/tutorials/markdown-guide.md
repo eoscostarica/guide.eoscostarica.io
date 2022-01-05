@@ -12,7 +12,42 @@ Created by John Gruber in 2004, Markdown is now one of the world’s most popula
 
 * * *
 
-## Basic Syntax
+## Why use Markdown?
+
+You might be wondering why people use Markdown instead of some WYSIWYG editor, it's so much easier to press buttons on an interface to format your text. [More about WYSIWYG](https://www.simplethread.com/everything-you-ever-wanted-to-know-about-wysiwyg-editors/)
+
+Turns out, there are a number of reasons to choose Markdown.
+
+- It is extremely broad. It can be used to create websites, documents, notes, books, presentations, emails, and technical documentation.
+
+- It is portable. Files containing Markdown-formatted text can be opened using almost any application. If you don't like the Markdown application you currently use, you can import your Markdown files into another Markdown application.
+
+- Completely independent of the platform. You can write Markdown text on any device running any operating system.
+
+- It is ready for the future. Even if the application you are currently using stops working at some point in the future, you can still read your Markdown text using a text editor application. This is extremely important when considering books, university theses, and other important documents that must be kept indefinitely.
+
+
+* * *
+
+## How Does it Work?
+
+When we write in Markdown, the text is saved to a plain text file that has an extension `.md` o `.markdown`. So how do you transform your Markdown file to HTML?
+
+The simple answer is that it requires a Markdown application capable of processing the file. There are many applications available, from small scripts to desktop applications that look like Microsoft Word. Although they have their visual differences, all applications do the same.
+
+These Markdown applications use a Markdown processor also known as *parser* or *implementation* which takes Markdown-formatted text and outputs it to HTML format. It is after this process that your document can be viewed in a web browser or combined with a stylesheet and printed.
+
+**Example**
+
+![](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
+
+* * *
+
+## Syntax
+
+Then we will look at examples of basic and structural syntax, to delve into this markup language.
+
+## Basic
 
 | Component | Syntax |
 | ----------- | ----------- |
@@ -33,7 +68,7 @@ Created by John Gruber in 2004, Markdown is now one of the world’s most popula
 
 ***
 
-## Structure Syntax
+## Structural
 
 ### **Unordered List**  
 
@@ -151,6 +186,18 @@ Another Text
 **Example:**  
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
+* * *
+### **Videos**
+
+``` markdown title="Sintaxis"
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameborder="0" allow="true" allowfullscreen></iframe> 
+```
+**Ejemplo:**
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/f49LJV1i-_w" frameborder="0" allow="true" allowfullscreen></iframe> 
+
+* * *
+
 ### **Block Citation**
 
 ```markdown title="Syntax"
@@ -209,9 +256,20 @@ Another Text
   console.log('This line can be highlighted!');
 }
 ```
+Para más información acerca de la sintaxis de Markdown, visitar
+[esta página](https://www.markdownguide.org/cheat-sheet/)
 
-[More Information](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
 
-***
+* * *
 
-For more information about Markdown Syntax visit [this page](https://www.markdownguide.org/cheat-sheet/)
+## Flavors of Markdown
+
+The most confusing aspect of using Markdown is that almost all applications implement a slightly different version. These versions are commonly known as Flavors.
+
+To understand the meaning of Flavors in Markdown, we can in them as dialects of the language. The people of Mexico speak Spanish just like the people of Costa Rica, but there are substantial differences between the dialects used in both countries. The same is true for those who use different Markdown apps.
+
+So it is our job to master whatever version of Markdown we have implemented in our application.
+
+[Más información sobre markdown](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
+
+
