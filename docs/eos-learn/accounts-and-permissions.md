@@ -10,7 +10,7 @@ An **account** on EOSIO is a legible name for humans that get stored on the bloc
 
 The account name must comply with certain requirements: characters from `a` to `z` in lower case, numbers from `1` to `5` and have 12 characters length. E. g. `eosioaccount`.
 
-Read more on [EOSIO accounts](https://eos-account-creator.com/choose/).
+Read more on [EOSIO account creation](https://developers.eos.io/manuals/eosjs/v21.0/how-to-guides/how-to-create-an-account).
 
 ## Permissions
 
