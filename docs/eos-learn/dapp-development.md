@@ -7,7 +7,7 @@ sidebar_label: Dapp Development
 ## Why EOS was Designed to Decentralized Apps
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/E3Tx2DseLGE" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Building Decentralized Applications

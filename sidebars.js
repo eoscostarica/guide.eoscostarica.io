@@ -33,6 +33,7 @@ module.exports = {
         "eos-learn/eos-blockchain",
         "eos-learn/smart-contract",
         "eos-learn/ricardian-contracts",
+        "eos-learn/blockchain-security",
       ],
     },
     {

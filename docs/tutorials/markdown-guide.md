@@ -189,7 +189,8 @@ Another Text
 * * *
 ### **Videos**
 
-``` markdown title="Sintaxis"
+``` markdown title="Syntax"
+
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameborder="0" allow="true" allowfullscreen></iframe> 
 ```
 **Example:**
@@ -271,4 +272,44 @@ To understand the meaning of Flavors in Markdown, we can in them as dialects of 
 So it is our job to master whatever version of Markdown we have implemented in our application.
 
 [Más información sobre markdown](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
+=======
+
+#### *Javascript*
+
+```javascript title="Syntax"
+  var s = 'JavaScript syntax highlighting';
+  alert(s);
+```
+
+
+#### *Phyton*
+
+```python title="Syntax"
+  s = "Python syntax highlighting"
+  print(s)
+```
+
+#### *Function*
+
+```javascript title="Syntax"
+  function highlightMe() {
+  console.log('This line can be highlighted!');
+}
+```
+Para más información acerca de la sintaxis de Markdown, visitar
+[esta página](https://www.markdownguide.org/cheat-sheet/)
+
+
+* * *
+
+## Flavors of Markdown
+
+The most confusing aspect of using Markdown is that almost all applications implement a slightly different version. These versions are commonly known as Flavors.
+
+To understand the meaning of Flavors in Markdown, we can in them as dialects of the language. The people of Mexico speak Spanish just like the people of Costa Rica, but there are substantial differences between the dialects used in both countries. The same is true for those who use different Markdown apps.
+
+So it is our job to master whatever version of Markdown we have implemented in our application.
+
+[Más información sobre markdown](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
+
 
