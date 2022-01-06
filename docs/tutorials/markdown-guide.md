@@ -189,10 +189,10 @@ Another Text
 * * *
 ### **Videos**
 
-``` markdown title="Sintaxis"
+``` markdown title="Syntax"
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameborder="0" allow="true" allowfullscreen></iframe> 
 ```
-**Ejemplo:**
+**Example:**
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/f49LJV1i-_w" frameborder="0" allow="true" allowfullscreen></iframe> 
 
