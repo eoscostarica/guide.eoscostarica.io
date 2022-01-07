@@ -126,12 +126,6 @@ Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide
 
 If you find a bug, please report big and small bugs by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues/new/choose).
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
 ## About EOS Costa Rica
 
 <p align="center">
