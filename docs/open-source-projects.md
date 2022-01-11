@@ -6,6 +6,13 @@ sidebar_label: Open Source Projects
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Community Projects
+
+ The following projects are aimed at the developer community.
+
+* * *
+
+### EOSIO Dashboard
 > 
 <p align="left">
 	<a href="https://eosio.online/">
@@ -14,9 +21,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </p>
 
 > An EOSIO Infrastructure monitor and node dashboard.
- - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
+
  - **Website** : [EOSIO dashboard](https://eosio.online/)
 
+ - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
 
 ### Monitor EOSIO Networks 
 
@@ -28,7 +36,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 </div>
 
-###  
+###  EOSIO Dashboard Page
  
  <p align="center">
 	<a href="https://eoscostarica.io/">
@@ -42,44 +50,69 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 	</a>
 </p>
 
+* * *
+
+### EOS Rate
+
+> 
+<p align="left">
+	<a href="https://eosrate.io">
+		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" width="30%"/>
+	</a>
+</p>
+
+> EOS Rate is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
+
+- **Website** : [EOSIO Rate](https://eosrate.io)
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>]( https://github.com/eoscostarica/eos-rate)
+
+
+###  EOS Rate Page
+ 
+ <p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
+	</a>
+</p>
+
+<p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
+	</a>
+</p>
+
 
 * * *
 
-## EOS Rate 
+### LACChain EOSIO Testnet
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
-  style={{ width: "30%" }}
-/>
+> 
+<p align="left">
+	<a href="https://eosio.lacchain.net/en/">
+		<img src="https://www.lacchain.net/assets/images/logo-lacchain-footer.png" width="30%"/>
+	</a>
+</p>
 
-[EOS Rate](https://eosrate.io) is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
+> We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO blockchain network that integrates into LACChain. 
 
-- **Website** : https://eosrate.io
+- **Website** : [LACChain EOSIO](https://eosio.lacchain.net/en/)
 
-- **GitHub** : https://github.com/eoscostarica/eos-rate
+ - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/lacchain/eosio.lacchain.net)
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
+ ##  LACChain EOSIO Page
+ 
+ <p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage.PNG')} width="100%"/>
+	</a>
+</p>
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate_2.PNG)
-
-* * *
-
-## LACChain EOSIO Testnet
-
-<img
-  src="https://raw.githubusercontent.com/lacchain/eosio.lacchain.net/master/static/img/logos/lacchain-eosio-logo.png"
-  style={{ width: "30%" }}
-/>
-
-We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO blockchain network that integrates into LACChain. 
-
-- **Website** : https://eosio.lacchain.net/en/
-
-- **GitHub** : https://github.com/lacchain/eosio.lacchain.net
-
-![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage.png)
-
-![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage1.png)
+<p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage1.PNG')} width="100%"/>
+	</a>
+</p>
 
 * * *
 
