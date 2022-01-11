@@ -43,7 +43,7 @@ https://github.com/kesar/eos-awesome-contracts
 ## Basic Smart Contract Scheme
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/EbWDHrm2ETY" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 You can see more on this channel: https://www.youtube.com/user/grandmoren1/videos
