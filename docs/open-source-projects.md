@@ -22,11 +22,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > An EOSIO Infrastructure monitor and node dashboard.
 
- - **Website** : [EOSIO dashboard](https://eosio.online/)
+- **Website** : [EOSIO dashboard](https://eosio.online/)
 
- - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
 
-### Monitor EOSIO Networks 
+#### Monitor EOSIO Networks 
 
 <div class="table-wrapper" markdown="block">
 
@@ -36,20 +36,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 </div>
 
-###  EOSIO Dashboard Page
+####  EOSIO Dashboard Page
  
- <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')} width="100%"/>
-	</a>
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')} width="100%"/>
 </p>
 
 <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')} width="100%"/>
-	</a>
+	<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')} width="100%"/>
 </p>
-
 
 * * *
 
@@ -64,25 +59,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > EOS Rate is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
 
-- **Website** : [EOSIO Rate](https://eosrate.io)
+- **Website** : [EOS Rate](https://eosrate.io)
 
 - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>]( https://github.com/eoscostarica/eos-rate)
 
 
-###  EOS Rate Page
- 
- <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
-	</a>
+####  EOS Rate Page
+   
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
 </p>
 
 <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
-	</a>
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
 </p>
-
 
 * * *
 
@@ -91,7 +81,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 > 
 <p align="left">
 	<a href="https://eosio.lacchain.net/en/">
-		<img src="https://www.lacchain.net/assets/images/logo-lacchain-footer.png" width="30%"/>
+		<img src="https://raw.githubusercontent.com/lacchain/eosio.lacchain.net/master/static/img/logos/lacchain-eosio-logo.png" width="30%"/>
 	</a>
 </p>
 
@@ -99,38 +89,83 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - **Website** : [LACChain EOSIO](https://eosio.lacchain.net/en/)
 
- - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/lacchain/eosio.lacchain.net)
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/lacchain/eosio.lacchain.net)
 
- ##  LACChain EOSIO Page
+####  LACChain EOSIO Page
  
  <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage.PNG')} width="100%"/>
-	</a>
+	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage.PNG')} width="100%"/>
 </p>
 
 <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage1.PNG')} width="100%"/>
-	</a>
+	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage1.PNG')} width="100%"/>
 </p>
 
 * * *
 
-## Evodex
+### Evodex
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
-  style={{ width: "30%" }}
-/>
+> 
+<p align="left">
+	<a href="https://evodex.io">
+		<img src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png" width="30%"/>
+	</a>
+</p> 
 
-Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool.
+> Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool.
 
-EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
+> EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
 
-- **Website** : https://evodex.io
+- **Website** : [Evodex](https://evodex.io)
 
-- **GitHub** : https://github.com/eoscostarica/evodex
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/evodex)
+
+####  Evodex Page
+ 
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/Evodex.png')} width="100%"/>
+</p>
+
+* * *
+
+### EOS Foundation 
+
+> 
+<p align="left">
+	<a href="https://eos-foundation.eosio.cr">
+		<img src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png" width="30%"/>
+	</a>
+</p> 
+
+> We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
+
+- **Website** : [EOS Foundation](https://eos-foundation.eosio.cr)
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-foundation)
+
+#### EOS Foundation Page
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Fundation.png')} width="100%"/>
+</p>
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Fundation_2.png')} width="100%"/>
+</p>
+
+* * *
+
+## Tools
+
+### Digital Notary Smart Contract
+
+> This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
+
+> It also allows anyone who owns the document to validate the record on the blockchain.
+
+- **Website** : [Digital Notary Smart Contract](https://notarize.eosio.cr/dashboard/notary)
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/notarioeoscr)
 
 * * *
 
@@ -138,76 +173,85 @@ EOS Costa Rica is working with EOS Argentina creating a web interface that will 
 
 ### LifeBank
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
-  style={{ width: "50%" }}
-/>
+> 
+<p align="left">
+	<a href="https://lifebank.io/">
+		<img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" width="40%"/>
+	</a>
+</p>
 
-Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
+> Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
 
-Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
+> Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
 
-- **Website** : https://lifebank.io/
+- **Website** : [Lifebank](https://lifebank.io/)
 
-- **GitHub** : https://github.com/eoscostarica/lifebank
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/lifebank)
 
-![LifeBank](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
+#### LifeBank Page
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/LifeBank.png')} width="100%"/>
+</p>
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/LifeBank_2.png')} width="100%"/>
+</p>
 
 ### gGoods
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
-  style={{ width: "50%" }}
-/>
+> 
+<p align="left">
+	<a href="https://ggoods.io/">
+		<img src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg" width="40%"/>
+	</a>
+</p>
 
-gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
+> gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
 
-- **Website** : https://ggoods.io/
+- **Website** : [gGoods](https://ggoods.io/)
 
-- **Github** : https://github.com/eoscostarica/gGoods 
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/gGoods)
+
+#### gGoods Page
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/gGoods.png')} width="100%"/>
+</p>
 
 ## React Components for EOSIO
 
-- **Website** : https://components.eosio.cr
+> 
+<p align="left">
+	<a href="https://components.eosio.cr">
+		<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="40%"/>
+	</a>
+</p>
 
-- **GitHub** : https://github.com/eoscostarica/eoscr-components
+- **Website** : [React Components](https://components.eosio.cr)
 
-* * *
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
 
-## EOS Foundation 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
-  style={{ width: "30%" }}
-/>
+#### Page
 
-We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/React.png')} width="100%"/>
+</p>
 
-- **Website** : https://eos-foundation.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eos-foundation
-
-![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
-
-![EOS Foundation](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
-
-* * *
-
-## Digital Notary Smart Contract
-
-This smart contract serves as a tool for any user who wishes to register the existence of digital documents (texts / images) at a certain moment in time.
-
-It also allows anyone who owns the document to validate the record on the blockchain.
-
-- **Website** : https://notarize.eosio.cr/dashboard/notary
-
-- **GitHub** : https://github.com/eoscostarica/notarioeoscr
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/React_2.png')} width="100%"/>
+</p>
 
 * * *
 
 ## NPM Packages
 
-* [**EOS Costa Rica components**](https://www.npmjs.com/package/@eoscostarica/eoscr-components): A collection of React Components for EOSIO. 
-* [**EOS Costa Rica standard theme**](https://www.npmjs.com/package/@eoscostarica/eoscr-theme): EOS Costa Rica standard theme will allow us a faster developments of our web apps and at the same time it's availabe for anyone who will want to use it.
-* [**EOS API module ( in CamelCase 🐫)**](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api): This project wraps the official eosio/eosjs-api to provide camelcase output. 
-* [**Fastify EOS**](https://www.npmjs.com/package/fastify-eos): A plugin that decorates Fastify with an EOS.js instance.
+<div class="table-wrapper" markdown="block">
+
+| Components | Standard Theme  | API module | Fastify EOS | 
+|:-------:|:-------:|:-------:|:-------:|
+|    A collection of React Components for EOSIO.    | EOS Costa Rica standard theme will allow us a faster developments of our web apps and at the same time it's availabe for anyone who will want to use it. |  This project wraps the official eosio/eosjs-api to provide camelcase output. | A plugin that decorates Fastify with an EOS.js instance. |
+|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/120px-React.svg.png"/>](https://www.npmjs.com/package/@eoscostarica/eoscr-components) | [<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png"/>](https://www.npmjs.com/package/@eoscostarica/eoscr-theme) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CamelCase_new.svg/120px-CamelCase_new.svg.png"/>](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api) | [<img src="https://icons-for-free.com/iconfiles/png/64/fastify-1324440156661837332.png"/>](https://www.npmjs.com/package/fastify-eos) | 
+
+</div>
 
