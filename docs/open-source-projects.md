@@ -61,7 +61,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - **Website** : [EOS Rate](https://eosrate.io)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>]( https://github.com/eoscostarica/eos-rate)
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-rate)
 
 
 ####  EOS Rate Page
@@ -73,6 +73,43 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <p align="center">
 	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
 </p>
+
+* * *
+
+### Proton Affiliate Plataform 
+
+> 
+<p align="center">
+	<a href="https://eoscostarica.io/blog/proton-announcement/">
+		<img src="https://eoscostarica.io/assets/images/proton-affiliate-fcc7ceaf6562d5ccfb01666b22cea9f2.jpg" width="70%"/>
+	</a>
+</p>
+
+> Edenia, also known as [EOS Costa Rica](https://eoscostarica.io/), is glad to announce our strategic collaboration with the team of Proton, a blockchain developed by Metallicus. [Proton](https://www.protonchain.com/) was built to streamline on-chain payments processing, adding governance, network resources allocation, and rewards staking. For the past few months, our team has been working on an Affiliate Program (AP) feature for the [Proton wallet](https://www.protonchain.com/wallet/), which launched in the beta stage for selected countries.
+
+- **Proton Website** : <a href="https://eoscostarica.io/blog/proton-announcement/">
+	<img src="https://cryptologos.cc/logos/proton-xpr-logo.png" width="7%"/>
+	</a>
+
+
+- **Project Announcement** : [Proton Affiliate Plataform](https://eoscostarica.io/blog/proton-announcement/)
+
+* * *
+
+### Libre Dao Smart Contracts
+
+> 
+<p align="left">
+	<a href="https://dao.libre.org/">
+		<img src={useBaseUrl('img/OSS_screnshots/Libre Dao Smart Contracts.PNG')} width="40%"/>
+	</a>
+</p>
+
+> The system works as a decentralized voting mechanism set up in the rules governing the blockchain, where budgets for specific projects are proposed and funded once they receive sufficient votes from token holders.
+
+- **Website** : [Libre Dao Smart Contracts](https://dao.libre.org/)
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/btc-libre-governance)
 
 * * *
 
@@ -155,7 +192,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 * * *
 
-## Tools
+## Tools 
+
+### Eden Members Check
+
+> This project provides a quick way to get started integrating the logic to validate if an EOS account is an active Eden Member. It is meant to be used as an example to help other projects integrate features for eden members.
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eden-member-check)
+
+* * *
 
 ### Digital Notary Smart Contract
 
@@ -166,6 +211,60 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - **Website** : [Digital Notary Smart Contract](https://notarize.eosio.cr/dashboard/notary)
 
 - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/notarioeoscr)
+
+* * *
+
+### Local Development Environments
+
+
+
+* * *
+
+### EOSIO Network Bootstrap 
+
+> This collection of scripts launches a local EOSIO network with multiple node configurations. There is also an automated boot sequence that utilizes a temporary "bios" node to launch the chain, deploy system contracts and set a schedule with three active block producer nodes.
+
+> This project can be useful as a development environment for system contracts.
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-network-bootstrap)
+
+* * *
+
+### Sample Nodeos Configurations 
+
+> Example configurations for different EOSIO node types.
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/sample-nodeos-configs)
+
+* * *
+
+## Boilerplates
+
+
+* * *
+
+## React Components for EOSIO
+
+> 
+<p align="left">
+	<a href="https://components.eosio.cr">
+		<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="40%"/>
+	</a>
+</p>
+
+- **Website** : [React Components](https://components.eosio.cr)
+
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
+
+#### Page
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/React.png')} width="100%"/>
+</p>
+
+<p align="center">
+	<img src={useBaseUrl('img/OSS_screnshots/React_2.png')} width="100%"/>
+</p>
 
 * * *
 
@@ -217,29 +316,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <p align="center">
 	<img src={useBaseUrl('img/OSS_screnshots/gGoods.png')} width="100%"/>
-</p>
-
-## React Components for EOSIO
-
-> 
-<p align="left">
-	<a href="https://components.eosio.cr">
-		<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="40%"/>
-	</a>
-</p>
-
-- **Website** : [React Components](https://components.eosio.cr)
-
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
-
-#### Page
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/React.png')} width="100%"/>
-</p>
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/React_2.png')} width="100%"/>
 </p>
 
 * * *
