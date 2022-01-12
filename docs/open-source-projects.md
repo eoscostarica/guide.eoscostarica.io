@@ -6,33 +6,42 @@ sidebar_label: Open Source Projects
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## EOSIO Dashboard
+> 
+<p align="left">
+	<a href="https://eosio.online/">
+		<img src="https://eosio.online/images/d-logo.svg" width="200px"/>
+	</a>
+</p>
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
-  style={{ width: "30%" }}
-/>
+> An EOSIO Infrastructure monitor and node dashboard.
+ - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
+ - **Website** : [EOSIO dashboard](https://eosio.online/)
 
-An EOSIO Infrastructure monitor and node dashboard.
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
 ### Monitor EOSIO Networks 
 
-- **EOS Mainnet Network Dashboard** : https://mainnet.eosio.online
-- **LACChain EOSIO Network Dashboard** : https://lacchain.eosio.online
-- **Jungle Testnet Network Dashboard** : https://jungle.eosio.online
-- **Proton Testnet Network Dashboard** : https://proton-testnet.eosio.online
-- **Telos Testnet Network Dashboard** : https://telos-testnet.eosio.online
- 
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
-/>
+<div class="table-wrapper" markdown="block">
 
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
-/>
+|  EOS Mainnet | Jungle Testnet  | Proton Testnet | LACChain EOSIO | Telos Testnet |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+|[<img src="https://eosio.online/images/eos.png"/>](https://mainnet.eosio.online) | [<img src="https://eosio.online/images/jungle.png"/>](https://jungle.eosio.online) | [<img src="https://eosio.online/images/proton.png"/>](https://proton-testnet.eosio.online) | [<img src="https://eosio.online/images/lacchain.png"/>](https://lacchain.eosio.online) |  [<img src="https://eosio.online/images/telos.png"/>](https://jungle.eosio.online) |
+
+</div>
+
+###  
+ 
+ <p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')} width="100%"/>
+	</a>
+</p>
+
+<p align="center">
+	<a href="https://eoscostarica.io/">
+		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')} width="100%"/>
+	</a>
+</p>
+
 
 * * *
 
