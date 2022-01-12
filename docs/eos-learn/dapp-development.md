@@ -65,14 +65,3 @@ https://github.com/eoscostarica/eos-dapp-boilerplate
 
 https://developers.eos.io/
 
-## Decentralized Storage - IPFS
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true">
-  </iframe>
-</figure>
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true">
-  </iframe>
-</figure>
