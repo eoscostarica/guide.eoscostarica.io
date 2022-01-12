@@ -67,11 +67,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ####  EOS Rate Page
    
 <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.png')} width="100%"/>
 </p>
 
 <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.png')} width="100%"/>
 </p>
 
 * * *
