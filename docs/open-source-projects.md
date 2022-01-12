@@ -245,17 +245,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div class="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
-| Boilerplates | Description | GitHub |
-|    :----:    |   :----:    | :----: |
-| Full Stack | A fullstack project template to easily launch your project on EOSIO. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/full-stack-boilerplate)     |
-| Wax Webapp | A bare-bones react web app featuring WAX authenticators (wallets). | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/wax-webapp-boilerplate)     |
-|     Wax    | A full-stack project template to easily launch your project on Wax. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/wax-full-stack-boilerplate) |
-|   Proton   | A full-stack project template to easily launch your project on Proton. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/proton-full-stack-boilerplate) |
-|   Webapp   | A bare-bones react web app featuring UAL for EOSIO authenticators (wallets). | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/webapp-boilerplate) |
-|   IPFS   | A repository to help you get started integrating IPFS into your project. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/ipfs-boilerplate) |
-|   Backend   | NodeJS Backend + Hasura + PGDB with EOSJS and KEOSD wallet. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/backend-boilerplate) |
-|   EOS dapp   | EOSIO Application Boilerplates. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-dapp-boilerplate) |
-|   EOS dapp   | EOSIO Application Boilerplates. | [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-dapp-boilerplate) |
+| Boilerplates | Description | 
+| :----------: | :---------: | 
+| [Full Stack](https://github.com/eoscostarica/full-stack-boilerplate) | A fullstack project template to easily launch your project on EOSIO. | 
+| [Wax Webapp](https://github.com/eoscostarica/wax-webapp-boilerplate)| A bare-bones react web app featuring WAX authenticators (wallets). |
+| [Wax](https://github.com/eoscostarica/wax-full-stack-boilerplate)| A full-stack project template to easily launch your project on Wax. | 
+| [Proton](https://github.com/eoscostarica/proton-full-stack-boilerplate) | A full-stack project template to easily launch your project on Proton. | 
+| [Webapp](https://github.com/eoscostarica/webapp-boilerplate)| A bare-bones react web app featuring UAL for EOSIO authenticators (wallets). | 
+| [IPFS](https://github.com/eoscostarica/ipfs-boilerplate) | A repository to help you get started integrating IPFS into your project. |
+| [Backend](https://github.com/eoscostarica/backend-boilerplate) | NodeJS Backend + Hasura + PGDB with EOSJS and KEOSD wallet. | 
+| [EOS dapp](https://github.com/eoscostarica/eos-dapp-boilerplate) | EOSIO Application Boilerplates. | 
 
 </div>
 
