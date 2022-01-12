@@ -1,7 +1,7 @@
 ---
-id: ipsf
+id: ipfs
 title: IPFS powers the Distributed Web
-sidebar_label: IPSF
+sidebar_label: IPFS
 ---
 
 <p align="left">

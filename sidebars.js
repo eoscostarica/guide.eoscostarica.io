@@ -66,7 +66,7 @@ module.exports = {
         "tools/eosio-sdk-libraries",
         "tools/readme-file-template",
         "tools/frequently-asked-questions",
-        "tools/ipsf",
+        "tools/ipfs",
       ],
     },
     {
