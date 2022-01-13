@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Community Projects
 
-> The following projects are aimed at the developer community.
+> The following projects have been developed for the eosio community.
 
 ### EOSIO Dashboard
 > 
