@@ -8,9 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Community Projects
 
- The following projects are aimed at the developer community.
-
-* * *
+> The following projects have been developed for the eosio community.
 
 ### EOSIO Dashboard
 > 
@@ -22,9 +20,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > An EOSIO Infrastructure monitor and node dashboard.
 
-- **Website** : [EOSIO dashboard](https://eosio.online/)
+- **Website**: [EOSIO dashboard](https://eosio.online/)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
 
 #### Monitor EOSIO Networks 
 
@@ -59,9 +57,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > EOS Rate is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.
 
-- **Website** : [EOS Rate](https://eosrate.io)
+- **Website**: [EOS Rate](https://eosrate.io)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-rate)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-rate)
 
 
 ####  EOS Rate Page
@@ -76,7 +74,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 * * *
 
-### Proton Affiliate Plataform 
+### Proton Affiliate Platform 
 
 > 
 <p align="center">
@@ -87,12 +85,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > Edenia, also known as [EOS Costa Rica](https://eoscostarica.io/), is glad to announce our strategic collaboration with the team of Proton, a blockchain developed by Metallicus. [Proton](https://www.protonchain.com/) was built to streamline on-chain payments processing, adding governance, network resources allocation, and rewards staking. For the past few months, our team has been working on an Affiliate Program (AP) feature for the [Proton wallet](https://www.protonchain.com/wallet/), which launched in the beta stage for selected countries.
 
-- **Proton Website** : <a href="https://eoscostarica.io/blog/proton-announcement/">
+- **Proton Website**: <a href="https://eoscostarica.io/blog/proton-announcement/">
 	<img src="https://cryptologos.cc/logos/proton-xpr-logo.png" width="7%"/>
 	</a>
 
 
-- **Project Announcement** : [Proton Affiliate Plataform](https://eoscostarica.io/blog/proton-announcement/)
+- **Project Announcement**: [Proton Affiliate Platform](https://eoscostarica.io/blog/proton-announcement/)
 
 * * *
 
@@ -107,9 +105,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > The system works as a decentralized voting mechanism set up in the rules governing the blockchain, where budgets for specific projects are proposed and funded once they receive sufficient votes from token holders.
 
-- **Website** : [Libre Dao Smart Contracts](https://dao.libre.org/)
+- **Website**: [Libre Dao Smart Contracts](https://dao.libre.org/)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/btc-libre-governance)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/btc-libre-governance)
 
 * * *
 
@@ -124,9 +122,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO blockchain network that integrates into LACChain. 
 
-- **Website** : [LACChain EOSIO](https://eosio.lacchain.net/en/)
+- **Website**: [LACChain EOSIO](https://eosio.lacchain.net/en/)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/lacchain/eosio.lacchain.net)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/lacchain/eosio.lacchain.net)
 
 ####  LACChain EOSIO Page
  
@@ -153,9 +151,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.
 
-- **Website** : [Evodex](https://evodex.io)
+- **Website**: [Evodex](https://evodex.io)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/evodex)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/evodex)
 
 ####  Evodex Page
  
@@ -171,7 +169,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > This project provides a quick way to get started integrating the logic to validate if an EOS account is an active Eden Member. It is meant to be used as an example to help other projects integrate features for eden members.
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eden-member-check)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eden-member-check)
 
 * * *
 
@@ -181,9 +179,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > It also allows anyone who owns the document to validate the record on the blockchain.
 
-- **Website** : [Digital Notary Smart Contract](https://notarize.eosio.cr/dashboard/notary)
+- **Website**: [Digital Notary Smart Contract](https://notarize.eosio.cr/dashboard/notary)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/notarioeoscr)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/notarioeoscr)
 
 * * *
 
@@ -199,7 +197,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > This project can be useful as a development environment for system contracts.
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-network-bootstrap)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-network-bootstrap)
 
 * * *
 
@@ -207,7 +205,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > Example configurations for different EOSIO node types.
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/sample-nodeos-configs)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/sample-nodeos-configs)
 
 * * *
 
@@ -242,9 +240,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 	</a>
 </p>
 
-- **Website** : [React Components](https://components.eosio.cr)
+- **Website**: [React Components](https://components.eosio.cr)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
 
 #### Page
 
@@ -273,9 +271,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
 
-- **Website** : [Lifebank](https://lifebank.io/)
+- **Website**: [Lifebank](https://lifebank.io/)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/lifebank)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/lifebank)
 
 #### LifeBank Page
 
@@ -298,9 +296,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 > gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
 
-- **Website** : [gGoods](https://ggoods.io/)
+- **Website**: [gGoods](https://ggoods.io/)
 
-- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/gGoods)
+- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/gGoods)
 
 #### gGoods Page
 
