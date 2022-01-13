@@ -67,11 +67,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ####  EOS Rate Page
    
 <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.png')} width="100%"/>
 </p>
 
 <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.png')} width="100%"/>
 </p>
 
 * * *
@@ -101,7 +101,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 > 
 <p align="left">
 	<a href="https://dao.libre.org/">
-		<img src={useBaseUrl('img/OSS_screnshots/Libre Dao Smart Contracts.PNG')} width="40%"/>
+		<img src={useBaseUrl('img/OSS_screnshots/Libre_Dao_Smart_Contracts.png')} width="40%"/>
 	</a>
 </p>
 
@@ -131,11 +131,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ####  LACChain EOSIO Page
  
  <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage.png')} width="100%"/>
 </p>
 
 <p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage1.PNG')} width="100%"/>
+	<img src={useBaseUrl('img/OSS_screnshots/lacchain-eosio-homepage1.png')} width="100%"/>
 </p>
 
 * * *
