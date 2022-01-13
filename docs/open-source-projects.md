@@ -163,33 +163,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 * * *
 
-### EOS Foundation 
-
-> 
-<p align="left">
-	<a href="https://eos-foundation.eosio.cr">
-		<img src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png" width="30%"/>
-	</a>
-</p> 
-
-> We view the EOS Foundation as a container for facilitating code, capital, and connections in ways which haven’t been available so far for the EOS Mainnet community.
-
-- **Website**: [EOS Foundation](https://eos-foundation.eosio.cr)
-
-- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eos-foundation)
-
-#### EOS Foundation Page
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Fundation.png')} width="100%"/>
-</p>
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/EOS_Fundation_2.png')} width="100%"/>
-</p>
-
-* * *
-
 ## Tools 
 
 ### Eden Members Check
