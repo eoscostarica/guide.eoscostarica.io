@@ -46,4 +46,3 @@ https://github.com/kesar/eos-awesome-contracts
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-You can see more on this channel: https://www.youtube.com/user/grandmoren1/videos
