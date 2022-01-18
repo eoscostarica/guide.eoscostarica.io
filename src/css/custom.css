@@ -105,7 +105,7 @@ article > div > span.badge.badge--secondary {
 .logo{
   flex-direction: center;
   width: 50%;
-  margin: 0 25% 0px;
+  margin: 0 25%;
 }
 
 .left-screenshot{
@@ -119,7 +119,7 @@ article > div > span.badge.badge--secondary {
   width: 45%;
   flex-direction: column;
   flex-grow: 0;
-  margin: 5% 0 0 0;
+  margin: 5% 0 0;
 }
 
 .lightbox {
