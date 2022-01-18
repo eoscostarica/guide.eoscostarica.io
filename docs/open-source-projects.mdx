@@ -129,14 +129,14 @@ export const projectsData = [
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>{projectsData.[0].description}</p>
-			{ projectsData.[0].website.map((web, i)=>( 
+			<p>{projectsData[0].description}</p>
+			{ projectsData[0].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[0]?.github && projectsData.[0].github.map((git, i)=>( 
+			{  projectsData[0]?.github && projectsData[0].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -153,7 +153,11 @@ export const projectsData = [
 			<th>Telos Testnet</th>
 			</tr>
 			<tr>
-			<td><a href="https://mainnet.eosio.online"><img src="https://eosio.online/images/eos.png" width="30%"/></a></td>
+			<td>
+				<a href="https://mainnet.eosio.online">
+					<img src="https://eosio.online/images/eos.png" width="30%"/>
+				</a>
+			</td>
 			<td><a href="https://jungle.eosio.online"><img src="https://eosio.online/images/jungle.png" width="30%"/></a></td>
 			<td><a href="https://proton-testnet.eosio.online"><img src="https://eosio.online/images/proton.png" width="30%"/></a></td>
 			<td><a href="https://lacchain.eosio.online"><img src="https://eosio.online/images/lacchain.png" width="30%"/></a></td>
@@ -164,16 +168,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[0].logos.map((logo, i)=>(
+			{ projectsData[0].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[0].images.map((image, i)=>(
+			{ projectsData[0].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[0].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[0].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
