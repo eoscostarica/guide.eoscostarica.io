@@ -190,14 +190,14 @@ export const projectsData = [
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>{projectsData.[1].description}</p>
-			{ projectsData.[1].website.map((web, i)=>( 
+			<p>{projectsData[1].description}</p>
+			{ projectsData[1].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[1]?.github && projectsData.[1].github.map((git, i)=>( 
+			{  projectsData[1]?.github && projectsData[1].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -207,16 +207,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[1].logos.map((logo, i)=>(
+			{ projectsData[1].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[1].images.map((image, i)=>(
+			{ projectsData[1].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[1].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[1].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
@@ -237,14 +237,14 @@ export const projectsData = [
 			<p>For the past few months, our team has 
 				been working on an Affiliate Program (AP) feature for the <a href='https://www.protonchain.com/wallet/'>Proton wallet</a>, 
 				which launched in the beta stage for selected countries.</p>
-			{ projectsData.[2].website.map((web, i)=>( 
+			{ projectsData[2].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 						<a href={web.link}><img src={web.image} width="9%"/></a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[2]?.github && projectsData.[2].github.map((git, i)=>( 
+			{  projectsData[2]?.github && projectsData[2].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -254,16 +254,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[2].logos.map((logo, i)=>(
+			{ projectsData[2].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[2].images.map((image, i)=>(
+			{ projectsData[2].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[2].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[2].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
@@ -276,14 +276,14 @@ export const projectsData = [
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>{projectsData.[3].description}</p>
-			{ projectsData.[3].website.map((web, i)=>( 
+			<p>{projectsData[3].description}</p>
+			{ projectsData[3].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[3]?.github && projectsData.[3].github.map((git, i)=>( 
+			{  projectsData[3]?.github && projectsData[3].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -293,16 +293,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[3].logos.map((logo, i)=>(
+			{ projectsData[3].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[3].images.map((image, i)=>(
+			{ projectsData[3].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[3].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[3].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
@@ -315,14 +315,14 @@ export const projectsData = [
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>{projectsData.[4].description}</p>
-			{ projectsData.[4].website.map((web, i)=>( 
+			<p>{projectsData[4].description}</p>
+			{ projectsData[4].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[4]?.github && projectsData.[4].github.map((git, i)=>( 
+			{  projectsData[4]?.github && projectsData[4].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -332,16 +332,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[4].logos.map((logo, i)=>(
+			{ projectsData[4].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[4].images.map((image, i)=>(
+			{ projectsData[4].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[4].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[4].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
@@ -354,14 +354,14 @@ export const projectsData = [
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>{projectsData.[5].description}</p>
-			{ projectsData.[5].website.map((web, i)=>( 
+			<p>{projectsData[5].description}</p>
+			{ projectsData[5].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 					</li>
 				</p>
 			))}
-			{  projectsData.[5]?.github && projectsData.[5].github.map((git, i)=>( 
+			{  projectsData[5]?.github && projectsData[5].github.map((git, i)=>( 
 				<p><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
 					</li>
@@ -371,16 +371,16 @@ export const projectsData = [
 	</Grid>
 	<Grid item md={4} xs={12}>
 		<Grid class="container-border">
-			{ projectsData.[5].logos.map((logo, i)=>(
+			{ projectsData[5].logos.map((logo, i)=>(
 				<Grid container id={i}>
 					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
-			{ projectsData.[5].images.map((image, i)=>(
+			{ projectsData[5].images.map((image, i)=>(
 				<>
 				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData.[5].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={projectsData[5].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
 				</>
 			))
 			}
