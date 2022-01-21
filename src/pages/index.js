@@ -14,8 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import '../css/homepage.css';
 
 const MetaData={
-  title:"EOS Costa Rica Developers Guide",
-  description:"Welcome to our open-source developers portal. Begin your journey to learn about blockchain technology and all the stuff that makes it possible.",
+  title:"EOS Costa Rica | Developers Guides",
+  description:"Documentation for EOS Costa Rica developers.",
   img:"../static/img/metaImage.png",
   hrefLangPath: "https://guide.eoscostarica.io/"
 }
