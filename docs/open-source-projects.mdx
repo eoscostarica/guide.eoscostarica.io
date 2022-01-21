@@ -3,7 +3,7 @@ id: open-source-projects
 title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
-
+import '../src/css/oss_projects.css';
 import { Grid, Box } from '@material-ui/core';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -611,7 +611,7 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid class="content">
-			<p>projectsData[8].description</p>
+			<p>{projectsData[8].description}</p>
 			{ projectsData[8].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
