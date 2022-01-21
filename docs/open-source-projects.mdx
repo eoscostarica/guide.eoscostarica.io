@@ -3,7 +3,7 @@ id: open-source-projects
 title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
-
+import '../src/css/ossProjects.css';
 import { Grid, Box } from '@material-ui/core';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -117,7 +117,61 @@ export const projectsData = [
 			{image:'img/OSS_screnshots/Evodex.png', class:'left-screenshot', link:'#screen-evodex-1', id:'screen-evodex-1'},
 			{image:'img/OSS_screnshots/Evodex.png', class:'right-screenshot', link:'#screen-evodex-2', id:'screen-evodex-2'}
 		]
-	}   
+	},
+	{
+		name: 'React Components for EOSIO', 
+		description : 'A collection of React components for the EOSIO developer community.',
+		href: '#react-components-for-eosio',
+		website: [
+			{ title: 'Website', link: 'https://components.eosio.cr/', name: 'React Components' }
+		],
+		github: [
+			{link: 'https://github.com/eoscostarica/eoscr-components', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png', link:'https://components.eosio.cr/'}
+		],
+		images: [
+			{image:'img/OSS_screnshots/React.png', class:'left-screenshot', link:'#screen-react-1', id:'screen-react-1'},
+			{image:'img/OSS_screnshots/React_2.png', class:'right-screenshot', link:'#screen-react-2', id:'screen-react-2'}
+		]
+	},
+	{
+		name: 'LifeBank', 
+		description : '',
+		href: '#lifebank',
+		website: [
+			{ title: 'Website', link: 'https://lifebank.io/', name: 'LifeBank' }
+		],
+		github: [
+			{link: 'https://github.com/eoscostarica/lifebank', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg', link:'https://lifebank.io/'}
+		],
+		images: [
+			{image:'img/OSS_screnshots/LifeBank_1.png', class:'left-screenshot', link:'#screen-lifebank-1', id:'screen-lifebank-1'},
+			{image:'img/OSS_screnshots/LifeBank_2.png', class:'right-screenshot', link:'#screen-lifebank-2', id:'screen-lifebank-2'}
+		]
+	},
+	{
+		name: 'gGoods', 
+		description : 'gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.',
+		href: '#ggoods',
+		website: [
+			{ title: 'Website', link: 'https://ggoods.io/', name: 'gGoods' }
+		],
+		github: [
+			{link: 'https://github.com/eoscostarica/gGoods', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg', link:'https://ggoods.io/'}
+		],
+		images: [
+			{image:'img/OSS_screnshots/gGoods.png', class:'left-screenshot', link:'#screen-ggoods-1', id:'screen-ggoods-1'},
+			{image:'img/OSS_screnshots/gGoods_2.png', class:'right-screenshot', link:'#screen-ggoods-2', id:'screen-ggoods-2'}
+		]
+	}
 ]
 
 ## Community Projects
@@ -396,7 +450,6 @@ export const projectsData = [
 
 - **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eden-member-check)
 
-* * *
 
 ### Digital Notary Smart Contract
 
@@ -407,8 +460,6 @@ export const projectsData = [
 - **Website**: [Digital Notary Smart Contract](https://notarize.eosio.cr/dashboard/notary)
 
 - **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/notarioeoscr)
-
-* * *
 
 ### Local Development Environments
 
@@ -425,7 +476,6 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 | [EOSIO Explorer](https://github.com/eoscostarica/eosio-explorer)| An application providing Web GUI to communicate with EOSIO blockchain in a local development environment | 
 
 </div>
-
 
 * * *
 
@@ -471,86 +521,141 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 
 ## React Components for EOSIO
 
-<p align="left">
-	<a href="https://components.eosio.cr">
-		<img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="40%"/>
-	</a>
-</p>
-
-- **Website**: [React Components](https://components.eosio.cr)
-
-- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eoscr-components)
-
-#### Page
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/React.png')} width="100%"/>
-</p>
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/React_2.png')} width="100%"/>
-</p>
-
-* * *
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid class="content">
+			<p>{projectsData[6].description}</p>
+			{ projectsData[6].website.map((web, i)=>( 
+				<p><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li>
+				</p>
+			))}
+			{  projectsData[6]?.github && projectsData[6].github.map((git, i)=>( 
+				<p><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid class="container-border">
+			{ projectsData[6].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[6].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
+				<a href={projectsData[6].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
 
 ## EOSIO Hackathons 
 
 ### LifeBank
 
-<p align="left">
-	<a href="https://lifebank.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" width="40%"/>
-	</a>
-</p>
-
- Lifebank is an EOSIO-based dapp that helps local communities create a virtuous circle of value exchange between three parties — eligible life donors, community donation centers, and participating local businesses (sponsors).
-
- Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based solutions to solve real-world problems. Lifebank is our entry to the Coding for Change challenge organized by leading blockchain company, Block.one.
-
-- **Website**: [Lifebank](https://lifebank.io/)
-
-- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/lifebank)
-
-#### LifeBank Page
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/LifeBank.png')} width="100%"/>
-</p>
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/LifeBank_2.png')} width="100%"/>
-</p>
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid class="content">
+			<p>Lifebank is an EOSIO-based dapp that helps local communities create a virtuous 
+				circle of value exchange between three parties — eligible life donors, community
+				donation centers, and participating local businesses (sponsors).
+			</p>
+			<p>Lifebank is an initiative of EOS Costa Rica, a company that develops blockchain-based
+				solutions to solve real-world problems. Lifebank is our entry to the Coding for Change
+				challenge organized by leading blockchain company, Block.one.
+			</p>
+			{ projectsData[7].website.map((web, i)=>( 
+				<p><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li>
+				</p>
+			))}
+			{  projectsData[7]?.github && projectsData[7].github.map((git, i)=>( 
+				<p><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid class="container-border">
+			{ projectsData[7].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[7].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
+				<a href={projectsData[7].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
 
 ### gGoods
 
-<p align="left">
-	<a href="https://ggoods.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg" width="40%"/>
-	</a>
-</p>
-
- gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.
-
-- **Website**: [gGoods](https://ggoods.io/)
-
-- **GitHub**: [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/gGoods)
-
-#### gGoods Page
-
-<p align="center">
-	<img src={useBaseUrl('img/OSS_screnshots/gGoods.png')} width="100%"/>
-</p>
-
-* * *
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid class="content">
+			<p>{projectsData[8].description}</p>
+			{ projectsData[8].website.map((web, i)=>( 
+				<p><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li>
+				</p>
+			))}
+			{  projectsData[8]?.github && projectsData[8].github.map((git, i)=>( 
+				<p><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid class="container-border">
+			{ projectsData[8].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[8].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
+				<a href={projectsData[8].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
 
 ## NPM Packages
 
-<div class="table-wrapper" markdown="block">
+<div class="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
-| Components | Standard Theme  | API module | Fastify EOS | 
-|:-------:|:-------:|:-------:|:-------:|
-|    A collection of React Components for EOSIO.    | EOS Costa Rica standard theme allows us to speed up the development of our web apps and at the same time it's available for anyone who will want to use it. |  This project wraps the official eosio/eosjs-api to provide camelcase output. | A plugin that decorates Fastify with an EOS.js instance. |
-|[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/120px-React.svg.png"/>](https://www.npmjs.com/package/@eoscostarica/eoscr-components) | [<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png"/>](https://www.npmjs.com/package/@eoscostarica/eoscr-theme) | [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CamelCase_new.svg/120px-CamelCase_new.svg.png"/>](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api) | [<img src="https://icons-for-free.com/iconfiles/png/64/fastify-1324440156661837332.png"/>](https://www.npmjs.com/package/fastify-eos) | 
+| Packages | Description | 
+| :----------: | :---------: | 
+| [Components](https://www.npmjs.com/package/@eoscostarica/eoscr-components) | A collection of React Components for EOSIO | 
+| [Standard Theme](https://www.npmjs.com/package/@eoscostarica/eoscr-theme)| EOS Costa Rica standard theme allows us to speed up the development of our web apps and at the same time it's available for anyone who will want to use it |
+| [API module](https://www.npmjs.com/package/@eoscostarica/eosjs-camel-api)| This project wraps the official eosio/eosjs-api to provide camelcase output | 
+| [Fastify EOS](https://www.npmjs.com/package/fastify-eos) | A plugin that decorates Fastify with an EOS.js instance | 
 
 </div>
+
 
