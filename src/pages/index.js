@@ -316,9 +316,10 @@ const HomePage = () => {
 
   return (
     <Layout
-      permalink="/"
-      title={siteConfig.title}
-      description={siteConfig.tagline}>
+      title={MetaData.title}
+      description={MetaData.description}
+      image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}>
       <HeroSection></HeroSection>
       <CardsSection></CardsSection>
       <MediumSection></MediumSection>
