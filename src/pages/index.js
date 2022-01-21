@@ -16,7 +16,7 @@ import '../css/homepage.css';
 const MetaData={
   title:"EOS Costa Rica | Developers Guides",
   description:"Documentation for EOS Costa Rica developers.",
-  img:"../static/img/metaImage.png",
+  img:"../static/img/metaImgBlack.png",
   hrefLangPath: "https://guide.eoscostarica.io/"
 }
 
