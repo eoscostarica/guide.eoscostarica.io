@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Card } from '@material-ui/core';
@@ -11,13 +12,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
 import '../css/homepage.css';
-
-const MetaData={
-  title:"",
-  description:"Documentation for EOS Costa Rica developers.",
-  img:"../static/img/metaImgBlack.png",
-  hrefLangPath: "https://guide.eoscostarica.io/"
-}
 
 const lightTheme = makeStyles({
 
