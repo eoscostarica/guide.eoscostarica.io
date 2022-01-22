@@ -9,7 +9,7 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'EOS Costa Rica Developers Guide', // Title for your website.
+  title: 'EOS Costa Rica | Developers Guides', // Title for your website.
   tagline: 'We’d like to welcome you to our collaborative effort '+
            'and induct you on to awesome blockchain technology ' +
            'and all the paradigms that make it possible.',

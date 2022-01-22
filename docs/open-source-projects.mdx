@@ -3,7 +3,7 @@ id: open-source-projects
 title: Open Source Projects
 sidebar_label: Open Source Projects
 ---
-import '../src/css/ossProjects.css';
+
 import { Grid, Box } from '@material-ui/core';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -23,10 +23,6 @@ export const projectsData = [
 		],
 		images: [
     		{image:'img/OSS_screnshots/EOSIO_Network_monitor.PNG', class:'left-screenshot', link:'#screen-eos-1', id:'screen-eos-1'},
-    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_2.PNG', class:'right-screenshot', link:'#screen-eos-2', id:'screen-eos-2'},
-			{image:'img/OSS_screnshots/EOSIO_Network_monitor.PNG', class:'left-screenshot', link:'#screen-eos-1', id:'screen-eos-1'},
-    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_2.PNG', class:'right-screenshot', link:'#screen-eos-2', id:'screen-eos-2'},
-			{image:'img/OSS_screnshots/EOSIO_Network_monitor.PNG', class:'left-screenshot', link:'#screen-eos-1', id:'screen-eos-1'},
     		{image:'img/OSS_screnshots/EOSIO_Network_monitor_2.PNG', class:'right-screenshot', link:'#screen-eos-2', id:'screen-eos-2'}
 		]
 	},
@@ -182,7 +178,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[0].description}</p>
 			{ projectsData[0].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -197,7 +193,7 @@ export const projectsData = [
 				</p>
 			))}
 		</Grid>
-		<Grid class='table-container'>
+		<Grid className='table-container'>
 			<table>
 			<tr>
 			<th>EOS Mainnet</th>
@@ -221,17 +217,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[0].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[0].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[0].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[0].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -243,7 +243,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[1].description}</p>
 			{ projectsData[1].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -260,17 +260,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[1].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[1].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[1].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[1].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -282,7 +286,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>Edenia, also known as <a href='https://eosio.online/'>EOS Costa Rica</a>, 
 				is glad to announce our strategic collaboration with the team of Proton, 
 				a blockchain developed by Metallicus. <a href='https://www.protonchain.com/'>Proton</a> was built to streamline 
@@ -307,17 +311,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[2].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[2].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[2].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[2].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -329,7 +337,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[3].description}</p>
 			{ projectsData[3].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -346,17 +354,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[3].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[3].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[3].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[3].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -368,7 +380,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[4].description}</p>
 			{ projectsData[4].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -385,17 +397,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[4].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[4].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[4].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[4].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -407,7 +423,7 @@ export const projectsData = [
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[5].description}</p>
 			{ projectsData[5].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -424,17 +440,21 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[5].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[5].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[5].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[5].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -523,7 +543,7 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[6].description}</p>
 			{ projectsData[6].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -540,17 +560,21 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[6].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[6].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[6].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[6].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -564,7 +588,7 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>Lifebank is an EOSIO-based dapp that helps local communities create a virtuous 
 				circle of value exchange between three parties — eligible life donors, community
 				donation centers, and participating local businesses (sponsors).
@@ -588,17 +612,21 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[7].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[7].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[7].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[7].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -610,7 +638,7 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[8].description}</p>
 			{ projectsData[8].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -627,17 +655,21 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[8].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[8].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[8].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[8].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}

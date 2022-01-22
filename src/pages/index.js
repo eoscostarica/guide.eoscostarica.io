@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Card } from '@material-ui/core';
@@ -11,13 +12,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
 import '../css/homepage.css';
-
-const MetaData={
-  title:"EOS Costa Rica | Developers Guides",
-  description:"Documentation for EOS Costa Rica developers.",
-  img:"../static/img/metaImgBlack.png",
-  hrefLangPath: "https://guide.eoscostarica.io/"
-}
 
 const lightTheme = makeStyles({
 
@@ -309,12 +303,13 @@ const MediumSection = () => {
 
 const HomePage = () => {
 
+  const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
-      title={MetaData.title}
-      description={MetaData.description}
-      image={MetaData.img}
-      hrefLangPath={MetaData.hrefLangPath}>
+      permalink="/"
+      title={siteConfig.title}
+      description={siteConfig.tagline}>
       <HeroSection/>
       <CardsSection/>
       <MediumSection/>
