@@ -15,12 +15,12 @@ const siteConfig = {
            'and all the paradigms that make it possible.',
   url: 'https://guide.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
+  metadata: [{name: 'twitter:card', content: 'static/img/metaImgBlack.png', itemprop: 'og:image'}],
   //cname: "guide.eoscostarica.io",
   // Used for publishing and more
   projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
-  metadata: [{name: 'twitter:card', content: 'static/img/metaImgBlack.png', itemprop: 'og:image'}],
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     navbar: {
