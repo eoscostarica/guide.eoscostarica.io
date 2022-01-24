@@ -9,18 +9,15 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'EOS Costa Rica | Developers Guides', // Title for your website.
-  tagline: 'We’d like to welcome you to our collaborative effort '+
-           'and induct you on to awesome blockchain technology ' +
-           'and all the paradigms that make it possible.',
-  url: 'https://guide.eoscostarica.io', // Your website URL
+  title: 'EOS Costa Rica | Developers Guides',
+  tagline: 'Documentation for developers of EOS Costa Rica',
+  url: 'https://guide.eoscostarica.io',
   baseUrl: '/', // Base URL for your project */
   //cname: "guide.eoscostarica.io",
   // Used for publishing and more
   projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
-  ogImage: 'img/metaImgBlack.png',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
     image: 'img/metaImgBlack.png',

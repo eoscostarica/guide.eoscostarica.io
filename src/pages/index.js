@@ -307,7 +307,8 @@ const HomePage = () => {
 
   return (
     <Layout
-      permalink="/">
+      permalink="/"
+      description={siteConfig.tagline}>
       <HeroSection/>
       <CardsSection/>
       <MediumSection/>
