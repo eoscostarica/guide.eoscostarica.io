@@ -17,13 +17,12 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   //cname: "guide.eoscostarica.io",
   // Used for publishing and more
-  metadata: [{name: 'twitter:card', content: 'static/img/metaImgBlack.png', itemprop: 'og:image'}],
   projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
+  ogImage: 'img/metaImgBlack.png',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
-    image: 'img/metaImgBlack.png',
     navbar: {
       logo: {
         alt: 'EOS Costa Rica Logo',

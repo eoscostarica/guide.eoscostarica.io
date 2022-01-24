@@ -310,7 +310,7 @@ const HomePage = () => {
       permalink="/"
       title={siteConfig.title}
       description={siteConfig.tagline}
-      metadata={siteConfig.metadata}>
+      ogImage={siteConfig.ogImage}>
       <HeroSection/>
       <CardsSection/>
       <MediumSection/>
