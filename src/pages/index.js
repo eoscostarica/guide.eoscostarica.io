@@ -307,10 +307,7 @@ const HomePage = () => {
 
   return (
     <Layout
-      permalink="/"
-      title={siteConfig.title}
-      description={siteConfig.tagline}
-      ogImage={siteConfig.ogImage}>
+      permalink="/">
       <HeroSection/>
       <CardsSection/>
       <MediumSection/>
