@@ -309,7 +309,8 @@ const HomePage = () => {
     <Layout
       permalink="/"
       title={siteConfig.title}
-      description={siteConfig.tagline}>
+      description={siteConfig.tagline}
+      metadata={siteConfig.metadata}>
       <HeroSection/>
       <CardsSection/>
       <MediumSection/>
