@@ -20,9 +20,9 @@ const siteConfig = {
   projectName: 'guide.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
+  metadata: [{name: 'twitter:card', content: 'static/img/metaImgBlack.png', itemprop: 'og:image'}],
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
   themeConfig: {
-    metadata: [{name: 'twitter:card', content: 'static/img/metaImgBlack.png', itemprop: 'og:image'}],
     navbar: {
       logo: {
         alt: 'EOS Costa Rica Logo',
