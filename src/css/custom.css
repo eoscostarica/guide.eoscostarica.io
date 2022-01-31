@@ -161,3 +161,41 @@ article > div > span.badge.badge--secondary {
 .table-container table td a img {
   width: 50%;
 }
+.logoWizard{
+  width: 10%;
+}
+
+.transition{
+
+  transition: all 0.5s ease;
+}
+
+.transition:start{
+  background-color: black;
+}
+
+.table-nft-marketplaces{
+  text-align: center;
+  margin: 5% 5% 5% 0;
+}
+.table-nft-marketplaces table td{
+  padding: 1%;
+}
+
+.table-nft-marketplaces table td p{
+  font-size: 14px;
+  margin-bottom: 1%;
+  text-align: left;
+}
+
+.table-nft-marketplaces table td a img {
+  width: 80%;
+}
+
+.atomicHubLogo{
+  background-color: #1a1f3d;
+}
+
+.icono{
+  margin: 0%;
+}
