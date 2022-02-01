@@ -48,21 +48,9 @@ const useStyles = makeStyles(() => ({
 const CustomStepper = ({ Content, Steps }) => {
   const classes = useStyles();
   const [activeStep, setActiveStep] = React.useState(0);
-  const [skipped, setSkipped] = React.useState(new Set());
-
-  const isStepOptional = (step) => { step === 1 };
-
-  const isStepSkipped = (step) => { skipped.has(step) };
 
   const handleNext = () => {
-    let newSkipped = skipped;
-    if (isStepSkipped(activeStep)) {
-      newSkipped = new Set(newSkipped.values());
-      newSkipped.delete(activeStep);
-    }
-
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
-    setSkipped(newSkipped);
   };
 
   const handleBack = () => {
