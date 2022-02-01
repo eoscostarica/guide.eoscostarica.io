@@ -35,7 +35,6 @@ module.exports = {
         "eos-learn/ricardian-contracts",
         "eos-learn/blockchain-security",
         "eos-learn/nfts-on-eosio",
-        "eos-learn/how-to-mint",
       ],
     },
     {
@@ -55,6 +54,7 @@ module.exports = {
         "tutorials/hello-world-contract",
         "tutorials/how-to-publish-packages",
         "tutorials/modern-cpp",
+        "tutorials/how-to-mint",
       ],
     },
     {

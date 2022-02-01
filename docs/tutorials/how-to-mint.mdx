@@ -8,7 +8,6 @@ import { Grid, Box, FormItem } from '@material-ui/core';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { CustomStepper } from '../../src/components';
 
-export const atomicHubSteps = ['', '', ''];
 export const atomicHubStepper = [
     {
         instruction: 'Go to wax.atomichub.io & Connect your Wallet, in this case we select Anchor.',
@@ -27,7 +26,6 @@ export const atomicHubStepper = [
     }
 ]
 
-export const areaxSteps = ['', '', ''];
 export const areaxStepper = [
     {
         instruction: 'Go to Areaxnft.com & Connect your Wallet, in this case we select Anchor.',
@@ -46,7 +44,6 @@ export const areaxStepper = [
     }
 ]
 
-export const protonSteps = ['', '', '', '', ''];
 export const protonStepper = [
     {
         instruction: 'Go to Protonmarket.com & Connect your Wallet, in this case we select WebAuth - Mobile wallet.',
@@ -79,15 +76,15 @@ The following instructions are designed to help you on the process of creating a
 
 ## Proton Marketplace  
 
-<CustomStepper Steps={protonSteps} Content={protonStepper}/>
+<CustomStepper Content={protonStepper}/>
 
 ## AreaX Marketplace  
 
-<CustomStepper Steps={areaxSteps} Content={areaxStepper}/>
+<CustomStepper Content={areaxStepper}/>
 
 ## AtomicHub 
 
-<CustomStepper Steps={atomicHubSteps} Content={atomicHubStepper}/>
+<CustomStepper Content={atomicHubStepper}/>
 
 
 

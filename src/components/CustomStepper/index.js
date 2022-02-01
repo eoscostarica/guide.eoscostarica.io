@@ -44,7 +44,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const CustomStepper = ({ Content, Steps }) => {
+const CustomStepper = ({ Content }) => {
   const classes = useStyles();
   const [activeStep, setActiveStep] = useState(0);
 
@@ -63,8 +63,8 @@ const CustomStepper = ({ Content, Steps }) => {
   return (
     <div className={classes.root}>
       <Stepper activeStep={activeStep} alternativeLabel>
-        {Steps.map((label) => (
-            <Step key={label}>
+        {Content.map((step, index) => (
+            <Step key={index}>
               <StepLabel
                 StepIconProps={{
                   classes: {
@@ -74,14 +74,14 @@ const CustomStepper = ({ Content, Steps }) => {
                   }
                 }}
               >
-                {label}
+               { step.title && step.title }
               </StepLabel>
             </Step>
           )
         )}
       </Stepper>
       <div>
-        {activeStep === Steps.length ? (
+        {activeStep === Content.length ? (
           <div className={classes.resetButton}>
             <Button onClick={handleReset} className={classes.button}>
               Reset
@@ -101,7 +101,7 @@ const CustomStepper = ({ Content, Steps }) => {
                 href={Content[activeStep].href}
                 className={classes.button}
               > 
-                {activeStep === Steps.length - 1 ? 'Finish' : 'Next'}
+                {activeStep === Content.length - 1 ? 'Finish' : 'Next'}
               </Button>
               <Button
                 disabled={!activeStep}
