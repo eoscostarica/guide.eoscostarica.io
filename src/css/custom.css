@@ -165,15 +165,6 @@ article > div > span.badge.badge--secondary {
   width: 10%;
 }
 
-.transition{
-
-  transition: all 0.5s ease;
-}
-
-.transition:start{
-  background-color: black;
-}
-
 .table-nft-marketplaces{
   text-align: center;
   margin: 5% 5% 5% 0;
