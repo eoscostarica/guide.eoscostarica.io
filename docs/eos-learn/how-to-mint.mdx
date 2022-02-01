@@ -1,0 +1,95 @@
+---
+id: how-to-mint
+title: How to mint?
+sidebar_label:  How to mint?
+---
+
+import { Grid, Box, FormItem } from '@material-ui/core';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import { CustomStepper } from '../../src/components';
+
+export const atomicHubSteps = ['', '', ''];
+export const atomicHubStepper = [
+    {
+        instruction: 'Go to wax.atomichub.io & Connect your Wallet, in this case we select Anchor.',
+        imageSrc: 'img/how-to-mint/wax_1.png',
+        href: '#atomichub'
+    },
+    {
+        instruction: "Click on Create new collection",
+        imageSrc: 'img/how-to-mint/wax_2.png',
+        href: '#atomichub'
+    },
+    {
+        instruction: 'Fill the spaces: Collection name, Display name and description, and set your fee (Royalty).',
+        imageSrc: 'img/how-to-mint/wax_3.png',
+        href: '#atomichub'
+    }
+]
+
+export const areaxSteps = ['', '', ''];
+export const areaxStepper = [
+    {
+        instruction: 'Go to Areaxnft.com & Connect your Wallet, in this case we select Anchor.',
+        imageSrc: 'img/how-to-mint/telos_1.png',
+        href: '#areax-marketplace'
+    },
+    {
+        instruction: "Once you've connected your Wallet you are going to click on Create NFT. Select the type of set you need to upload. The quantity of $TLOS you'll need yo mint depends on the number of NFTs you want to mint.",
+        imageSrc: 'img/how-to-mint/telos_2.png',
+        href: '#areax-marketplace'
+    },
+    {
+        instruction: 'In this section, as you can see, you have to set informatio to preview the NFT: Name, Asset type, IPFS URLs. Then click on Create NFT.',
+        imageSrc: 'img/how-to-mint/telos_3.png',
+        href: '#areax-marketplace'
+    }
+]
+
+export const protonSteps = ['', '', '', '', ''];
+export const protonStepper = [
+    {
+        instruction: 'Go to Protonmarket.com & Connect your Wallet, in this case we select WebAuth - Mobile wallet.',
+        imageSrc: 'img/how-to-mint/proton_1.png',
+        href: '#proton-marketplace'
+    },
+    {
+        instruction: "Once you've connected your Wallet you are going to click on Create and fill the blankets of the preview.",
+        imageSrc: 'img/how-to-mint/proton_2.png',
+        href: '#proton-marketplace'
+    },
+    {
+        instruction: 'You have to set the cryptoart file and the information of the NFT: Name, description, number of assetn and number you want to mint at the beginning.',
+        imageSrc: 'img/how-to-mint/proton_3.png',
+        href: '#proton-marketplace'
+    },
+    {
+        instruction: 'When you finished, click on Create NFT. You shall need yo have at least 1 $XUSDC for Mint your Non-Fungible. Then sign the confirmation.',
+        imageSrc: 'img/how-to-mint/proton_4.png',
+        href: '#proton-marketplace'
+    },
+    {
+        instruction: 'Once you get your NFT mint, you can view it in My items. You have to click on Mark for Sale to list the price for the asset.',
+        imageSrc: 'img/how-to-mint/proton_5.png',
+        href: '#proton-marketplace'
+    }
+]
+
+The following instructions are designed to help you on the process of creating an NFT, the mint. You are going to see these ones, based on the market places of EOS Sisterchains:
+
+## Proton Marketplace  
+
+<CustomStepper Steps={protonSteps} Content={protonStepper}/>
+
+## AreaX Marketplace  
+
+<CustomStepper Steps={areaxSteps} Content={areaxStepper}/>
+
+## AtomicHub 
+
+<CustomStepper Steps={atomicHubSteps} Content={atomicHubStepper}/>
+
+
+
+
+

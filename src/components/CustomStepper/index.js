@@ -100,7 +100,7 @@ const CustomStepper = ({ Content }) => {
                 onClick={handleNext}
                 href={Content[activeStep].href}
                 className={classes.button}
-              > 
+              >
                 {activeStep === Content.length - 1 ? 'Finish' : 'Next'}
               </Button>
               <Button
