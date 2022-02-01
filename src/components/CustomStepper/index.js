@@ -32,7 +32,7 @@ const useStyles = makeStyles(() => ({
     }
   },
   instructions: {
-    margin: '2% 5% 2%',
+    margin: '1% 5% 1%',
   },
   stepIconRoot: {
     color: 'rgb(192 192 192)',
@@ -47,67 +47,37 @@ const useStyles = makeStyles(() => ({
 
 const CustomStepper = ({ Content, Steps }) => {
   const classes = useStyles();
-  const [state, setState] = useState({
-    activeStep: 0,
-    skipped: new Set()
-  })
+  const [activeStep, setActiveStep] = React.useState(0);
+  const [skipped, setSkipped] = React.useState(new Set());
 
-  const isStepOptional = (step) => {
-    return step === 1
-  }
+  const isStepOptional = (step) => { step === 1 };
+
+  const isStepSkipped = (step) => { skipped.has(step) };
 
   const handleNext = () => {
-    const { activeStep } = state
-    let { skipped } = state
-
+    let newSkipped = skipped;
     if (isStepSkipped(activeStep)) {
-      skipped = new Set(skipped.values())
-      skipped.delete(activeStep)
+      newSkipped = new Set(newSkipped.values());
+      newSkipped.delete(activeStep);
     }
 
-    setState({
-      activeStep: activeStep + 1,
-      skipped
-    })
-  }
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    setSkipped(newSkipped);
+  };
 
   const handleBack = () => {
-    const { activeStep } = state
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
 
-    setState({
-      ...state,
-      activeStep: activeStep - 1
-    })
-  }
-
-   const handleReset = () => {
-    setState({
-      ...state,
-      activeStep: 0
-    })
-  }
-
-  const isStepSkipped = (step) => {
-    return state.skipped.has(step)
-  }
-
-  const steps = Steps
-  const { activeStep } = state
+  const handleReset = () => {
+    setActiveStep(0);
+  };
 
   return (
     <div className={classes.root}>
       <Stepper activeStep={activeStep} alternativeLabel>
-        {steps.map((label, index) => {
-          const props = {}
-          const labelProps = {}
-          if (isStepOptional(index)) {
-            labelProps.optional = <Typography variant="caption"></Typography>
-          }
-          if (isStepSkipped(index)) {
-            props.completed = false
-          }
-          return (
-            <Step key={label} {...props}>
+        {Steps.map((label) => (
+            <Step key={label}>
               <StepLabel
                 StepIconProps={{
                   classes: {
@@ -121,10 +91,10 @@ const CustomStepper = ({ Content, Steps }) => {
               </StepLabel>
             </Step>
           )
-        })}
+        )}
       </Stepper>
       <div>
-        {activeStep === steps.length ? (
+        {activeStep === Steps.length ? (
           <div className={classes.resetButton}>
             <Button onClick={handleReset} className={classes.button}>
               Reset
@@ -144,10 +114,10 @@ const CustomStepper = ({ Content, Steps }) => {
                 href={Content[activeStep].href}
                 className={classes.button}
               > 
-                {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
+                {activeStep === Steps.length - 1 ? 'Finish' : 'Next'}
               </Button>
               <Button
-                disabled={activeStep === 0}
+                disabled={!activeStep}
                 onClick={handleBack}
                 className={classes.button}
               >
