@@ -54,6 +54,7 @@ module.exports = {
         "tutorials/hello-world-contract",
         "tutorials/how-to-publish-packages",
         "tutorials/modern-cpp",
+        "tutorials/how-to-mint",
       ],
     },
     {
