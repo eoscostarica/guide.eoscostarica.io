@@ -23,9 +23,9 @@ This grooming ceremony takes place once a week for 30 minutes, where we develop 
 
 ## Flight handbook
 
-Agile, light and unceremonious frame.
+Agile, light and unceremonious frame
 to offer features in an efficient and continuous manner,
-it is a way to Align, plan and reflect on the work, it is something that must be carried out in the way that makes the most sense for the specific team; and does not conflict with the use practices of Flights.
+it is a way to align, plan and reflect on the work, it is something that must be carried out in the way that makes the most sense for the specific team; and does not conflict with the use practices of Flights.
 For start-ups, and teams that typically work under conditions of extreme uncertainty, the ongoing approach will be far more beneficial.
 
 ## Flight definition 
