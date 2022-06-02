@@ -1,14 +1,15 @@
 ---
 id: flight-methology
-title: Flight Metholog
-sidebar_label: Flight Metholog
+title: Flight Methodology
+sidebar_label: Flight Methodology
 ---
 
-## Edenia agile metology!
+## Edenia agile methodology!
 
 
 We at Edenia are a company that uses agile methodologies that can be adapted to our flexible way of working.
 Since we are not rigid when it comes to change and uncertainty, so we use a hybrid of different agile methodologies applied and tropicalized to our needs in processes.
+we also like to be innovative not just with our software solutions but with our processes , constantly evolving and improving the way our team is organized to optimize how we deliver results.
 
 ## Ceremonies:
 
@@ -44,27 +45,27 @@ However, nothing prevents you from adding unrelated tasks to a flight if there i
 
 - **Pilot:** It can be any person from the team, this person is in charge of delivering the flight with all the requirements and on time.
 
-- **Co- Pilot:** As co-pilot, he must give support to the pilot, if necessary, and between the two of them, look for solutions if they encounter any turbulence.
+- **Co-Pilot:** As co-pilot, he must give support to the pilot, if necessary, and between the two of them, look for solutions if they encounter any turbulence.
 
 - **Staff:** This member can be anyone on the team working on a task on the flight.
 
-## Some recomendation about flights methodoly are:
+## Some recomendations about flights methodology are:
 
 1. **Every flight must have a pilot**
 2. **A developer can only be a pilot of one flight at a time (but can be a co-pilot or staff)**
 3. **Developers can be staff on different flights at the same time**
 
-## Flyght status 
+## Flight status 
 
-- **On Deck:** When we have an idea for a project we integrate a new flight to the document.
+- **On Deck:** Flight is queued up for takeoff and staff can begin preparing.
 - **At Gate:** Clear idea about the flight, what must be done to add value to the project.
 - **Boarding:** Indicates that as soon as someone finishes a flight, it will be a high priority to make the new flight.
 - **Flying:** When you are already working on the flight and you have a pilot, co-pilot and staff.
 - **Delayed:** the flight has external or internal complications, it will not be able to land on time.
-- **Landed:** this means the flight task was completed and the result was satisfactory
+- **Landed:** this means the flight objetive was completed and flight has reached its destination
 
 ### Type of weather:
 
-- **Cear:** the flight is without internal or external problems and is expected to be completed in the estimated time.
+- **Clear:** the flight is without internal or external problems and is expected to be completed in the estimated time.
 - **Cloudy:** It is when you have a small problem that you need help and it does not affect the landing time.
 - **Turbulence:** Problems in the external or internal flight, and it is not possible to move forward, and this will affect the arrival time of the flight.
