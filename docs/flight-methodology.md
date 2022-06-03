@@ -58,11 +58,11 @@ However, nothing prevents you from adding unrelated tasks to a flight if there i
 ## Flight status 
 
 - **On Deck:** Flight is queued up for takeoff and staff can begin preparing.
-- **At Gate:** Clear idea about the flight, what must be done to add value to the project.
+- **At Gate:** Clear idea about the flight, and what must be done to add value to the project.
 - **Boarding:** Indicates that as soon as someone finishes a flight, it will be a high priority to make the new flight.
 - **Flying:** When you are already working on the flight and you have a pilot, co-pilot and staff.
-- **Delayed:** the flight has external or internal complications, it will not be able to land on time.
-- **Landed:** this means the flight objetive was completed and flight has reached its destination
+- **Delayed:** If the flight has external or internal complications, it will not be able to land on time.
+- **Landed:** this means the flight objective was completed, and flight has reached its destination
 
 ### Type of weather:
 
