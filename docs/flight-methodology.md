@@ -15,7 +15,7 @@ we also like to be innovative not just with our software solutions but with our 
 
 ### Daily meeting 
 
-Daily meeting is 30 min, each pilot in charge of flights will give us their weather report and the progress obtained.
+The daily meeting is 30 min, and each pilot in charge of flights will give us their weather report and the progress obtained.
 the pilot will indicate if they have any problems or need any help to land the flight on time.
 
 ### Grooming
