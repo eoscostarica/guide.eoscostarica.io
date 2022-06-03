@@ -32,7 +32,7 @@ For start-ups, and teams that typically work under conditions of extreme uncerta
 ## Flight definition 
 
 You can see a flight as a fusion between a sprint and an epic.
-It is a group of related tasks and has its own task board.
+It is a group of related tasks and has its task board.
 However, there are some key differences.
 When you book a flight, you add tasks to it.
 Tasks can be anything that needs to be done, but they are not restricted to the format of a "User Story" as we know it from Scrum.
