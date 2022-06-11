@@ -6,7 +6,6 @@ sidebar_label: Flight Methodology
 
 ## Agile Methodologies at Edenia
 
-
 At Edenia we strive to be innovative not just with our software solutions but with our processes as well, we are constantly evolving and improving the way our team is organized to better our work environment and optimize how we deliver results
 
 We are a flexible team that applies agile methodologies that should be adapted to each project or customer's preferences. We are familiar with a variety of different agile methodologies and use a hybrid approach that has been customized to our needs.
