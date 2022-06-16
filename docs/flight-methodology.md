@@ -60,7 +60,7 @@ However, nothing prevents you from adding unrelated tasks to a flight if there i
 - **Delayed:** If the flight has external or internal complications, it will not be able to land on time.
 - **Landed:** this means the flight objective was completed, and flight has reached its destination
 
-### Weather Conditions
+## Weather Conditions
 
 - **Clear:** the flight is without internal or external problems and is expected to be completed in the estimated time.
 - **Cloudy:** It is when you have a small problem that you need help and it does not affect the landing time.
