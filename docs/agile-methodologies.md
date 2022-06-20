@@ -5,7 +5,7 @@ sidebar_label: Agile Methodologies
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## What are agile methodologies?
+## What are Agile Methodologies ?
 
 These are work methodologies that allow adaptation to the circumstances of the projects and reduce the documentation processes, they are generally used in projects that do not have a defined scope with certainty, which causes them to be very prone to change, because in these methodologies deliveries of functional products in a short time (2 to 4 weeks) allow the process of changes and correction of errors to be fast and not have a very high cost for the project in general.
 
@@ -24,7 +24,7 @@ Modern Agile methods are defined by four guiding principles:
 </div>
 
 
-## Types of agile methodologies?
+## Types of Agile Methodologies?
 
 Some of the best known and used agile methodologies in the industry are:
 
@@ -40,7 +40,7 @@ It consists of the elaboration of a table or diagram in which three columns of t
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/jf0tlbt9lx0" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### Extreme programming (XP)
+### Extreme Programming (XP)
 
 It is a methodology based on a set of rules and good practices for software development in highly changing environments with imprecise requirements, therefore, it is focused on continuous feedback between the development team and the client. XP is based on simplicity and aims at customer satisfaction.
 
@@ -55,7 +55,7 @@ The purpose of a user story is to articulate how a piece of work will deliver a 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### How to write User Stories?
+#### How to Write User Stories?
 
 - **Definition of Done:** The story is generally “done” when the user can complete the outlined task.
 - **Outline subtasks or tasks:** Decide which specific steps need to be completed and who is responsible for each of them.
@@ -81,7 +81,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/2A9rkiIcnVI" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### Who is involved?
+#### Who is Involved?
 
 - **Product Owner:** Identifies the candidate product backlog items and their relative priorities, as well as proposes a sprint goal.
 
@@ -150,7 +150,7 @@ An agile retrospective forces the entire team to pause and reflect on what trans
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/MiaZhJyYUj0" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### How often should you hold retrospectives?
+#### How Often Should You Hold Retrospectives?
 
 Retrospectives can be held more frequently, including for minor releases, each sprint or even at daily or weekly standups.
 
