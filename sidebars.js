@@ -65,6 +65,7 @@ module.exports = {
         "tools/glossary",
         "tools/command-line",
         "tools/nodeos-command-line-reference",
+        "tools/sample-nodeos-configs",
         "tools/block-explorers",
         "tools/eosio-sdk-libraries",
         "tools/readme-file-template",
