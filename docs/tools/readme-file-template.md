@@ -6,7 +6,7 @@ sidebar_label: Readme File Template
 
 README is a file that brings a little description about the whole project, which contains an introduction and explanation of this one. The kind of information that can be describe here is information requeried to understand the project and its structure or purpose. Then, we will give a template to create a README file for a new project.
 
-### To copy this readme template as markdown source code [click here](./readme-file-template-source-code.md)
+### To copy this readme template as markdown source code [click here](./readme-file-source-code-template)
 
 ***
 
