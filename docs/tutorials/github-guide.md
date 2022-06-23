@@ -5,7 +5,7 @@ sidebar_label: GitHub Guide
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[GitHub](https://docs.github.com/en/free-pro-team@latest/github) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects. [Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/).
+[GitHub](https://docs.github.com/en) is a project management system in the cloud that allows developers to store and have code version control. This platform allows you to work collaboratively with other people around the world, track jobs, and manage projects. [Learn more about GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/).
 
 For EOS Costa Rica, it is of utmost importance that our collaborators familiarize themselves with this tool, which is why we offer below a basic guide to get started in the world of GitHub.
 

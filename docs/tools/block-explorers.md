@@ -44,7 +44,7 @@ https://explorer.eosdac.io
 
 ## Cypherblock
 
-https://www.cypherblock.io/
+https://www.blockcypher.com/
 
 ## EOS Radar
 

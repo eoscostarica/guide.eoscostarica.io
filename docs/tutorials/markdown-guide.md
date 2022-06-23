@@ -154,7 +154,7 @@ another Text
 Text  
 Another Text
 
-### **Comments **
+### **Comments**
 
 ```markdown title="Syntax"
 [comment]: <> (This is a comment, it will not be included)
