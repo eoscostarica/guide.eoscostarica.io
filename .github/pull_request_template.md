@@ -1,8 +1,8 @@
-### What does this PR do ?
+### Title
 
-- Resolves # {GH_ISSUE}
--
--
+### What does this PR do?
+
+- resolves #issueNumber
 
 ### Steps to test
 1.
