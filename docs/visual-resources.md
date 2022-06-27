@@ -32,11 +32,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png">
-                Obtener recurso
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -63,11 +63,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png">
-                Obtener recurso
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-vertical-transparent-white.png">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -98,11 +98,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png">
-                Get resource
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -129,11 +129,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png">
-                Get resource
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -167,11 +167,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png">
-                Get resource
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -208,11 +208,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
-                Get resource
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
@@ -235,11 +235,11 @@ sidebar_label: Visual Resources
 </div>
 <div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
-        <p>
-            <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
-                Get resource
-            </a>
-        </p>
+      <p>
+          <a href="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg">
+              Get resource
+          </a>
+      </p>
     </div>
     <div style={{ float: "left", width: "50%", paddingTop: 5 }}>
       <p>
