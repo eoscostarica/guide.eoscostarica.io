@@ -30,9 +30,6 @@ We have our own `Material Design` Library to facilitate the development of new a
 
 You can check our portfolio at `Zeplin` for more details of our components.
 
-- [Zeplin Project](https://zpl.io/brZKD4L)
-- [Zeplin Scene](https://scene.zeplin.io/project/5ea8f7f46cfde425751bc5ec)
-
 ### Material UI Theme NPM Package
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-theme

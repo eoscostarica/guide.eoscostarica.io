@@ -344,7 +344,7 @@ const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <Layout permalink="/" description={siteConfig.tagline}>
+    <Layout permalink="" description={siteConfig.tagline}>
       <HeroSection />
       <CardsSection />
       <MediumSection />

@@ -36,9 +36,6 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 
 - [EOS Developers](https://t.me/joinchat/DQRZHEPktgcLlyfbl-bDuQ)
 - [EOS Design](https://t.me/EOSdesign)
-- [EOS Dev en Español](https://t.me/eosDevEs)
-- [EOS Block Pros](https://t.me/EOSPros)
-- [Bancor Developers](https://t.me/BancorDevelopers)
 - [EOS Game Developers](https://t.me/EosGameDevelopers)
 - [EOS Dev en Español](https://t.me/eosDevEs)
 - [EOS Block Pros](https://t.me/EOSPros)
