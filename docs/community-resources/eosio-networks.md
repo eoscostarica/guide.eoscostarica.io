@@ -18,10 +18,6 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [BOSCore](https://boscore.io/): A high-speed blockchain and low finality for business and enterprises looking to implement parallel computing and IBC.
-
-* * *
-
 - [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO.
 
 <figure class="video_container">

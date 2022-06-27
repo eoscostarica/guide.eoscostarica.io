@@ -41,11 +41,3 @@ https://park.io/
 ## EOSDAC Explorer
 
 https://explorer.eosdac.io
-
-## Cypherblock
-
-https://www.blockcypher.com/
-
-## EOS Radar
-
-https://www.eos-radar.com/

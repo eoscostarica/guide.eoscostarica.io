@@ -99,11 +99,6 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
   </iframe>
 </figure>
 
-## Infrastructure as Code in EOS Costa Rica
-
-* [Openstack Documentation](https://github.com/edenia/openstack-docs)
-* [Kubernetes Documentation](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
-
 ## Introduction to Kubernetes and Docker
 
 ### **Containers 101**
