@@ -128,12 +128,10 @@ const siteConfig = {
     //Algolia integration
     algolia: {
       apiKey: "b385fd20b79dbd8086bb917c038de56e",
+      appId: "BH4D9OD16A",
       indexName: "eoscostarica",
       placeholder: "Search",
       algoliaOptions: {}, // Optional, if provided by Algolia
-    },
-    googleAnalytics: {
-      trackingID: "UA-173987-66",
     },
   },
   presets: [
@@ -152,6 +150,9 @@ const siteConfig = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-173987-66",
         },
       },
     ],
