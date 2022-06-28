@@ -13,7 +13,6 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 - [EOS Education](https://t.me/EOSEDU)
 - [EOSIO en Español](https://t.me/eosEs)
 - [EOS London](https://t.me/EOSLondon)
-- [EOS Nairobi](https://t.me/eosnairobi)
 - [Jungle Testnet](https://t.me/jungletestnet)
 - [EOS Nairobi](https://t.me/eosnairobike)
 - [eosDublin](https://t.me/eosdublin)
@@ -35,19 +34,18 @@ Telegram channels are an ideal tool to spread messages to large numbers of peopl
 
 - [EOS Developers](https://t.me/joinchat/DQRZHEPktgcLlyfbl-bDuQ)
 - [EOS Design](https://t.me/EOSdesign)
+- [EOS Dev en Español](https://t.me/eosDevEs)
 - [EOS Game Developers](https://t.me/EosGameDevelopers)
-- [EOS Block Pros](https://t.me/EOSBlockPros)
 - [Bancor Developers](https://t.me/BancorDevelopers)
 - [EOS Kylin Testnet](https://t.me/cryptokylin1en)
 - [EOS Mechanics](https://t.me/EOSMechanics)
-- [DAPP Network Devs](https://t.me/dappnetworkdevs)
 - [EOS Infra](https://t.me/eosinfra)
 - [EOS Ram](https://t.me/eosram)
 - [EOS Hackathon](https://t.me/EOSHackathonFriends)
 
-## Networks We Participate
+## Other Networks we Participate In
+
 - [Bitcoin Libre](https://t.me/bitcoinlibrecomunidad)
 - [Proton](https://t.me/protonxpr)
-- [Wax](https://t.me/wax_io)
 - [Telos](https://t.me/HelloTelos)
-- [Lacchain](https://t.me/lacchaineosio)
+- [Wax](https://t.me/wax_io)
