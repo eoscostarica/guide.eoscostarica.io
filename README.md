@@ -1,137 +1,154 @@
-# EOS COSTA RICA DEVELOPER GUIDES
-![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
+# EOSCR Boilerplate
 
-EOS Costa Rica Developers Documentation Site.
+[![N|Solid](https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png)](https://eoscostarica.io/)
 
-![Guide front page](static/img/guide-page.png)
+![](https://img.shields.io/github/license/eoscostarica/full-stack-boilerplate) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/full-stack-boilerplate?style=social)
 
-## About the Project
+A highly scalable skeleton with best practices, fullstack monorepo containing our front end and backend boilerplates.
 
-In this site you will find the resources collected in the day-to-day life of EOS Costa Rica collaborators. Feel free to collaborate, comment and suggest changes / ideas to improve the site.
+- [EOSCR Boilerplate](#eoscr-boilerplate)
+- [Features](#features)
+- [Installation](#installation)
+  - [Before to Start](#before-to-start)
+  - [First Time](#first-time)
+  - [Quick Start](#quick-start)
+- [File Structure](#file-structure)
+- [Technical Documentation](#technical-documentation)
+  - [Infrastructure Diagram](#infrastructure-diagram)
+  - [Technologies Specification](#technologies-specification)
+    - [Kubernetes Cluster](#kubernetes-cluster)
+    - [Web Application](#web-application)
+    - [Backend](#backend)
+      - [Hasura GraphQL Server](#hasura-graphql-server)
+      - [Hapi REST Server](#hapi-rest-server)
+    - [EOSIO Blockchain Technology Integration](#eosio-blockchain-technology-integration)
+  - [About EOS Costa Rica](#about-eos-costa-rica)
 
-## Table of Contents
+# Features!
 
-1. About The Project
-1. Content Table
-1. Project Purpose
-1. Version
-1. Tech Stack
-1. Development Environment
-1. File Structure
-1. License
-1. Contributing
-1. Contributors
-1. About EOS Costa Rica
+This boilerplate features all the latest technologies and practices in the industry.
 
-## Project Purpose
+- Hapi
+- Hasura
+- React
+- Kubernetes
+- EOSIO
 
-This project is meant to serve as a tool for assisting with new developer on-boarding. Initially created by a group of university students to facilitate getting up to speed with other team members and contribute to open source projects. It's main purpose is to provide guidance to new team members and accelerate becoming familiar with processes and the culture at EOS Costa Rica.
+# Installation
 
-## Tech Stack
-- React.js - React 16✨, React Router 5.
-- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers.
-- Core - React components for faster and easier web development.
-- Lint - ESlint.
-- Styles - Material-UI Theme (customizable).
-- Docusaurus - Open source tool to build, implement and maintain web documentation.
+## Before to Start
 
-### Getting Started
+Some things you need before getting started:
 
-Give the needed instruction to run the project locally, for example:
+- [git](https://git-scm.com/)
+- [node.js](https://nodejs.org/es/)
+- [docker](https://www.docker.com/)
+- [docker-compose](https://docs.docker.com/compose/)
 
-#### **Prerequisites**
+## First Time
 
-- `yarn`
-- `git`
-- `node.js`
+Copy the `.env.example` then update the environment variables according to your needs.
 
-#### **Installation**
-
-1. Clone the repository
-
-    `
-    git clone https://github.com/eoscostarica/guide.eoscostarica.io.git
-    `
-
-1. Move to the appropriate directory
-
-    `
-    cd guide.eoscostarica.io.git
-    `
-
-1. Install yarn packages
-
-    `
-    yarn
-    `
-
-1. Run the project
-
-    `
-    yarn start
-    `
-
-
-## File Structure
-```sh
-guide.eoscostarica.io/
-├── .github ...................... Version management system
-│ ├── workflows .................. Work flow
-│ | └── nodejs.yml 
-│ └── ISSUE_TEMPLATE.md .......... Templates for requests or reporting problems
-│   ├── bug_report.md 
-│   └── feature_request.md
-├── docs ......................... Markdown files
-├── src .......................... React custom components  
-│ ├── css ........................ Style sheets
-│ | ├── custom.css
-│ | └── homepage.css
-│ └── pages ...................... Components that form the main structure of the website
-│ 	├── styles.module.css
-│   ├── index.js
-│   └── Footer
-├── static ....................... Static directory
-│ ├── img
-│ └── CNAME
-├── .all-contributorsrc .......... Contributors Information
-├── .gitignore ................... Determine which files or directories should not be uploaded to Git
-├── docusaurus.config.js ......... Docusaurus Configuration
-├── package.json ................. History of installed packages and dependency optimization
-├── sidebar.js ................... Specify the order of the documents in the side navigation
-├── yarn.lock .................... Dependency version history
-└── README.md .................... Documentation of guide.eoscostarica.io
+```
+cp .env.example .env
 ```
 
-## License
+## Quick Start
 
-MIT © [EOS Costa Rica](https://eoscostarica.io)
+1.  Clone this repo using `git clone --depth=1 https://github.com/eoscostarica/full-stack-boilerplate.git <YOUR_PROJECT_NAME>`.
+2.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
+3.  Run `make run` in order to start the project using docker compose.
 
-## Contributing
+At this point you can navigate to `http://localhost:3000`.
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+# File Structure
 
-If you want to make a contribution, please follow the next steps:
+Within the download you'll find the following directories and files:
 
-1. Fork the Project
-1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-1. Add your Changes to Commit (`git add <fileName>`)
-1. Commit your Changes (`git commit -m '<type>(<scope>): <subject>'`)
-1. Push to the Branch (`git push origin feature/AmazingFeature`)
-1. Open a Pull Request
+```
+├── docs
+│   └── img
+├── hapi
+│   └── src
+│       ├── config
+│       ├── routes
+│       ├── services
+│       └── utils
+├── hasura
+│   ├── metadata
+│   ├── migrations
+│   └── seeds
+├── kubernetes
+├── utils
+├── wallet
+│   └── config
+└── webapp
+    ├── public
+    └── src
+        ├── components
+        │   ├── Footer
+        │   ├── Header
+        │   ├── Loader
+        │   ├── Message
+        │   ├── PageTitle
+        │   └── Sidebar
+        ├── config
+        ├── context
+        ├── gql
+        ├── language
+        ├── layouts
+        │   └── Dashboard
+        ├── routes
+        │   ├── About
+        │   ├── Help
+        │   ├── Home
+        │   └── Route404
+        ├── theme
+        └── utils
+```
 
-Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+# Technical Documentation
 
-If you find a bug, please report big and small bugs by [opening an issue](https://github.com/eoscostarica/guide.eoscostarica.io/issues/new/choose).
+## Infrastructure Diagram
+
+<p align="center">
+  <img src="docs/img/infraNew.png" />
+</p>
+
+## Technologies Specification
+
+### Kubernetes Cluster
+
+At EOS Costa Rica, we build software taking into consideration the high availability of the services that can integrate it. For this, we use [Kubernetes](https://kubernetes.io/), which allows isolating modules to reduce the risk of the system collapsing. In the image above, you can take a look at our representation of the architecture we consider to be more suitable for our purposes.
+
+### Web Application
+
+This FullStack Template uses [React.js](https://reactjs.org) as a Frontend Library which together with other tools like [Apollo Client](https://www.apollographql.com/docs/react/), [GraphQL](https://graphql.org/), and [Material UI](https://material-ui.com/) brings a robust solution for building Single Page Applications out of the box.
+
+### Backend
+
+#### Hasura GraphQL Server
+
+[Hasura](https://hasura.io/) technology maps a [PostgreSQL](https://www.postgresql.org/) database and provides a reliable and easy-to-use API. This allows us to focus on critical features of our projects, delegating mechanic CRUD (Create, Read, Update, Delete) operations.
+Hasura also enables custom REST handling capabilities with the possibility to integrate a custom REST server, that way we can extend the base CRUD functionalities and build custom business logic.
+
+#### Hapi REST Server
+
+We need to handle REST custom requests coming from the Hasura GraphQL server. For this, we use [hapi.dev](https://hapi.dev/), which is a simple and easy-to-use backend framework.
+
+### EOSIO Blockchain Technology Integration
+
+As a company that delivers EOSIO blockchain-based solutions, we build a template that contains EOSIO integration, specifically [eosjs](https://github.com/EOSIO/eosjs). This allows us to iterate quickly over the more challenging features of our projects.
 
 ## About EOS Costa Rica
 
 <p align="center">
-	<a href="https://eoscostarica.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
-		width="400px" >
+	<a href="https://eoscostarica.io">
+		<img src="https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png" width="300">
 	</a>
 </p>
+<br/>
 
-EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
+EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides a stable and secure infrastructure for EOSIO blockchains. We support open-source software for our community while offering enterprise solutions and custom smart contract development for our clients.
 
-[eoscostarica.io](https://eoscostarica.io/)
+[eoscostarica.io](https://eoscostarica.io)
