@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react'
 import clsx from 'clsx';
 
 import Link from '@docusaurus/Link';
-import useThemeContext from '@theme/hooks/useThemeContext';
+import { useThemeConfig } from '@docusaurus/theme-common';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -41,7 +41,7 @@ const FooterLogo = ({url, alt}) => (
 );
 
 function Footer() {
-  const {isDarkTheme} = useThemeContext();
+  const {isDarkTheme} = useThemeConfig();
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   const {themeConfig = {}} = siteConfig;

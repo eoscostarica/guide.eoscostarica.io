@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import useThemeContext from "@theme/hooks/useThemeContext";
+import { useThemeConfig } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Grid } from "@material-ui/core";
 import { Button } from "@material-ui/core";
@@ -122,7 +122,7 @@ const HeroSection = () => {
     "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/heroe.png",
   ];
   const background = images[Math.floor(Math.random() * images.length)];
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
+  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
   let classes = null;
 
   if (!isDarkTheme) {
@@ -159,7 +159,7 @@ const HeroSection = () => {
 };
 
 const CustomCard = (props) => {
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
+  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
   let classes = null;
 
   if (!isDarkTheme) {
@@ -263,7 +263,7 @@ const CardsSection = () => {
 };
 
 const CustomArticle = (props) => {
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
+  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
   let classes = null;
 
   if (!isDarkTheme) {
@@ -344,7 +344,7 @@ const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <Layout permalink="" description={siteConfig.tagline}>
+    <Layout permalink="/" description={siteConfig.tagline}>
       <HeroSection />
       <CardsSection />
       <MediumSection />
