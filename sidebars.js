@@ -36,6 +36,7 @@ module.exports = {
         "eos-learn/ricardian-contracts",
         "eos-learn/blockchain-security",
         "eos-learn/nfts-on-eosio",
+        "eos-learn/migration-to-mandel"
       ],
     },
     {
