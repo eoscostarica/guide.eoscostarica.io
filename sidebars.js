@@ -17,6 +17,7 @@ module.exports = {
         "visual-resources",
         "social-media-guidelines",
         "devops",
+        "interplanetary-file-system",
       ],
     },
     {
