@@ -181,7 +181,93 @@ export const projectsData = [
 			{image:'/img/OSS_screnshots/ggoods_3.png', class:'left-screenshot', link:'#screen-ggoods-3', id:'screen-ggoods-3'},
 			{image:'/img/OSS_screnshots/ggoods_4.png', class:'right-screenshot', link:'#screen-ggoods-4', id:'screen-ggoods-4'}
 		]
-	}
+	},
+	{
+		name: 'MyvoteEOS Proxy Website',
+		description : 'The EOS based proxy facilitates the transition into a truly democratic based chain that is free from Pareto control by voting for BP’s that do not engage with direct vote rebate.',
+		href: '#myvoteeos',
+		website: [
+			{ title: 'Sitio Web', link: 'https://myvoteeos.com/home', name: 'MyvoteEOS' }
+		],
+		github: [
+			{link: 'https://github.com/eoscostarica/MyvoteEOS-proxy', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://raw.githubusercontent.com/eoscostarica/MyvoteEOS-proxy/master/docs/my-vote-eos-logo.png', link:'https://myvoteeos.com/home'}
+		],
+		images: [
+			{image:'/img/OSS_screnshots/MyvoteEOS.png', class:'left-screenshot', link:'#screen-MyvoteEOS-1', id:'screen-MyvoteEOS-1'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_2.png', class:'right-screenshot', link:'#screen-MyvoteEOS-2', id:'screen-MyvoteEOS-2'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_3.png', class:'left-screenshot', link:'#screen-MyvoteEOS-3', id:'screen-MyvoteEOS-3'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_4.png', class:'right-screenshot', link:'#screen-MyvoteEOS-4', id:'screen-MyvoteEOS-4'}
+		]
+	},  
+	{
+		name: 'Eden Smart Contracts',
+		description : 'Updates and Maintenance to Eden Community Web App and Smart Contracts.',
+		href: '#eden-smart-contracts',
+		website: [
+			{ title: 'Sitio Web', link: 'https://eden-dev.vercel.app/', name: 'Eden Smart Contracts' }
+		],
+		github: [
+			{link: 'https://github.com/edenia/Eden', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://raw.githubusercontent.com/edenia/Eden/master/packages/webapp/public/images/eden-logo.svg', link:'https://eden-dev.vercel.app/'}
+		],
+		images: [
+			{image:'/img/OSS_screnshots/Eden.png', class:'left-screenshot', link:'#screen-Eden-1', id:'screen-Eden-1'},
+			{image:'/img/OSS_screnshots/Eden_2.png', class:'right-screenshot', link:'#screen-Eden-2', id:'screen-Eden-2'},
+			{image:'/img/OSS_screnshots/Eden_3.png', class:'left-screenshot', link:'#screen-Eden-3', id:'screen-Eden-3'},
+		]
+	},  
+	{
+		name: 'EOS Token Sale Contract',
+		description : 'EOStarter is developing a Token Sale Smart Contract system that allows for the crowd-sourcing of projects through a token sale that can be configured with different parameters like staking capabilities, whitelisting requirements, token vesting, etc.',
+		href: '#eos-tokensale-contracts',
+		website: [],
+		github: [
+			{link: 'https://github.com/eostarter/eostarter.sale-smart-contract', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'', link:''}
+		],
+		images: []
+	},  
+	{
+		name: 'EOS Token Sale Platform',
+		description : 'A decentralized Token Sale platform, which allows users to set up a token sale, determine the token sale parameters, and deploy their sale onto the EOS Mainnet.',
+		href: '#eos-tokensale-platform',
+		website: [
+			{ title: 'Sitio Web', link: 'https://tokensale.edenia.cloud', name: 'EOS Token Sale Platform' }
+		],
+		github: [
+			{link: 'https://github.com/eostarter/token-sale-platform', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'https://raw.githubusercontent.com/eostarter/token-sale-platform/master/docs/img/logo-words.png', link:'https://tokensale.edenia.cloud'}
+		],
+		images: [
+			{image:'/img/OSS_screnshots/Token_Sale_Platform.png', class:'left-screenshot', link:'#screen-Token_Sale_Platform-1', id:'screen-Token_Sale_Platform-1'},
+			{image:'/img/OSS_screnshots/Token_Sale_Platform_2.png', class:'right-screenshot', link:'#screen-Token_Sale_Platform-2', id:'screen-Token_Sale_Platform-2'},
+			{image:'/img/OSS_screnshots/Token_Sale_Platform_3.png', class:'left-screenshot', link:'#screen-Token_Sale_Platform-3', id:'screen-Token_Sale_Platform-3'},
+		]
+	},  
+	{
+		name: 'Proof of Payment of Municipal Taxes',
+		description : 'The generator of municipal certificates is a web application that allows allows taxpayers of Costa Rican Local Governments to obtain a digital document in which you can see the municipal tax payments of the properties in your name. This document is digitally signed by the institution that issues the document, so it is official and valid for use in different institutions in Costa Rica.',
+		href: '#proof-of-payment-municipal',
+		website: [],
+		github: [
+			{link: 'https://github.com/edenia/constancias-municipales', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
+		],
+		logos: [
+    		{image:'', link:''}
+		],
+		images: [
+			{image:'/img/OSS_screnshots/Constancias_Municipales.png', class:'left-screenshot', link:'#screen-Constancias_Municipales-1', id:'screen-Constancias_Municipales-1'},
+		]
+	} 
 ]
 
 ## Community Projects
@@ -195,15 +281,15 @@ export const projectsData = [
 		<Grid className="content">
 			<p>{projectsData[0].description}</p>
 			{ projectsData[0].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[0]?.github && projectsData[0].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -253,22 +339,24 @@ export const projectsData = [
 	</Grid>
 </Grid>
 
- ### EOS Rate 
+* * *
+
+### EOS Rate 
 
 <Grid container>
 	<Grid item md={8} xs={12}>
 		<Grid className="content">
 			<p>{projectsData[1].description}</p>
 			{ projectsData[1].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[1]?.github && projectsData[1].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -296,6 +384,8 @@ export const projectsData = [
 	</Grid>
 </Grid>
 
+* * *
+
 ### Proton Affiliate Program
 
 <Grid container>
@@ -310,16 +400,16 @@ export const projectsData = [
 				been working on an Affiliate Program (AP) feature for the <a href='https://www.protonchain.com/wallet/'>Proton wallet</a>, 
 				which launched in the beta stage for selected countries.</p>
 			{ projectsData[2].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
 						<a href={web.link}><img src={web.image} width="9%"/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[2]?.github && projectsData[2].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -347,6 +437,8 @@ export const projectsData = [
 	</Grid>
 </Grid>
 
+* * *
+
 ### Libre Dao Smart Contracts
 
 <Grid container>
@@ -354,15 +446,15 @@ export const projectsData = [
 		<Grid className="content">
 			<p>{projectsData[3].description}</p>
 			{ projectsData[3].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[3]?.github && projectsData[3].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -390,6 +482,8 @@ export const projectsData = [
 	</Grid>
 </Grid>
 
+* * *
+
 ### LACChain EOSIO Testnet
 
 <Grid container>
@@ -397,15 +491,15 @@ export const projectsData = [
 		<Grid className="content">
 			<p>{projectsData[4].description}</p>
 			{ projectsData[4].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[4]?.github && projectsData[4].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -433,6 +527,8 @@ export const projectsData = [
 	</Grid>
 </Grid>
 
+* * *
+
 ### Evodex
 
 <Grid container>
@@ -440,15 +536,15 @@ export const projectsData = [
 		<Grid className="content">
 			<p>{projectsData[5].description}</p>
 			{ projectsData[5].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[5]?.github && projectsData[5].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -475,6 +571,168 @@ export const projectsData = [
 		</Grid>
 	</Grid>
 </Grid>
+
+
+* * *
+
+### MyvoteEOS Proxy Website
+
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid className="content">
+			<p>{projectsData[9].description}</p>
+			{ projectsData[9].website.map((web, i)=>( 
+				<p><ul><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li></ul>
+				</p>
+			))}
+			{  projectsData[9]?.github && projectsData[9].github.map((git, i)=>( 
+				<p><ul><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li></ul>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid className="container-border">
+			{ projectsData[9].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[9].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[9].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
+
+* * *
+
+### Eden Smart Contracts
+
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid className="content">
+			<p>{projectsData[10].description}</p>
+			{ projectsData[10].website.map((web, i)=>( 
+				<p><ul><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li></ul>
+				</p>
+			))}
+			{  projectsData[10]?.github && projectsData[10].github.map((git, i)=>( 
+				<p><ul><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li></ul>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid className="container-border">
+			{ projectsData[10].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[10].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[10].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
+
+* * *
+
+### EOS Token Sale Platform 
+
+<Grid container>
+	<Grid item md={8} xs={12}>
+		<Grid className="content">
+			<p>{projectsData[12].description}</p>
+			{ projectsData[12].website.map((web, i)=>( 
+				<p><ul><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li></ul>
+				</p>
+			))}
+			{  projectsData[12]?.github && projectsData[12].github.map((git, i)=>( 
+				<p><ul><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li></ul>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+	<Grid item md={4} xs={12}>
+		<Grid className="container-border">
+			{ projectsData[12].logos.map((logo, i)=>(
+				<Grid container id={i}>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
+				</Grid>
+			))
+			}
+			{ projectsData[12].images.map((image, i)=>(
+				<>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[12].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
+				</>
+			))
+			}
+		</Grid>
+	</Grid>
+</Grid>
+
+* * *
+
+### EOS Token Sale Contract
+
+<Grid container>
+	<Grid item>
+		<Grid className="content">
+			<p>{projectsData[11].description}</p>
+			{ projectsData[11].website.map((web, i)=>( 
+				<p><ul><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li></ul>
+				</p>
+			))}
+			{  projectsData[11]?.github && projectsData[11].github.map((git, i)=>( 
+				<p><ul><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li></ul>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+</Grid>
+
+* * *
 
 ## Tools 
 
@@ -560,15 +818,15 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		<Grid className="content">
 			<p>{projectsData[6].description}</p>
 			{ projectsData[6].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[6]?.github && projectsData[6].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -596,6 +854,32 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 	</Grid>
 </Grid>
 
+* * *
+
+## Proof of Payment of Municipal Taxes
+
+<Grid container>
+	<Grid item>
+		<Grid className="content">
+			<p>{projectsData[13].description}</p>
+			{ projectsData[13].website.map((web, i)=>( 
+				<p><ul><li><strong>{web.title}: </strong>
+						<a href={web.link}>{web.name}</a>
+					</li></ul>
+				</p>
+			))}
+			{  projectsData[13]?.github && projectsData[13].github.map((git, i)=>( 
+				<p><ul><li><strong>GitHub: </strong>
+						<a href={git.link}><img src={git.image}/></a>
+					</li></ul>
+				</p>
+			))}
+		</Grid>
+	</Grid>
+</Grid>
+
+* * *
+
 ## EOSIO Hackathons 
 
 ### LifeBank
@@ -612,15 +896,15 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 				challenge organized by leading blockchain company, Block.one.
 			</p>
 			{ projectsData[7].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[7]?.github && projectsData[7].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -648,6 +932,8 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 	</Grid>
 </Grid>
 
+* * *
+
 ### gGoods
 
 <Grid container>
@@ -655,15 +941,15 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		<Grid className="content">
 			<p>{projectsData[8].description}</p>
 			{ projectsData[8].website.map((web, i)=>( 
-				<p><li><strong>{web.title}: </strong>
+				<p><ul><li><strong>{web.title}: </strong>
 						<a href={web.link}>{web.name}</a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 			{  projectsData[8]?.github && projectsData[8].github.map((git, i)=>( 
-				<p><li><strong>GitHub: </strong>
+				<p><ul><li><strong>GitHub: </strong>
 						<a href={git.link}><img src={git.image}/></a>
-					</li>
+					</li></ul>
 				</p>
 			))}
 		</Grid>
@@ -690,6 +976,8 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 		</Grid>
 	</Grid>
 </Grid>
+
+* * *
 
 ## NPM Packages
 
