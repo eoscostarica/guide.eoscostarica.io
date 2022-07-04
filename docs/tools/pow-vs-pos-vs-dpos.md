@@ -4,7 +4,7 @@ title: PoW vs PoS vs DPoS
 sidebar_label: PoW vs PoS vs DPoS
 ---
 
-It is necessary to know the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
+It is important to understand the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
 
 ## Proof of Work (PoW)
 
@@ -25,7 +25,7 @@ Currently the networks that use this consensus mechanism are:
 - Monero.
 - Among others.
 
-For more information you can visit the following [link](https://guide.eoscostarica.io/docs/tools/glossary/#stake).
+For more information you can visit the following [link](https://guide.eoscostarica.io/docs/tools/glossary#proof-of-work).
 
 ## Proof of Stake (PoS)
 
@@ -33,11 +33,11 @@ For more information you can visit the following [link](https://guide.eoscostari
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/psKDXvXdr7k" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-This consensus mechanism was born in 2011 with the purpose of eliminating those limitations present in its predecessor proof of work, having instead of "miners" that require resources for the verification of transactions such as specialized equipment and large amounts of energy to "validators" who are owners of coins and put as collateral ["Stake"](https://guide.eoscostarica.io/docs/tools/glossary/#stake) a certain amount of coins, being chosen randomly the validators responsible for "validating" or "mining" in case there is a corrupt validator will lose the stake and will not be able to be a validator in the future.
+This consensus mechanism was born in 2011 with the purpose of eliminating those limitations present in its predecessor proof of work, instead of "miners" that require resources for the verification of transactions such as specialized equipment and large amounts of energy to "validators" who are owners of coins and put as collateral ["Stake"](https://guide.eoscostarica.io/docs/tools/glossary/#stake) a certain amount of coins, being chosen randomly the validators responsible for "validating" or "mining" in case there is a corrupt validator will lose the stake and will not be able to be a validator in the future.
 
-For the validation of transactions, 2/3 (this figure may vary depending on the network) of the total number of validators are required to approve the transaction block. The following aspects are taken into consideration for the choice of validators:
+For the validation of transactions, in EOSIO a supermajority of 2/3 +1 is required for consensus (this figure may vary depending on the network) of the total number of validators are required to approve the transaction block. The following aspects are taken into consideration for the choice of validators:
 
-- Amount of coins (the higher the amount, the higher the probability of being chosen).
+- Amount of tokens staked (the higher the amount, the higher the probability of being chosen).
 - Age of the coins bet, once they are used they are reset to 0 (the longer the time without being used, the higher the probability of being chosen).
 - Random selection.
 
