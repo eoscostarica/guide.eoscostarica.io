@@ -1,7 +1,7 @@
 ---
-id: pow-vs-pos-vs-dpos
-title: PoW vs PoS vs DPoS
-sidebar_label: PoW vs PoS vs DPoS
+id: consensus-mechanisms-blockchain
+title: Consensus Mechanisms Blockchain
+sidebar_label: Consensus Mechanisms Blockchain
 ---
 
 It is important to understand the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
@@ -61,3 +61,30 @@ Currently the networks that use this consensus mechanism are:
 | Main challenges | Extremely costly | Favors those with greater resources | Requires a very involved community |
 
 If you want to learn more about Delegate Proof of Stake (DPoS) you can visit the following [link](https://guide.eoscostarica.io/docs/eos-learn/consensus-mechanism#delegated-proof-of-stake-dpos).
+
+## Others Consensus Mechanisms
+
+There are other consensus mechanisms that are not as popular in blockchain communities which are as follows:
+
+### Proof of Capacity (PoC)
+
+This mechanism like the proof of work mining is performed, but as the main difference is the use of hard disks as the main resource of computational power. Solving PoW and PoS problems due to the higher capacity with hard disks.
+
+### Proof of Activity (PoA)
+
+This mechanism uses the best features of PoW and PoS being an example that a block of transactions is validated by mining (PoW) is switched to the validator election system (PoS) once validated is switched to the mining system.
+
+### Proof of Burn (PoB)
+
+This mechanism was born as a solution to the high energy expenditure by PoW, making use of the idea of burning energy, to validate a block of transactions "burn" tokens to obtain more mining power as a rig, the more tokens are burned more power is obtained.
+
+### Proof of History (PoH)
+
+This mechanism is born with a very old proposal, but different from the previous mechanisms, since it registers the exact time and hour between 2 events in a hash function, even though it would be impossible to change the register in all the computers of the network.
+
+### Proof of Elapsed Time (PoET)
+
+This mechanism was born as an Intel solution to the advantage obtained by those with more resources when looking for the fairest block validator election system, like a lottery within the network.
+
+
+If you want to learn more about the different consensus mechanisms, you can visit the following [link](https://www.allerin.com/blog/8-blockchain-consensus-mechanisms-you-should-know-about).
