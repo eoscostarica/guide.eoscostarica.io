@@ -12,9 +12,9 @@ EOSIO is software that allows developers to create and run decentralized applica
 
 ## Differences between EOSIO and EOS
 
-It's important to know what is the difference between EOSIO and EOS to as not to confuse the two concepts, how it was mentioned that EOSIO is the software to develop customized blockchains, in contrast, EOS, also referred to as `mainnet`, corresponds to the first public network launched on EOSIO in the first version.
+It's important to know the difference between EOSIO and EOS to as not to confuse the two concepts, as mentioned before is the software to develop customized blockchains, in contrast, EOS, also referred to as `mainnet`, corresponds to the first public network launched on EOSIO in the first version.
 
-EOS, in addition to being one of the blockchains deployed on EOSIO also provides the tokens of cryptocurrency used for buying the needed computer resources to run dApps in the EOSIO platform.
+EOS, in addition to being one of the blockchains deployed on EOSIO also `EOS` is the token symbol used as the mainnet's "system token" that is used to control import aspects of the network such as block producer voting and resource management.
 
 The characteristics of EOS were highly customized by the community through **system contracts**, so EOS is an example of how to use EOSIO, but, is not its definition, for this reason, EOS is not owned by B1 otherwise its owned and controlled by the EOS community. 
 
