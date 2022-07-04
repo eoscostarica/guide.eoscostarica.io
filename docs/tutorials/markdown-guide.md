@@ -216,7 +216,7 @@ Another Text
 >>
 > * Item
 > * Item
-> Texto 
+> Text 
 > Final Text
 
 ### **Horizontal Rule**
@@ -256,9 +256,7 @@ Another Text
   console.log('This line can be highlighted!');
 }
 ```
-Para más información acerca de la sintaxis de Markdown, visitar
-[esta página](https://www.markdownguide.org/cheat-sheet/)
-
+For more information about Markdown syntax you can visit the following [link](https://www.markdownguide.org/cheat-sheet/)
 
 * * *
 
@@ -270,6 +268,4 @@ To understand the meaning of Flavors in Markdown, we can in them as dialects of 
 
 So it is our job to master whatever version of Markdown we have implemented in our application.
 
-[Más información sobre markdown](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
-
-
+[More information about markdown](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
