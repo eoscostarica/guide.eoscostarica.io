@@ -1,7 +1,7 @@
 ---
 id: consensus-mechanisms-blockchain
 title: Consensus Mechanisms Blockchain
-sidebar_label: Consensus Mechanisms Blockchain
+sidebar_label: Consensus Mechanisms
 ---
 
 It is important to understand the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
