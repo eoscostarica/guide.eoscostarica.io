@@ -59,8 +59,8 @@ Modify one or more parameters of the blockchain.
 Allows you to establish an account as privileged.
 
 ```yaml
-account: La cuenta que se quiere setear como privilegiada.
-is_priv:  0 para falso, mayor a 0 para verdadero.
+account: The account you want to set as privileged.
+is_priv:  0 for false, greater than 0 for true.
 ```
 
 ## System Actions

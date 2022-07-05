@@ -31,7 +31,7 @@ Turns out, there are a number of reasons to choose Markdown.
 
 ## How Does it Work?
 
-When we write in Markdown, the text is saved to a plain text file that has an extension `.md` o `.markdown`. So how do you transform your Markdown file to HTML?
+When we write in Markdown, the text is saved to a plain text file that has an extension `.md` or `.markdown`. So how do you transform your Markdown file to HTML?
 
 The simple answer is that it requires a Markdown application capable of processing the file. There are many applications available, from small scripts to desktop applications that look like Microsoft Word. Although they have their visual differences, all applications do the same.
 
