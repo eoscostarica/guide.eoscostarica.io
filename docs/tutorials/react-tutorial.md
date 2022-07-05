@@ -108,7 +108,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Editar <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -139,7 +139,7 @@ class App extends Component{
   render(){
     return (
       <div className="App">
-        <p>Hola Mundo</p>
+        <p>Hello World</p>
       </div>
     );
   }
@@ -161,7 +161,7 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <h1>Ejemplo </h1>
+                <h1>Example </h1>
             </div>
         );
     }
@@ -177,13 +177,13 @@ import { Component } from 'react';
 
 import './styles/App.css';
 
-import Header from "./components/header" //Se debe agregar el import del componente
+import Header from "./components/header" //The import of the component must be added
 
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <Header />  /*Se agrega el componente*/
+        <Header />   /*Component is added*/
       </div>
     );
   }
