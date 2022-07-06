@@ -25,12 +25,56 @@ New and reopened `pull request` are automatically added to the board in the `In 
 
 When the pull request is closed is moved to the `Done` column automatically. If the pull request closes and issues it is properly stated with the GitHub keywords closes in the pull request it gets automatically moved to the `Done` column too.
 
+## Branch Naming Convention
+
+Name every branch for your pull requests using the following simple convention:
+
+```
+<type>/<task-description>-<issue-number>
+```
+
+* Always use lowercase.
+* Choose the [type](#type).
+* Meaningful and short descriptions.
+* Use hyphens as separators.
+* Use the imperative, present tense: "change" not "changed" nor "changes".
+* Use the ``issue`` number to reference it in the branch.
+
+-**Example**:
+
+```
+feat/new-feature-123
+^--^ ^---------^ ^-^
+  |       |       |
+  |       |       +-> Issue number
+  |       |
+  |       +-> Short description of the task
+  |
+  +-> Type: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|content|devtools
+```
+
+### Type
+
+* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm).
+* **chore**: What a user would not see (changes to the build process, configuration, etc).
+* **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).
+* **docs**: Documentation only changes.
+* **feat**: A new feature for the user.
+* **fix**: A bug fix for the user.
+* **perf**: A code change that improves performance.
+* **refactor**: A code change that neither fixes a bug nor adds a feature (renaming a variable).
+* **revert**: Reverts a previous commit.
+* **style**: Changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc).
+* **test**: Adding missing tests or correcting existing tests.
+* **content**: Adding or removing content.
+* **devtools**: Developer tooling related.
+
 ## Pull Request General Guidelines
 
 * Please check to make sure that there aren't existing `pull request` attempting to address the `issue` mentioned.
 * Check for related `issues` on the `issue tracker`.
 * Non-trivial changes should be discussed on an issue first.
-* Develop in a topic branch, never on master: `git checkout -b topic-branch`.
+* Develop in a topic branch, never on master: `git checkout -b type/task-issue`.
 * Provide useful `pull request` description.
 * Make well scoped `atomic` pull requests. 1 PR per feature of bug fix.
 * Link the `issue` on the `pull request` description for cross references between code and issues.
