@@ -484,11 +484,11 @@ A `microfork` occurs when a Block Producer begins to produce blocks with the sam
 
 Is the core EOSIO node `daemon` that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints, and local development. 
 
-`nodeos = nodo + eos`
+`nodeos = node + eos`
 
 * * *
 
-### Nodos
+### Nodes
 
 `node` is the fundamental basis of blockchain technology, they make up the infrastructure of a blockchain. All nodes in a blockchain are connected to each other and constantly exchange the latest data in the blockchain so that all nodes are kept up to date.
 
