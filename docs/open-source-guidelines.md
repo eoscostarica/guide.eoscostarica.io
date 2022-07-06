@@ -27,13 +27,13 @@ When the pull request is closed is moved to the `Done` column automatically. If 
 
 ## Branch Naming Convention
 
-Develop every pull requests in a topic branch using the following simple convention:
+Name every branch for your pull requests using the following simple convention:
 
 ```
 <type>/<task-description>-<issue-number>
 ```
 
-* Use always lowercase.
+* Always use lowercase.
 * Choose the [type](#type).
 * Meaningful and short descriptions.
 * Use hyphens as separators.
@@ -50,8 +50,24 @@ feat/new-feature-123
   |       |
   |       +-> Short description of the task
   |
-  +-> Type
+  +-> Type: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|content|devtools
 ```
+
+### Type
+
+* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm).
+* **chore**: What a user would not see (changes to the build process, configuration, etc).
+* **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).
+* **docs**: Documentation only changes.
+* **feat**: A new feature for the user.
+* **fix**: A bug fix for the user.
+* **perf**: A code change that improves performance.
+* **refactor**: A code change that neither fixes a bug nor adds a feature (renaming a variable).
+* **revert**: Reverts a previous commit.
+* **style**: Changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc).
+* **test**: Adding missing tests or correcting existing tests.
+* **content**: Adding or removing content.
+* **devtools**: Developer tooling related.
 
 ## Pull Request General Guidelines
 
