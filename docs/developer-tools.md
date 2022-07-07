@@ -85,7 +85,7 @@ A lightweight and flexible command-line JSON processor. jq is like [sed](https:/
 <figure
 class="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/EvpwhGeiH0U" frameborder="0" allowfullscreen="true">
+    height="315" src="https://www.youtube.com/embed/EvpwhGeiH0U" frameborder="0" allowfullscreen="true" loading="lazy">
     </iframe>
 </figure>
 
@@ -100,7 +100,7 @@ Install jq from the [jq page](https://stedolan.github.io/jq/).
 <figure
 class="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/rrjIVepRqPI" frameborder="0" allowfullscreen="true">
+    height="315" src="https://www.youtube.com/embed/rrjIVepRqPI" frameborder="0" allowfullscreen="true" loading="lazy">
     </iframe>
 </figure>
 
@@ -156,7 +156,7 @@ Hapi is a rich and open source Node.js framework. Hapi is a rich framework for c
 <figure
 class="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/2lprC0yYeFw" frameborder="0" allowfullscreen="true">
+    height="315" src="https://www.youtube.com/embed/2lprC0yYeFw" frameborder="0" allowfullscreen="true" loading="lazy">
     </iframe>
 </figure>
 
@@ -205,7 +205,7 @@ Modern command line HTTP client – user-friendly curl alternative with intuitiv
 [HTTPie GitHub](https://github.com/httpie/httpie)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/SUWCS0FCb9s" frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/SUWCS0FCb9s" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 
 * * *
 
@@ -251,7 +251,7 @@ It enables developers to test calls to APIs. Postman users enter data. The data 
 [Postman GitHub](https://github.com/postmanlabs)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/juldrxDrSH0" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 
 * * *
 
@@ -274,7 +274,7 @@ Hashicorp's Vault is an open source tool that enables sensitive and secret data 
 [Vault GitHub](https://github.com/hashicorp/vault)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 
 * * *
 
@@ -293,11 +293,11 @@ width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameb
 ## Decentralized Storage - IPFS
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
