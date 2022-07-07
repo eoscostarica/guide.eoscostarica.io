@@ -83,7 +83,7 @@ We only support support **squash merge** of the `pull requests` as a best practi
 
 ## Commit Message Guidelines
 
-We have very precise rules over how our `git` commit messages can be formatted.  This leads to **more readable messages** that are easy to follow when looking through the **project history**.  But also, we use the `git` commit messages to **generate the project change log**.
+We have very precise rules over how our `git` commit messages can be formatted, following GitHub conventions and standards.  This leads to **more readable messages** that are easy to follow when looking through the **project history**.  But also, we use the `git` commit messages to **generate the project change log**.
 
 We follow the commit message conventions as shown below:
 
@@ -100,14 +100,26 @@ format that includes a **type**, a **scope** and a **subject**:
 <footer>
 ```
 
-The **header** is mandatory and the **scope** of the header is optional.
+The ```header``` is mandatory and the ```scope``` of the header is optional.
 
-Any line of the commit message cannot be longer 100 characters! This allows the message to be easier to read on GitHub as well as in various `git tools`.
+** Example:**
+
+```
+feat: add a new method
+```
+^--^  ^------------^
+|     |
+|     +-> abstract in present tense.
+|
++-------> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
+
+```
+
+The commit message cannot be longer than 100 characters. This allows the message to be easy to read on GitHub as well as various `git tools`.
 
 The footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-Samples:
-
+** The commit message must be like the following samples: **
 ```
 docs(changelog): update changelog to beta.5
 ```
