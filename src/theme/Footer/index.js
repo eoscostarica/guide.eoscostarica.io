@@ -37,7 +37,7 @@ function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
 }
 
 const FooterLogo = ({url, alt}) => (
-  <img className="footer__logo" alt={alt} src={url} />
+  <img className="footer__logo" alt={alt} src={url} loading="lazy"/>
 );
 
 function Footer() {

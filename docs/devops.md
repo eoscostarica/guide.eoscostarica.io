@@ -73,7 +73,7 @@ The process of managing and provisioning computer data centers through machine-r
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -86,7 +86,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -95,7 +95,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -106,7 +106,7 @@ Terraform is an infrastructure software as code, developed by HashiCorp. It enab
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -123,7 +123,7 @@ Docker is an open source project that automates the deployment of applications w
 <figure 
   class="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+   width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -140,7 +140,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -151,7 +151,7 @@ Following you can find a set of very convenient tutorials for learning kubernete
 <figure 
   class="video_container">
   <iframe 
-    width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+    width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
