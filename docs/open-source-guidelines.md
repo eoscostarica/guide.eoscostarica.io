@@ -106,7 +106,6 @@ The ```header``` is mandatory and the ```scope``` of the header is optional.
 
 ```
 feat: add a new method
-```
 ^--^  ^------------^
 |     |
 |     +-> abstract in present tense.
