@@ -1,7 +1,9 @@
 ---
 id: blog-posts
-title: Blog Posts
+title: EOS Blog
 sidebar_label: Blog Posts
+description: Blog posts of EOS community
+keywords: [EOS Blog, EOS, EOS Costa Rica, eosio.io, Blog EOS Costa Rica, Blog Posts EOS Community]
 ---
 
 ## What is Blockchain?

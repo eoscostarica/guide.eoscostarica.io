@@ -2,6 +2,8 @@
 id: eos-podcasts
 title: EOS Podcasts
 sidebar_label: EOS Podcasts
+description: Podcasts of EOS community
+keywords: [EOS Podcasts, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Podcasts?, Podcast EOS Community]
 ---
 
 ## EOSIO

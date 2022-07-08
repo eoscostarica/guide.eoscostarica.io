@@ -2,6 +2,8 @@
 id: graphql-tutorial
 title: GraphQL
 sidebar_label: GraphQL
+description: Definition, usage, and funtionality of GraphQL
+keywords: [graphql, graphql definition, graphql usage, graphql functionality, GraphQL, GraphQL Definition, GraphQL Usage, GraphQL Functionality, How GraphQL Works?, What is GraphQL?, Queries and Mutations]
 ---
 
 ## Introduction

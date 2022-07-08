@@ -2,6 +2,8 @@
 id: social-media-guidelines
 title: Social Media Guidelines
 sidebar_label: Social Media Guidelines
+description: Social Media Guidelines for software developers EOS Costa Rica
+keywords: [ Social Media Guidelines, guidelines for developer, Social networks guidelines, Social networks EOS]
 ---
 
 

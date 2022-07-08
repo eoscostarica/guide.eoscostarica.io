@@ -2,6 +2,8 @@
 id: block-producers
 title: Block Producer
 sidebar_label: Block Producer
+description: Block Producer definition and how to become one
+keywords: [Block Producer, Block Producer Definition, Block Producer How to become one, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Block Producer?, What is the Block Producer?]
 ---
 
 ## What is a Block Producer?

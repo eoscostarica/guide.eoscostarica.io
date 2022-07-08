@@ -1,7 +1,9 @@
 ---
 id: telegram-channels
-title: Telegram Channels
+title: EOS Telegram Channels
 sidebar_label: Telegram Channels
+description: Telegram Channels of EOS community
+keywords: [EOS Telegram Channels, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Telegram Channels?, Telegram EOS Community]
 ---
 
 Telegram channels are an ideal tool to spread messages to large numbers of people. The following is a list of the most relevant channels of the EOS community, in which content is shared that can be very useful.

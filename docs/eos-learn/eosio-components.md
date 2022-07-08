@@ -2,6 +2,8 @@
 id: eosio-components
 title: EOSIO Components
 sidebar_label: EOSIO Components
+description: EOSIO Components, explaining how it works with different components and how to use it.
+keywords: [EOSIO Components, eosio, eosio.io, EOS Costa Rica, Components EOSIO, Blockchain Components]
 ---
 
 ## Nodeos

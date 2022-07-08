@@ -1,10 +1,12 @@
 ---
 id: boilerplate
-title: Project Boilerplate
+title: What is a Boilerplate?
 sidebar_label: Project Boilerplate
+description: What is a Boilerplate?, definition of Boilerplate
+keywords: [Boilerplate, Project Boilerplate, EOSIO, EOS, EOS Costa Rica, eosio.io, What is a Boilerplate?, What is the EOS Costa Rica Project Boilerplate?, What is a Boilerplate for]
 ---
 
-## What is a Boilerplate?
+## Boilerplate definition?
 
 A boilerplate is a framework or template for the development of a project. It is a project structure already defined in advance that serves to streamline the organization and development of the software. Accelerates the integration of solutions and formats that serve to drive the development of a new project to production.
 

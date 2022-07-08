@@ -2,6 +2,8 @@
 id: flight-methodology
 title: Flight Methodology
 sidebar_label: Flight Methodology
+description: Flight Methodology - EOS Costa Rica
+keywords: [EOS, Flight Methodology, EOS Costa Rica, Grooming, What is Flight Methodology?, What is Flight Methodology For?]
 ---
 
 ## Agile Methodologies at Edenia

@@ -2,6 +2,8 @@
 id: readme-file-template
 title: Readme file template
 sidebar_label: Readme File Template
+description: Template to create redme a readme file
+keywords: [readme, file, template, Readme File, Readme File Example, markdown, github markdown, github markdown template, example readme]
 ---
 
 README is a file that brings a little description about the whole project, which contains an introduction and explanation of this one. The kind of information that can be describe here is information requeried to understand the project and its structure or purpose. Then, we will give a template to create a README file for a new project.

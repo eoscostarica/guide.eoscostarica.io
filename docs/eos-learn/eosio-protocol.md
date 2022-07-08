@@ -2,6 +2,8 @@
 id: eosio-protocol
 title: EOSIO Protocol
 sidebar_label: EOSIO Protocol
+description: Explanation of the EOSIO protocol, how it works and how to use it.
+keywords: [EOSIO Protocol, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Protocol?, What is the EOSIO protocol?]
 ---
 
 ## What is EOSIO? 
