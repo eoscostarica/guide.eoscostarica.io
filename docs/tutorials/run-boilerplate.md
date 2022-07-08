@@ -2,8 +2,8 @@
 id: run-boilerplate
 title: Run the Boilerplate
 sidebar_label: Run the Boilerplate
-description: Project Boilerplate conducted by Eos Network Foundation
-keywords: [EOS Boilerplate, EOS Costa Rica Front-End Boilerplate, boilerplate-eos, eos-front-end-boilerplate]
+description: Project Boilerplate conducted by EOS Costa Rica
+keywords: [EOS Boilerplate, EOS Costa Rica Front-End Boilerplate, boilerplate-eos, eos-front-end-boilerplate, eos-back-end-boilerplate, eos-full-stack-boilerplate]
 ---
 
 # Running the Boilerplate
