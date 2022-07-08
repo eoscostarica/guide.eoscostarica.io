@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import { useThemeConfig } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import { Grid } from "@material-ui/core";
 import { Button } from "@material-ui/core";
 import { Card } from "@material-ui/core";
@@ -119,7 +120,7 @@ const DarkTheme = makeStyles({
 
 const HeroSection = () => {
   const images = [
-    "https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/heroe.png",
+    "/img/cards-icons/heroe.png",
   ];
   const background = images[Math.floor(Math.random() * images.length)];
   const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
@@ -132,7 +133,7 @@ const HeroSection = () => {
   }
   return (
     <div className=" hero-header">
-      <img className="hero-img" src={background}></img>
+      <img className="hero-img" src={useBaseUrl(background)}></img>
       <div className="hero-content">
         <div className="title-container">
           <h1 className="EOS-Costa-Rica-Devel text-style-1 ">EOS Costa Rica</h1>
@@ -171,7 +172,7 @@ const CustomCard = (props) => {
   return (
     <Card className={"cardroot "+classes.card} variant="outlined">
       <div className="card-img-container">
-        <img src={props.img} className={classes.imgcard} loading="lazy"></img>
+        <img src={useBaseUrl(props.img)} className={classes.imgcard} loading="lazy"/>
       </div>
       <CardContent>
         <Typography className={classes.overline} gutterBottom>
@@ -214,7 +215,7 @@ const CardsSection = () => {
             title="Developer Guidelines"
             body="Guides for developers on how to program in open source."
             href="/docs/open-source-guidelines"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/guidelines.svg"
+            img="/img/cards-icons/guidelines.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -222,7 +223,7 @@ const CardsSection = () => {
             title="Learn EOSIO"
             body="Set of information necessary to learn about the EOSIO protocol."
             href="/docs/eos-learn/eosio-protocol"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/icons-eosio.svg"
+            img="/img/cards-icons/icons-eosio.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -230,7 +231,7 @@ const CardsSection = () => {
             title="Tutorials"
             body="Support information needed to perform the installation and execution of processes."
             href="docs/tutorials/getting-started"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/tutorials.svg"
+            img="/img/cards-icons/tutorials.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -238,7 +239,7 @@ const CardsSection = () => {
             title="Tools"
             body="Set of useful tools during the learning process."
             href="docs/tools/glossary"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/tools.svg"
+            img="/img/cards-icons/tools.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -246,7 +247,7 @@ const CardsSection = () => {
             title="Community"
             body="Links to EOS community sites of interest."
             href="docs/community-resources/telegram-channels"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/cards-icons/community.svg"
+            img="/img/cards-icons/community.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -254,7 +255,7 @@ const CardsSection = () => {
             title="Open source projects"
             body="List of open source projects that we carry out."
             href="docs/open-source-projects"
-            img="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/09d2e8422c246a3f0d8481ee3185cd0683e280d6/static/img/cards-icons/icons-opensource.svg"
+            img="/img/cards-icons/icons-opensource.svg"
           ></CustomCard>
         </Grid>
       </Grid>
@@ -274,7 +275,7 @@ const CustomArticle = (props) => {
 
   return (
     <Card className={"cardroot "+classes.card} variant="outlined">
-      <CardMedia className={classes.media} image={props.img} component="img"/>
+      <CardMedia className={classes.media} image={props.img} component="img" loading="lazy"/>
       <CardContent>
         <Typography className={classes.overline} gutterBottom>
           ARTICLES

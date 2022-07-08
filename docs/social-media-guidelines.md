@@ -4,6 +4,7 @@ title: Social Media Guidelines
 sidebar_label: Social Media Guidelines
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This site shows the different social networks in which you can follow the company as well as some recommendations on how to interact with us through them.
 
@@ -33,7 +34,7 @@ Please follow these directions to align our LinkedIn profiles. We prepare this b
 Be sure to check the box to **update your headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img style={{ width:"70%" }} src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedExperiencia.png" />
+    <img style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.png") } />
 </div>
 
 
@@ -41,7 +42,7 @@ Be sure to check the box to **update your headline**.
 specialization.
 
 <div style={{  textAlign: "center" }}>
-    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedDescripcion.png" />
+    <img  src={ useBaseUrl("/img/social-media/LinkedDescripcion.png") } />
 </div>
 
 
@@ -72,7 +73,7 @@ More on:
 ### **This is how it would look**
 
 <div style={{  textAlign: "center" }}>
-    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedResultado.png" />
+    <img  src={  useBaseUrl("/img/social-media/LinkedResultado.png") } />
 </div>
 
 
@@ -93,7 +94,7 @@ More on:
 1. Include your **job title**, **company** name, **location**, and your **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GithubEstado.png" />
+    <img  src={ useBaseUrl("/img/social-media/GithubEstado.png") } />
 </div>
 
 ** *Examples of description:* **
@@ -106,7 +107,7 @@ More on:
 
 ### **This is how it would look**
 <div style={{  textAlign: "center" }}>
-    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GitHubResultado.png" />
+    <img  src={  useBaseUrl("/img/social-media/GitHubResultado.png") } />
 </div>
 
 
