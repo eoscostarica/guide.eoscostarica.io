@@ -50,7 +50,7 @@ More information [about private keys](https://guide.eoscostarica.io/docs/eos-lea
 
 ## Getting Started
 
-![](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/diagrams/cleos.png)
+![](/img/diagrams/cleos.png)
 
 ### Windows Installation
 

@@ -4,21 +4,23 @@ title: Material UI & Theme
 sidebar_label: Material UI Theme
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## Logo and Visual Assets
 
 In this [link](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets
 
 ## Color Palette
 
-![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
+![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
 
-![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
+![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
 
 To see a complete guide to the colors, you can visit [this link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Typography
 
-![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_typography_scale.PNG)
+![Preview tipografia](/img/OSS_screnshots/EOSCR_Typography_Scale.PNG)
 
 For a complete guide to font sizes and shapes, you can visit this [link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
 
