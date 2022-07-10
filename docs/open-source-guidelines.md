@@ -50,24 +50,8 @@ feat/new-feature-123
   |       |
   |       +-> Short description of the task
   |
-  +-> Type: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|content|devtools
+  +-> Type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, content, or devtools
 ```
-
-### Type
-
-* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm).
-* **chore**: What a user would not see (changes to the build process, configuration, etc).
-* **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).
-* **docs**: Documentation only changes.
-* **feat**: A new feature for the user.
-* **fix**: A bug fix for the user.
-* **perf**: A code change that improves performance.
-* **refactor**: A code change that neither fixes a bug nor adds a feature (renaming a variable).
-* **revert**: Reverts a previous commit.
-* **style**: Changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc).
-* **test**: Adding missing tests or correcting existing tests.
-* **content**: Adding or removing content.
-* **devtools**: Developer tooling related.
 
 ## Pull Request General Guidelines
 
@@ -126,17 +110,19 @@ If the commit reverts a previous commit, it should begin with `revert: `, follow
 
 ### Type
 
-* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-* **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-* **docs**: Documentation only changes
-* **feat**: A new feature
-* **fix**: A bug fix
-* **perf**: A code change that improves performance
-* **refactor**: A code change that neither fixes a bug nor adds a feature
-* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-* **test**: Adding missing tests or correcting existing tests
-* **content**: Adding or removing content
-* **devtools**: Developer tooling related
+* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm).
+* **chore**: What a user would not see (changes to the build process, configuration, etc).
+* **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).
+* **docs**: Documentation only changes.
+* **feat**: A new feature for the user.
+* **fix**: A bug fix for the user.
+* **perf**: A code change that improves performance.
+* **refactor**: A code change that neither fixes a bug nor adds a feature (renaming a variable).
+* **revert**: Reverts a previous commit.
+* **style**: Changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc).
+* **test**: Adding missing tests or correcting existing tests.
+* **content**: Adding or removing content.
+* **devtools**: Developer tooling related.
 
 ### Scope
 
