@@ -3,7 +3,7 @@ id: kubernetes
 title: Kubernetes
 sidebar_label: Kubernetes
 description: Definitions and usage of Kubernetes
-keywords: [ Kubernetes, What is Kubernetes?, What is Kubernetes for?, How to use Kubernetes?, How to write Kubernetes?, Kubernetes Guide, Kubernetes Commands ]
+keywords: [ Kubernetes, What is Kubernetes, What is Kubernetes for, How to use Kubernetes, How to write Kubernetes, Kubernetes Guide, Kubernetes Commands ]
 ---
 
 Kubernetes is an open source platform, which was created by Google, used for the management, deployment, scalability and monitoring of Docker containers. 

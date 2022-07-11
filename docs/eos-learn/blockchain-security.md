@@ -3,7 +3,7 @@ id: blockchain-security
 title: Blockchain Vulnerabilities
 sidebar_label: Security
 description: Dangerous vulnerabilities in the blockchain ecosystem.
-keywords: [blockchain, security, vulnerabilities, Security Risks in the Blockchain Ecosystem, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Security?, What is the Blockchain Security?]
+keywords: [blockchain, security, vulnerabilities, Security Risks in the Blockchain Ecosystem, EOSIO, EOS, EOS Costa Rica, eosio.io, What is Security, What is the Blockchain Security]
 ---
 ## Exploiting vulnerabilities in Blockchain
 

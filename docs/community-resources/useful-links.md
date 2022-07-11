@@ -3,7 +3,7 @@ id: useful-links
 title: EOS Community Links
 sidebar_label: Useful Links
 description: Useful links for the EOS community
-keywords: [EOS Community Links, EOS, EOS Costa Rica, eosio.io, What are the Useful Links of EOS?, Useful Links EOS Community]
+keywords: [EOS Community Links, EOS, EOS Costa Rica, eosio.io, What are the Useful Links of EOS, Useful Links EOS Community]
 ---
 
 Here is a list of helpful links related to the EOS community.

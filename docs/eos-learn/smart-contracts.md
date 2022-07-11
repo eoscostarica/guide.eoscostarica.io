@@ -1,9 +1,9 @@
 ---
 id: smart-contract
 title: Smart Contracts
-sidebar_label: What is a Smart Contract and how it works?
+sidebar_label: What is a Smart Contract and how it works ?
 description: Smart Contracts, explanation and definitions how it works and how to use it.
-keywords: [ Smart Contracts, What is a Smart Contract?, How work a smart contract?, How Create a Smart Contract?, EOS, EOS Costa Rica]
+keywords: [ Smart Contracts, What is a Smart Contract, How work a smart contract, How Create a Smart Contract, EOS, EOS Costa Rica]
 ---
 
 A contract is an agreement governing outcomes for actions, given a set of inputs. A contract can range from formal legal contracts (e.g., a financial transaction) to something as simple as the "rules" of a game. Typical actions can be things such as fund transfers (in the case of a financial contract) or game moves (in the case of a game contract).

@@ -3,7 +3,7 @@ id: github-guide
 title: GitHub Guide 
 sidebar_label: GitHub Guide 
 description: Definition and usage of version control system GitHub
-keywords: [ GitHub, Git, What is GitHub?, How GitHub Works?, How to use GitHub?, What is GitHub for?]
+keywords: [ GitHub, Git, What is GitHub, How GitHub Works, How to use GitHub, What is GitHub for]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

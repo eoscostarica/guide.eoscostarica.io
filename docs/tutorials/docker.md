@@ -2,8 +2,8 @@
 id: docker
 title: Docker
 sidebar_label: Docker
-description: Concepts, definitions, funtionalitys from Docker
-keywords: [ Docker, Learn Docker, What is Docker?, How Docker Works?, How to use Docker?, What is Docker for?]
+description: Concepts, definitions, funtionalities from Docker
+keywords: [ Docker, Learn Docker, What is Docker, How Docker Works, How to use Docker, What is Docker for?]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -3,7 +3,7 @@ id: visual-resources
 title: Visual Resources
 sidebar_label: Visual Resources
 description: Visual Materials for software developers EOS Costa Rica
-keywords: [ Visua Resources, Components, Material to develop] 
+keywords: [ Visual Resources, Components, Material to develop] 
 ---
 
 ## EOS Costa Rica

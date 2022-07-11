@@ -3,7 +3,7 @@ id: command-line
 title: Cleos Commands
 sidebar_label: Command Line
 description: List of commands for use with Cleos.
-keywords: [ Cleos Commands, Cleos, EOS, EOS Costa Rica, What is Cleos?]
+keywords: [ Cleos Commands, Cleos, EOS, EOS Costa Rica, What is Cleos]
 ---
 
 ### Cleos Command

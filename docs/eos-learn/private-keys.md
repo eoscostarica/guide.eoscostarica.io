@@ -3,7 +3,7 @@ id: private-keys
 title: Private Keys
 sidebar_label: Private Keys
 description: Handling private keys in blockchain
-keywords: [ private keys, keys, EOSIO, EOS, EOS Costa Rica, What is a private key?, What is a private key for?]
+keywords: [ private keys, keys, EOSIO, EOS, EOS Costa Rica, What is a private key, What is a private key for]
 ---
 
 ## Create an Account in the Public Blockchain

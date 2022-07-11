@@ -3,7 +3,7 @@ id: engineering-culture
 title: Engineering Culture
 sidebar_label: Engineering Culture
 description: Engineering culture values and practices what we do in the EOS community
-keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Engineering Culture?, Engineering Culture, Engineering Culture EOS]
+keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is the EOS Costa Rica Engineering Culture, Engineering Culture, Engineering Culture EOS]
 ---
 
 We are a fast paced startup with really talented engineers who love open source and agile principles. 

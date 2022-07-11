@@ -3,7 +3,7 @@ id: important-functions
 title: Important Functions in EOSIO
 sidebar_label: Important Functions
 description: Important Functions in EOSIO Blockchain
-keywords: [ important functions, Functions EOSIO, Functions Blockchain, EOS, EOS Costa Rica]
+keywords: [ important functions, Functions EOSIO, Functions Blockchain, EOS, EOS Costa Rica, Intrinsic functions , smart contract actions]
 ---
 
 ## EOSIO Privileged Account

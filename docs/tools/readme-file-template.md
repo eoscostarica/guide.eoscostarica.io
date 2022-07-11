@@ -2,7 +2,7 @@
 id: readme-file-template
 title: Readme file template
 sidebar_label: Readme File Template
-description: Template to create redme a readme file
+description: Template to create a readme file
 keywords: [readme, file, template, Readme File, Readme File Example, markdown, github markdown, github markdown template, example readme]
 ---
 

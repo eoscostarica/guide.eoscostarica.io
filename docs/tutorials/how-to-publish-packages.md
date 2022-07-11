@@ -3,7 +3,7 @@ id: how-to-publish-packages
 title: Publish NPM Packages
 sidebar_label: How To Publish Packages
 description: Publish NPM Packages for another developers can use it in their projects
-keywords: [NPM, Publish NPM packages, How to publish NPM Package?, What is a NPM Package?, How to create a NPM Package?]
+keywords: [NPM, Publish NPM packages, How to publish NPM Package, What is a NPM Package, How to create a NPM Package]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

@@ -2,7 +2,7 @@
 id: glossary
 title: Glossary
 sidebar_label: Glossary
-description: Glossary of relevant terms for develop EOS aplications
+description: Glossary of relevant terms for develop EOS applications
 keywords: [ Glossary, Relevant Terms, EOS, EOS Costa Rica]
 ---
 

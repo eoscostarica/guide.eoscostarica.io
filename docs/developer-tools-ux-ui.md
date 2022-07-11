@@ -1,9 +1,9 @@
 ---
 id: developer-tools-ux-ui
-title: Tools for UX/UI Desing
+title: Tools for UX/UI Design
 sidebar_label: UX/UI
 description: Tools to design and develop user interfaces UX/UI
-keywords: [UX, UI, Design, Design Tools, Tools, Tools for UX/UI, What is UI?, EOS, EOS Costa Rica, Why UX/UI? ]
+keywords: [UX, UI, Design, Design Tools, Tools, Tools for UX/UI, What is UI, EOS, EOS Costa Rica, Why UX/UI ]
 ---
 
 ## Figma

@@ -1,9 +1,9 @@
 ---
 id: boilerplate
-title: What is a Boilerplate?
+title: What is a Boilerplate ?
 sidebar_label: Project Boilerplate
 description: What is a Boilerplate?, definition of Boilerplate
-keywords: [Boilerplate, Project Boilerplate, EOSIO, EOS, EOS Costa Rica, eosio.io, What is a Boilerplate?, What is the EOS Costa Rica Project Boilerplate?, What is a Boilerplate for]
+keywords: [Boilerplate, Project Boilerplate, EOSIO, EOS, EOS Costa Rica, eosio.io, What is a Boilerplate, What is the EOS Costa Rica Project Boilerplate, What is a Boilerplate for]
 ---
 
 ## Boilerplate definition?

@@ -1,9 +1,9 @@
 ---
 id: ricardian-contracts
-title: What are Ricardian Contracts?
+title: What are Ricardian Contracts ?
 sidebar_label: Ricardian Contracts
 description: Definition and explanation of Ricardian Contracts.
-keywords: [ Ricardian Contracts, What is a Ricardian Contract?, How work a Ricardian Contract?, How Create a Ricardian Contract?, How Create a Ricardian Contract?, Ricardian Contract Blockchain, EOS, EOS Costa Rica]
+keywords: [ Ricardian Contracts, What is a Ricardian Contract, How work a Ricardian Contract, How Create a Ricardian Contract, How Create a Ricardian Contract, Ricardian Contract Blockchain, EOS, EOS Costa Rica]
 ---
 
 ## What are Ricardian Contracts?

@@ -3,7 +3,7 @@ id: git-workflow-tutorial
 title: Git workflow
 sidebar_label: Git Workflow
 description: How to use Git to manage your project 
-keywords: [Git, Git workflow, How to use Git, How to manage your project, How to use Git to manage your project?, workflow git]
+keywords: [Git, Git workflow, How to use Git, How to manage your project, How to use Git to manage your project, workflow git]
 ---
 
 In this tutorial, we explain step by step how to program an open source project using the **GitHub** platform. This is a repository with access to various functions and tools for project development and administration.

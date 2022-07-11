@@ -3,7 +3,7 @@ id: migration-to-mandel
 title: Migration from EOSIO to Mandel
 sidebar_label: Migration from EOSIO to Mandel
 description: Difference between the EOS mainnet and the EOSIO blockchain protocol and software.
-keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is Mandel?, Migration to Mandel,  Mandel Vs EOSIO, What is the difference between EOSIO and Mandel?]
+keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is Mandel, Migration to Mandel,  Mandel Vs EOSIO, What is the difference between EOSIO and Mandel]
 ---
 
 ## Dissatisfaction with Block One

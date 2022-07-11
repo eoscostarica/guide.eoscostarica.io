@@ -3,7 +3,7 @@ id: eosio-networks
 title: EOSIO Blockchain Networks
 sidebar_label: EOSIO Networks
 description: Blockchain networks developed with EOSIO protocol.
-keywords: [Blockchain Networks, EOSIO, EOS, EOS Costa Rica, eosio.io, EOSIO Costa Rica, EOSIO Networks, What is a EOSIO Blockchain?, Blockchain based on EOSIO]
+keywords: [Blockchain Networks, EOSIO, EOS, EOS Costa Rica, eosio.io, EOSIO Costa Rica, EOSIO Networks, What is a EOSIO Blockchain, Blockchain based on EOSIO]
 ---
 
 # Blockchain Networks

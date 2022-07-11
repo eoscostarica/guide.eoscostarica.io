@@ -3,7 +3,7 @@ id: nodeos-command-line-reference
 title: Nodeos Configuration Options
 sidebar_label: Nodeos Command Line Reference
 description: Options to configure the nodeos.
-keywords: [ Nodeos Command Line Reference, Nodeos, EOS, EOS Costa Rica, What is Nodeos?, Nodeos Configuration Options, Nodeos Configuration ]
+keywords: [ Nodeos Command Line Reference, Nodeos, EOS, EOS Costa Rica, What is Nodeos, Nodeos Configuration Options, Nodeos Configuration ]
 ---
 
 ## Nodeos Application Options:

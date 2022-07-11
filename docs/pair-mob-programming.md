@@ -3,7 +3,7 @@ id: pair-mob-programming
 title: Software Development in Pairs or Groups (Pair Programming)
 sidebar_label: Pair or Mob Programming
 description: Programming in pairs or groups
-keywords:  [ Programming in pairs, Pair Programming, What is Pair Programming?, How to Apply Pair Programming?]
+keywords:  [ Programming in pairs, Pair Programming, What is Pair Programming, How to Apply Pair Programming]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
