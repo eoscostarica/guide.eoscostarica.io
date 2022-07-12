@@ -2,6 +2,8 @@
 id: private-network-installation
 title: EOSIO Private Network Installation
 sidebar_label: EOSIO Private Network Installation
+description: Steps to create a private network EOSIO
+keywords: [EOSIO, Private Network, Installation, EOSIO Networks, What is EOSIO, How EOSIO Works, How to use EOSIO, What is EOSIO for, What is EOSIO Network?, What is EOSIO]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

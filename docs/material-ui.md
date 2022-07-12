@@ -2,6 +2,8 @@
 id: material-ui
 title: Material UI & Theme
 sidebar_label: Material UI Theme
+description: Material UI & Theme for handling the theme of different projects
+keywords: [Material UI, Theme, Material UI Theme, styles, css, color palette, EOS, EOS Costa Rica]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

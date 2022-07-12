@@ -2,9 +2,11 @@
 id: markdown-guide
 title: Markdown Guide 
 sidebar_label: Markdown Guide 
+description: Definition and usage of Markdown
+keywords: [ Markdown, How to use Markdown, What is Markdown, What is Markdown for, How to write markdown, Markdown Guide, Markdown Commands ]
 ---
 
-## What is Markdown?
+## What is Markdown and What is it Used For ?
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
 

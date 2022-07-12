@@ -2,6 +2,8 @@
 id: web-app-boilerplate
 title: Web App Boilerplate
 sidebar_label: Webapp Boilerplate
+description: Webapp Boilerplate for software developers EOS Costa Rica
+keywords: [ Webapp Boilerplate, Components, Material to develop, Web boilerplate]
 ---
 
 ## React Webapp Boilerplate

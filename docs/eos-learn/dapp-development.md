@@ -2,6 +2,8 @@
 id: dapp-development
 title: Dapp Development
 sidebar_label: Dapp Development
+description: Definition and explanation of Dapp Development with different frameworks and tools.
+keywords: [ Dapp Development, What is a Dapp Development, How Create a Dapp, Dapp Development Blockchain, EOS, EOS Costa Rica, What is Dapp Develoment for]
 ---
 
 ## Why EOS was Designed to Decentralized Apps

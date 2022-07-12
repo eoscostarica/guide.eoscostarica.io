@@ -1,7 +1,9 @@
 ---
 id: devops
-title: DevOps
+title: What is DevOps ?
 sidebar_label: DevOps
+description: DevOps is the process of putting together a team to build a system that is efficient, reliable, and secure.
+keywords: [DevOps, What is DevOps for, EOS, EOS Costa Rica, Why DevOps ]
 ---
 
 DevOps is the practice & culture of applying lean manufacturing principles to the IT Value stream to increase software velocity, reduce waste, & improve quality with an emphasis on leveraging *people, processes, & tools.*

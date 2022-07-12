@@ -1,7 +1,9 @@
 ---
 id: system-resources
-title: System Resources
+title: EOSIO System Resources
 sidebar_label: System Resources
+description: Use of EOSIO System Resources
+keywords: [EOSIO, System Resources, EOS, EOS Costa Rica, eosio.io, What is System Resources, What is the EOSIO System Resources, Blockchain Resources]
 ---
 
 ## Type of Resources

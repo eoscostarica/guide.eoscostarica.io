@@ -1,7 +1,9 @@
 ---
 id: accounts-and-permissions
-title: Accounts And Permissions
+title: Accounts And Permissions EOSIO
 sidebar_label: Accounts And Permissions
+description: Accounts And Permissions to use in EOSIO
+keywords: [Accounts And Permissions, eosio, eosio.io, EOS Costa Rica, Accounts, Permissions, Permissions EOSIO, Blockchain, Blockchain EOSIO, What are the Accounts and Permissions for EOSIO]
 ---
 
 ## Accounts
