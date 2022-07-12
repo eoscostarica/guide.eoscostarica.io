@@ -158,16 +158,6 @@ const siteConfig = {
     ],
   ],
 
-  scripts: [
-    {
-      src: "https://medium-widget.pixelpoint.io/widget.js",
-      async: true,
-    },
-    {
-      src: "../../static/scripts/mediumScript.js",
-      async: true,
-    },
-    "https://platform.twitter.com/widgets.js",
-  ],
+  scripts: [],
 };
 module.exports = siteConfig;
