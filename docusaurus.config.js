@@ -167,6 +167,11 @@ const siteConfig = {
       src: "../../static/scripts/mediumScript.js",
       async: true,
     },
+    {
+      src: '/../../static/scripts/fix-location.js',
+      async: false,
+      defer: false,
+    },
     "https://platform.twitter.com/widgets.js",
   ],
 };
