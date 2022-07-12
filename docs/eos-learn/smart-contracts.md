@@ -46,3 +46,4 @@ https://github.com/kesar/eos-awesome-contracts
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+To learn more about this, can visit the following [link](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
