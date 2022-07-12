@@ -73,6 +73,7 @@ module.exports = {
         "tools/block-explorers",
         "tools/eosio-sdk-libraries",
         "tools/readme-file-template",
+        "tools/example-eosio-smart-contract",
         "tools/frequently-asked-questions",
       ],
     },
