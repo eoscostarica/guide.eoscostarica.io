@@ -1,6 +1,6 @@
 ---
 id: blockchain-consensus-mechanism
-stitle: Blockchain Consensus Mechanisms
+title: Blockchain Consensus Mechanisms
 sidebar_label: Consensus Mechanisms
 description: Consensus explanation and definition of consensus mechanisms for the blockchain
 keywords: [ Consensus Algorithm, Blockchain, POW, POS, dPOS, Consensus Mechanisms ]
