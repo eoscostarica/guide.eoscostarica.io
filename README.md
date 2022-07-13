@@ -20,7 +20,6 @@ In this site you will find the resources collected in the day-to-day life of EOS
 1. Development Environment
 1. File Structure
 1. Contributing
-1. Contributors
 1. About EOS Costa Rica
 
 ## Project Purpose
