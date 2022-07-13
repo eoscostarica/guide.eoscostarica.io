@@ -3,7 +3,7 @@ id: dapp-development
 title: Dapp Development
 sidebar_label: Dapp Development
 description: Definition and explanation of Dapp Development with different frameworks and tools.
-keywords: [ Dapp Development, What is a Dapp Development, How Create a Dapp, Dapp Development Blockchain, EOS, EOS Costa Rica, What is Dapp Develoment for]
+keywords: [ Dapp Development, Decentralized Applications, How Create a Dapp, Blockchain Application Development, EOS, Web3, What is Dapp Development for]
 ---
 
 ## Why EOS was Designed to Decentralized Apps
@@ -59,7 +59,7 @@ https://github.com/tokenika/eosfactory
 
 ## EOSIO DApp Boilerplate
 
-This boilerplate provides a very quick way to get started with application development on the EOSIO platform. It's an opinioned selection of technologies that will allow you to build performant and scalable EOSIO dApps.
+This boilerplate provides a very quick way to get started with application development on the EOSIO platform. It's an opinionated selection of technologies that will allow you to build performant and scalable EOSIO dApps.
 
 https://github.com/eoscostarica/eos-dapp-boilerplate 
 

@@ -1,7 +1,7 @@
 ---
 id: smart-contract
 title: Smart Contracts
-sidebar_label: What is a Smart Contract and how it works ?
+sidebar_label: EOSIO Smart Contracts
 description: Smart Contracts, explanation and definitions how it works and how to use it.
 keywords: [ Smart Contracts, What is a Smart Contract, How work a smart contract, How Create a Smart Contract, EOS, EOS Costa Rica]
 ---

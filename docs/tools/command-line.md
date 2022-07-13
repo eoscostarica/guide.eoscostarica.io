@@ -86,7 +86,7 @@ Positionals:
 Options:
   -h,--help                   Print this help message and exit
   -x,--expiration             set the time in seconds before a transaction expires, defaults to 30s
-  -f,--force-unique           force the transaction to be unique. this will consume extra bandwidth and remove any protections against accidently issuing the same transaction multiple times
+  -f,--force-unique           force the transaction to be unique. this will consume extra bandwidth and remove any protections against accidentally issuing the same transaction multiple times
   -s,--skip-sign              Specify if unlocked wallet keys should be used to sign transaction
   -j,--json                   print result as json
   --json-file TEXT            save result in json format into a file

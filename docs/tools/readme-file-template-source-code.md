@@ -46,7 +46,7 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
     *Moreover, the pandemic is impacting local economies due to a generalized lockdown. Small businesses that rely on the local community must think of ways to incentivize customers to buy as soon as restrictions are lifted."*
 
     ## Version
-    Know what version of the project is, could helps others to debug problems, give it differents solutions or approaches, for this reason, is needed to specify the lastest version of the project, for example:
+    Know what version of the project is, could helps others to debug problems, give it different solutions or approaches, for this reason, is needed to specify the latest version of the project, for example:
 
     :::note modify
     Evodex is ready for our first group of beta testers to try the next generation decentralized exchange for EOS
@@ -150,10 +150,6 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
     ├── nginx.conf
     └── package.json
     ```
-
-    ## License
-
-    MIT © EOS Costa Rica
 
     ## Contributing
 

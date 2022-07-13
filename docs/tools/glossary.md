@@ -356,7 +356,7 @@ Term used to refer to something that cannot be changed.
 
 ### Inflation
 
-The mechanism through which new tokens are created on the EOS mainnet. 20% of these are used to pay Block Producers and Standby Producers, with the remainder going into the eosio.saving account.
+The mechanism through which new tokens are created on the EOS mainnet. 20% of these are used to pay Block Producers and Standby Producers, with the remainder going into the `eosio.saving` account.
 
 * * *
 
