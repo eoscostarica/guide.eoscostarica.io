@@ -2,6 +2,8 @@
 id: glossary
 title: Glossary
 sidebar_label: Glossary
+description: Glossary of relevant terms for develop EOS applications
+keywords: [ Glossary, Relevant Terms, EOS, EOS Costa Rica]
 ---
 
 List of terms necessary to understand the contents of this guide.
@@ -354,7 +356,7 @@ Term used to refer to something that cannot be changed.
 
 ### Inflation
 
-The mechanism through which new tokens are created on the EOS mainnet. 20% of these are used to pay Block Producers and Standby Producers, with the remainder going into the eosio.saving account.
+The mechanism through which new tokens are created on the EOS mainnet. 20% of these are used to pay Block Producers and Standby Producers, with the remainder going into the `eosio.saving` account.
 
 * * *
 

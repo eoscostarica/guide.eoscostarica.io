@@ -213,7 +213,7 @@ const CardsSection = () => {
         <Grid item xs={12} sm={12} md={4}>
           <CustomCard
             title="Developer Guidelines"
-            body="Guides for developers on how to program in open source."
+            body="General guidelines for open source development."
             href="/docs/open-source-guidelines"
             img="/img/cards-icons/guidelines.svg"
           ></CustomCard>
@@ -221,7 +221,7 @@ const CardsSection = () => {
         <Grid item xs={12} sm={12} md={4}>
           <CustomCard
             title="Learn EOSIO"
-            body="Set of information necessary to learn about the EOSIO protocol."
+            body="Resources and information to learn about the EOSIO protocol."
             href="/docs/eos-learn/eosio-protocol"
             img="/img/cards-icons/icons-eosio.svg"
           ></CustomCard>
@@ -230,14 +230,14 @@ const CardsSection = () => {
           <CustomCard
             title="Tutorials"
             body="Support information needed to perform the installation and execution of processes."
-            href="docs/tutorials/getting-started"
+            href="docs/tutorials/markdown-guide"
             img="/img/cards-icons/tutorials.svg"
           ></CustomCard>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
           <CustomCard
             title="Tools"
-            body="Set of useful tools during the learning process."
+            body="Set of useful tools for the learning process."
             href="docs/tools/glossary"
             img="/img/cards-icons/tools.svg"
           ></CustomCard>
@@ -245,7 +245,7 @@ const CardsSection = () => {
         <Grid item xs={12} sm={12} md={4}>
           <CustomCard
             title="Community"
-            body="Links to EOS community sites of interest."
+            body="Links to sites of interest related to the EOS community."
             href="docs/community-resources/telegram-channels"
             img="/img/cards-icons/community.svg"
           ></CustomCard>
@@ -253,7 +253,7 @@ const CardsSection = () => {
         <Grid item xs={12} sm={12} md={4}>
           <CustomCard
             title="Open source projects"
-            body="List of open source projects that we carry out."
+            body="Open source projects developed by EOS Costa Rica."
             href="docs/open-source-projects"
             img="/img/cards-icons/icons-opensource.svg"
           ></CustomCard>
@@ -345,7 +345,10 @@ const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <Layout permalink="/" description={siteConfig.tagline}>
+    <Layout 
+      permalink="/" 
+      title={siteConfig.title}
+      description={siteConfig.tagline}>
       <HeroSection />
       <CardsSection />
       <MediumSection />

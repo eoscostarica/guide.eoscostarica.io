@@ -2,6 +2,8 @@
 id: github-keys
 title: GitHub Keys
 sidebar_label: GitHub Keys 
+description: Keys SSH from GitHub to access the repositories
+keywords: [ GitHub, Keys, SSH, SSH Keys, GitHub Keys, What is SSH, What is SSH Keys, How to use SSH, How to use SSH Keys, SSH Guide ]
 ---
 
 ## Why we need GitHub Keys?

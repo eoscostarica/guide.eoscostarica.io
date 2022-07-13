@@ -1,7 +1,9 @@
 ---
 id: eosio-networks
-title: EOSIO based Blockchain Networks
+title: EOSIO Blockchain Networks
 sidebar_label: EOSIO Networks
+description: Blockchain networks developed with EOSIO protocol.
+keywords: [Blockchain Networks, EOSIO, EOS, EOS Costa Rica, eosio.io, EOSIO Costa Rica, EOSIO Networks, What is a EOSIO Blockchain, Blockchain based on EOSIO]
 ---
 
 # Blockchain Networks
@@ -31,7 +33,7 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [Europechain](https://europechain.io/): A public-permissioned blockchain that uses conventionals channels to support the enforcement of the European normative, GDPR included.
+- [Europechain](https://europechain.io/): A public-permissioned blockchain that uses conventional channels to support the enforcement of the European normative, GDPR included.
 
 * * *
 

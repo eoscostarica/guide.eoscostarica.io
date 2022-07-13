@@ -2,6 +2,8 @@
 id: eosio-components
 title: EOSIO Components
 sidebar_label: EOSIO Components
+description: EOSIO Components, explaining how it works with different components like React and how to use it.
+keywords: [EOSIO Components, eosio, eosio.io, EOS Costa Rica, Components EOSIO, Blockchain Components, React js, react, React Components]
 ---
 
 ## Nodeos
@@ -42,7 +44,7 @@ $ cleos wallet create -n mywallet --to-console
 
 ## EOSIO.CDT
 
-[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) or **Contract Development Toolkit** is a toolchain for WebAssembly(WASM) with tools to facilitate smart contracts development. C++ to WASM compiler and [**Aplication Binary Interface**](https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/abi/understanding-abi-files) (ABI) generator set of C/C++ libraries for smart contracts development.
+[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) or **Contract Development Toolkit** is a toolchain for WebAssembly(WASM) with tools to facilitate smart contracts development. C++ to WASM compiler and [**Application Binary Interface**](https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/abi/understanding-abi-files) (ABI) generator set of C/C++ libraries for smart contracts development.
 
 ## Get your Private Keys
 

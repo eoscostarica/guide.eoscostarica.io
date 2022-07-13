@@ -2,6 +2,8 @@
 id: eosio-sdk-libraries
 title: EOSIO SDK Libraries
 sidebar_label: EOSIO SDK Libraries
+description: Libraries for use with the blockchain EOSIO 
+keywords: [ libraries, SDK, EOSIO, EOS, Blockchain, EOS, EOS Costa Rica]
 ---
 
 ## SDKs for EOSIO

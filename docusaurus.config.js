@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: "EOS Costa Rica | Developers Guides",
-  tagline: "Documentation for developers of EOS Costa Rica",
+  tagline: "Guides and documentation for developers of EOS Costa Rica",
   url: "https://guide.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */
   //cname: "guide.eoscostarica.io",
@@ -24,9 +24,9 @@ const siteConfig = {
     navbar: {
       logo: {
         alt: "EOS Costa Rica Logo",
-        src: "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
+        src: "/img/byw-horizontal-transparent.png",
         srcDark:
-          "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png",
+          "/img/byw-horizontal-transparent-white.png",
       },
       items: [
         /*{
@@ -67,7 +67,7 @@ const siteConfig = {
     footer: {
       logo: {
         alt: "EOS Costa Rica Logo",
-        src: "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
+        src: "/img/byw-horizontal-transparent.png",
         href: "https://guide.eoscostarica.io/",
       },
       links: [
@@ -158,16 +158,6 @@ const siteConfig = {
     ],
   ],
 
-  scripts: [
-    {
-      src: "https://medium-widget.pixelpoint.io/widget.js",
-      async: true,
-    },
-    {
-      src: "../../static/scripts/mediumScript.js",
-      async: true,
-    },
-    "https://platform.twitter.com/widgets.js",
-  ],
+  scripts: [],
 };
 module.exports = siteConfig;

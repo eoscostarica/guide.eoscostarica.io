@@ -1,7 +1,9 @@
 ---
 id: consensus-mechanism
-title: Consensus Mechanism
-sidebar_label: Consensus Mechanism
+title: DPoS Consensus Algorithm
+sidebar_label: DPoS Consensus Algorithm
+description: Consensus Algorithm for EOSIO protocol based blockchain networks.
+keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a consensus algorithm, What is a blockchain consensus algorithm, What is a consensus algorithm, POS, DPoS, POW, Delegated Proof of Stake, Proof of Stake]
 ---
 
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.
@@ -14,7 +16,7 @@ A consensus mechanism ensures that each new block that is added to the blockchai
 
 A consensus algorithm is a process in Computer Science used to achieve agreement on a single data value between processes or distributed systems.
 
-Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blokchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
+Blockchain technology depends on Consensus Algorithms to achieve an agreement between the nodes. A blockchain can be thought of as a decentralized database that is managed by computers distributed in a point-to-point (P2P) network. Each point maintains a copy of the network state to prevent a single point of failure (SPOF). Updates and validations are reflected on all copies simultaneously.
 
 EOSIO software uses the only known proven decentralized consensus algorithm capable of meeting the performance requirements of blockchain applications, **Delegated Proof of Stake (DPoS)**. Under this algorithm, those who hold tokens on the blockchain by adopting EOSIO software can select block producers through a continuous approval system. Anyone who chooses to participate in block production will have a chance to produce them, provided they can persuade token holders to vote for them.
 

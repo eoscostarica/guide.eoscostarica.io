@@ -2,11 +2,13 @@
 id: important-functions
 title: Important Functions in EOSIO
 sidebar_label: Important Functions
+description: Important Functions in EOSIO Blockchain
+keywords: [ important functions, Functions EOSIO, Functions Blockchain, EOS, EOS Costa Rica, Intrinsic functions , smart contract actions]
 ---
 
 ## EOSIO Privileged Account
 
-This account has unlimited access to CPU, NET, and RAM resources representing the highest authority of the network which can execute priviledged functions.
+This account has unlimited access to CPU, NET, and RAM resources representing the highest authority of the network which can execute privileged functions.
 
 Usually this authority is invoked by a multi-signature (or "multisig") contract that will require the consent of a super-majorit of the block producers. This privileged account will be called the `eosio` account.
 
@@ -43,7 +45,7 @@ Modify one or more parameters of the blockchain.
 - `base_per_transaction_net_usage`: The base amount of net usage billed for a transaction to cover incidentals.
 - `context_free_discount_net_usage_num`: The numerator for the discount on net usage of context-free data.
 - `context_free_discount_net_usage_den`: The denominator for the discount on net usage of context-free data.
-- `max_block_cpu_usage`: The maxiumum billable cpu usage (in microseconds) for a block.
+- `max_block_cpu_usage`: The maximum billable cpu usage (in microseconds) for a block.
 - `target_block_cpu_usage_pct`: The target percent (1% == 100, 100%= 10,000) of maximum cpu usage; exceeding this triggers congestion handling.
 - `max_transaction_cpu_usage`: The maximum billable cpu usage (in microseconds) that the chain will allow regardless of account limits.
 - `min_transaction_cpu_usage`: The minimum billable cpu usage (in microseconds) that the chain requires.
@@ -118,7 +120,7 @@ permission: The name of the permission to be removed.
 
 ### linkauth
 
-Assign a specific action of a contract to a specific permission, five actions cannot be linked updateauth, deleteauth, linkauth, unlikauth, canceldelay.
+Assign a specific action of a contract to a specific permission, five actions cannot be linked `updateauth`, `deleteauth`, `linkauth`, `unlikauth`, `canceldelay`.
 
 ```yaml
 account: The destination account.
@@ -129,7 +131,7 @@ requirement: Permission to link.
 
 ### unlinkauth
 
-It is the reverse of linkauth.
+It is the reverse of `linkauth`.
 
 ```yaml
 account: The destination account.

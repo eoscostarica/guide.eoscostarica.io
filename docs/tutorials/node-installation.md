@@ -2,6 +2,8 @@
 id: node-installation
 title: EOSIO Node Installation
 sidebar_label: Node Installation
+description: EOSIO Node Installation
+keywords: [ Node Installation, EOSIO Nodes, How to create a node, How to Install a Node, Install Nodes]
 ---
 
 ## A Producer Node Setup

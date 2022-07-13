@@ -2,11 +2,13 @@
 id: kubernetes
 title: Kubernetes
 sidebar_label: Kubernetes
+description: Definitions and usage of Kubernetes
+keywords: [ Kubernetes, What is Kubernetes, What is Kubernetes for, How to use Kubernetes, How to write Kubernetes, Kubernetes Guide, Kubernetes Commands ]
 ---
 
 Kubernetes is an open source platform, which was created by Google, used for the management, deployment, scalability and monitoring of Docker containers. 
 
-### Kubernetes Features
+## Kubernetes Features
 
 - Intelligent container deployment.
 - Management of workloads (provides load balancing).
@@ -15,15 +17,15 @@ Kubernetes is an open source platform, which was created by Google, used for the
 - Great flexibility and allows modular work.
 - Container monitoring.
 
-### Kubernetes Architecture
+## Kubernetes Architecture
 
 There are two main roles, "master" and "node". The master is in charge of managing and orchestrating the different microservices between the 4 available nodes in the cluster.
 
-### Kubernetes Architecture Diagram
+## Kubernetes Architecture Diagram
 
 ![Diagram of Kubernetes Architecture](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
 
-### Key Concepts in k8s
+## Key Concepts in k8s
 
 **Cluster:** It is a group of devices that can be physical or virtual, are united many times by a network and, therefore, they behave as one.
 

@@ -2,13 +2,15 @@
 id: migration-to-mandel
 title: Migration from EOSIO to Mandel
 sidebar_label: Migration from EOSIO to Mandel
+description: Difference between the EOS mainnet and the EOSIO blockchain protocol and software.
+keywords: [EOSIO, EOS, EOS Costa Rica, eosio.io, What is Mandel, Migration to Mandel,  Mandel Vs EOSIO, What is the difference between EOSIO and Mandel]
 ---
 
 ## Dissatisfaction with Block One
 
 In 2021, the [EOS Community](https://eoscommunity.org/) felt disappointed about the commitment of [Block One](https://block.one/) with the them because of the lack of investment and action on behalf of B1 in supporting in the EOS blockchain. For these reasons, through a super-majority consensus of Block Producers, the community affirms that the company doesn't act in the interest of the community and were stop the payment that the company receives for the network maintenance.
 
-After the fallout with B1, the EOS founder Daniel Larimer indicates that it’s necessary to make a restructuration and reformulation of the EOS brand, its name, vision, and goals. Also, he says that is the beginning of a new era for EOS by firing B1 and no longer issuing tokens to them, as it allows the community to confront corporate interests that do not align with their interests.
+After the fallout with B1, the EOS founder Daniel Larimer indicates that it’s necessary to restructure the EOSIO brand, its name, vision, and goals. Also, he says that is the beginning of a new era for EOS by firing B1 and no longer issuing tokens to them, as it allows the community to confront corporate interests that do not align with their interests.
 
 Also, the [EOS Network Foundation](https://eosnetwork.com/) (ENF) emerged as a new alternative to direct network funds into furthering the development of the EOSIO protocol and EOS mainnet.
 The EOS Network Foundation's vision is to build a decentralized future where no sacrifice the community, cooperation, or consensus, making easy innovation through the union and empowerment of the developers around the world.
