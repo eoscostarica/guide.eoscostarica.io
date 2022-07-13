@@ -1,8 +1,8 @@
 ---
 id: consensus-mechanism
-title: DPoS Consensus Algorithms
-sidebar_label: DPoS Consensus Algorithms
-description: Consensus Algorithms for blockchain networks and protocols.
+title: DPoS Consensus Algorithm
+sidebar_label: DPoS Consensus Algorithm
+description: Consensus Algorithm for EOSIO protocol based blockchain networks.
 keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a consensus algorithm, What is a blockchain consensus algorithm, What is a consensus algorithm, POS, DPoS, POW, Delegated Proof of Stake, Proof of Stake]
 ---
 
