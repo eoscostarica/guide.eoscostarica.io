@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <br/>
 
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl( '/img/eos-blockchain/eos-network.jpg' )} width="100%" />
+  <img alt="Network Comparisons" title="Network Comparisons" src={ useBaseUrl( '/img/eos-blockchain/eos-network.webp' )} width="100%" />
   <br />
 </p>
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br/>
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl( '/img/eos-blockchain/eos-application-stack.png' )} width="100%" />
+  <img alt="EOS Application Stack" src={ useBaseUrl( '/img/eos-blockchain/eos-application-stack.webp' )} width="100%" />
   <br />
   <small>
     <b>Source:</b>steemit.com/eos/@eosio/introducing-eos-io-application-stack

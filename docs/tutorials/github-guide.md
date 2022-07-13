@@ -16,26 +16,26 @@ For EOS Costa Rica, it is of utmost importance that our collaborators familiariz
 
 GitHub [CLI](https://cli.github.com) is a command line tool for using GitHub functions on your own computer.
 
-<img alt="GitHub CLI Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.png' )} />
+<img alt="GitHub CLI Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.webp' )} />
 
 ### [GitHub Desktop](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-desktop)
 
 [GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop) is the desktop application that allows the user to interact with Github functionalities through the graphical interface, replacing the lines of code with a visual device.
 
-<img alt="GitHub Desktop Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.png' )} />
+<img alt="GitHub Desktop Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.webp' )} />
 
 ### [GitHub for mobile](https://docs.github.com/en/github/getting-started-with-github/github-for-mobile)
 
 
 [GitHub for mobile](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) is available for Android and iOS, it gives you a way to get high-impact work on GitHub quickly, from anywhere. It also becomes a secure and stable way to access GitHub data through a trusted source client application.
 
-<img alt="GitHub Móvil Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.png' )} />
+<img alt="GitHub Móvil Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.webp' )} />
 
 ### [Git Bash](https://desarrolloweb.com/articulos/entiende-instala-configura-git.html#:~:text=Git%20Bash%20es%20la%20línea,para%20usar%20Git%20en%20Windows.)
 
 [Git Bash](https://gitforwindows.org) is a Git application for Windows, where it allows working through command lines managing projects found on GitHub.
 
-<img alt="Git Bash Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.png' )} />
+<img alt="Git Bash Image" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.webp' )} />
 
 ### [Hub](https://hub.github.com)
 

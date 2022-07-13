@@ -39,7 +39,7 @@ These Markdown applications use a Markdown processor also known as *parser* or *
 
 **Example**
 
-![](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
+![Diagram showing the steps to transform a Markdown file into an HTML file](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
 
 * * *
 
@@ -184,7 +184,7 @@ Another Text
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
 **Example:**  
-![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![How markdown displays the example image](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 * * *
 ### **Videos**
