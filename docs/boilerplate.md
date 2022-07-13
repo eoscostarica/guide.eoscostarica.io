@@ -10,6 +10,25 @@ A boilerplate is a framework or template for the development of a project. It is
 
 At EOS Costa Rica we have created three boilerplate repositories: ** Front-End Boilerplate **, ** Back-End Boilerplate ** and ** Full-Stack Boilerplate**.
 
+## EOS Boilerplates 
+
+- [Full Stack Boilerplate](eoscostarica/full-stack-boilerplate)
+- [Back End](eoscostarica/backend-boilerplate)
+- [Front End](https://github.com/eoscostarica/backend-boilerplate)
+- [WebApp Boilerplate](eoscostarica/webapp-boilerplate)
+- [Hapi Boilerplate](eoscostarica/hapi-boilerplate)
+- [Hasura Boilerplate](eoscostarica/hasura-boilerplate)
+
+## WAX Boilerplates 
+
+- [WAX WebApp](edenia/wax-webapp-boilerplate)
+- [Wax FUll Stack Boilerplate](edenia/wax-full-stack-boilerplate)
+
+## PROTON Boilerplate 
+
+- [Proton Full Stack Boilerplate](edenia/proton-full-stack-boilerplate)
+
+
 ## Front-End Boilerplate
 
 [**EOS Costa Rica Front-End Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
@@ -32,7 +51,7 @@ For more information about the components you can visit [Component Repository](h
 
 ## Back-End Boilerplate
 
-[** EOS Costa Rica Back-End Boilerplate **](https://github.com/eoscostarica/backend-boilerplate)
+[**EOS Costa Rica Back-End Boilerplate**](https://github.com/eoscostarica/backend-boilerplate)
 
 "Back-end" refers to the server application, can be described is the data access layer of an application that contains the business logic for managing data within the application.
 
