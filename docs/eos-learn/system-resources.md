@@ -58,16 +58,16 @@ If the actions performed by the smart-contract involves any kind of data storage
 
 The `resource limit manager` of an EOSIO-based blockchain is the part of the protocol that keeps track of the amount of available network resources at any time and how much resources each account is using.
 
-In particular, it treats CPU and NET as elastic resources allowing users to consume more resources than what they are entitled to while this resource is below a desired usage (uncongested).
+In particular, it treats CPU and NET as elastic resources allowing users to consume more resources than what they are entitled to while this resource is below a desired usage (un-congested).
 
 An elastic resource has the following properties.
 
 - The desired usage.
 - The maximum usage.
 - The number of aggregation periods that contribute to the average usage.
-- The multiplier by which virtual space can oversell usage when uncongested.
+- The multiplier by which virtual space can oversell usage when un0congested.
 - The rate at which a congested resource contracts its limit.
-- The rate at which an uncongested resource expands its limits.
+- The rate at which an un-congested resource expands its limits.
 
 Let see at the default configuration for the CPU resource as an example:
 
@@ -87,13 +87,13 @@ elastic_limit_parameters cpu_limit_parameters = {
 	{1000, 999}																						//expand ratio 1.001
 	};
 ```
-By making the CPU an elastic resource, a virtual cpu will be created that will range between the lowest possible value which is the maximun usage specified and the highest possible value which is the the lowest possible value times the multiplier.
+By making the CPU an elastic resource, a virtual cpu will be created that will range between the lowest possible value which is the maximum usage specified and the highest possible value which is the the lowest possible value times the multiplier.
 
 ```c++
 virtual cpu = [[maximum usage, maximum usage * multiplier]]
 ```
 
-The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning that `the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is gauranteed under congestion`.
+The virtual cpu limit will be contracted (expanded) by the `contract (expand) ratio` when the average utilization is above (below) the desired usage, meaning that `the most an account can consume during idle periods is 1000x (multiplier) the bandwidth it is guaranteed under congestion`.
 
 The average CPU utilization is computed using an EMA (Exponential Moving Average) placing a greater weight and significance on the most recent usage.
 

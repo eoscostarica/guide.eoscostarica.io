@@ -2,8 +2,8 @@
 id: accounts-and-permissions
 title: Accounts And Permissions EOSIO
 sidebar_label: Accounts And Permissions
-description: Accounts And Permissions to use in EOSIO
-keywords: [Accounts And Permissions, eosio, eosio.io, EOS Costa Rica, Accounts, Permissions, Permissions EOSIO, Blockchain, Blockchain EOSIO, What are the Accounts and Permissions for EOSIO]
+description: Accounts And Permissions for accounts on EOSIO
+keywords: [Accounts And Permissions, EOS Costa Rica, Accounts, Permissions, Permissions EOSIO, Blockchain, Blockchain EOSIO, What are the Accounts and Permissions for EOSIO]
 ---
 
 ## Accounts
@@ -34,7 +34,7 @@ To get more information about these concepts, see [accounts and permissions docu
 
 ## Authenticators (Wallets)
 
-The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (unencrypted) that is protected by a high entropy password.
+The wallets are clients that store private keys associated with the permissions of one or more accounts. Ideally, a wallet has a locked state (encrypted) and unlock (un-encrypted) that is protected by a high entropy password.
 
 ## Transit Wallet Access Layer
 

@@ -3,7 +3,7 @@ id: eos-blockchain
 title: EOS Blockchain
 sidebar_label: EOS Blockchain
 description: EOS Blockchain, explaining how it works and how to use it.
-keywords: [EOS Blockchain, blockchain, eos, eosio, eosio.io, EOS Costa Rica, What is blockchain]
+keywords: [EOS Blockchain, blockchain, eos, EOSIO, mainnet, EOS Costa Rica, What is blockchain]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

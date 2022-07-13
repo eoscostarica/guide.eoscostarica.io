@@ -33,7 +33,7 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [Europechain](https://europechain.io/): A public-permissioned blockchain that uses conventionals channels to support the enforcement of the European normative, GDPR included.
+- [Europechain](https://europechain.io/): A public-permissioned blockchain that uses conventional channels to support the enforcement of the European normative, GDPR included.
 
 * * *
 

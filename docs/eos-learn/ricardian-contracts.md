@@ -31,7 +31,7 @@ The component will automatically load the content of the Ricardian Contract. The
 The process is as similar as compiling a Smart Contract, is fact, it is done during the same process, eosio-cpp provide some extra configuration options when compiling and one of them are `-R`, which allow to set an extra resource in this case the Ricardian Contract with just providing the Ricardian path, the compiler then is responsible to add the contracts and clauses to the .abi file.
 
 ## How to create a Ricardian Contract?
-Usually there is a contract folder called `ricardian` inside the smart contract folder which contains two main files that compose the Ricardian Contrant `<contract name>.contracts.md` and `<contract name>.clauses.md`.
+Usually there is a contract folder called `ricardian` inside the smart contract folder which contains two main files that compose the Ricardian Contract `<contract name>.contracts.md` and `<contract name>.clauses.md`.
 
 ### Contracts
 Its purpose is to declare and define all the actions inside of the Smart Contract. According to [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) the are some Metadata Fields:
@@ -51,7 +51,7 @@ icon: https://app.com/create-post.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7C
 ```
 
 ### Clauses
-Its purpose is to declare and define clauses or rules of the Smart Contract. It is simplier to create, for example:
+Its purpose is to declare and define clauses or rules of the Smart Contract. It is simpler to create, for example:
 
 ```
 <h1 class="clause">UserAgreement</h1>
