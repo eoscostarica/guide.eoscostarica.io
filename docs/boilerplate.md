@@ -22,7 +22,7 @@ At EOS Costa Rica we have created three boilerplate repositories: ** Front-End B
 ## WAX Boilerplates 
 
 - [WAX WebApp](edenia/wax-webapp-boilerplate)
-- [Wax FUll Stack Boilerplate](edenia/wax-full-stack-boilerplate)
+- [Wax Full Stack Boilerplate](edenia/wax-full-stack-boilerplate)
 
 ## PROTON Boilerplate 
 
