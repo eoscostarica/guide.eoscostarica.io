@@ -1,9 +1,11 @@
-# EOS COSTA RICA DEVELOPER GUIDES
+# EOS Costa Rica Developer Guides
 ![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
+
+
 
 EOS Costa Rica Developers Documentation Site.
 
-![Guide front page](static/img/guide-page.png)
+![Guide front page](static/img/guide-pageNew.png)
 
 ## About the Project
 
@@ -14,7 +16,6 @@ In this site you will find the resources collected in the day-to-day life of EOS
 1. About The Project
 1. Content Table
 1. Project Purpose
-1. Version
 1. Tech Stack
 1. Development Environment
 1. File Structure
@@ -37,13 +38,11 @@ This project is meant to serve as a tool for assisting with new developer on-boa
 
 ### Getting Started
 
-Give the needed instruction to run the project locally, for example:
-
 #### **Prerequisites**
 
-- `yarn`
-- `git`
-- `node.js`
+- [yarn](https://classic.yarnpkg.com/en/)
+- [git](https://git-scm.com/)
+- [node.js](https://nodejs.org/es/)
 
 #### **Installation**
 
@@ -102,10 +101,6 @@ guide.eoscostarica.io/
 └── README.md .................... Documentation of guide.eoscostarica.io
 ```
 
-## License
-
-MIT © [EOS Costa Rica](https://eoscostarica.io)
-
 ## Contributing
 
 We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
@@ -127,8 +122,8 @@ If you find a bug, please report big and small bugs by [opening an issue](https:
 
 <p align="center">
 	<a href="https://eoscostarica.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
-		width="400px" >
+		<img src="https://user-images.githubusercontent.com/5632966/178800859-e05a07ff-b3e5-41a9-9137-d1a271b958ff.png"
+		width="300px" >
 	</a>
 </p>
 
