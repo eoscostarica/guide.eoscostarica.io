@@ -3,7 +3,7 @@ id: blockchain-consensus-mechanism
 title: Blockchain Consensus Mechanisms
 sidebar_label: Consensus Mechanisms
 description: Consensus explanation and definition of consensus mechanisms for the blockchain
-keywords: [ Consensus Algorithm, Blockchain, POW, POS, dPOS, Consensus Mechanisms ]
+keywords: [ Consensus Algorithm, Blockchain, POW, POS, dPOS, Consensus Mechanisms, Proof of Work, Proof of Stake, Delegated Proof of Stake ]
 ---
 
 It is important to understand the consensus mechanisms used by the different blockchain networks to maintain security and integrity within the network, as well as the benefits and the networks that still conform it.
