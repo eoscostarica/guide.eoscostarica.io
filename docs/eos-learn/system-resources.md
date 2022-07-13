@@ -65,7 +65,7 @@ An elastic resource has the following properties.
 - The desired usage.
 - The maximum usage.
 - The number of aggregation periods that contribute to the average usage.
-- The multiplier by which virtual space can oversell usage when un0congested.
+- The multiplier by which virtual space can oversell usage when un-congested.
 - The rate at which a congested resource contracts its limit.
 - The rate at which an un-congested resource expands its limits.
 
