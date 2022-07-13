@@ -2,8 +2,8 @@
 id: consensus-mechanism
 title: Consensus Algorithms
 sidebar_label: Consensus Algorithms
-description: Algorithms Consensus in blockchain for blocks production.
-keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a consensus algorithm, What is a consensus algorithm for blocks production, What is a consensus algorithm for, EOS, EOS Costa Rica]
+description: Consensus Algorithms for blockchain networks and protocols.
+keywords: [Consensus Mechanism, Consensus Algorithms, Consensus, What is a consensus algorithm, What is a blockchain consensus algorithm, What is a consensus algorithm, POS, dPOS, POW]
 ---
 
 A consensus mechanism ensures that each new block that is added to the blockchain is accepted as the only version of the truth by all nodes on the network. In essence, a consensus algorithm aims to find a common agreement that is accepted for the whole network.

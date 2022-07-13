@@ -18,7 +18,7 @@ module.exports = {
         "social-media-guidelines",
         "devops",
         "interplanetary-file-system",
-        "consensus-mechanisms-blockchain",
+        "blockchain-consensus-mechanism",
       ],
     },
     {
