@@ -1,7 +1,7 @@
 ---
 id: example-eosio-smart-contract
-title: Examples EOSIO Smart Contracts
-sidebar_label: Examples EOSIO Smart Contracts
+title: Example EOSIO Smart Contracts
+sidebar_label: Example EOSIO Smart Contracts
 description: This is a list about smart contracts developed on EOSIO
 keywords: [eos, eosio, EOS, EOSIO, Smart Contract, Dapp, smart-contract, token, smart contracts collection]
 ---
