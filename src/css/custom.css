@@ -18,7 +18,11 @@ body {
 img {
   aspect-ratio: attr(width) / attr(height);
 }
+<<<<<<< HEAD
 .centerImg {
+=======
+.center {
+>>>>>>> master
   display: block;
   margin-left: auto;
   margin-right: auto;
