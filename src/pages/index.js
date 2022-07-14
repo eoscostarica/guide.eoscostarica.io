@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import { useThemeConfig } from "@docusaurus/theme-common";
+import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { Grid } from "@material-ui/core";
@@ -75,6 +75,7 @@ const DarkTheme = makeStyles({
     lineHeight: 1.8,
     letterSpacing: 1.25,
     margin: "auto",
+    backgroundColor: "#3EBBD3",
   },
   card: {
     backgroundColor: "#242526",
@@ -123,7 +124,7 @@ const HeroSection = () => {
     "/img/cards-icons/heroe.png",
   ];
   const background = images[Math.floor(Math.random() * images.length)];
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
+  const { isDarkTheme } = useColorMode();
   let classes = null;
 
   if (!isDarkTheme) {
@@ -160,7 +161,7 @@ const HeroSection = () => {
 };
 
 const CustomCard = (props) => {
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
+  const { isDarkTheme } = useColorMode();
   let classes = null;
 
   if (!isDarkTheme) {
@@ -264,7 +265,7 @@ const CardsSection = () => {
 };
 
 const CustomArticle = (props) => {
-  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeConfig();
+  const { isDarkTheme } = useColorMode();
   let classes = null;
 
   if (!isDarkTheme) {
