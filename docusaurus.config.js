@@ -64,6 +64,11 @@ const siteConfig = {
         { to: "search" },
       ],
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     footer: {
       logo: {
         alt: "EOS Costa Rica Logo",
