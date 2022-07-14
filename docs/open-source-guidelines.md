@@ -21,7 +21,7 @@ When you start working on a task you must manually move it to `In Progress` colu
 We use GitHub flow https://guides.github.com/introduction/flow/ to request code changes.
 We develop on `master` and `release` using tags with semver versioning.
 
-<img src="/img/github-flow.png" width="958" height="241" class="centerImg" alt="Open Source Project Workflow on GitHub" />
+<img src="/img/github-flow.webp" width="958" height="241" class="centerImg" alt="Open Source Project Workflow on GitHub" />
 
 New and reopened `pull request` are automatically added to the board in the `In Progress` column.
 

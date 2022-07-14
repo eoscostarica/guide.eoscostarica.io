@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Private Network Installation Tutorial
 Several topologies can be designed in the sense of quantity of nodes or redundancy of the data, nevertheless, for the practicity of this tutorial, the following topology is used as a main reference:
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
+  <img alt="Initial Topology" src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.webp' )} width="100%" />
 </p>
 
 ## Software Requirements

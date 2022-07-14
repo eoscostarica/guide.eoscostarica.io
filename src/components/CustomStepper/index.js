@@ -92,7 +92,7 @@ const CustomStepper = ({ Content }) => {
             <Typography className={classes.instructions}>
               {Content[activeStep].instruction}
             </Typography>
-            <div className={classes.instructions}><img src={useBaseUrl(Content[activeStep].imageSrc)}/></div>
+            <div className={classes.instructions}><img src={useBaseUrl(Content[activeStep].imageSrc)} loading="lazy"/></div>
             <div className={classes.buttonContainer}>
               <Button
                 variant="contained"

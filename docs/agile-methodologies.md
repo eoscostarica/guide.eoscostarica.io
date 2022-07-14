@@ -22,7 +22,7 @@ To clarify how Modern Agile came to be here’s a snippet from the website: Over
 Modern Agile methods are defined by four guiding principles:
 
 <div style={{  textAlign: "center" }}>
-<img alt="Modern Agile Image"   src={ useBaseUrl( 'img/ModernAgile.jpg' )} loading="lazy"/>
+<img alt="Modern Agile Image"   src={ useBaseUrl( 'img/ModernAgile.webp' )} loading="lazy"/>
 </div>
 
 

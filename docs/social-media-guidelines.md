@@ -36,7 +36,7 @@ Please follow these directions to align our LinkedIn profiles. We prepare this b
 Be sure to check the box to **update your headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.png") } />
+    <img alt="Form to edit the experience in LinkedIn" style={{ width:"70%" }} src={ useBaseUrl("/img/social-media/LinkedExperiencia.webp") } />
 </div>
 
 
@@ -44,7 +44,7 @@ Be sure to check the box to **update your headline**.
 specialization.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/social-media/LinkedDescripcion.png") } />
+    <img alt="Form to add the experience description in LinkedIn" src={ useBaseUrl("/img/social-media/LinkedDescripcion.webp") } />
 </div>
 
 
@@ -75,7 +75,7 @@ More on:
 ### **This is how it would look**
 
 <div style={{  textAlign: "center" }}>
-    <img  src={  useBaseUrl("/img/social-media/LinkedResultado.png") } />
+    <img alt="How the final result is shown on LinkedIn" src={  useBaseUrl("/img/social-media/LinkedResultado.webp") } />
 </div>
 
 
@@ -96,7 +96,7 @@ More on:
 1. Include your **job title**, **company** name, **location**, and your **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/social-media/GithubEstado.png") } />
+    <img alt="Form to add the personal information on GitHub" src={ useBaseUrl("/img/social-media/GithubEstado.webp") } />
 </div>
 
 ** *Examples of description:* **
@@ -109,7 +109,7 @@ More on:
 
 ### **This is how it would look**
 <div style={{  textAlign: "center" }}>
-    <img  src={  useBaseUrl("/img/social-media/GitHubResultado.png") } />
+    <img alt="How the final result is shown on GitHub" src={  useBaseUrl("/img/social-media/GitHubResultado.webp") } />
 </div>
 
 
