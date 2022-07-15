@@ -139,6 +139,7 @@ const siteConfig = {
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
+  trailingSlash: false,
   presets: [
     [
       "@docusaurus/preset-classic",
