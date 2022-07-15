@@ -159,6 +159,12 @@ const siteConfig = {
         googleAnalytics: {
           trackingID: "UA-173987-66",
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: [],
+          filename: 'sitemap.xml',
+        },
       },
     ],
   ],
