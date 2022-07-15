@@ -134,6 +134,7 @@ const siteConfig = {
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
+  trailingSlash: false,
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -166,11 +167,6 @@ const siteConfig = {
     {
       src: "../../static/scripts/mediumScript.js",
       async: true,
-    },
-    {
-      src: '/../../static/scripts/fix-location.js',
-      async: false,
-      defer: false,
     },
     "https://platform.twitter.com/widgets.js",
   ],
