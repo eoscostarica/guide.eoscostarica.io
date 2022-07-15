@@ -11,6 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import ProjectContainer from '@site/src/components/ProjectContainer/ProjectContainer'
 import DisplayImages from '@site/src/components/ProjectContainer/DisplayImages'
+import DisplayLinks from '@site/src/components/ProjectContainer/DisplayLinks'
 
 export const projectsData = [
 	{
@@ -18,7 +19,7 @@ export const projectsData = [
 		description: ['An EOSIO Infrastructure monitor and node dashboard.'], 
 		href: '#eosio-dashboard',
 		website: [
-			{ title: 'Website', link: 'https://eosio.online/', name: 'EOSIO Dashboard' }
+			{ link: 'https://eosio.online/', name: 'EOSIO Dashboard' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/eosio-dashboard', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
@@ -27,10 +28,10 @@ export const projectsData = [
     		{image:'https://eosio.online/images/d-logo.svg', link:'https://eosio.online/'}
 		],
 		images: [
-    		{image:'img/OSS_screnshots/EOSIO_Network_monitor.webp', class:'left-screenshot', link:'#screen-eos-1', id:'screen-eos-1'},
-    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_2.webp', class:'right-screenshot', link:'#screen-eos-2', id:'screen-eos-2'},
-			{image:'img/OSS_screnshots/EOSIO_Network_monitor_3.webp', class:'left-screenshot', link:'#screen-eos-3', id:'screen-eos-3'},
-    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_4.webp', class:'right-screenshot', link:'#screen-eos-4', id:'screen-eos-4'}
+    		{image:'img/OSS_screnshots/EOSIO_Network_monitor.webp', link:'#screen-eos-1', id:'screen-eos-1'},
+    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_2.webp', link:'#screen-eos-2', id:'screen-eos-2'},
+			{image:'img/OSS_screnshots/EOSIO_Network_monitor_3.webp', link:'#screen-eos-3', id:'screen-eos-3'},
+    		{image:'img/OSS_screnshots/EOSIO_Network_monitor_4.webp', link:'#screen-eos-4', id:'screen-eos-4'}
 		]
 	},
 	{
@@ -38,7 +39,7 @@ export const projectsData = [
 		description: ['EOS Rate is an open-source dApp that allows EOS token holders to rate Block Producers (BPs) in just a few clicks. Users can access a rating system and voting portal, making it easier for token holders to make an informed decision.'],
 		href: '#eos-rate',
 		website: [
-			{ title: 'Website', link: 'https://eosrate.io/', name: 'EOS Rate'}
+			{ link: 'https://eosrate.io/', name: 'EOS Rate'}
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/eos-rate'}
@@ -47,8 +48,8 @@ export const projectsData = [
     		{image:'/img/eosrate-logo.webp', link:'https://eosrate.io/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/EOS_Rate.webp', class:'left-screenshot', link:'#screen-rate-1', id:'screen-rate-1'},
-			{image:'img/OSS_screnshots/EOS_Rate_2.webp', class:'right-screenshot', link:'#screen-rate-2', id:'screen-rate-2'}
+			{image:'img/OSS_screnshots/EOS_Rate.webp', link:'#screen-rate-1', id:'screen-rate-1'},
+			{image:'img/OSS_screnshots/EOS_Rate_2.webp', link:'#screen-rate-2', id:'screen-rate-2'}
 		]
 	},
 	{
@@ -56,17 +57,17 @@ export const projectsData = [
 		description: ['Edenia, also known as EOS Costa Rica , is glad to announce our strategic collaboration with the team of Proton, a blockchain developed by Metallicus. Proton was built to streamline on-chain payments processing, adding governance, network resources allocation, and rewards staking. For the past few months, our team has been working on an Affiliate Program (AP) feature for the Proton wallet, which launched in the beta stage for selected countries.'],
 		href: '#proton-affiliate-program',
 		website: [
-			{ title: 'Website', link: 'https://www.protonchain.com/', image: '/img/proton.webp'},
+			{ link: 'https://www.protonchain.com/', image: '/img/proton.webp'},
 			{ title: 'Project Announcement', link: 'https://eoscostarica.io/blog/proton-announcement/', name: 'Proton Affiliate Program' }
 		],
 		logos: [
     			{image:'img/OSS_screnshots/Proton_Program_Logo.webp', link:'https://www.protonchain.com/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/Proton_Program.webp', class:'left-screenshot', link:'#screen-proton-1', id:'screen-proton-1'},
-			{image:'img/OSS_screnshots/Proton_Program_2.webp', class:'right-screenshot', link:'#screen-proton-2', id:'screen-proton-2'},
-			{image:'img/OSS_screnshots/Proton_Program_3.webp', class:'left-screenshot', link:'#screen-proton-3', id:'screen-proton-3'},
-			{image:'img/OSS_screnshots/Proton_Program_4.webp', class:'right-screenshot', link:'#screen-proton-4', id:'screen-proton-4'}
+			{image:'img/OSS_screnshots/Proton_Program.webp', link:'#screen-proton-1', id:'screen-proton-1'},
+			{image:'img/OSS_screnshots/Proton_Program_2.webp', link:'#screen-proton-2', id:'screen-proton-2'},
+			{image:'img/OSS_screnshots/Proton_Program_3.webp', link:'#screen-proton-3', id:'screen-proton-3'},
+			{image:'img/OSS_screnshots/Proton_Program_4.webp', link:'#screen-proton-4', id:'screen-proton-4'}
 		]
 	},
 	{
@@ -74,7 +75,7 @@ export const projectsData = [
 		description: ['The system works as a decentralized voting mechanism set up in the rules governing the blockchain, where budgets for specific projects are proposed and funded once they receive sufficient votes from token holders.'],
 		href: '#libre-dao-smart-contracts',
 		website: [
-			{ title: 'Website', link: 'https://dao.libre.org/', name: 'Libre Dao Smart Contracts' }
+			{ link: 'https://dao.libre.org/', name: 'Libre Dao Smart Contracts' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/btc-libre-governance'}
@@ -83,8 +84,8 @@ export const projectsData = [
     		{image:'img/OSS_screnshots/Libre_Dao_Smart_Contracts.webp', link:'https://dao.libre.org/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/Bitcoin_Libre.webp', class:'left-screenshot', link:'#screen-dao-1', id:'screen-dao-1'},
-			{image:'img/OSS_screnshots/Bitcoin_Libre_2.webp', class:'right-screenshot', link:'#screen-dao-2', id:'screen-dao-2'}
+			{image:'img/OSS_screnshots/Bitcoin_Libre.webp', link:'#screen-dao-1', id:'screen-dao-1'},
+			{image:'img/OSS_screnshots/Bitcoin_Libre_2.webp', link:'#screen-dao-2', id:'screen-dao-2'}
 		]
 	},
 	{
@@ -92,7 +93,7 @@ export const projectsData = [
 		description: ['We are part of LACChain EOSIO, an open-source initiative that offers an EOSIO blockchain network that integrates into LACChain.'],
 		href: '#lacchain-eosio-testnet',
 		website: [
-			{ title: 'Website', link: 'https://eosio.lacchain.net/en/', name: 'LACChain EOSIO' }
+			{ link: 'https://eosio.lacchain.net/en/', name: 'LACChain EOSIO' }
 		],
 		github: [
 			{link: 'https://github.com/lacchain/eosio.lacchain.net'}
@@ -101,10 +102,10 @@ export const projectsData = [
     		{image:'/img/lacchain-eosio.webp', link:'https://eosio.lacchain.net/en/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/Lacchain_EOSIO.webp', class:'left-screenshot', link:'#screen-chain-1', id:'screen-chain-1'},
-			{image:'img/OSS_screnshots/Lacchain_EOSIO_2.webp', class:'right-screenshot', link:'#screen-chain-2', id:'screen-chain-2'},
-			{image:'img/OSS_screnshots/Lacchain_EOSIO_3.webp', class:'left-screenshot', link:'#screen-chain-3', id:'screen-chain-3'},
-			{image:'img/OSS_screnshots/Lacchain_EOSIO_4.webp', class:'right-screenshot', link:'#screen-chain-4', id:'screen-chain-4'}
+			{image:'img/OSS_screnshots/Lacchain_EOSIO.webp', link:'#screen-chain-1', id:'screen-chain-1'},
+			{image:'img/OSS_screnshots/Lacchain_EOSIO_2.webp', link:'#screen-chain-2', id:'screen-chain-2'},
+			{image:'img/OSS_screnshots/Lacchain_EOSIO_3.webp', link:'#screen-chain-3', id:'screen-chain-3'},
+			{image:'img/OSS_screnshots/Lacchain_EOSIO_4.webp', link:'#screen-chain-4', id:'screen-chain-4'}
 		]
 	},
 	{
@@ -112,19 +113,19 @@ export const projectsData = [
 		description: ['Evolution DEX is a Protocol created by EOS Argentina that allows anyone to create and launch their own trading pairs in a decentralized exchange and gain trading fees by adding liquidity to the token’s pool. EOS Costa Rica is working with EOS Argentina creating a web interface that will provide access to liquidity amongst all exchanges that connect to Evolution DEX.'],
 		href: '#evodex',
 		website: [
-			{ title: 'Website', link: 'https://evodex.io', name: 'Evodex' }
+			{ link: 'https://evodex.io', name: 'Evodex' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/evodex'}
 		],
 		logos: [
-    		{image:'https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png', link:'https://evodex.io'}
+    		{image:'/img/evodex-logo.webp', link:'https://evodex.io'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/Evodex.webp', class:'left-screenshot', link:'#screen-evodex-1', id:'screen-evodex-1'},
-			{image:'img/OSS_screnshots/Evodex_2.webp', class:'right-screenshot', link:'#screen-evodex-2', id:'screen-evodex-2'},
-			{image:'img/OSS_screnshots/Evodex_3.webp', class:'left-screenshot', link:'#screen-evodex-3', id:'screen-evodex-3'},
-			{image:'img/OSS_screnshots/Evodex_4.webp', class:'right-screenshot', link:'#screen-evodex-4', id:'screen-evodex-4'}
+			{image:'img/OSS_screnshots/Evodex.webp', link:'#screen-evodex-1', id:'screen-evodex-1'},
+			{image:'img/OSS_screnshots/Evodex_2.webp', link:'#screen-evodex-2', id:'screen-evodex-2'},
+			{image:'img/OSS_screnshots/Evodex_3.webp', link:'#screen-evodex-3', id:'screen-evodex-3'},
+			{image:'img/OSS_screnshots/Evodex_4.webp', link:'#screen-evodex-4', id:'screen-evodex-4'}
 		]
 	},
 	{
@@ -132,7 +133,7 @@ export const projectsData = [
 		description: ['A collection of React components for the EOSIO developer community.'],
 		href: '#react-components-for-eosio',
 		website: [
-			{ title: 'Website', link: 'https://components.edenia.cloud', name: 'React Components' }
+			{ link: 'https://components.edenia.cloud', name: 'React Components' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/eoscr-components'}
@@ -141,10 +142,10 @@ export const projectsData = [
     		{image:'/img/React_logo.webp', link:'https://components.edenia.cloud/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/React_EOS.webp', class:'left-screenshot', link:'#screen-react-1', id:'screen-react-1'},
-			{image:'img/OSS_screnshots/React_EOS_2.webp', class:'right-screenshot', link:'#screen-react-2', id:'screen-react-2'},
-			{image:'img/OSS_screnshots/React_EOS_3.webp', class:'left-screenshot', link:'#screen-react-3', id:'screen-react-3'},
-			{image:'img/OSS_screnshots/React_EOS_4.webp', class:'right-screenshot', link:'#screen-react-4', id:'screen-react-4'}
+			{image:'img/OSS_screnshots/React_EOS.webp', link:'#screen-react-1', id:'screen-react-1'},
+			{image:'img/OSS_screnshots/React_EOS_2.webp', link:'#screen-react-2', id:'screen-react-2'},
+			{image:'img/OSS_screnshots/React_EOS_3.webp', link:'#screen-react-3', id:'screen-react-3'},
+			{image:'img/OSS_screnshots/React_EOS_4.webp', link:'#screen-react-4', id:'screen-react-4'}
 		]
 	},
 	{
@@ -155,7 +156,7 @@ export const projectsData = [
 		],
 		href: '#lifebank',
 		website: [
-			{ title: 'Website', link: 'https://lifebank.io/', name: 'LifeBank' }
+			{ link: 'https://lifebank.io/', name: 'LifeBank' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/lifebank', image: 'https://cdn-icons-png.flaticon.com/32/25/25231.png'}
@@ -164,10 +165,10 @@ export const projectsData = [
     		{image:'/img/life-bank-logo.webp', link:'https://lifebank.io/'}
 		],
 		images: [
-			{image:'img/OSS_screnshots/LifeBank.webp', class:'left-screenshot', link:'#screen-lifebank-1', id:'screen-lifebank-1'},
-			{image:'img/OSS_screnshots/LifeBank_2.webp', class:'right-screenshot', link:'#screen-lifebank-2', id:'screen-lifebank-2'},
-			{image:'img/OSS_screnshots/LifeBank_3.webp', class:'left-screenshot', link:'#screen-lifebank-3', id:'screen-lifebank-3'},
-			{image:'img/OSS_screnshots/LifeBank_4.webp', class:'right-screenshot', link:'#screen-lifebank-4', id:'screen-lifebank-4'}
+			{image:'img/OSS_screnshots/LifeBank.webp', link:'#screen-lifebank-1', id:'screen-lifebank-1'},
+			{image:'img/OSS_screnshots/LifeBank_2.webp', link:'#screen-lifebank-2', id:'screen-lifebank-2'},
+			{image:'img/OSS_screnshots/LifeBank_3.webp', link:'#screen-lifebank-3', id:'screen-lifebank-3'},
+			{image:'img/OSS_screnshots/LifeBank_4.webp', link:'#screen-lifebank-4', id:'screen-lifebank-4'}
 		]
 	},
 	{
@@ -175,7 +176,7 @@ export const projectsData = [
 		description: ['gGoods is an open-source NFT standard that enables organizations and communities to create their own NFTs to raise funds. Creating an NFT is easy and straightforward using our avatar creator. The NFTs are then purchased by donors as collectibles that not only support a cause but can be integrated into countless applications such as games, emojis, chat stickers, avatars etc.'],
 		href: '#ggoods',
 		website: [
-			{ title: 'Website', link: 'https://ggoods.io/', name: 'gGoods' }
+			{ link: 'https://ggoods.io/', name: 'gGoods' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/gGoods'}
@@ -184,10 +185,10 @@ export const projectsData = [
     		{image:'https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg', link:'https://ggoods.io/'}
 		],
 		images: [
-			{image:'/img/OSS_screnshots/gGoods.webp', class:'left-screenshot', link:'#screen-ggoods-1', id:'screen-ggoods-1'},
-			{image:'/img/OSS_screnshots/gGoods_2.webp', class:'right-screenshot', link:'#screen-ggoods-2', id:'screen-ggoods-2'},
-			{image:'/img/OSS_screnshots/gGoods_3.webp', class:'left-screenshot', link:'#screen-ggoods-3', id:'screen-ggoods-3'},
-			{image:'/img/OSS_screnshots/gGoods_4.webp', class:'right-screenshot', link:'#screen-ggoods-4', id:'screen-ggoods-4'}
+			{image:'/img/OSS_screnshots/gGoods.webp', link:'#screen-ggoods-1', id:'screen-ggoods-1'},
+			{image:'/img/OSS_screnshots/gGoods_2.webp', link:'#screen-ggoods-2', id:'screen-ggoods-2'},
+			{image:'/img/OSS_screnshots/gGoods_3.webp', link:'#screen-ggoods-3', id:'screen-ggoods-3'},
+			{image:'/img/OSS_screnshots/gGoods_4.webp', link:'#screen-ggoods-4', id:'screen-ggoods-4'}
 		]
 	},
 	{
@@ -195,7 +196,7 @@ export const projectsData = [
 		description: ['The EOS based proxy facilitates the transition into a truly democratic based chain that is free from Pareto control by voting for BP’s that do not engage with direct vote rebate.'],
 		href: '#myvoteeos-proxy-website',
 		website: [
-			{ title: 'Website', link: 'https://myvoteeos.com/home', name: 'MyvoteEOS' }
+			{ link: 'https://myvoteeos.com/home', name: 'MyvoteEOS' }
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/MyvoteEOS-proxy'}
@@ -204,10 +205,10 @@ export const projectsData = [
     		{image:'/img/my-vote-eos-logo.webp', link:'https://myvoteeos.com/home'}
 		],
 		images: [
-			{image:'/img/OSS_screnshots/MyvoteEOS.webp', class:'left-screenshot', link:'#screen-MyvoteEOS-1', id:'screen-MyvoteEOS-1'},
-			{image:'/img/OSS_screnshots/MyvoteEOS_2.webp', class:'right-screenshot', link:'#screen-MyvoteEOS-2', id:'screen-MyvoteEOS-2'},
-			{image:'/img/OSS_screnshots/MyvoteEOS_3.webp', class:'left-screenshot', link:'#screen-MyvoteEOS-3', id:'screen-MyvoteEOS-3'},
-			{image:'/img/OSS_screnshots/MyvoteEOS_4.webp', class:'right-screenshot', link:'#screen-MyvoteEOS-4', id:'screen-MyvoteEOS-4'}
+			{image:'/img/OSS_screnshots/MyvoteEOS.webp', link:'#screen-MyvoteEOS-1', id:'screen-MyvoteEOS-1'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_2.webp', link:'#screen-MyvoteEOS-2', id:'screen-MyvoteEOS-2'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_3.webp', link:'#screen-MyvoteEOS-3', id:'screen-MyvoteEOS-3'},
+			{image:'/img/OSS_screnshots/MyvoteEOS_4.webp', link:'#screen-MyvoteEOS-4', id:'screen-MyvoteEOS-4'}
 		]
 	},    
 	{
@@ -223,7 +224,7 @@ export const projectsData = [
 		description: ['Updates and Maintenance to Eden Community Web App and Smart Contracts.'],
 		href: '#eden-smart-contracts',
 		website: [
-			{ title: 'Website', link: 'https://eden-dev.vercel.app/', name: 'Eden Smart Contracts' }
+			{ link: 'https://eden-dev.vercel.app/', name: 'Eden Smart Contracts' }
 		],
 		github: [
 			{link: 'https://github.com/edenia/Eden'}
@@ -232,9 +233,9 @@ export const projectsData = [
     		{image:'https://raw.githubusercontent.com/edenia/Eden/master/packages/webapp/public/images/eden-logo.svg', link:'https://eden-dev.vercel.app/'}
 		],
 		images: [
-			{image:'/img/OSS_screnshots/Eden.webp', class:'left-screenshot', link:'#screen-Eden-1', id:'screen-Eden-1'},
-			{image:'/img/OSS_screnshots/Eden_2.webp', class:'right-screenshot', link:'#screen-Eden-2', id:'screen-Eden-2'},
-			{image:'/img/OSS_screnshots/Eden_3.webp', class:'left-screenshot', link:'#screen-Eden-3', id:'screen-Eden-3'},
+			{image:'/img/OSS_screnshots/Eden.webp', link:'#screen-Eden-1', id:'screen-Eden-1'},
+			{image:'/img/OSS_screnshots/Eden_2.webp', link:'#screen-Eden-2', id:'screen-Eden-2'},
+			{image:'/img/OSS_screnshots/Eden_3.webp', link:'#screen-Eden-3', id:'screen-Eden-3'},
 		]
 	},
 	{
@@ -242,7 +243,7 @@ export const projectsData = [
 		description: ['A decentralized Token Sale platform, which allows users to set up a token sale, determine the token sale parameters, and deploy their sale onto the EOS Mainnet.'],
 		href: '#eos-token-sale-platform',
 		website: [
-			{ title: 'Website', link: 'https://tokensale.edenia.cloud', name: 'EOS Token Sale Platform' }
+			{ link: 'https://tokensale.edenia.cloud', name: 'EOS Token Sale Platform' }
 		],
 		github: [
 			{link: 'https://github.com/eostarter/token-sale-platform'}
@@ -251,9 +252,9 @@ export const projectsData = [
     		{image:'https://raw.githubusercontent.com/eostarter/token-sale-platform/master/docs/img/logo-words.png', link:'https://tokensale.edenia.cloud'}
 		],
 		images: [
-			{image:'/img/OSS_screnshots/Token_Sale_Platform.webp', class:'left-screenshot', link:'#screen-Token_Sale_Platform-1', id:'screen-Token_Sale_Platform-1'},
-			{image:'/img/OSS_screnshots/Token_Sale_Platform_2.webp', class:'right-screenshot', link:'#screen-Token_Sale_Platform-2', id:'screen-Token_Sale_Platform-2'},
-			{image:'/img/OSS_screnshots/Token_Sale_Platform_3.webp', class:'left-screenshot', link:'#screen-Token_Sale_Platform-3', id:'screen-Token_Sale_Platform-3'},
+			{image:'/img/OSS_screnshots/Token_Sale_Platform.webp', link:'#screen-Token_Sale_Platform-1', id:'screen-Token_Sale_Platform-1'},
+			{image:'/img/OSS_screnshots/Token_Sale_Platform_2.webp', link:'#screen-Token_Sale_Platform-2', id:'screen-Token_Sale_Platform-2'},
+			{image:'/img/OSS_screnshots/Token_Sale_Platform_3.webp', link:'#screen-Token_Sale_Platform-3', id:'screen-Token_Sale_Platform-3'},
 		]
 	},  
 	{
@@ -291,7 +292,7 @@ export const projectsData = [
 			'It also allows anyone who owns the document to validate the record on the blockchain.'
 		],
 		website: [
-			{title: 'Website', link:'https://notarize.edenia.cloud/dashboard/notary', name:'Digital Notary Smart Contract'}
+			{link:'https://notarize.edenia.cloud/dashboard/notary', name:'Digital Notary Smart Contract'}
 		],
 		github: [
 			{link: 'https://github.com/eoscostarica/notarioeoscr'}
@@ -317,17 +318,7 @@ export const eosio_networks_data = [
 	<Grid item md={8} xs={12}>
 		<Grid className="content">
 			<p>{projectsData[0].description}</p>
-			{ projectsData[0].website.map((web, i)=>( 
-				<ul key={i}><li><p><strong>{web.title}: </strong>
-					<a href={web.link}>{web.name}</a>
-				</p></li></ul>
-			))}
-			{  projectsData[0]?.github && projectsData[0].github.map((git, i)=>( 
-				<ul key={i}><li><p><strong>GitHub: </strong>
-					<a href={git.link}><img src={git.image} 
-					alt={"Link to "+projectsData[0].name+" Github repository"}/></a>
-				</p></li></ul>
-			))}
+			<DisplayLinks projectData={projectsData[0]}/>
 		</Grid>
 		<Grid className='table-container'>
 			<table><tbody>
@@ -339,7 +330,7 @@ export const eosio_networks_data = [
 				<tr>
 					{  eosio_networks_data.map((network, i)=>( 
 						<td><a href={network.href}>
-							<img src={network.image} width="30%" alt={network.name+" logo"}/>
+							<img src={network.image} width="32px" height="32px" alt={network.name+" logo"}/>
 						</a></td>
 					))}
 				</tr>
@@ -370,19 +361,7 @@ export const eosio_networks_data = [
 			<p>For the past few months, our team has 
 				been working on an Affiliate Program (AP) feature for the <a href='https://www.protonchain.com/wallet/'>Proton wallet</a>, 
 				which launched in the beta stage for selected countries.</p>
-			{ projectsData[2].website.map((web, i)=>( 
-				<ul key={i}><li><p><strong>{web.title}: </strong>
-					{ web.image ? (
-						<a href={web.link}>
-							<img src={web.image} width="9%" 
-							alt={projectsData[2].name + " website icon"}
-							loading="lazy"/>
-						</a>
-					) : (
-						<a href={web.link}>{web.name}</a>
-					)}
-				</p></li></ul>
-			))}
+			<DisplayLinks projectData={projectsData[2]}/>
 		</Grid>
 	</Grid>
 	<DisplayImages projectData={projectsData[2]}/>
@@ -425,7 +404,6 @@ export const eosio_networks_data = [
 
 <ProjectContainer projectData={projectsData[11]}/>
 
-
 * * *
 
 ### EOS Token Sale Contract
@@ -439,7 +417,6 @@ export const eosio_networks_data = [
 ### Eden Members Check
 
 <ProjectContainer projectData={projectsData[14]}/>
-
 
 ### Digital Notary Smart Contract
 
@@ -478,7 +455,6 @@ EOS Costa Rica offers a wide variety of local development environments for the E
 ## Boilerplates
 
  EOS Costa Rica offers a wide variety of boilerplates for the developer community.
-
 
 <div className="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
