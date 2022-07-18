@@ -5,7 +5,7 @@
 
 EOS Costa Rica Developers Documentation Site.
 
-![Guide front page](static/img/guide-pageNew.png)
+![Guide front page](https://user-images.githubusercontent.com/55892352/179574354-73a0d8de-301f-448b-a2f8-e6bf54f6eb6b.png)
 
 ## About the Project
 
