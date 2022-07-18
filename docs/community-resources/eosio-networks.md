@@ -41,6 +41,10 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
+- [Libre](https://www.libre.org/): A programmable Bitcoin and Lightning Network (LN Sidechain that was designed to reduce the difficulty to use these technologies.
+
+* * *
+
 - [Proton Chain](https://www.protonchain.com/): The Proton blockchain was designed to allow websites and apps to push payment requests directly to Proton-compliant wallets.
 
 * * *
@@ -48,7 +52,7 @@ Below we included a list of some other well known public blockchains launched on
 - [Telos](https://www.telos.net/): A blockchain platform without high-performance permissions for decentralized applications with advanced data storage and governance functions.
 
 <figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -65,7 +69,7 @@ Below we included a list of some other well known public blockchains launched on
 - [WAX](https://wax.io/): A blockchain token and protocol specially designed to make e-commerce transactions faster, easier and more secure.
 
 <figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
