@@ -11,7 +11,7 @@ On EOSIO, a producing node and other types of nodes are defined and differentiat
 
 If you are trying to set up a "Full Node", you may find [Setting Up a Full EOS Node](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
 
-Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
+Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic in [Producing Node Setup](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 ## Install EOSIO from Precompiled Binaries
 Download the latest version of EOSIO for your OS from: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
 
@@ -112,7 +112,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out [our guide](https://guide.eoscostarica.io/docs/eos-learn/private-keys/) about this topic.
+> Replace `EOS_PUB_DEV_KEY` with its corresponding value. To see how to generate a key pair, check out our guide [Private Keys](https://guide.eoscostarica.io/docs/eos-learn/private-keys/) about this topic.
 
 ### `start.sh`
 ```bash
@@ -169,7 +169,7 @@ done
 ```bash
 $ ./start.sh
 ```
-For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+For a more detailed information about the above command, please visit [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Create `testproducer` account
 On an EOSIO based blockchain, account creation carries [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram) consumption, so it is necessary to pay for new accounts. In the following command replace `CREATOR` placeholder with an existing account with enough resources to execute the operation.
@@ -185,9 +185,9 @@ Depending on which network you are configure the node for, you can create accoun
 ```bash
 $ cleos -u http://DESTINATION_NODE_ADDRESS system regproducer testproducer EOS_PUB_KEY "www.testproducer.testlink" 0
 ```
-For a more detailed information about the above command, please go [here](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+For a more detailed information about the above command, please visit [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Now, your node is set up. If you configured this node to operate in a Private Network, you need to make sure your node is included in the producers schedule. Check our [guide](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#set-block-producers-schedule) to see more information about this.
+Now, your node is set up. If you configured this node to operate in a Private Network, you need to make sure your node is included in the producers schedule. Check our guide [Set Block Producer Schedule](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#set-block-producers-schedule) to see more information about this.
 
 On the other hand, if you are looking to produce blocks in a testnet, token holders need to vote for you in order to be in the 21 top block producers.
 
@@ -217,7 +217,7 @@ start_fresh_nodeos() {
  $nodeos --delete-all-blocks &
 }
 ```
-For more information, please go [here](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Also, go [here](https://developers.eos.io/search?query=snapshot) to see all available doc entries for "Snapshot" on the [developer.eos.io](https://developers.eos.io/) portal.
+For more information, please visit [How to replay from a snapshot](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Also, visit [EOS Snapshot](https://developers.eos.io/search?query=snapshot) to see all available doc entries for "Snapshot" on the [developer.eos.io](https://developers.eos.io/) portal.
 ## Testnet Nodes
 ### Configure Jungle Testnet Node
 If you are seeking to setup a node on Jungle Testnet, you can go to [EOS Jungle Testnet - Node Manual Installation](https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation) on Github. Also, you can use [Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register). These tools were created by [cryptolions.io](https://cryptolions.io/home)

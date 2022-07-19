@@ -8,7 +8,7 @@ keywords: [React JS, How to use React JS, How to build a web application, How to
 
 React is a JavaScript library that will be used to build web interfaces and mobile applications with an extension called [React Native](https://reactnative.dev/). React works with units of code that work independently. React also uses a tool called JSX that allows a very simple interaction with JavaScript, that is, it can also be used with HTML in a simple way.
 
->[More Information](https://reactjs.org)  
+>For more information, visit [ReactJs](https://reactjs.org)  
 
 ## Tools
 
@@ -307,7 +307,7 @@ export default App;
 
 [**Recommended Rules**](https://reactjs.org/docs/hooks-rules.html)
 
->[More Information](https://reactjs.org/docs/hooks-intro.html)  
+>For more information, visit [ReactJs Hooks Intro](https://reactjs.org/docs/hooks-intro.html)  
 
 ## React Cleaner with Hooks
 

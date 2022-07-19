@@ -15,7 +15,7 @@ keywords: [EOSIO Components, eosio, eosio.io, EOS Costa Rica, Components EOSIO, 
 * Produce blocks containing valid transactions.
 * Confirm blocks to record them on the blockchain.
 
->[More Information](https://guide.eoscostarica.io/docs/tools/nodeos-command-line-reference)
+>For more information, visit our guide [Nodeos Command Line](https://guide.eoscostarica.io/docs/tools/nodeos-command-line-reference)
 
 ## Cleos
 
@@ -40,7 +40,7 @@ $cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
-[More Information](https://guide.eoscostarica.io/docs/tools/command-line)
+For more information, visit our guide [Command Line](https://guide.eoscostarica.io/docs/tools/command-line)
 
 ## EOSIO.CDT
 
@@ -123,6 +123,6 @@ Installing eosio.cdt will make the compiled binary global so, it can be accessib
 ```shell
 $ sudo ./install.sh
 ```
->For more information on how to Install the Contract DEV. Toolkit go to guide[How Install CDT](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
+>For more information on how to Install the Contract DEV. Toolkit go to guide [How Install CDT](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
 
-Now you are set for creating a development wallet with the help of Cleos. [More information](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).
+Now you are set for creating a development wallet with the help of Cleos. For more information, visit [Create Development Wallet](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).

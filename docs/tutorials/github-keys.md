@@ -41,7 +41,7 @@ Now you have a new SSH key!
 
 ## How to Add your SSH Key to the ssh-agent
 
-- Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
+- Ensure the ssh-agent is running, for more information, visit [Working with SSH Key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
 
 ```shell
 #start the ssh-agent in the background

@@ -86,7 +86,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 - Second Item
 - Third Item
 
-[More Information](https://www.markdownguide.org/basic-syntax/#unordered-lists).
+For more information, visit [Markdown Unordered List](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
 ### **Ordered List**
 
@@ -103,7 +103,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 2. Second Item
 3. Third Item
 
-[More Information](https://www.markdownguide.org/basic-syntax/#ordered-lists).
+For more information, visit [Markdown Ordered List]https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
 
 
@@ -123,7 +123,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 | Left | Center | Right |  
 | Left | Center | Right |  
 
-[More Information](https://www.markdownguide.org/extended-syntax/#tables).
+For more information, visit [Markdown Tables](https://www.markdownguide.org/extended-syntax/#tables).
 
 ### **Check List** 
 
@@ -140,7 +140,7 @@ Then we will look at examples of basic and structural syntax, to delve into this
 - [ ] Second option
 - [ ] Third option
 
-[More Information](https://www.markdownguide.org/extended-syntax/#task-lists).
+For more information, visit [Markdown Task List](https://www.markdownguide.org/extended-syntax/#task-lists).
 
 
 

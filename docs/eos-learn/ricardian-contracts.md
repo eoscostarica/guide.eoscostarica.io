@@ -67,4 +67,4 @@ To compile a Smart Contract with its respective Ricardian Contract, execute next
 eosio-cpp -abigen -R ./ricardian -contract contracttest -o contracttest.wasm src/contracttest.cpp
 ```
 
-Click [here](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) to see more content on this topic.
+Visit [How EOS Smart Contracts Work](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) to see more content on this topic.
