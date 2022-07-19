@@ -57,7 +57,7 @@ More information [about private keys](https://guide.eoscostarica.io/docs/eos-lea
 ### Windows Installation
 
 As a way to help you start in EOSIO world, here is a guide on how to install the EOSIO Contract Development Toolkit.
-If you are using a different OS rather than **Windows** visit [this site](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) to see the prerequisites and skip to [Install Binaries](#install-binaries).
+If you are using a different OS rather than **Windows** visit [EOS Getting Started](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) to see the prerequisites and skip to [Install Binaries](#install-binaries).
 This installation guide will aim for **Windows users**, unfortunately, EOSIO does not provide PowerShell ports and instructions for this OS. As a developer you have two options *one* to use a Virtual Machine or, like in this case a Linux Terminal on Windows. Follow these steps:
 
 - Go to your Control Panel
@@ -123,6 +123,6 @@ Installing eosio.cdt will make the compiled binary global so, it can be accessib
 ```shell
 $ sudo ./install.sh
 ```
->For more information on how to Install the Contract DEV. Toolkit go to [this page](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
+>For more information on how to Install the Contract DEV. Toolkit go to guide[How Install CDT](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
 
 Now you are set for creating a development wallet with the help of Cleos. [More information](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).
