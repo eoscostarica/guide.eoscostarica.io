@@ -46,7 +46,7 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
     The purpose is to make the user know the main technology were needed to develop the project, so the user could understand the project with a new kind of view, for example, the information that could be given here is:
 
 
-    - React.js - React 16✨, React Router 5
+    - React.js - React 18✨, React Router 5
     - Rematch/core - Rematch a Redux Framework
     - Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
     - Lint - ESlint
