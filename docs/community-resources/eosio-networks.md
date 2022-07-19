@@ -41,7 +41,7 @@ Below we included a list of some other well known public blockchains launched on
 
 * * *
 
-- [Libre](https://www.libre.org/): A programmable Bitcoin and Lightning Network (LN Sidechain that was designed to reduce the difficulty to use these technologies.
+- [Libre](https://www.libre.org/): A programmable Bitcoin and Lightning Network (LN) Sidechain that was designed to reduce the difficulty to use these technologies.
 
 * * *
 
