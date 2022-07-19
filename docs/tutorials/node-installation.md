@@ -9,7 +9,7 @@ keywords: [ Node Installation, EOSIO Nodes, How to create a node, How to Install
 ## A Producer Node Setup
 On EOSIO, a producing node and other types of nodes are defined and differentiated by enabling specific [Nodeos Plugins](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index). For example, to define a non-producing node, you need to except `producer_plugin`. This posibility of customization allows to expose one or more services publicly or privately by enabling one or more of those plugins.
 
-If you are trying to set up a "Full Node", you may find [this link](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
+If you are trying to set up a "Full Node", you may find [Setting Up a Full EOS Node](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621) helpful.
 
 Let's proceed to setup a Producing Node using EOSIO Technology. You can also find more useful information about this topic [here](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 ## Install EOSIO from Precompiled Binaries

@@ -258,7 +258,7 @@ Another Text
   console.log('This line can be highlighted!');
 }
 ```
-For more information about Markdown syntax you can visit the following [link](https://www.markdownguide.org/cheat-sheet/)
+For more information about Markdown syntax you can visit the markdown guide [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 * * *
 
