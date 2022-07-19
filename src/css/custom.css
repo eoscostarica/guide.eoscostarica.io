@@ -115,20 +115,6 @@ article > div > span.badge.badge--secondary {
   margin: 0 25%;
 }
 
-.left-screenshot{
-  width: 45%;
-  flex-direction: column;
-  flex-grow: 0;
-  margin: 5% 5% 0 2.5%;
-}
-
-.right-screenshot{
-  width: 45%;
-  flex-direction: column;
-  flex-grow: 0;
-  margin: 5% 0 0;
-}
-
 .lightbox {
   display: none;
   position: fixed;
