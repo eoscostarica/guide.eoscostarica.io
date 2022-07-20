@@ -40,4 +40,4 @@ There are two main roles, "master" and "node". The master is in charge of managi
 **Infrastructure as IaC Code**  
 A repository will be created with code for the design and deployment of the project's infrastructure. This will represent the desired state on the servers, as well as pre-compiled images of each service to be deployed.
 
-[More Information](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker)
+For more information, visit our guide [Introduction to Kubernetes and Docker]https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker)

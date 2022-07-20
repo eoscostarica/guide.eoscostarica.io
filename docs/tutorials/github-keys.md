@@ -14,7 +14,7 @@ The `SSH` is also known as Secure Shell or Secure Socket Shell [More About SSH i
 
 ## How to generate a new SSH key?
 
-This guide is for Windows users, more information for Linux and Mac [on this site](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+This guide is for Windows users, more information for Linux and Mac on this guide [Generating a new SSH Key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 Windows environments do not have a standard default Unix shell. External shell programs will need to be installed for to have a complete keygen experience. The most straight forward option is to utilize Git Bash.
 
@@ -41,7 +41,7 @@ Now you have a new SSH key!
 
 ## How to Add your SSH Key to the ssh-agent
 
-- Ensure the ssh-agent is running [more information](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
+- Ensure the ssh-agent is running, for more information, visit [Working with SSH Key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , or start it manually:
 
 ```shell
 #start the ssh-agent in the background

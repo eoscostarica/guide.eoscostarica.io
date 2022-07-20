@@ -28,7 +28,7 @@ More on [Max G's channel](https://www.youtube.com/user/apexmaxable/videos)
 
 ## Getting Started 
 
-To learn more about smart contracts, visit: [this link](https://guide.eoscostarica.io/docs/eos-learn/smart-contract). 
+To learn more about smart contracts, visit: [Guide Smart Contract](https://guide.eoscostarica.io/docs/eos-learn/smart-contract). 
 
 ## Jungle Testnet
 

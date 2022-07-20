@@ -18,7 +18,7 @@ For example, each node of the blockchain network or service / application develo
 
 In addition to Docker we use a container “orchestrator” tool called Kubernetes (K8s).
 
-Kubernetes helps you manage the containers in which your applications are hosted in an easy, fast, and scalable way. In addition, it also has load monitoring and balancing. About virtual servers. [More information](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker).
+Kubernetes helps you manage the containers in which your applications are hosted in an easy, fast, and scalable way. In addition, it also has load monitoring and balancing. About virtual servers. For more information, visit our guide [Introduction to Kubernetes and Docker](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker).
 
 
 ## Docker Engine

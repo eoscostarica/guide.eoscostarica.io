@@ -78,4 +78,4 @@ Whenever something goes wrong we don't point fingers or blame, rather we prefer 
 
 We are fully distributed team, in the 21st century there's no real need to be stuck in traffic jams and lose time of your life moving from one place to another to work on software development. We meet in person from time to time when required to analyze, architect and coordinate work.
 
-In this [link](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) you can see some recommendations to be highly productive working from home.
+In our blog [Tips for working from home](https://medium.com/@eoscostarica/consejos-para-trabajar-desde-la-casa-2f176270a5e1) you can see some recommendations to be highly productive working from home.
