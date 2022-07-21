@@ -15,18 +15,21 @@ At EOS Costa Rica we have created three boilerplate repositories: ** Front-End B
 - [Full Stack Boilerplate](https://github.com/eoscostarica/full-stack-boilerplate)
 - [Front End](https://github.com/eoscostarica/backend-boilerplate)
 - [Back End](https://github.com/eoscostarica/backend-boilerplate)
-- [WebApp Boilerplate](https://github.com/eoscostarica/webapp-boilerplate)
-- [Hapi Boilerplate](https://github.com/eoscostarica/hapi-boilerplate)
-- [Hasura Boilerplate](https://github.com/eoscostarica/hasura-boilerplate)
 
 ## WAX Boilerplates 
 
 - [WAX WebApp](https://github.com/edenia/wax-webapp-boilerplate)
 - [Wax Full Stack Boilerplate](https://github.com/edenia/wax-full-stack-boilerplate)
 
-## PROTON Boilerplate 
+## Proton Boilerplate 
 
 - [Proton Full Stack Boilerplate](https://github.com/edenia/proton-full-stack-boilerplate)
+
+## General Boilerplates 
+
+- [WebApp Boilerplate](https://github.com/eoscostarica/webapp-boilerplate)
+- [Hapi Boilerplate](https://github.com/eoscostarica/hapi-boilerplate)
+- [Hasura Boilerplate](https://github.com/eoscostarica/hasura-boilerplate)
 
 
 ## Front-End Boilerplate
