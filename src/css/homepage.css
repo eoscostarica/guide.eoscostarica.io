@@ -109,6 +109,10 @@
   letter-spacing: 0.66px;
 }
 
+#imgCarousel-id {
+  min-height: 175px;
+}
+
 
 @media screen and (max-width: 720px) {
 
