@@ -7,13 +7,13 @@ import { ImagesCarousel } from "./ImagesCarousel";
 
 const imagesList = [
   {
-    background: "/img/cards-icons/EOS-Previews-2.jpg",
+    background: "/img/cards-icons/EOS-Previews-2.webp",
   },
   {
-    background: "/img/cards-icons/Hero-1.jpg",
+    background: "/img/cards-icons/Hero-1.webp",
   },
   {
-    background: "/img/cards-icons/Hero-2.jpg",
+    background: "/img/cards-icons/Hero-2.webp",
   },
 ];
 

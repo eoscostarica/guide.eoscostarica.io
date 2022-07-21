@@ -10,19 +10,19 @@ const articlesList = [
     title: "Get to Know EOS Costa Rica",
     body: "Learn more about our history, team and projects we carry out.",
     href: "https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4",
-    img: "/img/cards-icons/blog1.png",
+    img: "/img/cards-icons/blog1.webp",
   },
   {
     title: "You Should Participate in an Open-Source Project",
     body: "We show some important aspects for which it should be dealt with in open source projects.",
     href: "https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41",
-    img: "/img/cards-icons/blog2.png",
+    img: "/img/cards-icons/blog2.webp",
   },
   {
     title: "What Is Blockchain?",
     body: "We explain, with examples, what a blockchain is and how it works.",
     href: "https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005",
-    img: "/img/cards-icons/blog3.png",
+    img: "/img/cards-icons/blog3.webp",
   },
 ];
 
