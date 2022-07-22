@@ -6,15 +6,16 @@ import { heroStyles, heroMdStyles, heroSmStyles } from "./styles";
 import { ImagesCarousel } from "./ImagesCarousel";
 
 const imagesList = [
-  {
-    background: "/img/cards-icons/EOS-Previews-2.webp",
-  },
+
   {
     background: "/img/cards-icons/Hero-1.webp",
   },
   {
     background: "/img/cards-icons/Hero-2.webp",
   },
+  {
+    background: "/img/cards-icons/EOS-Previews-2.webp",
+  }
 ];
 
 export const HeroSection = () => {
@@ -65,7 +66,7 @@ export const HeroSection = () => {
         bottom={mdDown ? "95px" : "12vw"}
       >
         <Typography className={textImage}>
-          Welcome to our open-source developers portal. Begin your journey to
+          Welcome to our web3 developers portal. Begin your journey to
           learn about blockchain technology and all the stuff that makes it
           possible.
         </Typography>

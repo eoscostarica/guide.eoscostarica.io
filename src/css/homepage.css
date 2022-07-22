@@ -62,12 +62,12 @@
   cursor: pointer;
 }
 
-/* This change customCard header */
+/* This changes customCard header background */
 .cardroot:hover .header-transition {
   background-color: #2d9cdb;
 }
 
-/* This change customCard header */
+/* This changes customCard header title */
 .cardroot:hover #header-title {
   color: #f2f2f2;
 }
