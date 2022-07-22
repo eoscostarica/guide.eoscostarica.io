@@ -157,6 +157,7 @@
     height: 84.2px;
     flex-grow: 0;
     margin: 13px 16.3px 14.4px calc(100% - 101px);
+    padding: 23px 13.7px 23.4px 14.5px;
     margin-right: 16.8;
     transition: all .25s ease-in-out;
   }

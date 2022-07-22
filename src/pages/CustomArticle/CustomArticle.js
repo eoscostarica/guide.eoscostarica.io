@@ -50,7 +50,12 @@ export const CustomArticle = ({ title, body, href, img }) => {
           >
             ARTICLES
           </Typography>
-          <Box display="flex" alignItems="center" mt={smDown ? 1 : 2}>
+          <Box
+            display="flex"
+            alignItems="center"
+            mt={smDown ? 1 : 2}
+            maxWidth={smDown ? "195px" : "240px"}
+          >
             <Box
               className={smDown ? responsiveBlueBoxTitle : normalBlueBoxTitle}
             />
