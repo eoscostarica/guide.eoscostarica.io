@@ -6,16 +6,18 @@ import { heroStyles, heroMdStyles, heroSmStyles } from "./styles";
 import { ImagesCarousel } from "./ImagesCarousel";
 
 const imagesList = [
-
   {
     background: "/img/cards-icons/Hero-1.webp",
+    displayImg: "block",
   },
   {
     background: "/img/cards-icons/Hero-2.webp",
+    displayImg: "none",
   },
   {
     background: "/img/cards-icons/EOS-Previews-2.webp",
-  }
+    displayImg: "none",
+  },
 ];
 
 export const HeroSection = () => {
@@ -33,11 +35,12 @@ export const HeroSection = () => {
 
   return (
     <Box width="100%" position="relative">
-      {imagesList.map(({ background }, index) => (
+      {imagesList.map(({ background, displayImg }, index) => (
         <ImagesCarousel
           key={background}
           background={background}
           index={index}
+          displayImg={displayImg}
         />
       ))}
       <Box
@@ -66,9 +69,8 @@ export const HeroSection = () => {
         bottom={mdDown ? "95px" : "12vw"}
       >
         <Typography className={textImage}>
-          Welcome to our web3 developers portal. Begin your journey to
-          learn about blockchain technology and all the stuff that makes it
-          possible.
+          Welcome to our web3 developers portal. Begin your journey to learn
+          about blockchain technology and all the stuff that makes it possible.
         </Typography>
       </Box>
       <Box

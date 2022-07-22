@@ -34,7 +34,7 @@ class Carousel {
   }
 }
 
-export const ImagesCarousel = ({ background, index }) => {
+export const ImagesCarousel = ({ background, index, displayImg }) => {
   const { fade, numbertext } = useStyles();
 
   useEffect(() => {
@@ -44,11 +44,7 @@ export const ImagesCarousel = ({ background, index }) => {
   }, []);
 
   return (
-    <Box
-      key={background}
-      className={`slideClass ${fade}`}
-      display={index > 0 ? "none" : "block"}
-    >
+    <Box key={background} className={`slideClass ${fade}`} display={displayImg}>
       <Box className={numbertext}>{index + 1} / 3</Box>
       <img id="imgCarousel-id" src={useBaseUrl(background)} width="100%" />
     </Box>

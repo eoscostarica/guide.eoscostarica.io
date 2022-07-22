@@ -109,8 +109,14 @@
   letter-spacing: 0.66px;
 }
 
+/* Height img, customCard */
 #imgCarousel-id {
   min-height: 175px;
+}
+
+/* Border Bottom img, customCard */
+#imgBorderBottom-id {
+  border-bottom: 1px solid black;
 }
 
 
