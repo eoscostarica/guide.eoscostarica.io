@@ -101,7 +101,7 @@ guide.eoscostarica.io/
 
 ## Contributing
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/orgs/eoscostarica/projects/3).
 
 If you want to make a contribution, please follow the next steps:
 
