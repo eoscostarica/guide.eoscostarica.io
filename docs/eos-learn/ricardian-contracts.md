@@ -3,7 +3,7 @@ id: ricardian-contracts
 title: What are Ricardian Contracts ?
 sidebar_label: Ricardian Contracts
 description: Definition and explanation of Ricardian Contracts.
-keywords: [ Ricardian Contracts, What is a Ricardian Contract, How work a Ricardian Contract, How Create a Ricardian Contract, How Create a Ricardian Contract, Ricardian Contract Blockchain, EOS, EOS Costa Rica]
+keywords: [ Ricardian Contracts, React Component for Ricardian Contract, EOSIO Ricardian Contract, Ricardian Contract as HTML, Blockchain, EOSIO, EOS Costa Rica]
 ---
 
 ## What are Ricardian Contracts?
@@ -17,10 +17,10 @@ They are digital documents that define the terms and conditions among those invo
 - They are signed by all parties.
 - They can be identified safely thanks to the has of each contract.
 
-### Ricardian contracts at EOSIO
+### Ricardian contracts for EOSIO
 Blockchains operate under smart contracts, however, work is underway to include Ricardian contracts in the transactions of these networks. One of the main objectives is to convert the complexity of the code observed within Blockchain technology into a simpler language so that anyone could understand it.
 
-EOS Costa Rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in [Ricardian Contract Component](https://github.com/eoscostarica/eosio-components/blob/master/src/stories/RicardianContract.stories.jsx). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
+EOS Costa Rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in [Ricardian Contract Component](https://components.edenia.cloud/?path=/story/example-ricardian-contract--example). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
 ```
 httpEndpoint: https://lacchain.eosio.cr
 contractName: eosio
@@ -67,4 +67,4 @@ To compile a Smart Contract with its respective Ricardian Contract, execute next
 eosio-cpp -abigen -R ./ricardian -contract contracttest -o contracttest.wasm src/contracttest.cpp
 ```
 
-Visit [How EOS Smart Contracts Work](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) to see more content on this topic.
+Visit [How EOSIO Smart Contracts Work](https://es.cointelegraph.com/eos-101/how-eos-smart-contracts-work) to see more content on this topic.
