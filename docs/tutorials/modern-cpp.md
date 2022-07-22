@@ -6,12 +6,12 @@ description: Modern C++ new features and functions
 keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C++ to Smart Contracts, Learn C++]
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">By using C++ to develop smart contracts we gain the effort of the entire computing industry in producing verification tools. People are already creating tools to write provably-correct software in c++ <a href="https://twitter.com/hashtag/eosio?src=hash&amp;ref_src=twsrc%5Etfw">#eosio</a> <a href="https://twitter.com/hashtag/ethereum?src=hash&amp;ref_src=twsrc%5Etfw">#ethereum</a> <a href="https://twitter.com/hashtag/cardano?src=hash&amp;ref_src=twsrc%5Etfw">#cardano</a> <a href="https://t.co/mhQQaEKA0D">https://t.co/mhQQaEKA0D</a></p>&mdash; Daniel Larimer (@bytemaster7) <a href="https://twitter.com/bytemaster7/status/991070899888631811?ref_src=twsrc%5Etfw">April 30, 2018</a></blockquote>
+<blockquote className="twitter-tweet"><p lang="en" dir="ltr">By using C++ to develop smart contracts we gain the effort of the entire computing industry in producing verification tools. People are already creating tools to write provably-correct software in c++ <a href="https://twitter.com/hashtag/eosio?src=hash&amp;ref_src=twsrc%5Etfw">#eosio</a> <a href="https://twitter.com/hashtag/ethereum?src=hash&amp;ref_src=twsrc%5Etfw">#ethereum</a> <a href="https://twitter.com/hashtag/cardano?src=hash&amp;ref_src=twsrc%5Etfw">#cardano</a> <a href="https://t.co/mhQQaEKA0D">https://t.co/mhQQaEKA0D</a></p>&mdash; Daniel Larimer (@bytemaster7) <a href="https://twitter.com/bytemaster7/status/991070899888631811?ref_src=twsrc%5Etfw">April 30, 2018</a></blockquote>
 
 ## Welcome to C++
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/18c3MTX0PK0" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/18c3MTX0PK0" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -19,16 +19,16 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## Hello World in C++
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
 * * *
 
 ## The Essence of C++
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -36,8 +36,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## C++ Language in 1 Video
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -45,8 +45,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## Learning and Teaching Modern C++
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/fX2W3nNjJIo" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/fX2W3nNjJIo" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -54,8 +54,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## Essentials of Modern C++ Style
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xnqTKD8uD64" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xnqTKD8uD64" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -63,8 +63,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## STL Algorithms in Less Than an Hour
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -72,8 +72,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## 10 Core Guidelines
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/XkDEzfpdcSg" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/XkDEzfpdcSg" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -81,8 +81,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## Practical C++ 17
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/nnY4e4faNp0" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/nnY4e4faNp0" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -90,8 +90,8 @@ keywords: [modern c++, modern c++ new features, modern c++ new functions, C++, C
 
 ## It's Complicated
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/tTexD26jIN4" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/tTexD26jIN4" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 

@@ -8,21 +8,21 @@ keywords: [ Dapp Development, Decentralized Applications, How Create a Dapp, Blo
 
 ## Why EOS was Designed to Decentralized Apps
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/E3Tx2DseLGE" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/E3Tx2DseLGE" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
 ## Building Decentralized Applications
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
 More on [Max G's channel](https://www.youtube.com/user/apexmaxable/videos)
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -32,8 +32,8 @@ To learn more about smart contracts, visit: [Guide Smart Contract](https://guide
 
 ## Jungle Testnet
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -69,12 +69,12 @@ https://developers.eos.io/
 
 ## Decentralized Storage - IPFS
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
