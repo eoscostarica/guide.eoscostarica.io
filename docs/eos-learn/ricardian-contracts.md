@@ -22,7 +22,7 @@ Blockchains operate under smart contracts, however, work is underway to include 
 
 EOS Costa Rica has developed a react component that renders ricardian contracts for smart contracts on EOSIO networks. You can view the react component in [Ricardian Contract Component](https://components.edenia.cloud/?path=/story/example-ricardian-contract--example). In that link, go to the `Knobs` section to modify `httpEndpoint` and `contractName`. Once done, check the Ricardian Contract for a Smart Contract. For example, set:
 ```
-httpEndpoint: https://lacchain.eosio.cr
+httpEndpoint: https://jungle.edenia.cloud
 contractName: eosio
 ```
 The component will automatically load the content of the Ricardian Contract. The open source repository for this component is located here: https://github.com/eoscostarica/eoscr-components.
