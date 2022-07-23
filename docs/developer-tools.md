@@ -1,6 +1,6 @@
 ---
 id: developer-tools
-title: Tools to Software Development
+title: Our Tools for Software Development
 sidebar_label: Our Favorite Tools
 description: Tools that EOS Costa Rica uses to develop software.
 keywords: [ Development Tools, Tools EOS, EOS Costa Rica, Tools for Software Development, Tools EOS Costa Rica ]
