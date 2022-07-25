@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Grid, Typography, useMediaQuery } from "@material-ui/core";
-import { useColorMode } from "@docusaurus/theme-common";
 
 import CustomCard from "./CustomCard";
-
 import "../../css/homepage.css";
 
 const articlesList = [

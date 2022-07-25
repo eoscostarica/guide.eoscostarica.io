@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Button, Typography } from "@material-ui/core";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { makeStyles } from "@material-ui/core/styles"
 
 import "../../css/homepage.css"
