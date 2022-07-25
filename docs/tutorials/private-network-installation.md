@@ -465,8 +465,8 @@ http-server-address = 0.0.0.0:80
 
 # SSL
 #https-server-address = 0.0.0.0:443
-#https-certificate-chain-file = ./ssl/eosio.cr.crt
-#https-private-key-file = ./ssl/eosio.cr.priv.key
+#https-certificate-chain-file = ./ssl/domain.crt
+#https-private-key-file = ./ssl/domain.priv.key
 
 # CHAIN 
 chain-state-db-size-mb = 16384
