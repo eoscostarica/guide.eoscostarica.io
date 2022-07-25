@@ -2,184 +2,206 @@
  * You can override the default Infima variables here.
  * Note: this is not a complete list of --ifm- variables.
  */
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
- .hero-header{
-  position: relative;
-  height: 561px;
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
-.hero-img{
-  width: 100%;
-  height: 561px;
-  object-fit: cover;
-  object-position: left;
-}
-
-.hero-content{
-  position: absolute; 
-  bottom: 0; 
-  background-color: rgba(0, 0, 0, 0.59);
-  color: #f1f1f1; 
-  width: 100%; 
-  height: 561px;
-}
-
-.title-container{
-  margin: auto;
-  margin-top: 95px;
-}
-
-.EOS-Costa-Rica-Devel {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 71.4px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -1.06px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.87);
-  }
-
-.text-style-1 {
-  font-size: 78.4px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  line-height: 1.07;
-  letter-spacing: 0.53px;
-}
-
-.intro-container{
-  margin-top: 29px;
-  width: 540px;
-  margin: auto;
-  margin-top: 29px;
-}
-
-.intro-text{
-  font-family: 'PT Sans', sans-serif;
-  font-size: 21.1px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.25px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.87);
-}
-
-.primary-buttom{
-  width: 131px;
-  height: 50px;
-  background-color: var(--secondary-main);
-  border: none;  
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 8px;
-  margin-right: 8px;
-  /*Text*/
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14.8px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: 1.25px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-.buttons-intro-container{
-  width: fit-content;
-  margin: auto;
-  margin-top: 40px;
-}
-
-.section-title{
-  font-family: 'PT Sans', sans-serif;
+/* Title, StartResource */
+#section-title-startResource-id {
+  font-family: Roboto;
   font-size: 51.4px;
-  font-weight: normal;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.41px;
-  margin-bottom: 50px;
+  letter-spacing: normal;
 }
 
-.section-container{
-  margin-top: 50px;
-  margin-bottom: 50px;
+/* Blue box from title StartResource */
+.box-title-startResource {
+  width: 9px;
+  height: 60px;
+  margin: 0 16px 0 0;
+  background-color: #2d9cdb;
+  margin-right: 16px;
 }
 
-.cardroot{
-  background-color: black;
-
+/* customCard dimentions */
+.cardroot {
+  width: 360px;
+  height: 240px;
+  position: relative;
 }
 
-.card-img-container{
-  height: 194px;
-  padding-top: 30px;
+/* This is for Link berfore the efect, customCard */
+#box-link-id-customCard::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  background: #2d9cdb;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
 }
 
-.Rectangle-Footer {
-  width: 100%; 
-  height: 268px;
-  position: absolute; 
-  background-color: #1d2027;
-  margin-left: -1.9%;
+/* This for linkEffect, customCard */
+.cardroot:hover #box-link-id-customCard::before {
+  visibility: visible;
+  transform: scaleX(1);
+  cursor: pointer;
 }
 
-.white-text{
-  color: #ffffff;
+/* Link style customCard */
+#link-id-customCard {
+  font-family: Roboto;
+  font-size: 18.4px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 0.13px;
+  cursor: pointer;
 }
 
-.Footer-content{
-  width: 70%;
-  height: 242px;
-  margin-left: 20%;
+/* This changes customCard header background */
+.cardroot:hover .header-transition {
+  background-color: #2d9cdb;
 }
 
-.Div-Image-Footer{
-  width: 15%;
-  height: 140px;
-  margin-top: 35px;
-  float:left;
+/* This changes customCard header title */
+.cardroot:hover #header-title {
+  color: #f2f2f2;
 }
 
-.Link-footer{
-  width: 80%;
-  height: 140px;
-  margin-left: 5%;
-  margin-top: 45px;
-  float:left;
+/* Header colors transictions customCard */
+.header-transition {
+  height: 56px;
+  transition: all .25s ease-in-out;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-  .EOS-Costa-Rica-Devel {
-      font-size: 41.4px;
+/* size customCard images */
+.card-img {
+  width: 42;
+  height: 42;
+}
+
+/* Container image customCard */
+.card-img-container {
+  width: 84.2px;
+  height: 84.2px;
+  flex-grow: 0;
+  margin: 13px 16.3px 14.4px calc(100% - 101px);
+  margin-right: 16.8;
+  padding: 23px 13.7px 23.4px 14.5px;
+  border: solid 2px #333;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* Header title, customCard */
+#header-title {
+  font-family: Roboto;
+  font-size: 18.4px;
+  line-height: 1.71;
+  letter-spacing: 0.66px;
+}
+
+/* Height img, customCard */
+#imgCarousel-id {
+  min-height: 175px;
+}
+
+@media screen and (max-width: 720px) {
+
+  .card-img {
+    width: 25;
+    height: 25;
   }
-  
-  .text-style-1 {
-      font-size: 48.4px;   
-  }
-  
-  .intro-container{
-      width: 80%;
+
+  .card-img-container {
+    width: 54.2px;
+    height: 54.2px;
+    margin: 10px 16.3px 14.4px calc(100% - 70.6px);
+    padding: 2px 6px;
+    transition: all .25s ease-in-out;
   }
 
-  .Rectangle-Foote{
-    width: 80%;
-  }
-  
-  .intro-text{
-      font-size: 20px;
+  #section-title-startResource-id {
+    font-size: 35px;
+    font-weight: 500;
   }
 
-  .section-title{
-      font-size: 41.4px;
+  .header-transition {
+    height: 40px;
   }
 }
 
-  
+@media screen and (max-width: 600px) {
+  .card-img {
+    width: 42;
+    height: 42;
+  }
+
+  /* Container image customCard */
+  .card-img-container {
+    width: 84.2px;
+    height: 84.2px;
+    flex-grow: 0;
+    margin: 13px 16.3px 14.4px calc(100% - 101px);
+    padding: 23px 13.7px 23.4px 14.5px;
+    margin-right: 16.8;
+    transition: all .25s ease-in-out;
+  }
+
+  .header-transition {
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  #section-title-startResource-id {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .box-title-startResource {
+    width: 3.3px;
+    height: 22.3px;
+    margin-right: 8px;
+  }
+
+  #link-id-customCard {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.07px;
+  }
+
+  #header-title {
+    font-size: 11.1px;
+    line-height: 1.26;
+    letter-spacing: 0.29px;
+  }
+
+  .card-img {
+    width: 21;
+    height: 18;
+  }
+
+  .card-img-container {
+    width: 40.2px;
+    height: 40.2px;
+    flex-grow: 0;
+    margin: 4px 16.3px 14.4px calc(100% - 54.6px);
+    padding: 5px 2px;
+    transition: all .25s ease-in-out;
+  }
+
+  .header-transition {
+    height: 24px;
+  }
+}
