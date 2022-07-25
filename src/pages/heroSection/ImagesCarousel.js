@@ -1,8 +1,36 @@
 import React, { useEffect } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { Box } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import "../../css/homepage.css";
 
-import { useStyles } from "./styles";
+const useStyles = makeStyles(theme => ({
+
+  fade: {
+    animation: `$fade 1.8s ${theme.transitions.easing.easeInOut} `,
+  },
+  "@keyframes fade": {
+    from: { opacity: .4 },
+    to: { opacity: 1 }
+  },
+  numberText: {
+    fontFamily: "Roboto",
+    color: "#f2f2f2",
+    fontSize: "12px",
+    padding: "8px 12px",
+    position: "absolute",
+    top: 0,
+  }, imgDimentions: {
+    height: "175px",
+    [theme.breakpoints.up("sm")]: {
+      height: "250px",
+    },
+    [theme.breakpoints.up("md")]: {
+      height: "360px",
+    }
+  }
+
+}));
 
 class Carousel {
   constructor() {
@@ -34,8 +62,8 @@ class Carousel {
   }
 }
 
-export const ImagesCarousel = ({ background, index, displayImg }) => {
-  const { fade, numbertext } = useStyles();
+const ImagesCarousel = ({ background, index, displayImg }) => {
+  const { fade, numberText, imgDimentions } = useStyles();
 
   useEffect(() => {
     const carousel = new Carousel();
@@ -45,8 +73,10 @@ export const ImagesCarousel = ({ background, index, displayImg }) => {
 
   return (
     <Box key={background} className={`slideClass ${fade}`} display={displayImg}>
-      <Box className={numbertext}>{index + 1} / 3</Box>
-      <img id="imgCarousel-id" src={useBaseUrl(background)} width="100%" />
+      <Box className={numberText}>{index + 1} / 3</Box>
+      <Box className={imgDimentions} component="img" id="imgCarousel-id" src={useBaseUrl(background)} width="100%" />
     </Box>
   );
 };
+
+export default ImagesCarousel;

@@ -1,7 +1,8 @@
 import React from "react";
 import { Box, Grid, Typography, useMediaQuery } from "@material-ui/core";
+import { useColorMode } from "@docusaurus/theme-common";
 
-import { CustomArticle } from "./CustomArticle";
+import CustomCard from "./CustomCard";
 
 import "../../css/homepage.css";
 
@@ -26,7 +27,7 @@ const articlesList = [
   },
 ];
 
-export const MediumSection = () => {
+const MediumSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const mdDown = useMediaQuery("(max-width:800px)");
 
@@ -61,10 +62,12 @@ export const MediumSection = () => {
             display="flex"
             justifyContent="center"
           >
-            <CustomArticle title={title} body={body} href={href} img={img} />
+            <CustomCard title={title} body={body} href={href} img={img} />
           </Grid>
         ))}
       </Grid>
     </Box>
   );
 };
+
+export default MediumSection;

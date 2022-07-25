@@ -114,12 +114,6 @@
   min-height: 175px;
 }
 
-/* Border Bottom img, customCard */
-#imgBorderBottom-id {
-  border-bottom: 1px solid black;
-}
-
-
 @media screen and (max-width: 720px) {
 
   .card-img {

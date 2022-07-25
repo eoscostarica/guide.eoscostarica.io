@@ -1,8 +1,10 @@
-import React from 'react';
+
+
+import React from 'react'
 import { Box, Grid, Typography } from '@material-ui/core';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
-import { CustomCard } from './CustomCard';
+import CustomCard from './CustomCard';
 import "../../css/homepage.css"
 
 const startResourceList = [
@@ -39,11 +41,12 @@ const startResourceList = [
     }
 ];
 
-export const StartResourceSection = () => {
 
+const StartResourceSection = () => {
+    
     const smDown = useMediaQuery('(max-width:400px)')
     const mdDown = useMediaQuery('(max-width:800px)')
-
+        
     return (
         <Box className="container">
             <Box display="flex" mb={smDown ? 2 : mdDown ? 5 : 8} alignItems="center"></Box>
@@ -76,4 +79,6 @@ export const StartResourceSection = () => {
             </Grid>
         </Box>
     );
-};
+}
+
+export default StartResourceSection;
