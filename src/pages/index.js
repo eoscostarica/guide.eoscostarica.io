@@ -114,39 +114,39 @@ const startResourceList = [
 const StartResourceSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
-  const [color, setColor] = useState('light');
-  useEffect(() => {
-    setColor(colorMode);
-  }, [colorMode]);
+  const [color, setColor] = useState(null);
+  useEffect(() => { setColor(colorMode); }, [colorMode]);
 
   return (
-    <Box className="container" >
-      <Box className="startTitleContainer">
-        <Box className="box-title-startResource" />
-        <Box className="section-title-startResource">
-          Get started with these resources
+    <>{color &&
+      <Box className="container" >
+        <Box className="startTitleContainer">
+          <Box className="box-title-startResource" />
+          <Box className="section-title-startResource">
+            Get started with these resources
+          </Box>
         </Box>
-      </Box>
-      <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
-        {
-          startResourceList.map(({ title, body, href, img }) =>
-            <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
-              <Box className="cardDimentions">
-                <div className={`cardImgContainer ${color === 'dark' ? 'cardImgContainerDark' : 'cardImgContainerLight'}`} >
-                  <img src={useBaseUrl(img)} alt={title} loading="lazy" className={`imgHero ${color === 'dark' && 'cardImgColor'}`} />
-                </div>
-                <Box className={`cardHeaderTransition ${color === 'dark' ? 'cardHeaderDark-mode' : 'cardHeaderLight-mode'}`}>
-                  <span>SECTION</span>
+        <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
+          {
+            startResourceList.map(({ title, body, href, img }) =>
+              <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
+                <Box className="cardDimentions">
+                  <div className={`cardImgContainer ${color === 'dark' ? 'cardImgContainerDark' : 'cardImgContainerLight'}`} >
+                    <img src={useBaseUrl(img)} alt={title} loading="lazy" className={`imgHero ${color === 'dark' && 'cardImgColor'}`} />
+                  </div>
+                  <Box className={`cardHeaderTransition ${color === 'dark' ? 'cardHeaderDark-mode' : 'cardHeaderLight-mode'}`}>
+                    <span>SECTION</span>
+                  </Box>
+                  <h1 className="cardTitle"> {title} </h1>
+                  <Box className={`cardBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
+                  <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
                 </Box>
-                <h1 className="cardTitle"> {title} </h1>
-                <Box className={`cardBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
-                <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
-              </Box>
-            </Grid>
-          )
-        }
-      </Grid>
-    </Box>
+              </Grid>
+            )
+          }
+        </Grid>
+      </Box>
+    }</>
   )
 }
 
@@ -172,35 +172,35 @@ const articlesList = [
 const ArticleSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
-  const [color, setColor] = useState('light');
-  useEffect(() => {
-    setColor(colorMode);
-  }, [colorMode]);
+  const [color, setColor] = useState(null);
+  useEffect(() => { setColor(colorMode) }, [colorMode]);
   return (
-    <Box className="container" id="article-id">
-      <Box className="startTitleContainer">
-        <Box className="box-title-startResource" />
-        <Box className="section-title-startResource"> Read our blog posts </Box>
-      </Box>
-      <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
-        {
-          articlesList.map(({ title, body, href, img }) =>
-            <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
-              <Box className={`cardArticleDimentions ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}>
-                <Box component="img" src={useBaseUrl(img)} alt={title} width="100%" className="cardArticleImg" />
-                <Box className="cardArticleHeader"> ARTICLES </Box>
-                <Box className="cardArticleTitleContainer">
-                  <Box className="cardArticleBlueBoxTitle" />
-                  <Box className="cardArticleTitle "> {title} </Box>
+    <>{color &&
+      <Box className="container" id="article-id">
+        <Box className="startTitleContainer">
+          <Box className="box-title-startResource" />
+          <Box className="section-title-startResource"> Read our blog posts </Box>
+        </Box>
+        <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
+          {
+            articlesList.map(({ title, body, href, img }) =>
+              <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
+                <Box className={`cardArticleDimentions ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}>
+                  <Box component="img" src={useBaseUrl(img)} alt={title} width="100%" className="cardArticleImg" />
+                  <Box className="cardArticleHeader"> ARTICLES </Box>
+                  <Box className="cardArticleTitleContainer">
+                    <Box className="cardArticleBlueBoxTitle" />
+                    <Box className="cardArticleTitle "> {title} </Box>
+                  </Box>
+                  <Box className={`cardArticleBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
+                  <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
                 </Box>
-                <Box className={`cardArticleBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
-                <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
-              </Box>
-            </Grid>
-          )
-        }
-      </Grid>
-    </Box>
+              </Grid>
+            )
+          }
+        </Grid>
+      </Box>
+    }</>
   )
 };
 
