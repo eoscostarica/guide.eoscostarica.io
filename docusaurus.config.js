@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "EOS Costa Rica | Developers Guides",
-  tagline: "Guides and documentation for developers of EOS Costa Rica",
+  title: "EOSIO Blockchain Developer Docs",
+  tagline: "Guides and Documentation for developers of EOS Costa Rica Projects",
   url: "https://guide.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */
   //cname: "guide.eoscostarica.io",
@@ -139,6 +139,7 @@ const siteConfig = {
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
+  trailingSlash: false,
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -158,6 +159,12 @@ const siteConfig = {
         },
         googleAnalytics: {
           trackingID: "UA-173987-66",
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: [],
+          filename: 'sitemap.xml',
         },
       },
     ],

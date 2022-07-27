@@ -24,19 +24,19 @@ quota: 86.68 KiB
 used: 11.62 KiB  
 ```
 
-You can find more details about RAM as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
+You can find more details about RAM as a resource in the guide [Ram EOSIO Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
 
 ### CPU
 
 CPU is processing power, the amount of CPU an account has is measured in microseconds (μs), it is referred to as `CPU bandwidth` the `cleos get account` command outputs the amount of processing time an account has at its disposal when pushing actions to a contract.
 
-You can find more details about the CPU as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu)
+You can find more details about the CPU as a resource in the guide [CPU EOSIO Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu)
 
 ### Network (NET)
 
 As CPU and RAM, NET is also a very important resource in EOSIO-based blockchains. NET is the network bandwidth measured in bytes of transactions and it is referred to as `net bandwidth`.
 
-You can find more details about NET as a resource [here](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
+You can find more details about NET as a resource in the guide [NET EOSIO Contracts](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
 ## Account Resource Limits
 

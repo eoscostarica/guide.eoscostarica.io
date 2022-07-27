@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Logo and Visual Assets
 
-In this [link](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets
+In this [Repository of Graphic Design Assets](https://github.com/eoscostarica/design-assets) you have access to Logos and visual assets
 
 ## Color Palette
 
@@ -18,13 +18,13 @@ In this [link](https://github.com/eoscostarica/design-assets) you have access to
 
 ![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
 
-To see a complete guide to the colors, you can visit [this link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
+To see a complete guide to the colors, you can visit [Color Scheme](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Typography
 
 ![Typography preview](/img/OSS_screnshots/EOSCR_Typography_Scale.webp)
 
-For a complete guide to font sizes and shapes, you can visit this [link](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
+For a complete guide to font sizes and shapes, you can visit [Typography Scale](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf)
 
 ## Material UI theme
 

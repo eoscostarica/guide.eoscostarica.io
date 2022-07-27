@@ -8,7 +8,7 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
 ```
     ## Gif or Image Introduction
 
-    Is simple and can sound so easy and yes, It does, but the impact that a Gif or Image can produce is too big. The viewer acquire the needed information to get interested in the project. For example:
+    It's simple and can sound easy and yes, It does, but the impact that a Gif or Image can produce is significant. The viewer acquires the needed information to get interested in the project. For example:
 
     ![Life bank](/img/life-bank.webp)
 
@@ -28,14 +28,11 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
     2. About The Project
     3. Content Table
     4. Project Purpose
-    5. Version
-    6. Tech Stack
-    7. Development Environment
-    8. File Structure
-    9. License
-    10. Contributing
-    11. Contributors
-    12. About Company
+    5. Tech Stack
+    6. Development Environment
+    7. File Structure
+    8. Contributing
+    9. About Company
 
     ## Project Purpose
 
@@ -45,26 +42,11 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
 
     *Moreover, the pandemic is impacting local economies due to a generalized lockdown. Small businesses that rely on the local community must think of ways to incentivize customers to buy as soon as restrictions are lifted."*
 
-    ## Version
-    Know what version of the project is, could helps others to debug problems, give it different solutions or approaches, for this reason, is needed to specify the latest version of the project, for example:
-
-    :::note modify
-    Evodex is ready for our first group of beta testers to try the next generation decentralized exchange for EOS
-
-    Currently evodex is still in beta pre-release *v0.1.0-beta.xx*
-
-    We release the production software version using github tags following Semver.
-
-    We also use the git commit messages to generate the project change log.
-
-    Using the yarn version command you can update the version of your package via the command line.
-    :::
-
     ## Tech Stack
     The purpose is to make the user know the main technology were needed to develop the project, so the user could understand the project with a new kind of view, for example, the information that could be given here is:
 
 
-    - React.js - React 16✨, React Router 5
+    - React.js - React 18✨, React Router 5
     - Rematch/core - Rematch a Redux Framework
     - Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
     - Lint - ESlint
@@ -165,14 +147,10 @@ keywords: [readme, file, source, code, template, Readme File, Readme File Exampl
 
     If you find a bug, please report big and small bugs by **opening an issue** `<link to issue project section>`
 
-    ## Contributors
-
-    List the people who work in the project.
-
     ## About EOS Costa Rica
 
     <div style={{ display: "block", textAlign: "center" }}>
-        <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+        <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
     </div>
 
     EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.

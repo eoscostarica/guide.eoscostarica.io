@@ -72,7 +72,7 @@ Following ** a standard makes it easier to understand the code **, more than one
     run(function() { ... })       // ✗ avoid
     ```
 
-For more information on the guidelines to follow, see [this link](https://standardjs.com/rules.html)
+For more information on the guidelines to follow, see [JavaScript Standard Style](https://standardjs.com/rules.html)
 
 ## Why Blockchain?
 
