@@ -5,15 +5,166 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
-/* Title, StartResource */
-#section-title-startResource-id {
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.ligthTextColor {
+  color: #333;
+}
+
+.darkTextColor {
+  color: #f2f2f2;
+}
+
+/*------------------------------------- Hero Section Styles ------------------------------------------*/
+
+.carouselContainer {
+  position: relative;
+  width: 100%;
+}
+
+/* Height image hero */
+.imgHero {
+  height: 360px;
+}
+
+/* Text conteiner carousel */
+.contentCaroulseContainer {
+  position: absolute;
+  top: 0;
+}
+
+/* Button container carousel */
+.buttonHeroContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+}
+
+/* Button style carousel */
+.buttonHero {
+  background-color: #2d9cdb;
+  border-radius: 100px;
+  color: #fff;
+  padding: 16px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+  line-height: 1.43;
+  letter-spacing: 0.1px;
+}
+
+/* Button change with hover */
+.buttonHero:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #7ACAF0;
+  color: #fff;
+}
+
+/* Title carousel  */
+.textImgTitle {
   font-family: Roboto;
-  font-size: 51.4px;
+  position: absolute;
+  width: 100%;
+  top: 5%;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Subtitle Carousel */
+.textSubTitleImg {
+  font-family: Roboto;
+  position: absolute;
+  width: 100%;
+  top: 26%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+/* Body text carousel */
+.textImg {
+  font-family: Roboto;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  color: #fff;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  height: 108px;
+}
+
+/* Number text (1/3 etc) */
+.numberImagetext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* dots bottom carousel */
+.dotContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  height: 10px;
+  width: 10px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Display of images */
+.mySlides {
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* ------------------------------------------ Start Section Styles --------------------------------------- */
+/* Title start section */
+.startTitleContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
 /* Blue box from title StartResource */
@@ -25,18 +176,89 @@
   margin-right: 16px;
 }
 
+/* Title, StartResource */
+.section-title-startResource {
+  font-family: Roboto;
+  font-size: 51.4px;
+  font-weight: 600;
+}
+
 /* customCard dimentions */
-.cardroot {
+.cardDimentions {
   width: 360px;
   height: 240px;
   position: relative;
+  border: 1px solid;
+}
+
+/* Image container*/
+.cardImgContainer {
+  width: 84.2px;
+  height: 84.2px;
+  flex-grow: 0;
+  margin: 13px 16.3px 14.4px calc(100% - 101px);
+  padding: 20px 10px;
+  border: solid 2px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* Header colors transictions customCard */
+.cardHeaderTransition {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  line-height: 1.71;
+  letter-spacing: 0.66px;
+  border-bottom: 1px solid;
+  transition: all .25s ease-in-out;
+  font-size: 18.4px;
+}
+
+/* Transition header */
+.cardHeaderTransition span {
+  margin-left: 16px;
+}
+
+/* This changes customCard header background */
+.cardDimentions:hover .cardHeaderTransition {
+  background-color: #2d9cdb;
+}
+
+.cardDimentions:hover span {
+  color: #f2f2f2;
+}
+
+/* Title of card start */
+.cardTitle {
+  font-family: Roboto;
+  margin: 16.7px 125.8px 7.1px 13.2px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.13px;
+  width: 65%;
+}
+
+/* body of card start */
+.cardBody {
+  font-family: Roboto;
+  width: 94%;
+  flex-grow: 0;
+  margin: 7.1px 33.8px 0 13.2px;
+  font-size: 14.5px;
+  line-height: 1.45;
+  letter-spacing: 0.66px;
 }
 
 /* This is for Link berfore the efect, customCard */
 #box-link-id-customCard::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 104px;
   height: 3px;
   bottom: 0;
   background: #2d9cdb;
@@ -46,153 +268,252 @@
 }
 
 /* This for linkEffect, customCard */
-.cardroot:hover #box-link-id-customCard::before {
+.cardDimentions:hover #box-link-id-customCard::before {
   visibility: visible;
   transform: scaleX(1);
   cursor: pointer;
 }
 
-/* Link style customCard */
-#link-id-customCard {
+/* Link footer card start */
+.cardLinkFooter {
   font-family: Roboto;
+  bottom: 16px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
   font-size: 18.4px;
   font-weight: 500;
   line-height: 1.43;
   letter-spacing: 0.13px;
-  cursor: pointer;
 }
 
-/* This changes customCard header background */
-.cardroot:hover .header-transition {
-  background-color: #2d9cdb;
+/* for light mode */
+.cardHeaderLight-mode {
+  background-color: #f2f2f2;
+  color: #333;
 }
 
-/* This changes customCard header title */
-.cardroot:hover #header-title {
+/* for dark mode */
+.cardHeaderDark-mode {
+  background-color: #4f4f4f;
   color: #f2f2f2;
 }
 
-/* Header colors transictions customCard */
-.header-transition {
-  height: 56px;
-  transition: all .25s ease-in-out;
+/* card start image in dark mode */
+.cardImgColor {
+  filter: brightness(0) invert(1);
 }
 
-/* size customCard images */
-.card-img {
-  width: 42;
-  height: 42;
+/* background image in dark mode */
+.cardImgContainerDark {
+  background: #1b1b1d;
+  border-color: #f2f2f2
 }
 
-/* Container image customCard */
-.card-img-container {
-  width: 84.2px;
-  height: 84.2px;
-  flex-grow: 0;
-  margin: 13px 16.3px 14.4px calc(100% - 101px);
-  margin-right: 16.8;
-  padding: 23px 13.7px 23.4px 14.5px;
-  border: solid 2px #333;
+/* background image in light mode */
+.cardImgContainerLight {
+  border-color: #333;
   background-color: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
 }
 
-/* Header title, customCard */
-#header-title {
+/* ------------------------------------------ Article Section Styles --------------------------------------- */
+/* Global dimention card article */
+.cardArticleDimentions {
+  width: 360px;
+  height: 412px;
+  border: 1px solid;
+  position: relative;
+}
+
+/* border's image card article */
+.cardArticleImg {
+  border-bottom: 1px solid;
+}
+
+/* Text header card article */
+.cardArticleHeader {
   font-family: Roboto;
+  margin: 16px 23px 18px 16px;
   font-size: 18.4px;
   line-height: 1.71;
   letter-spacing: 0.66px;
 }
 
-/* Height img, customCard */
-#imgCarousel-id {
-  min-height: 175px;
+/* Blue box card article */
+.cardArticleBlueBoxTitle {
+  width: 3px;
+  height: 40px;
+  margin: 0 16px 0 0;
+  background-color: #2d9cdb;
 }
 
-@media screen and (max-width: 720px) {
+/* Title card article */
+.cardArticleTitle {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.09;
+  letter-spacing: 0.13px;
+  width: 95%;
+}
 
-  .card-img {
-    width: 25;
-    height: 25;
+/* Title container card article */
+.cardArticleTitleContainer {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Body text card article */
+.cardArticleBody {
+  font-family: Roboto;
+  width: 94%;
+  flex-grow: 0;
+  margin: 7.1px 33.8px 0 13.2px;
+  font-size: 14.5px;
+  line-height: 1.45;
+  letter-spacing: 0.66px;
+}
+
+/* This for linkEffect, customCard */
+.cardArticleDimentions:hover #box-link-id-customCard::before {
+  visibility: visible;
+  transform: scaleX(1);
+  cursor: pointer;
+}
+
+#article-id {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 960px) {
+
+  /*------------------------------------- Hero Section Styles ------------------------------------------*/
+  .imgHero {
+    height: 250px;
   }
 
-  .card-img-container {
-    width: 54.2px;
-    height: 54.2px;
-    margin: 10px 16.3px 14.4px calc(100% - 70.6px);
-    padding: 2px 6px;
-    transition: all .25s ease-in-out;
+  .buttonHeroContainer {
+    bottom: 35px;
   }
 
-  #section-title-startResource-id {
-    font-size: 35px;
+  .buttonHero {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+
+  .textImgTitle {
+    top: 4%;
+    font-size: 45px;
+  }
+
+  .textSubTitleImg {
+    top: 24%;
+    font-size: 28px;
+  }
+
+  .textImg {
+    top: 36%;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    font-size: 16px;
+    font-weight: 400;
+    height: 80px;
+  }
+
+  .dot {
+    height: 7px;
+    width: 7px;
+  }
+
+  /* ------------------------------------------ Start Section Styles --------------------------------------- */
+
+  .section-title-startResource {
+    font-family: Roboto;
+    font-size: 6vw;
     font-weight: 500;
   }
 
-  .header-transition {
-    height: 40px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .card-img {
-    width: 42;
-    height: 42;
-  }
-
-  /* Container image customCard */
-  .card-img-container {
-    width: 84.2px;
-    height: 84.2px;
-    flex-grow: 0;
-    margin: 13px 16.3px 14.4px calc(100% - 101px);
-    padding: 23px 13.7px 23.4px 14.5px;
-    margin-right: 16.8;
-    transition: all .25s ease-in-out;
-  }
-
-  .header-transition {
-    height: 56px;
+  .startTitleContainer {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
 
-  #section-title-startResource-id {
-    font-size: 18px;
-    font-weight: 500;
+  /*------------------------------------- Hero Section Styles ------------------------------------------*/
+  .imgHero {
+    height: 175px;
   }
 
+  .buttonHeroContainer {
+    bottom: 22px;
+  }
+
+  .buttonHero {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .textImgTitle {
+    top: 1%;
+    font-size: 32px;
+  }
+
+  .textSubTitleImg {
+    top: 22%;
+    font-size: 18px;
+  }
+
+  .textImg {
+    top: 34%;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    font-size: 12px;
+    font-weight: 300;
+    height: 60px;
+
+  }
+
+  .numberImagetext {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  .dotContainer {
+    bottom: 15px;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  /* ------------------------------------------ Start Section Styles --------------------------------------- */
   .box-title-startResource {
     width: 3.3px;
     height: 22.3px;
     margin-right: 8px;
   }
 
-  #link-id-customCard {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0.07px;
+  .section-title-startResource {
+    font-family: Roboto;
+    font-size: 5.5vw;
+    font-weight: 500;
   }
 
-  #header-title {
-    font-size: 11.1px;
-    line-height: 1.26;
-    letter-spacing: 0.29px;
+  .startTitleContainer {
+    margin-top: 25px;
+    margin-bottom: 16px;
   }
 
-  .card-img {
-    width: 21;
-    height: 18;
+  .cardDimentions {
+    width: 256px;
+    height: 140px;
   }
 
-  .card-img-container {
+  .cardImgContainer {
     width: 40.2px;
     height: 40.2px;
     flex-grow: 0;
@@ -201,7 +522,84 @@
     transition: all .25s ease-in-out;
   }
 
-  .header-transition {
-    height: 24px;
+  .cardHeaderTransition {
+    height: 25.8px;
+    line-height: 1.26;
+    letter-spacing: 0.29px;
+    font-size: 11.1px;
+    transition: all .25s ease-in-out;
+  }
+
+  .cardHeaderTransition span {
+    margin-left: 8px;
+  }
+
+  .cardTitle {
+    margin: 10.1px 69.5px 16px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.99;
+    letter-spacing: 0.06px;
+    width: 78%;
+  }
+
+  .cardBody {
+    margin: 16px 8px 23px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+  }
+
+  .cardLinkFooter {
+    bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.07px;
+  }
+
+  #box-link-id-customCard::before {
+    width: 80px;
+    height: 2px;
+  }
+
+  /* ---------------------------------------------- Article Style Section ------------------------------------ */
+  .cardArticleDimentions {
+    width: 256px;
+    max-height: 308px;
+  }
+
+  .cardArticleHeader {
+    margin: 14px 148.7px 7.5px 9px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .cardArticleTitleContainer {
+    margin-left: 8px;
+  }
+
+  .cardArticleBlueBoxTitle {
+    height: 19px;
+    margin: 0 3px 0 0;
+  }
+
+  .cardArticleTitle {
+    margin: 3px 0 2px 3px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.99;
+    letter-spacing: 0.06px;
+  }
+
+  .cardArticleBody {
+    margin: 16px 8px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+  }
+
+  #article-id {
+    margin-bottom: 25px;
   }
 }
