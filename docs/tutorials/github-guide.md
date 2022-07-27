@@ -64,7 +64,7 @@ Clone an existing repository.
 ```
 git clone <url>
 ```
-[More information](https://github.com/joshnh/Git-Commands).
+For more information, visit [Git Commands](https://github.com/joshnh/Git-Commands).
 
 ### Branches
 
@@ -93,7 +93,7 @@ Delete a branch.
 ```
 git branch -d <branch name> 
 ```
-[More information](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).
+For more information, visit [Working with Branches in Git and GitHub](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/).
 
 ### Upload Changes
 
@@ -136,7 +136,7 @@ Merge another branch to the current one.
 ```
 git merge <branch name> 
 ```
-[More information](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/).
+For more information, visit [Github Command Line](https://www.tutsmake.com/upload-project-files-on-github-using-command-line/).
 
 ### Fork
 
@@ -150,7 +150,7 @@ Merge with master
 git fetch upstream
 git merge upstream/master 
 ```
-[More information](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
+For more information, visit [Using the Fork and Branch Git Workflow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/).
 
 ### Other Commands
 
@@ -193,4 +193,4 @@ Delete file from repository.
 ```
 git rm <file> 
 ```
-[More information](https://dzone.com/articles/top-20-git-commands-with-examples).
+For more information, visit [Git Commands](https://dzone.com/articles/top-20-git-commands-with-examples).

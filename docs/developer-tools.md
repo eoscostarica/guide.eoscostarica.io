@@ -1,6 +1,6 @@
 ---
 id: developer-tools
-title: Tools to Software Development
+title: Our Tools for Software Development
 sidebar_label: Our Favorite Tools
 description: Tools that EOS Costa Rica uses to develop software.
 keywords: [ Development Tools, Tools EOS, EOS Costa Rica, Tools for Software Development, Tools EOS Costa Rica ]
@@ -68,7 +68,7 @@ Here are some reasons why we use EOSIO:
 
 4. **It’s green**. One of the most common complaints you hear about blockchain technology is just how expensive and environmentally-unfriendly it is. Indeed, a lot of blockchain platforms require a substantial amount of electricity to run the computers needed to manage the distributed database.
 
->[More information](https://block.one/news/four-reasons-why-developers-and-enterprises-are-looking-at-the-eosio-blockchain-protocol/#:~:text=Unlike%20other%20blockchain%20protocols%2C%20EOSIO,apps%20are%20free%20to%20use.)
+>For more information, visit [Reasons to Use EOSIO](https://block.one/news/four-reasons-why-developers-and-enterprises-are-looking-at-the-eosio-blockchain-protocol/#:~:text=Unlike%20other%20blockchain%20protocols%2C%20EOSIO,apps%20are%20free%20to%20use.)
 
 ### EOSIO Installation
 
@@ -106,7 +106,7 @@ class="video_container">
     </iframe>
 </figure>
 
-[Click here](https://jqplay.org/) if you want a place to try jq. The jq [GitHub](https://github.com/stedolan/jq) for more information.
+[PlayGround JQPlay](https://jqplay.org/) if you want a place to try jq. The jq [GitHub](https://github.com/stedolan/jq) for more information.
 
 * * *
 
@@ -127,7 +127,7 @@ JavaScript is not a strongly typed language, this might create some problems for
 3. **Fast render with Virtual DOM**. Updating DOM is usually the bottleneck when it comes to the web performance. React is trying to solve this problem by using something called virtual DOM; a DOM kept in memory.
 4. **Great Developer Tools**. Developer toolset is another important factor when you are choosing a development platform. There are two great tools you should be aware of: React Developer Tools and Redux Developer Tools. Both can be installed as Chrome extensions.
 
->[More information](https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247)
+>For more information, visit [Why you Should Use React](https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247)
 
 ### React JS Installation
 

@@ -2,184 +2,604 @@
  * You can override the default Infima variables here.
  * Note: this is not a complete list of --ifm- variables.
  */
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
- .hero-header{
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.ligthTextColor {
+  color: #333;
+}
+
+.darkTextColor {
+  color: #f2f2f2;
+}
+
+/*------------------------------------- Hero Section Styles ------------------------------------------*/
+
+.carouselContainer {
   position: relative;
-  height: 561px;
-}
-
-.hero-img{
   width: 100%;
-  height: 561px;
-  object-fit: cover;
-  object-position: left;
 }
 
-.hero-content{
-  position: absolute; 
-  bottom: 0; 
-  background-color: rgba(0, 0, 0, 0.59);
-  color: #f1f1f1; 
-  width: 100%; 
-  height: 561px;
+/* Height image hero */
+.imgHero {
+  height: 360px;
 }
 
-.title-container{
-  margin: auto;
-  margin-top: 95px;
+/* Text conteiner carousel */
+.contentCaroulseContainer {
+  position: absolute;
+  top: 0;
 }
 
-.EOS-Costa-Rica-Devel {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 71.4px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -1.06px;
+/* Button container carousel */
+.buttonHeroContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+}
+
+/* Button style carousel */
+.buttonHero {
+  background-color: #2d9cdb;
+  border-radius: 100px;
+  color: #fff;
+  padding: 16px 24px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.87);
-  }
-
-.text-style-1 {
-  font-size: 78.4px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  line-height: 1.07;
-  letter-spacing: 0.53px;
-}
-
-.intro-container{
-  margin-top: 29px;
-  width: 540px;
-  margin: auto;
-  margin-top: 29px;
-}
-
-.intro-text{
-  font-family: 'PT Sans', sans-serif;
-  font-size: 21.1px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.25px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.87);
-}
-
-.primary-buttom{
-  width: 131px;
-  height: 50px;
-  background-color: var(--secondary-main);
-  border: none;  
-  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 4px 2px;
   cursor: pointer;
-  margin-left: 8px;
-  margin-right: 8px;
-  /*Text*/
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14.8px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: 1.25px;
+  line-height: 1.43;
+  letter-spacing: 0.1px;
+}
+
+/* Button change with hover */
+.buttonHero:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #7ACAF0;
+  color: #fff;
+}
+
+/* Title carousel  */
+.textImgTitle {
+  font-family: Roboto;
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  font-weight: 600;
+  font-size: 70px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
 }
 
-.buttons-intro-container{
-  width: fit-content;
-  margin: auto;
+/* Subtitle Carousel */
+.textSubTitleImg {
+  font-family: Roboto;
+  position: absolute;
+  width: 100%;
+  top: 26%;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+/* Body text carousel */
+.textImg {
+  font-family: Roboto;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  color: #fff;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  height: 108px;
+}
+
+/* Number text (1/3 etc) */
+.numberImagetext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* dots bottom carousel */
+.dotContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  height: 10px;
+  width: 10px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Display of images */
+.mySlides {
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* ------------------------------------------ Start Section Styles --------------------------------------- */
+/* Title start section */
+.startTitleContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
   margin-top: 40px;
+  margin-bottom: 25px;
 }
 
-.section-title{
-  font-family: 'PT Sans', sans-serif;
+/* Blue box from title StartResource */
+.box-title-startResource {
+  width: 9px;
+  height: 60px;
+  margin: 0 16px 0 0;
+  background-color: #2d9cdb;
+  margin-right: 16px;
+}
+
+/* Title, StartResource */
+.section-title-startResource {
+  font-family: Roboto;
   font-size: 51.4px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.41px;
-  margin-bottom: 50px;
+  font-weight: 600;
 }
 
-.section-container{
-  margin-top: 50px;
-  margin-bottom: 50px;
+/* customCard dimentions */
+.cardDimentions {
+  width: 360px;
+  height: 240px;
+  position: relative;
+  border: 1px solid;
 }
 
-.cardroot{
-  background-color: black;
-
+/* Image container*/
+.cardImgContainer {
+  width: 84.2px;
+  height: 84.2px;
+  flex-grow: 0;
+  margin: 13px 16.3px 14.4px calc(100% - 101px);
+  padding: 20px 10px;
+  border: solid 2px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 
-.card-img-container{
-  height: 194px;
-  padding-top: 30px;
+/* Header colors transictions customCard */
+.cardHeaderTransition {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  line-height: 1.71;
+  letter-spacing: 0.66px;
+  border-bottom: 1px solid;
+  transition: all .25s ease-in-out;
+  font-size: 18.4px;
 }
 
-.Rectangle-Footer {
-  width: 100%; 
-  height: 268px;
-  position: absolute; 
-  background-color: #1d2027;
-  margin-left: -1.9%;
+/* Transition header */
+.cardHeaderTransition span {
+  margin-left: 16px;
 }
 
-.white-text{
-  color: #ffffff;
+/* This changes customCard header background */
+.cardDimentions:hover .cardHeaderTransition {
+  background-color: #2d9cdb;
 }
 
-.Footer-content{
-  width: 70%;
-  height: 242px;
-  margin-left: 20%;
+.cardDimentions:hover span {
+  color: #f2f2f2;
 }
 
-.Div-Image-Footer{
-  width: 15%;
-  height: 140px;
-  margin-top: 35px;
-  float:left;
+/* Title of card start */
+.cardTitle {
+  font-family: Roboto;
+  margin: 16.7px 125.8px 7.1px 13.2px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.13px;
+  width: 65%;
 }
 
-.Link-footer{
-  width: 80%;
-  height: 140px;
-  margin-left: 5%;
-  margin-top: 45px;
-  float:left;
+/* body of card start */
+.cardBody {
+  font-family: Roboto;
+  width: 94%;
+  flex-grow: 0;
+  margin: 7.1px 33.8px 0 13.2px;
+  font-size: 14.5px;
+  line-height: 1.45;
+  letter-spacing: 0.66px;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-  .EOS-Costa-Rica-Devel {
-      font-size: 41.4px;
+/* This is for Link berfore the efect, customCard */
+#box-link-id-customCard::before {
+  content: "";
+  position: absolute;
+  width: 104px;
+  height: 3px;
+  bottom: 0;
+  background: #2d9cdb;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+
+/* This for linkEffect, customCard */
+.cardDimentions:hover #box-link-id-customCard::before {
+  visibility: visible;
+  transform: scaleX(1);
+  cursor: pointer;
+}
+
+/* Link footer card start */
+.cardLinkFooter {
+  font-family: Roboto;
+  bottom: 16px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 18.4px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 0.13px;
+}
+
+/* for light mode */
+.cardHeaderLight-mode {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* for dark mode */
+.cardHeaderDark-mode {
+  background-color: #4f4f4f;
+  color: #f2f2f2;
+}
+
+/* card start image in dark mode */
+.cardImgColor {
+  filter: brightness(0) invert(1);
+}
+
+/* background image in dark mode */
+.cardImgContainerDark {
+  background: #1b1b1d;
+  border-color: #f2f2f2
+}
+
+/* background image in light mode */
+.cardImgContainerLight {
+  border-color: #333;
+  background-color: #fff;
+}
+
+/* ------------------------------------------ Article Section Styles --------------------------------------- */
+/* Global dimention card article */
+.cardArticleDimentions {
+  width: 360px;
+  height: 412px;
+  border: 1px solid;
+  position: relative;
+}
+
+/* border's image card article */
+.cardArticleImg {
+  border-bottom: 1px solid;
+}
+
+/* Text header card article */
+.cardArticleHeader {
+  font-family: Roboto;
+  margin: 16px 23px 18px 16px;
+  font-size: 18.4px;
+  line-height: 1.71;
+  letter-spacing: 0.66px;
+}
+
+/* Blue box card article */
+.cardArticleBlueBoxTitle {
+  width: 3px;
+  height: 40px;
+  margin: 0 16px 0 0;
+  background-color: #2d9cdb;
+}
+
+/* Title card article */
+.cardArticleTitle {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.09;
+  letter-spacing: 0.13px;
+  width: 95%;
+}
+
+/* Title container card article */
+.cardArticleTitleContainer {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Body text card article */
+.cardArticleBody {
+  font-family: Roboto;
+  width: 94%;
+  flex-grow: 0;
+  margin: 7.1px 33.8px 0 13.2px;
+  font-size: 14.5px;
+  line-height: 1.45;
+  letter-spacing: 0.66px;
+}
+
+/* This for linkEffect, customCard */
+.cardArticleDimentions:hover #box-link-id-customCard::before {
+  visibility: visible;
+  transform: scaleX(1);
+  cursor: pointer;
+}
+
+#article-id {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 960px) {
+
+  /*------------------------------------- Hero Section Styles ------------------------------------------*/
+  .imgHero {
+    height: 250px;
   }
-  
-  .text-style-1 {
-      font-size: 48.4px;   
-  }
-  
-  .intro-container{
-      width: 80%;
+
+  .buttonHeroContainer {
+    bottom: 35px;
   }
 
-  .Rectangle-Foote{
-    width: 80%;
-  }
-  
-  .intro-text{
-      font-size: 20px;
+  .buttonHero {
+    padding: 10px 22px;
+    font-size: 14px;
   }
 
-  .section-title{
-      font-size: 41.4px;
+  .textImgTitle {
+    top: 4%;
+    font-size: 45px;
+  }
+
+  .textSubTitleImg {
+    top: 24%;
+    font-size: 28px;
+  }
+
+  .textImg {
+    top: 36%;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    font-size: 16px;
+    font-weight: 400;
+    height: 80px;
+  }
+
+  .dot {
+    height: 7px;
+    width: 7px;
+  }
+
+  /* ------------------------------------------ Start Section Styles --------------------------------------- */
+
+  .section-title-startResource {
+    font-family: Roboto;
+    font-size: 6vw;
+    font-weight: 500;
+  }
+
+  .startTitleContainer {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 
-  
+@media screen and (max-width: 400px) {
+
+  /*------------------------------------- Hero Section Styles ------------------------------------------*/
+  .imgHero {
+    height: 175px;
+  }
+
+  .buttonHeroContainer {
+    bottom: 22px;
+  }
+
+  .buttonHero {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .textImgTitle {
+    top: 1%;
+    font-size: 32px;
+  }
+
+  .textSubTitleImg {
+    top: 22%;
+    font-size: 18px;
+  }
+
+  .textImg {
+    top: 34%;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    font-size: 12px;
+    font-weight: 300;
+    height: 60px;
+
+  }
+
+  .numberImagetext {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  .dotContainer {
+    bottom: 15px;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  /* ------------------------------------------ Start Section Styles --------------------------------------- */
+  .box-title-startResource {
+    width: 3.3px;
+    height: 22.3px;
+    margin-right: 8px;
+  }
+
+  .section-title-startResource {
+    font-family: Roboto;
+    font-size: 5.5vw;
+    font-weight: 500;
+  }
+
+  .startTitleContainer {
+    margin-top: 25px;
+    margin-bottom: 16px;
+  }
+
+  .cardDimentions {
+    width: 256px;
+    height: 140px;
+  }
+
+  .cardImgContainer {
+    width: 40.2px;
+    height: 40.2px;
+    flex-grow: 0;
+    margin: 4px 16.3px 14.4px calc(100% - 54.6px);
+    padding: 5px 2px;
+    transition: all .25s ease-in-out;
+  }
+
+  .cardHeaderTransition {
+    height: 25.8px;
+    line-height: 1.26;
+    letter-spacing: 0.29px;
+    font-size: 11.1px;
+    transition: all .25s ease-in-out;
+  }
+
+  .cardHeaderTransition span {
+    margin-left: 8px;
+  }
+
+  .cardTitle {
+    margin: 10.1px 69.5px 16px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.99;
+    letter-spacing: 0.06px;
+    width: 78%;
+  }
+
+  .cardBody {
+    margin: 16px 8px 23px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+  }
+
+  .cardLinkFooter {
+    bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.07px;
+  }
+
+  #box-link-id-customCard::before {
+    width: 80px;
+    height: 2px;
+  }
+
+  /* ---------------------------------------------- Article Style Section ------------------------------------ */
+  .cardArticleDimentions {
+    width: 256px;
+    max-height: 308px;
+  }
+
+  .cardArticleHeader {
+    margin: 14px 148.7px 7.5px 9px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .cardArticleTitleContainer {
+    margin-left: 8px;
+  }
+
+  .cardArticleBlueBoxTitle {
+    height: 19px;
+    margin: 0 3px 0 0;
+  }
+
+  .cardArticleTitle {
+    margin: 3px 0 2px 3px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0.99;
+    letter-spacing: 0.06px;
+  }
+
+  .cardArticleBody {
+    margin: 16px 8px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+  }
+
+  #article-id {
+    margin-bottom: 25px;
+  }
+}

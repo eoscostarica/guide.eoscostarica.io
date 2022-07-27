@@ -75,7 +75,7 @@ Copy and paste the following content in the previous created file:
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
-> This can be changed later on using privileged `set_param` function. Read more [here](https://guide.eoscostarica.io/docs/eos-learn/important-functions#set_params).
+> This can be changed later on using privileged `set_param` function. Read more in our guides [Set Params](https://guide.eoscostarica.io/docs/eos-learn/important-functions#set_params).
 
 ## Start the nodeos Service
 Before to start the nodeos service, it is necessary to create the file `genesis_start.sh`. For this, execute the following commands:
@@ -465,8 +465,8 @@ http-server-address = 0.0.0.0:80
 
 # SSL
 #https-server-address = 0.0.0.0:443
-#https-certificate-chain-file = ./ssl/eosio.cr.crt
-#https-private-key-file = ./ssl/eosio.cr.priv.key
+#https-certificate-chain-file = ./ssl/domain.crt
+#https-private-key-file = ./ssl/domain.priv.key
 
 # CHAIN 
 chain-state-db-size-mb = 16384
