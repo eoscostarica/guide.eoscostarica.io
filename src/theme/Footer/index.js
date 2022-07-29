@@ -7,13 +7,13 @@
 
  import React, { useEffect, useState } from 'react'
  import clsx from 'clsx';
-  import { useThemeConfig, useColorMode } from '@docusaurus/theme-common';
+  import {useColorMode } from '@docusaurus/theme-common';
  import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
  import useBaseUrl from '@docusaurus/useBaseUrl';
  import styles from './styles.module.css';
  import whiteLogo from '../../../static/img/eoscostarica-logo.png'
  import blackLogo from '../../../static/img/eos-logo-dark.png'
- import { Box, Grid, Container, Link, Typography} from '@material-ui/core';
+ import { Box, Grid, Container, Link} from '@material-ui/core';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
  
@@ -22,7 +22,6 @@
  );
  
  function Footer() {
-   const { isDarkTheme } = useThemeConfig();
    const context = useDocusaurusContext();
    const { siteConfig = {} } = context;
    const { themeConfig = {} } = siteConfig;
