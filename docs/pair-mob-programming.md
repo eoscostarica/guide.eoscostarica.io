@@ -55,7 +55,8 @@ One of the rules of pair programming establishes that these two roles are exchan
 A group of highly intelligent people with great challenges working as a team to solve challenges creatively, with operational excellence and working focused on delivering constant value.
 
 <div style={{  textAlign: "center" }}>
-<img alt="Image Mob Programing" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.webp' )} /> </div>
+<img alt="Image Mob Programing" width="70%" src={ useBaseUrl( 'img/PairMobProgramming/MobProgramming.webp' )} /> 
+</div>
 
 ### How is it done?
 

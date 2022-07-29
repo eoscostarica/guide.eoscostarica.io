@@ -25,8 +25,7 @@ It is a collaborative interface, cloud-based design and prototyping tool for dig
 
 [Figma Installation](https://www.figma.com/downloads/)
 
-<iframe
-width="100%" height="315" src="https://www.youtube.com/embed/Cx2dkpBxst8" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Cx2dkpBxst8" frameBorder="0" allowFullScreen loading="lazy"></iframe>
 
 * * *
 
@@ -44,8 +43,7 @@ Zeplin facilitates the transfer of designs by taking them from Sketch, Adobe XD,
 
 [Zeplin Installation](https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps)
 
-<iframe
-width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameborder="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameBorder="0" allowFullScreen loading="lazy"></iframe>
 
 * * *
 
@@ -63,8 +61,7 @@ It is used for user experience and user interface in web and mobile app design. 
 
 [Sketch Installation](https://www.sketch.com/updates/)
 
- <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frameborder="0" allowfullscreen="true"> </iframe>
+ <iframe width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frameBorder="0" allowFullScreen loading="lazy"></iframe>
 
 * * *
 
@@ -81,4 +78,4 @@ It is known as an entire design ecosystem, where the assets have a complex use c
 [Material Design Components](https://material.io/components)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameBorder="0" allowFullScreen /> 

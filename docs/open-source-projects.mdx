@@ -324,12 +324,12 @@ export const eosio_networks_data = [
 			<table><tbody>
 				<tr>
 					{  eosio_networks_data.map((network, i)=>( 
-						<th>{network.name}</th>
+						<th key={network.name}>{network.name}</th>
 					))}
 				</tr>
 				<tr>
 					{  eosio_networks_data.map((network, i)=>( 
-						<td><a href={network.href}>
+						<td key={network.name}><a href={network.href}>
 							<img src={network.image} width="32px" height="32px" alt={network.name+" logo"}/>
 						</a></td>
 					))}
@@ -337,7 +337,7 @@ export const eosio_networks_data = [
 			</tbody></table>
 		</Grid>
 	</Grid>
-	<DisplayImages projectData={projectsData[0]}/>
+	<DisplayImages  projectData={projectsData[0]}/>
 </Grid>
 
 * * *
