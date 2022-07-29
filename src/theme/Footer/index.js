@@ -13,7 +13,7 @@
  import styles from './styles.module.css';
  import whiteLogo from '../../../static/img/eoscostarica-logo.png'
  import blackLogo from '../../../static/img/eos-logo-dark.png'
- import { Box, Grid, Container, Link} from '@material-ui/core';
+ import { Box, Grid, Container, Link, Typography} from '@material-ui/core';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
  
@@ -37,7 +37,6 @@
    }
  
    useEffect(() => {
-     console.log(isDarkTheme)
      if (colorMode === 'dark')
        setLogoUrl(whiteLogo)
      else
@@ -71,7 +70,7 @@
                  <Grid container >
                     <Grid item xs={12} sm={4} >
                      <Box fontSize={18} >
-                       <Box fontWeight={800} >EOS Costa Rica</Box>
+                      <Box fontWeight={800} >EOS Costa Rica</Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
                            Engineering Culture
