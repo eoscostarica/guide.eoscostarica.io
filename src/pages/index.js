@@ -1,358 +1,219 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "@theme/Layout";
 import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { Grid } from "@material-ui/core";
-import { Button } from "@material-ui/core";
-import { Card } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
+import { Box, Grid, useMediaQuery } from "@material-ui/core";
 
 import "../css/homepage.css";
 
-const lightTheme = makeStyles({
-  heroButton: {
-    width: 131,
-    height: 50,
-    fontFamily: "PT Sans",
-    fontSize: 14.8,
-    border: "none",
-    lineHeight: 1.8,
-    letterSpacing: 1.25,
-    margin: "auto",
-    backgroundColor: "#3EBBD3",
-  },
-  card: {
-    backgroundColor: "#FFFFFF",
-  },
-  cardmedia: {
-    height: 194,
-  },
-  imgcard: {
-    display: "block",
-    width: 150,
-    margin: "auto",
-  },
-  overline: {
-    fontFamily: "PT Sans",
-    fontSize: 12.7,
-  },
-  title: {
-    fontFamily: "PT Sans",
-    fontSize: 21.1,
-    fontWeight: "bold",
-  },
-  body: {
-    fontFamily: "Open Sans",
-    fontSize: 13.8,
-  },
-  button: {
-    fontFamily: "PT Sans",
-    fontSize: 14.8,
-    border: "none",
-    lineHeight: 1.8,
-    letterSpacing: 1.25,
-    margin: "auto",
-  },
-  media: {
-    objectFit: "cover",
-    objectPosition: "bottom",
-    height: 140,
-  },
-});
+class Carousel {
+  constructor() {
+    this.slideIndex = 0;
+    this.animation = null;
+    this.slides = document.getElementsByClassName("mySlides");
+    this.dots = document.getElementsByClassName("dot");
+  }
+  start() {
+    this.animation = setInterval(() => {
 
-const DarkTheme = makeStyles({
-  heroButton: {
-    width: 131,
-    height: 50,
-    fontFamily: "PT Sans",
-    fontSize: 14.8,
-    border: "none",
-    lineHeight: 1.8,
-    letterSpacing: 1.25,
-    margin: "auto",
-    backgroundColor: "#3EBBD3",
-  },
-  card: {
-    backgroundColor: "#242526",
-  },
-  cardmedia: {
-    height: 194,
-  },
-  imgcard: {
-    display: "block",
-    width: 150,
-    margin: "auto",
-    filter: "brightness(0) invert(1)",
-  },
-  overline: {
-    fontFamily: "PT Sans",
-    fontSize: 12.7,
-    color: "#E9E9E9",
-  },
-  title: {
-    fontFamily: "PT Sans",
-    fontSize: 21.1,
-    fontWeight: "bold",
-    color: "#E9E9E9",
-  },
-  body: {
-    fontFamily: "Open Sans",
-    fontSize: 13.8,
-    color: "#E9E9E9",
-  },
-  button: {
-    fontFamily: "PT Sans",
-    fontSize: 14.8,
-    border: "none",
-    lineHeight: 1.8,
-    letterSpacing: 1.25,
-    margin: "auto",
-    color: "#E9E9E9",
-  },
-  media: {
-    height: 140,
-  },
-});
+      let i;
+
+      for (i = 0; i < this.slides.length; i++) {
+        this.slides[i].style.display = "none";
+      }
+      this.slideIndex++;
+      if (this.slideIndex > this.slides.length) {
+        this.slideIndex = 1;
+      }
+      for (i = 0; i < this.dots.length; i++) {
+        this.dots[i].style.backgroundColor = "";
+      }
+      this.slides[this.slideIndex - 1].style.display = "block";
+      this.dots[this.slideIndex - 1].style.backgroundColor = "#2d9cdb";
+    }, 6000);
+  }
+  stop() {
+    clearInterval(this.animation);
+  }
+}
+
+const imagesList = [
+  { background: "/img/cards-icons/Hero-1.webp" },
+  { background: "/img/cards-icons/Hero-2.webp" },
+  { background: "/img/cards-icons/Hero-3.webp" }
+];
 
 const HeroSection = () => {
-  const images = [
-    "/img/cards-icons/heroe.png",
-  ];
-  const background = images[Math.floor(Math.random() * images.length)];
-  const { isDarkTheme } = useColorMode();
-  let classes = null;
-
-  if (!isDarkTheme) {
-    classes = lightTheme();
-  } else {
-    classes = DarkTheme();
-  }
+  useEffect(() => {
+    document.getElementsByClassName("mySlides")[0].style.display = "block";
+    const carousel = new Carousel();
+    carousel.start();
+    return () => carousel.stop();
+  }, []);
   return (
-    <div className=" hero-header">
-      <img className="hero-img" src={useBaseUrl(background)}></img>
-      <div className="hero-content">
-        <div className="title-container">
-          <h1 className="EOS-Costa-Rica-Devel text-style-1 ">EOS Costa Rica</h1>
-          <h1 className="EOS-Costa-Rica-Devel">Developers Guide</h1>
-        </div>
-        <div className="intro-container">
-          <p className="intro-text">
-            Welcome to our open-source developers portal. Begin your journey to
-            learn about blockchain technology and all the stuff that makes it
-            possible.
-          </p>
-        </div>
-        <div className="buttons-intro-container">
-          <Button
-            className={classes.heroButton}
-            href="/docs/engineering-culture"
-          >
-            GET STARTED
-          </Button>
-        </div>
-      </div>
-    </div>
+    <Box className="carouselContainer" >
+      {imagesList.map(({ background }, index) => (
+        <Box key={background} className="mySlides fade">
+          <Box className="numberImagetext">{index + 1} / 3</Box>
+          <img alt={background} src={useBaseUrl(background)} width="100%" className="imgHero" />
+        </Box>
+      ))}
+      <h1 className="textImgTitle">EOS Costa Rica</h1>
+      <h2 className="textSubTitleImg">Developers Guide</h2>
+      <h3 className="textImg">
+        Welcome to our web3 developers portal. Begin your journey to learn
+        about blockchain technology and all the stuff that makes it possible.
+      </h3>
+      <Box className="buttonHeroContainer">
+        <a className="buttonHero" style={{ textDecoration: "none" }} href="/docs/engineering-culture">GET STARTED</a>
+      </Box>
+      <Box className="dotContainer" >
+        <Box className="dot" />
+        <Box className="dot" />
+        <Box className="dot" />
+      </Box>
+    </Box>
   );
 };
 
-const CustomCard = (props) => {
-  const { isDarkTheme } = useColorMode();
-  let classes = null;
-
-  if (!isDarkTheme) {
-    classes = lightTheme();
-  } else {
-    classes = DarkTheme();
+const startResourceList = [
+  {
+    title: "Developer Guidelines",
+    body: "General guidelines for open source development.",
+    href: "/docs/open-source-guidelines",
+    img: "/img/cards-icons/guidelines.svg",
+  }, {
+    title: "Learn EOSIO",
+    body: "Resources and information to learn about the EOSIO protocol.",
+    href: "/docs/eos-learn/eosio-protocol",
+    img: "/img/cards-icons/icons-eosio.svg",
+  }, {
+    title: "Tutorials",
+    body: "Support information needed to perform the installation and execution of processes.",
+    href: "docs/tutorials/markdown-guide",
+    img: "/img/cards-icons/tutorials.svg",
+  }, {
+    title: "Tools",
+    body: "Set of useful tools for the learning process.",
+    href: "docs/tools/glossary",
+    img: "/img/cards-icons/tools.svg",
+  }, {
+    title: "Community",
+    body: "Links to sites of interest related to the EOS community.",
+    href: "docs/community-resources/telegram-channels",
+    img: "/img/cards-icons/community.svg",
+  }, {
+    title: "Open source projects",
+    body: "Open source projects developed by EOS Costa Rica.",
+    href: "docs/open-source-projects",
+    img: "/img/cards-icons/icons-opensource.svg",
   }
+];
+
+const StartResourceSection = () => {
+  const smDown = useMediaQuery("(max-width:400px)");
+  const { colorMode } = useColorMode();
+  const [color, setColor] = useState('light');
+  useEffect(() => {
+    setColor(colorMode);
+  }, [colorMode]);
 
   return (
-    <Card className={"cardroot "+classes.card} variant="outlined">
-      <div className="card-img-container">
-        <img src={useBaseUrl(props.img)} className={classes.imgcard} loading="lazy"/>
-      </div>
-      <CardContent>
-        <Typography className={classes.overline} gutterBottom>
-          SECTION
-        </Typography>
-        <Typography
-          className={classes.title}
-          gutterBottom
-          variant="h5"
-          component="h2"
-        >
-          {props.title}
-        </Typography>
-        <Typography className={classes.body} variant="body2" component="p">
-          {props.body}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className={classes.button} href={props.href}>
-          Read More
-        </Button>
-      </CardActions>
-    </Card>
-  );
-};
-
-const CardsSection = () => {
-  return (
-    <div className="container section-container">
-      <h1 className="section-title">Get started with these resources</h1>
-      <Grid
-        container
-        direction="row"
-        justify="center"
-        alignItems="center"
-        spacing={2}
-      >
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Developer Guidelines"
-            body="General guidelines for open source development."
-            href="/docs/open-source-guidelines"
-            img="/img/cards-icons/guidelines.svg"
-          ></CustomCard>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Learn EOSIO"
-            body="Resources and information to learn about the EOSIO protocol."
-            href="/docs/eos-learn/eosio-protocol"
-            img="/img/cards-icons/icons-eosio.svg"
-          ></CustomCard>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Tutorials"
-            body="Support information needed to perform the installation and execution of processes."
-            href="docs/tutorials/markdown-guide"
-            img="/img/cards-icons/tutorials.svg"
-          ></CustomCard>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Tools"
-            body="Set of useful tools for the learning process."
-            href="docs/tools/glossary"
-            img="/img/cards-icons/tools.svg"
-          ></CustomCard>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Community"
-            body="Links to sites of interest related to the EOS community."
-            href="docs/community-resources/telegram-channels"
-            img="/img/cards-icons/community.svg"
-          ></CustomCard>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomCard
-            title="Open source projects"
-            body="Open source projects developed by EOS Costa Rica."
-            href="docs/open-source-projects"
-            img="/img/cards-icons/icons-opensource.svg"
-          ></CustomCard>
-        </Grid>
+    <Box className="container" >
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource">
+          Get started with these resources
+        </Box>
+      </Box>
+      <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
+        {
+          startResourceList.map(({ title, body, href, img }) =>
+            <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
+              <Box className="cardDimentions">
+                <div className={`cardImgContainer ${color === 'dark' ? 'cardImgContainerDark' : 'cardImgContainerLight'}`} >
+                  <img src={useBaseUrl(img)} alt={title} loading="lazy" className={`imgHero ${color === 'dark' && 'cardImgColor'}`} />
+                </div>
+                <Box className={`cardHeaderTransition ${color === 'dark' ? 'cardHeaderDark-mode' : 'cardHeaderLight-mode'}`}>
+                  <span>SECTION</span>
+                </Box>
+                <h1 className="cardTitle"> {title} </h1>
+                <Box className={`cardBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
+                <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
+              </Box>
+            </Grid>
+          )
+        }
       </Grid>
-    </div>
-  );
-};
+    </Box>
+  )
+}
 
-const CustomArticle = (props) => {
-  const { isDarkTheme } = useColorMode();
-  let classes = null;
+const articlesList = [
+  {
+    title: "Get to Know EOS Costa Rica",
+    body: "Learn more about our history, team and projects we carry out.",
+    href: "https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4",
+    img: "/img/cards-icons/blog1.webp",
+  }, {
+    title: "You Should Participate in an Open-Source Project",
+    body: "We show some important aspects for which it should be dealt with in open source projects.",
+    href: "https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41",
+    img: "/img/cards-icons/blog2.webp",
+  }, {
+    title: "What Is Blockchain?",
+    body: "We explain, with examples, what a blockchain is and how it works.",
+    href: "https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005",
+    img: "/img/cards-icons/blog3.webp",
+  },
+];
 
-  if (!isDarkTheme) {
-    classes = lightTheme();
-  } else {
-    classes = DarkTheme();
-  }
-
+const ArticleSection = () => {
+  const smDown = useMediaQuery("(max-width:400px)");
+  const { colorMode } = useColorMode();
+  const [color, setColor] = useState('light');
+  useEffect(() => {
+    setColor(colorMode);
+  }, [colorMode]);
   return (
-    <Card className={"cardroot "+classes.card} variant="outlined">
-      <CardMedia className={classes.media} image={props.img} component="img" loading="lazy"/>
-      <CardContent>
-        <Typography className={classes.overline} gutterBottom>
-          ARTICLES
-        </Typography>
-        <Typography
-          className={classes.title}
-          gutterBottom
-          variant="h5"
-          component="h2"
-        >
-          {props.title}
-        </Typography>
-        <Typography className={classes.body} variant="body2" component="p">
-          {props.body}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className={classes.button} href={props.href}>
-          Read More
-        </Button>
-      </CardActions>
-    </Card>
-  );
-};
-
-const MediumSection = () => {
-  return (
-    <div className="container section-container">
-      <h1 className="section-title">Read our blog posts</h1>
-      <Grid
-        container
-        direction="row"
-        justify="center"
-        alignItems="center"
-        spacing={2}
-      >
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomArticle
-            title="Get to Know EOS Costa Rica"
-            body="Learn more about our history, team and projects we carry out."
-            href="https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4"
-            img="https://miro.medium.com/max/700/1*x7OW2wAhH1YapNVZl_-SEA.png"
-          ></CustomArticle>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomArticle
-            title="You Should Participate in an Open-Source Project"
-            body="We show some important aspects for which it should be dealt with in open source projects."
-            href="https://medium.com/@eoscostarica/you-should-participate-in-an-open-source-project-c259f8759d41"
-            img="https://miro.medium.com/max/875/1*_eTme4t7HJfE7aeeyd3kxQ.jpeg"
-          ></CustomArticle>
-        </Grid>
-        <Grid item xs={12} sm={12} md={4}>
-          <CustomArticle
-            title="What Is Blockchain?"
-            body="We explain, with examples, what a blockchain is and how it works."
-            href="https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005"
-            img="https://miro.medium.com/max/875/1*ohmD1qq4dAUOu4G-gXtaqA.jpeg"
-          ></CustomArticle>
-        </Grid>
+    <Box className="container" id="article-id">
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource"> Read our blog posts </Box>
+      </Box>
+      <Grid container direction="row" justifyContent="center" alignItems="center" spacing={smDown ? 1 : 3}>
+        {
+          articlesList.map(({ title, body, href, img }) =>
+            <Grid key={title} item xs={12} sm={6} lg={4} container display="flex" justifyContent="center">
+              <Box className={`cardArticleDimentions ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}>
+                <Box component="img" src={useBaseUrl(img)} alt={title} width="100%" className="cardArticleImg" />
+                <Box className="cardArticleHeader"> ARTICLES </Box>
+                <Box className="cardArticleTitleContainer">
+                  <Box className="cardArticleBlueBoxTitle" />
+                  <Box className="cardArticleTitle "> {title} </Box>
+                </Box>
+                <Box className={`cardArticleBody ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`}> {body}</Box>
+                <a className={`cardLinkFooter ${color === 'dark' ? 'darkTextColor' : 'ligthTextColor'}`} style={{ textDecoration: "none" }} id="box-link-id-customCard" href={href}> READ MORE </a>
+              </Box>
+            </Grid>
+          )
+        }
       </Grid>
-    </div>
-  );
+    </Box>
+  )
 };
 
 const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
-
   return (
-    <Layout 
-      permalink="/" 
+    <Layout
+      permalink="/"
       title={siteConfig.title}
       description={siteConfig.tagline}>
       <HeroSection />
-      <CardsSection />
-      <MediumSection />
+      <StartResourceSection />
+      <ArticleSection />
     </Layout>
   );
 };

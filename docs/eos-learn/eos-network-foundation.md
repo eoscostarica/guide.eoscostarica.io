@@ -24,7 +24,7 @@ With the effort made by the community, the following has been achieved:
 - Obtain the support of external organizations, which are interested in the current and future achievements of the network.
 - Obtain the necessary feedback for the creation of new tools and improvements to existing ones.
 
-To learn more about this topic and its participation in the life cycle in the network, you can see it in the following [link](https://bit.ly/api-plus-english) with availability to download if desired.
+To learn more about this topic and its participation in the life cycle in the network, you can see it in the following link [API+ Blue Paper](https://bit.ly/api-plus-english) with availability to download if desired.
 
 ## Core+  
 
@@ -43,7 +43,7 @@ For a successful take-off, it is recommended to engage with other platforms thro
 ### Propel
 In order to propel the platform, it is recommended to improve speed and scalability, attract new users, giving more exposure to the platform and opportunities for growth with other EOSIO platforms. It is also necessary to continue investing in the platform, therefore it is necessary to establish a team for research and development of possible improvements or technologies.
 
-To learn more about this topic, you can see it in the following [link](https://bit.ly/eos-core-plus) with availability to download if desired.
+To learn more about this topic, you can see it in the following link [Core+ Blue Papers](https://bit.ly/eos-core-plus) with availability to download if desired.
 
 ## Wallet+
 
@@ -56,7 +56,7 @@ In this paper you will find the weaknesses found by the group on the possible im
 3. List initiatives that can improve the EOS ecosystem.
 4. List the foundation's recommendations for action.
 
-To learn more about this topic, you can see it in the following [link](https://bit.ly/wallet-plus-english) with availability to download if desired.
+To learn more about this topic, you can see it in the following link [Wallet+ Blue Paper](https://bit.ly/wallet-plus-english) with availability to download if desired.
 
 ## Audit+
 
@@ -76,7 +76,7 @@ This issue is important because of the uncertainty present in the community, esp
 
 This topic is being addressed by a large group of developers with little or no technical knowledge regarding security and its implementation in smart contracts. For this reason, the Audit+ group plans to develop not only the libraries, but also a roadmap to understand their operation and application.
 
-To learn more about this topic, you can see it in the following [link](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) with availability to download if desired.
+To learn more about this topic, you can see it in the following link [Audit+ Blue Paper](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) with availability to download if desired.
 
 ## EVM+
 
@@ -91,13 +91,13 @@ In order to achieve this goal, some specific objectives have been established, s
 
 - Full RCP support
 
-To learn more about this topic, you can see it in the following [link](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
+To learn more about this topic, you can see it in the following link [EVM+ Blue Paper](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
 
 ## Recorver+
 
 The Recorver+ group was born as a response to the possibility of an attack by a group of hackers and the possible actions to be taken for the recovery of the network, as well as measures to be taken into consideration to reduce damage to developers and end users. It is necessary to understand that despite the research done by the group, this Paper does not contain all possible scenarios, added to this fact, the existence of many variables outside the network, such as a global economic recession or similar.
 
-To learn more about this topic, you can see it in the following [link](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) with availability to download if desired.
+To learn more about this topic, you can see it in the following link [Recover+ Blue Paper](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) with availability to download if desired.
 
 
-These "Papers" are the results of research carried out by different groups, but they are not the only ones. If you wish to see all the Blue Papers and have knowledge about the different topics, you can visit the following [link](https://eosnetwork.com/blog/category/eos-blue-papers/).
+These "Papers" are the results of research carried out by different groups, but they are not the only ones. If you wish to see all the Blue Papers and have knowledge about the different topics, you can visit the [EOS Fundation Blue Papers](https://eosnetwork.com/blog/category/eos-blue-papers/).

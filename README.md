@@ -1,9 +1,11 @@
-# EOS COSTA RICA DEVELOPER GUIDES
+# EOS Costa Rica Developer Guides
 ![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
+
+
 
 EOS Costa Rica Developers Documentation Site.
 
-![Guide front page](static/img/guide-page.png)
+![Guide front page](static/img/guide-pageNew.png)
 
 ## About the Project
 
@@ -14,13 +16,10 @@ In this site you will find the resources collected in the day-to-day life of EOS
 1. About The Project
 1. Content Table
 1. Project Purpose
-1. Version
 1. Tech Stack
 1. Development Environment
 1. File Structure
-1. License
 1. Contributing
-1. Contributors
 1. About EOS Costa Rica
 
 ## Project Purpose
@@ -37,13 +36,11 @@ This project is meant to serve as a tool for assisting with new developer on-boa
 
 ### Getting Started
 
-Give the needed instruction to run the project locally, for example:
-
 #### **Prerequisites**
 
-- `yarn`
-- `git`
-- `node.js`
+- [yarn](https://classic.yarnpkg.com/en/)
+- [git](https://git-scm.com/)
+- [node.js](https://nodejs.org/es/)
 
 #### **Installation**
 
@@ -102,13 +99,9 @@ guide.eoscostarica.io/
 └── README.md .................... Documentation of guide.eoscostarica.io
 ```
 
-## License
-
-MIT © [EOS Costa Rica](https://eoscostarica.io)
-
 ## Contributing
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/orgs/eoscostarica/projects/3).
 
 If you want to make a contribution, please follow the next steps:
 
@@ -127,10 +120,9 @@ If you find a bug, please report big and small bugs by [opening an issue](https:
 
 <p align="center">
 	<a href="https://eoscostarica.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
-		width="400px" >
+		<img src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png"
+		width="300px" >
 	</a>
-</p>
 
 EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
 

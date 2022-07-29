@@ -33,6 +33,7 @@ module.exports = {
         "eos-learn/important-functions",
         "eos-learn/private-keys",
         "eos-learn/dapp-development",
+        "eos-learn/demux-pattern",
         "eos-learn/eos-blockchain",
         "eos-learn/smart-contract",
         "eos-learn/ricardian-contracts",
