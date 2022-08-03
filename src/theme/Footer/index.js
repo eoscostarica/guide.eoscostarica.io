@@ -7,7 +7,7 @@
 
  import React, { useEffect, useState } from 'react'
  import clsx from 'clsx';
-  import {useColorMode } from '@docusaurus/theme-common';
+ import { useColorMode } from '@docusaurus/theme-common';
  import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
  import useBaseUrl from '@docusaurus/useBaseUrl';
  import styles from './styles.module.css';
@@ -16,7 +16,7 @@
  import { Box, Grid, Container, Link} from '@material-ui/core';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
- 
+  
  const FooterLogo = ({ url, alt }) => (
    <img className="footer__logo" alt={alt} src={url} width='140' height='100' loading="lazy" />
  );
@@ -26,12 +26,11 @@
    const { siteConfig = {} } = context;
    const { themeConfig = {} } = siteConfig;
    const { footer } = themeConfig;
- 
    const { copyright, logo = {} } = footer || {};
    const [logoUrl, setLogoUrl] = useState(useBaseUrl(logo.src));
    const { colorMode } = useColorMode();
- 
-    if (!footer) {
+  
+   if (!footer) {
      return null;
    }
  
@@ -43,36 +42,29 @@
    }, [colorMode]);
  
    return (
-     <Box
-       borderTop={2}
-       borderColor="#2f80ed"
-       borderRadius="1"
-       px={{ xs: 3, sm: 4 }}
-       py={{ xs: 5, sm: 4 }}
-       className={clsx('styles.footerLigth', {
-         'styles.footerDark': footer.style === 'dark'
-       })}
-     >
+     <Box className={clsx('styles.footerLight', styles.bordertop, {'styles.footerDark': footer.style === 'dark'})}>
         <Container maxWidth="xl">
           <Grid container spacing={2}>
             <Grid container >
               <Grid item xs={12} sm={3}>
-               <Box align='center' >
+               <Box align='center'>
                  <a href={logo.href}>
                    <FooterLogo alt={logo.alt} url={logoUrl} />
                  </a>
                  {copyright ? <div>Copyright &reg; {new Date().getFullYear()} EOS Costa Rica</div> : null}
                 </Box>
              </Grid>
-              <Grid item xs={12} sm={6}>
-               <Box border={1} borderTop={0} borderBottom={0} borderColor='#BDBDBD' paddingLeft={20}>
+              <Grid item xs>
+               <Box className={styles.lineas}>
                  <Grid container >
-                    <Grid item xs={12} sm={4} >
-                     <Box fontSize={18} >
-                      <Box fontWeight={800} >EOS Costa Rica</Box>
+                    <Grid item xs>
+                     <Box className={styles.borderleft}>
+                       <Box>
+                       <h4>EOS Costa Rica</h4>
+                       </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
-                           Engineering Culture
+                          Engineering Culture
                          </Link>
                        </Box>
                        <Box>
@@ -87,9 +79,11 @@
                        </Box>
                      </Box>
                    </Grid>
-                   <Grid item xs={12} sm={4}>
-                     <Box fontSize={18}>
-                       <Box fontWeight={800}>Community</Box>
+                   <Grid item xs>
+                     <Box className={styles.bordermid}>
+                       <Box>
+                        <h4>Community</h4>
+                        </Box>
                        <Box>
                          <Link href="https://www.meetup.com/es/EOS-Costa-Rica/" color="inherit">
                            Meetup
@@ -107,9 +101,11 @@
                        </Box>
                      </Box>
                    </Grid>
-                   <Grid item xs={12} sm={4}>
-                     <Box fontSize={18}>
-                       <Box fontWeight={800}>More</Box>
+                   <Grid item xs>
+                     <Box className={styles.borderRight}>
+                       <Box>
+                       <h4>More</h4>
+                       </Box>
                        <Box>
                          <Link href="https://www.linkedin.com/company/eoscostarica/" color="inherit">
                            Linkedin
@@ -128,31 +124,31 @@
                      </Box>
                    </Grid>
                   </Grid>
-               </Box>
-             </Grid>
+                </Box>
+             </Grid>             
               <Grid item xs={12} sm={3}>
-               <div className={styles.contentSocial}>
-                 <Grid container spacing={1} >
-                   <Grid item xs={12} sm={4} align='right'> 
+               <Box className={styles.contentSocial}>
+                 <Grid container spacing={0} >
+                   <Grid item xs={2} sm={4} > 
                      <AiFillGithub size={40} onClick={()=> window.open("https://github.com/eoscostarica/")}/>
                    </Grid>
-                   <Grid item xs={12} sm={4} align='center'>
+                   <Grid item xs={2} sm={4} >
                      <AiFillLinkedin size={40} onClick={()=> window.open("https://www.linkedin.com/company/eoscostarica/")}/>
                    </Grid>
-                   <Grid item xs={12} sm={4} align='left'>
+                   <Grid item xs={2} sm={4} >
                      <AiOutlineTwitter size={40} onClick={()=> window.open("https://twitter.com/eoscostarica")} />
                    </Grid>
-                   <Grid item xs={12} sm={4} align='right'>
+                   <Grid item xs={2} sm={4} >
                      <BsMedium size={40} onClick={()=> window.open("https://eoscostarica.medium.com/")}/>
                    </Grid>
-                   <Grid item xs={12} sm={4} align='center'>
+                   <Grid item xs={2} sm={4} >
                      <AiOutlineInstagram size={40} onClick={()=> window.open("https://www.instagram.com/eoscostarica/")}/>
                    </Grid>
-                   <Grid item xs={12} sm={4} align='left'>
+                   <Grid item xs={2} sm={4} >
                      <AiFillYoutube size={40} onClick={()=> window.open("https://www.youtube.com/c/EOSCostaRica")}/>
                    </Grid>
                  </Grid>
-               </div>
+               </Box>
              </Grid>
             </Grid>
           </Grid>
@@ -160,5 +156,4 @@
      </Box>
    );
  }
- 
  export default Footer;
