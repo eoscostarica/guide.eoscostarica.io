@@ -47,7 +47,7 @@
           <Grid container spacing={2}>
             <Grid container >
               <Grid item xs={12} sm={3}>
-               <Box align='center'>
+               <Box align='center' className={styles.footerLogo}>
                  <a href={logo.href}>
                    <FooterLogo alt={logo.alt} url={logoUrl} />
                  </a>
