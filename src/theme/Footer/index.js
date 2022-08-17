@@ -51,7 +51,7 @@
                  <a href={logo.href}>
                    <FooterLogo alt={logo.alt} url={logoUrl} />
                  </a>
-                 {copyright ? <div>Copyright &reg; {new Date().getFullYear()} EOS Costa Rica</div> : null}
+                 {copyright ? <div>Copyright &reg; {new Date().getFullYear()}  <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a></div> : null}
                 </Box>
              </Grid>
               <Grid item xs>
