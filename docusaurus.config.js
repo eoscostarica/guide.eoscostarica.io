@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "EOSIO Blockchain Developer Docs",
-  tagline: "Guides and Documentation for developers of EOS Costa Rica Projects",
+  title: "EOSIO + Antelope Documentation",
+  tagline: "Developer Documentation for EOSIO + Antelope Blockchain Networks",
   url: "https://guide.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */
   //cname: "guide.eoscostarica.io",
@@ -41,7 +41,7 @@ const siteConfig = {
         },
         {
           to: "docs/eos-learn/eosio-protocol",
-          label: "Learn EOSIO",
+          label: "Learn EOSIO + Antelope",
           position: "left",
         },
         {
@@ -128,7 +128,7 @@ const siteConfig = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} EOS Costa Rica`, // You can also put own HTML here.
+      copyright: `Copyright © ${new Date().getFullYear()} <a title="Edenia Web3 Development" href="https://edenia.com" target="_blank">EDENIA</a>`, // You can also put own HTML here.
     },
     //Algolia integration
     algolia: {

@@ -84,8 +84,8 @@ const startResourceList = [
     href: "/docs/open-source-guidelines",
     img: "/img/cards-icons/guidelines.svg",
   }, {
-    title: "Learn EOSIO",
-    body: "Resources and information to learn about the EOSIO protocol.",
+    title: "Learn EOSIO + Antelope",
+    body: "Resources and information to learn about the EOSIO and Antelope protocol.",
     href: "/docs/eos-learn/eosio-protocol",
     img: "/img/cards-icons/icons-eosio.svg",
   }, {

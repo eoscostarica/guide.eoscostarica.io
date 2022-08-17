@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Learn EOSIO",
+      label: "Learn EOSIO + Antelope",
       items: [
         "eos-learn/eosio-protocol",
         "eos-learn/consensus-mechanism",
