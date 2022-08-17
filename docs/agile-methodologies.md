@@ -15,7 +15,7 @@ These are work methodologies that allow adaptation to the circumstances of the p
 
 Modern Agile is far broader than the Agile Manifesto for Software Development. Modern Agile is a concept that is taking many different areas into account, not just software development. It can even be applied in organizations without software development.  
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/47RN5F525PA" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/47RN5F525PA" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 To clarify how Modern Agile came to be here’s a snippet from the website: Over the past decade, innovative companies, software industry thought leaders and lean/agile pioneers have discovered simpler, sturdier, more streamlined ways to be agile. These modern approaches share a focus on producing exceptional outcomes and growing an outstanding culture. Today, it makes far more sense to bypass antiquated agility in favor of modern approaches.  
 
@@ -34,19 +34,19 @@ Some of the best known and used agile methodologies in the industry are:
 
 It is an agile methodology that is based on constant communication and review of the tasks performed (sprints), for each sprint the planning, quality assurance, development, quality inspection and feedback processes are carried out, this reduces the cost in the correction of errors because a sprint is terminated until the client accepts all the ** acceptance criteria **. The base values ​​of this methodology are innovation, flexibility, competitiveness and productivity.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/9TycLR0TqFA" frameborder="0" allowfullscreen="true" loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/9TycLR0TqFA" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 ### Kanban
 
 It consists of the elaboration of a table or diagram in which three columns of tasks are reflected; pending, in process and finished. This table should be available to all team members, thus avoiding the repetition of tasks or the possibility of forgetting any of them. Therefore, it helps to improve the productivity and efficiency of the work team. Among its objectives is to improve work planning, improve performance, define continuous delivery times.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/jf0tlbt9lx0" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/jf0tlbt9lx0" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 ### Extreme Programming (XP)
 
 It is a methodology based on a set of rules and good practices for software development in highly changing environments with imprecise requirements, therefore, it is focused on continuous feedback between the development team and the client. XP is based on simplicity and aims at customer satisfaction.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/hbFOwqYIOcU" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/hbFOwqYIOcU" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 ## Agile Project Management
 
@@ -55,7 +55,7 @@ It is a methodology based on a set of rules and good practices for software deve
 A user story is a lightweight method for quickly capturing the **who**, **what** and **why** of a product requirement. In simple terms, user stories are stated ideas of requirements that express what users need. User stories are brief, with each element often containing fewer than 10 or 15 words each.  
 The purpose of a user story is to articulate how a piece of work will deliver a particular value back to the customer. Note that **customers** don't have to be external end users in the traditional sense, they can also be internal customers or colleagues within your organization who depend on your team.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/apOvF9NVguA" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### How to Write User Stories?
 
@@ -81,7 +81,7 @@ Is an event in the Scrum framework where the team determines the product backlog
 
 This agreement defines the sprint backlog and is based on the team’s velocity or capacity and the length of the sprint.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/2A9rkiIcnVI" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/2A9rkiIcnVI" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### Who is Involved?
 
@@ -109,7 +109,7 @@ This agreement defines the sprint backlog and is based on the team’s velocity 
 ### Grooming Session
 Backlog grooming, also referred to as backlog refinement or story time, is a recurring event for agile product development teams. The primary purpose of a backlog grooming session is to ensure the next few sprints worth of user stories in the product backlog are prepared for sprint planning. Regular backlog grooming sessions also help ensure the right stories are prioritized.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/UpEBfS9SZGM" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/UpEBfS9SZGM" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### Who is involved?
 
@@ -135,7 +135,7 @@ True to its name, all participants in stand-ups usually remain standing to keep 
 
 In Agile project management, daily stand-up meetings are essential. These meetings allow project members to share critical information, openly discuss issues, and hold themselves and each other accountable.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/YHMw3CL5cXE" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### Benefits of Daily Agile Stand-ups
 
@@ -150,7 +150,7 @@ In Agile project management, daily stand-up meetings are essential. These meetin
 Is a meeting held after a product ships to discuss what happened during the product development and release process, with the goal of improving things in the future based on those learnings and conversations.  
 An agile retrospective forces the entire team to pause and reflect on what transpired and discuss what worked and what didn’t during a particular project.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/MiaZhJyYUj0" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/MiaZhJyYUj0" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### How Often Should You Hold Retrospectives?
 
@@ -162,7 +162,7 @@ The sprint demo is invaluable for keeping stakeholders up to speed with the prog
 The sprint demo shouldn’t take up too much of a Scrum team’s time. Ensuring that the sprint review meeting is an informal affair where questions, feedback and discussion are welcome – allows for prep time to be kept to a minimum.
 
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/Njxek3s3Shs" frameborder="0" allow="true" allowfullscreen loading="lazy"></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/Njxek3s3Shs" frameBorder="0" allow="true" allowFullScreen loading="lazy"></iframe>
 
 #### Demo Steps
 

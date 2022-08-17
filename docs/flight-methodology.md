@@ -37,7 +37,7 @@ When you book a flight, you add tasks to it. Tasks can be anything that needs to
 
 However, nothing prevents you from adding unrelated tasks to a flight if there is "room for it".
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 ### Flight Crew
 

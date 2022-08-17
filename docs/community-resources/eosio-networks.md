@@ -22,8 +22,8 @@ Below we included a list of some other well known public blockchains launched on
 
 - [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Is a high-performance multi-chain structured blockchain network, with the main chain developed by EOSForce team based on the open-sourced EOSIO.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -51,8 +51,8 @@ Below we included a list of some other well known public blockchains launched on
 
 - [Telos](https://www.telos.net/): A blockchain platform without high-performance permissions for decentralized applications with advanced data storage and governance functions.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -68,8 +68,8 @@ Below we included a list of some other well known public blockchains launched on
 
 - [WAX](https://wax.io/): A blockchain token and protocol specially designed to make e-commerce transactions faster, easier and more secure.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 

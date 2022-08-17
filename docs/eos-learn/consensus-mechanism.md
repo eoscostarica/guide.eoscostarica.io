@@ -10,8 +10,8 @@ A consensus mechanism ensures that each new block that is added to the blockchai
 
 ## Delegated Proof of Stake (DPoS)
 
-<figure class="video_container">
-  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
 A consensus algorithm is a process in Computer Science used to achieve agreement on a single data value between processes or distributed systems.
@@ -30,8 +30,8 @@ Block producers provide the infrastructure required to process transactions. Som
 
 ### Explaining the Role of an EOS Block Producer
 
-<figure class="video_container">
-  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe width="100%"  height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 </figure>
 
 

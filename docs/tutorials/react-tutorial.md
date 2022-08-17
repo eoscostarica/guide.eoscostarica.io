@@ -197,13 +197,13 @@ export default App;
 ### Components
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/Y2hgEGPzTZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+width="100%" height="350" src="https://www.youtube.com/embed/Y2hgEGPzTZY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 </iframe>
 
 ### Component Life Cycle
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/qnN_FuFNq2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+width="100%" height="350" src="https://www.youtube.com/embed/qnN_FuFNq2g" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 </iframe>
 
 ### Higher Order Component (HoC)
@@ -226,7 +226,7 @@ EOS Costa Rica uses [Storybook EOS Costa Rica](https://components.edenia.cloud/)
 ### Storybook
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/BySFuXgG-ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+width="100%" height="350" src="https://www.youtube.com/embed/BySFuXgG-ow" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 </iframe>
 
 ## Main Concepts
@@ -312,5 +312,5 @@ export default App;
 ## React Cleaner with Hooks
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/dpw9EHDh2bM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+width="100%" height="350" src="https://www.youtube.com/embed/dpw9EHDh2bM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen loading="lazy">
 </iframe>

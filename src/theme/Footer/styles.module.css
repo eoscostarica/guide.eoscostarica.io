@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-.footerLogoLink {
+ .footerLogoLink {
   opacity: 0.5;
   transition: opacity 0.15s ease-in-out;
 }
@@ -13,3 +13,75 @@
 .footerLogoLink:hover {
   opacity: 1;
 }
+
+.footerLight{
+  background-color:#f2f2f2 ;
+}
+
+.footerDark{
+  background-color: rgb(31, 27, 41);
+}
+
+.contentSocial{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.borderleft{
+  display: grid;
+  justify-content: center;
+  margin-top: 25px;
+  font-size:14px;
+  border-left: 1px solid;
+  border-color: #bdbdbd;
+  line-height: 2.0;
+  margin-bottom: 25px;
+}
+
+.textBox{
+  display: grid;
+  justify-content: center;
+}
+
+.bordermid{
+  display: grid;
+  justify-content: center;
+  font-size:14px;
+  margin-top: 25px;
+  line-height: 2.0;
+  margin-bottom: 25px;
+}
+
+.borderRight{
+  display: grid;
+  justify-content: center;
+  font-size:14px;
+  margin-top: 25px;
+  border-right: 1px solid;
+  border-color: #bdbdbd;
+  line-height: 2.0;
+  margin-bottom: 25px;
+}
+
+.bordertop{
+  border-top: 2px solid #2f80ed;
+}
+
+.footerLogo{
+  margin-top: 10px;
+}
+
