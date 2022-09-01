@@ -47,12 +47,12 @@ Name every branch for your pull requests using the following simple convention:
 ```
 feat/new-feature-123
 ^--^ ^---------^ ^-^
-  |       |       |
-  |       |       +-> Issue number
-  |       |
-  |       +-> Short description of the task
-  |
-  +-> Type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, content, or devtools
+|    |           |
+|    |           +-> Issue number
+|    |
+|    +-> Short description of the task
+|
++-> Type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, content, or devtools
 ```
 
 ## Pull Request General Guidelines
@@ -88,34 +88,39 @@ format that includes a **type**, a **scope** and a **subject**:
 
 The ```header``` is mandatory and the ```scope``` of the header is optional.
 
-** Example:**
+**Example:**
 
 ```
-feat: add a new method
-^--^  ^------------^
-|     |
-|     +-> abstract in present tense.
+feat(scope): subject
+^--^ ^---^   ^-----^
+|    |       |
+|    |       +-> description in present tense. 
+|    |     
+|    +-> scope is usually the service worked on (webapp, hapi, hasura etc.)
 |
-+-------> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
-
++-> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
 ```
 
 The commit message cannot be longer than 100 characters. This allows the message to be easy to read on GitHub as well as various `git tools`.
 
 The footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-** The commit message must be like the following samples: **
+**The commit message should look like the following examples:**
+```
+feat(webapp): add a new react component for logo
+```
+
 ```
 docs(changelog): update changelog to beta.5
 ```
 
 ```
-fix(release): need to depend on latest rxjs and zone.js
+ci(github): update build and deploy worflow
 
 The version in our package.json gets copied to the one we publish, and users need the latest of these.
 ```
 
-Even more [samples](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
+Even more [examples](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
 
 ### Revert
 
