@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Layout from "@theme/Layout";
-import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import { Box, Grid, useMediaQuery } from "@material-ui/core";
+import { useColorMode } from "@docusaurus/theme-common";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Layout from "@theme/Layout";
 
 import "../css/homepage.css";
 
