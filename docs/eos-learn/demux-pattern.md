@@ -86,6 +86,6 @@ We use our solution inspired by the demux architectural pattern, which use the n
 Some of our open source projects implemented the solution based on the demux pattern:
 
 - [EOS Rate](https://github.com/eoscostarica/eos-rate)
-- [EOSIO Dashboard](https://github.com/eoscostarica/eosio-dashboard)
+- [Antelope Tools](https://github.com/edenia/antelope-tools)
 - [MyvoteEOS](https://github.com/eoscostarica/MyvoteEOS-proxy)
 - [EOSIO Spend Explorer](https://github.com/eoscostarica/eosio-spend-explorer)
