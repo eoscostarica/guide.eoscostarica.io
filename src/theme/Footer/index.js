@@ -130,22 +130,22 @@
                <Box className={styles.contentSocial}>
                  <Grid container spacing={0} >
                    <Grid item xs={2} sm={4} > 
-                     <AiFillGithub size={40} onClick={()=> window.open("https://github.com/eoscostarica/")}/>
+                     <AiFillGithub cursor='pointer' size={40} onClick={()=> window.open("https://github.com/eoscostarica/")}/>
                    </Grid>
                    <Grid item xs={2} sm={4} >
-                     <AiFillLinkedin size={40} onClick={()=> window.open("https://www.linkedin.com/company/eoscostarica/")}/>
+                     <AiFillLinkedin cursor='pointer' size={40} onClick={()=> window.open("https://www.linkedin.com/company/eoscostarica/")}/>
                    </Grid>
                    <Grid item xs={2} sm={4} >
-                     <AiOutlineTwitter size={40} onClick={()=> window.open("https://twitter.com/eoscostarica")} />
+                     <AiOutlineTwitter cursor='pointer' size={40} onClick={()=> window.open("https://twitter.com/eoscostarica")} />
                    </Grid>
                    <Grid item xs={2} sm={4} >
-                     <BsMedium size={40} onClick={()=> window.open("https://eoscostarica.medium.com/")}/>
+                     <BsMedium cursor='pointer' size={40} onClick={()=> window.open("https://eoscostarica.medium.com/")}/>
                    </Grid>
                    <Grid item xs={2} sm={4} >
-                     <AiOutlineInstagram size={40} onClick={()=> window.open("https://www.instagram.com/eoscostarica/")}/>
+                     <AiOutlineInstagram cursor='pointer' size={40} onClick={()=> window.open("https://www.instagram.com/eoscostarica/")}/>
                    </Grid>
                    <Grid item xs={2} sm={4} >
-                     <AiFillYoutube size={40} onClick={()=> window.open("https://www.youtube.com/c/EOSCostaRica")}/>
+                     <AiFillYoutube cursor='pointer' size={40} onClick={()=> window.open("https://www.youtube.com/c/EOSCostaRica")}/>
                    </Grid>
                  </Grid>
                </Box>
