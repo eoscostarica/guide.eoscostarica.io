@@ -16,10 +16,6 @@ https://bloks.io/
 
 https://www.eosx.io/
 
-## EOSQ
-
-https://eosq.app/
-
 ## EOS Flare
 
 https://eosflare.io/
